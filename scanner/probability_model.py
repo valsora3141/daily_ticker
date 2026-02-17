@@ -528,6 +528,156 @@ def _screen_and_extract(
     return results
 
 
+def extract_all_tickers(
+    target_date: str,
+    data: dict,
+) -> List[Dict]:
+    """
+    Extract features for ALL tickers on a date, without gate filtering.
+    Records rejection reasons for tickers that don't pass criteria.
+    Used for universal search.
+    """
+    all_dates = data["all_dates"]
+    date_to_idx = data["date_to_idx"]
+    investor_today = data["investor_by_date"].get(target_date)
+
+    target_idx = date_to_idx.get(target_date)
+    if target_idx is None or target_idx < 61:
+        return []
+
+    trend_dates = all_dates[target_idx - 5:target_idx]
+    results = []
+
+    for ticker, td in data["ticker_data"].items():
+        date_positions = np.where(td["dates"] == target_date)[0]
+        if len(date_positions) == 0:
+            continue
+        pos = date_positions[0]
+        if pos < 60:
+            continue
+
+        close = td["close"][pos]
+        volume = td["volume"][pos]
+        rejection_reasons = []
+
+        if close < MIN_PRICE:
+            rejection_reasons.append("주가 1,000원 미만")
+
+        # MAs
+        ma5 = np.mean(td["close"][pos - 5:pos])
+        ma20 = np.mean(td["close"][pos - 20:pos])
+        ma60 = np.mean(td["close"][pos - 60:pos])
+
+        if not (close > ma5):
+            rejection_reasons.append("5일 이동평균 아래")
+        if not (close > ma20):
+            rejection_reasons.append("20일 이동평균 아래")
+        if not (close > ma60):
+            rejection_reasons.append("60일 이동평균 아래")
+
+        # Volume
+        avg_vol = np.mean(td["volume"][pos - 20:pos])
+        if avg_vol < MIN_AVG_VOLUME:
+            rejection_reasons.append("평균 거래량 부족")
+        vol_ratio = volume / avg_vol if avg_vol > 0 else 0
+
+        # Breakout
+        yesterday_high = td["high"][pos - 1]
+        brk_dist = (close - yesterday_high) / yesterday_high * 100 if yesterday_high > 0 else 0
+
+        # Investor
+        fgn = 0
+        inst = 0
+        if investor_today is not None and ticker in investor_today.index:
+            fgn = investor_today.loc[ticker, "foreigner_net"]
+            inst = investor_today.loc[ticker, "institution_net"]
+
+        if fgn <= 0:
+            rejection_reasons.append("외국인 당일 매도")
+
+        # Foreigner trend
+        fgn_positive = 0
+        fgn_cumulative = 0.0
+        for td_date in trend_dates:
+            inv_day = data["investor_by_date"].get(td_date)
+            if inv_day is not None and ticker in inv_day.index:
+                day_fgn = inv_day.loc[ticker, "foreigner_net"]
+                if day_fgn > 0:
+                    fgn_positive += 1
+                fgn_cumulative += day_fgn
+
+        if fgn_positive < 2:
+            rejection_reasons.append(f"외국인 매수 {fgn_positive}일 (최소 2일 필요)")
+
+        fgn_cum_norm = fgn_cumulative / avg_vol if avg_vol > 0 else 0
+
+        # Change pct
+        prev_close = td["close"][pos - 1] if pos > 0 else 0
+        change_pct = (close - prev_close) / prev_close * 100 if prev_close > 0 else 0
+
+        # Consecutive up days
+        consecutive_up = 0
+        for k in range(pos, max(pos - 10, 0), -1):
+            if k > 0 and td["close"][k] > td["close"][k - 1]:
+                consecutive_up += 1
+            else:
+                break
+
+        # Range compression
+        today_range = (td["high"][pos] - td["low"][pos]) / close * 100 if close > 0 else 0
+        ranges_20 = []
+        for k in range(pos - 20, pos):
+            if k >= 0 and td["close"][k] > 0:
+                r = (td["high"][k] - td["low"][k]) / td["close"][k] * 100
+                ranges_20.append(r)
+        avg_range_20 = np.mean(ranges_20) if ranges_20 else 1
+        range_compression = today_range / avg_range_20 if avg_range_20 > 0 else 1
+
+        gap_from_ma20 = (close - ma20) / ma20 * 100 if ma20 > 0 else 0
+
+        day_span = td["high"][pos] - td["low"][pos]
+        upper_shadow = (td["high"][pos] - close) / day_span if day_span > 0 else 0
+
+        return_5d = (close - td["close"][pos - 5]) / td["close"][pos - 5] * 100 if pos >= 5 and td["close"][pos - 5] > 0 else 0
+
+        if pos >= 6:
+            vol_recent = np.mean(td["volume"][pos - 3:pos])
+            vol_prior = np.mean(td["volume"][pos - 6:pos - 3])
+            volume_trend_3d = vol_recent / vol_prior if vol_prior > 0 else 1
+        else:
+            volume_trend_3d = 1
+
+        max_vol_20 = np.max(td["volume"][pos - 20:pos]) if pos >= 20 else volume
+        relative_vol_spike = volume / max_vol_20 if max_vol_20 > 0 else 0
+
+        foreigner_intensity = fgn / volume if volume > 0 else 0
+        institution_intensity = inst / volume if volume > 0 else 0
+
+        indiv_net = 0
+        if investor_today is not None and ticker in investor_today.index:
+            indiv_net = investor_today.loc[ticker, "individual_net"]
+        individual_net_negative = 1.0 if indiv_net < 0 else 0.0
+        smart_money_alignment = 1.0 if (fgn > 0 and inst > 0) else 0.0
+
+        features = [
+            fgn_positive, 1.0 if inst > 0 else 0.0, vol_ratio, brk_dist,
+            fgn_cum_norm, change_pct, consecutive_up, range_compression,
+            gap_from_ma20, upper_shadow, return_5d, volume_trend_3d,
+            relative_vol_spike, foreigner_intensity, institution_intensity,
+            individual_net_negative, smart_money_alignment,
+        ]
+
+        results.append({
+            "ticker": ticker,
+            "features": features,
+            "feature_dict": dict(zip(FEATURE_NAMES, features)),
+            "passed_gate": len(rejection_reasons) == 0,
+            "rejection_reasons": rejection_reasons,
+        })
+
+    return results
+
+
 def _compute_labels(td: dict, pos: int) -> dict:
     """
     Check if next day's high reached each threshold from next day's open.

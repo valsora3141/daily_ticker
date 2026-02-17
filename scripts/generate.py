@@ -26,7 +26,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from scanner.data_fetcher import DailyDataFetcher
 from scanner.probability_model import (
-    ProbabilityModel, preload_data, _screen_and_extract, FEATURE_NAMES, THRESHOLDS
+    ProbabilityModel, preload_data, _screen_and_extract, extract_all_tickers,
+    FEATURE_NAMES, THRESHOLDS
 )
 
 DB_PATH = "data/daily_cache.db"
@@ -165,6 +166,43 @@ def main():
 
     _fill_ticker_names(all_entries)
 
+    # Score ALL tickers for universal search (including non-gate-passers)
+    print("  Scoring all tickers for search...")
+    all_tickers_raw = extract_all_tickers(target_date, data)
+    search_index = []
+    for t in all_tickers_raw:
+        ticker = t["ticker"]
+
+        # Skip if already in all_entries (gate-passers)
+        if any(e["ticker"] == ticker for e in all_entries):
+            continue
+
+        # Predict probabilities even for non-gate tickers
+        features = np.array(t["features"])
+        probs = model.predict(features)
+
+        search_index.append({
+            "ticker": ticker,
+            "name": "",
+            "passed_gate": t["passed_gate"],
+            "rejection_reasons": t["rejection_reasons"],
+            "prob_1_5": round(float(probs[1.5]) * 100, 1),
+            "prob_2_0": round(float(probs[2.0]) * 100, 1),
+            "prob_2_5": round(float(probs[2.5]) * 100, 1),
+            "prob_3_0": round(float(probs[3.0]) * 100, 1),
+            "change_pct": round(t["feature_dict"]["change_pct"], 2),
+            "volume_ratio": round(t["feature_dict"]["volume_ratio"], 2),
+            "gap_from_ma20_pct": round(t["feature_dict"]["gap_from_ma20_pct"], 2),
+            "foreigner_trend": int(t["feature_dict"]["foreigner_trend"]),
+            "institution_buying": bool(t["feature_dict"]["institution_buying"]),
+            "return_5d": round(t["feature_dict"]["return_5d"], 2),
+            "upper_shadow_ratio": round(t["feature_dict"]["upper_shadow_ratio"], 3),
+            "foreigner_intensity": round(t["feature_dict"]["foreigner_intensity"], 4),
+        })
+
+    _fill_ticker_names(search_index)
+    print(f"  {len(search_index)} additional tickers scored for search")
+
     # Count screened
     screened_count = sum(
         1 for td in data["ticker_data"].values()
@@ -181,6 +219,7 @@ def main():
         "is_stale": target_date < datetime.now().strftime("%Y-%m-%d"),
         "recommendations": [e for e in all_entries if e["featured"]],
         "all_candidates": all_entries,
+        "search_index": search_index,
     }
 
     out_path = Path(OUTPUT_PATH)

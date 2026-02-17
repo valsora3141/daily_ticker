@@ -136,7 +136,7 @@
 <div class="footer">과거 6년 KOSPI 데이터 기반 통계 모델 (17개 변수)<br>Brier 0.16~0.23 | 투자 판단은 본인 책임</div>
 
 <script>
-let allData=null,allRecs=[],allCandidates=[],favorites=JSON.parse(localStorage.getItem('ilil_favs')||'[]'),currentFilter='all',currentSort='prob_2_0';
+let allData=null,allRecs=[],allCandidates=[],searchIndex=[],favorites=JSON.parse(localStorage.getItem('ilil_favs')||'[]'),currentFilter='all',currentSort='prob_2_0';
 
 function pc(p){return p>=50?'var(--green)':p>=40?'var(--blue)':p>=30?'var(--yellow)':'#333'}
 
@@ -242,18 +242,56 @@ function searchTicker(query){
     if(!query||query.length<2){el.innerHTML='';return}
     query=query.trim().toUpperCase();
 
-    // Search in all candidates
-    const found=allCandidates.find(t=>
+    // Search in gate-passers first (have full data)
+    const gatePass=allCandidates.find(t=>
         t.ticker===query||t.ticker.includes(query)||
         (t.name&&t.name.toUpperCase().includes(query))
     );
 
-    if(found){
-        el.innerHTML=`<div style="font-size:.7rem;color:var(--dim);margin-bottom:4px">검색 결과 (오늘 ${allCandidates.length}개 후보 중)</div>`+renderCard(found,true);
+    if(gatePass){
+        el.innerHTML=`<div style="font-size:.7rem;color:var(--dim);margin-bottom:4px">✅ 조건 충족 종목 (${allCandidates.length}개 중 #${gatePass.rank||'—'})</div>`+renderCard(gatePass,true);
+        return;
+    }
+
+    // Search in all other tickers
+    const other=searchIndex.find(t=>
+        t.ticker===query||t.ticker.includes(query)||
+        (t.name&&t.name.toUpperCase().includes(query))
+    );
+
+    if(other){
+        const ths=[{l:'+1.5%',v:other.prob_1_5},{l:'+2.0%',v:other.prob_2_0},{l:'+2.5%',v:other.prob_2_5},{l:'+3.0%',v:other.prob_3_0}];
+        const pb=ths.map(h=>`<div class="prob-cell"><div class="prob-label">${h.l}</div><div class="prob-bar"><div class="prob-fill" style="width:${Math.min(h.v,100)}%;background:${pc(h.v)}"></div><div class="prob-num">${h.v.toFixed(1)}%</div></div></div>`).join('');
+        const reasons=other.rejection_reasons||[];
+        const reasonText=reasons.map(r=>`· ${r}`).join('<br>');
+        const fv=favorites.includes(other.ticker);
+
+        el.innerHTML=`<div style="font-size:.7rem;color:var(--yellow);margin-bottom:4px">⚠️ 조건 미달 종목 — 참고용 확률만 표시</div>
+            <div class="card ${fv?'favorited':''}">
+                <div class="card-main">
+                    <div class="card-row1"><div class="ticker-group">
+                        <button class="fav-btn ${fv?'active':''}" onclick="tglFav(event,'${other.ticker}')">⭐</button>
+                        <span class="ticker-code">${other.ticker}</span>
+                        <span class="ticker-name">${other.name||''}</span>
+                    </div><span style="font-size:.68rem;color:var(--yellow)">조건 미달</span></div>
+                    <div class="prob-row">${pb}</div>
+                    <div style="font-size:.72rem;color:#b8960a;padding:8px 10px;background:#110f00;border-radius:8px;border-left:3px solid #6b5300;line-height:1.6">
+                        <b>미달 사유:</b><br>${reasonText}
+                    </div>
+                    <div class="detail-features" style="margin-top:8px">
+                        <span><span class="lb">전일등락</span> ${other.change_pct>=0?'+':''}${other.change_pct}%</span>
+                        <span><span class="lb">거래량</span> ${other.volume_ratio.toFixed(1)}x</span>
+                        <span><span class="lb">MA20갭</span> ${other.gap_from_ma20_pct>=0?'+':''}${other.gap_from_ma20_pct.toFixed(1)}%</span>
+                        <span><span class="lb">외국인</span> ${other.foreigner_trend}일</span>
+                        <span><span class="lb">기관</span> ${other.institution_buying?'매수':'—'}</span>
+                        <span><span class="lb">5일수익</span> ${other.return_5d>=0?'+':''}${other.return_5d.toFixed(1)}%</span>
+                    </div>
+                </div>
+            </div>`;
     } else {
         el.innerHTML=`<div class="search-result"><span class="not-found">
-            "${query}" — 오늘 분석 대상에 포함되지 않았습니다.<br>
-            <span style="font-size:.68rem">기본 조건 미달: MA정배열, 외국인 매수, 거래량 등의 조건을 충족하지 못했습니다.</span>
+            "${query}" — 해당 종목을 찾을 수 없습니다.<br>
+            <span style="font-size:.68rem">종목코드(6자리) 또는 종목명으로 검색해주세요.</span>
         </span></div>`;
     }
 }
@@ -276,13 +314,29 @@ function renderWL(){
     if(missingFavs.length){
         html+=`<div style="font-size:.7rem;color:var(--muted);padding:12px 0 6px;border-top:1px solid #1a1a1a;margin-top:8px">오늘 조건 미달 종목</div>`;
         missingFavs.forEach(tk=>{
-            html+=`<div class="card"><div class="card-main" style="cursor:default">
-                <div class="card-row1"><div class="ticker-group">
-                    <button class="fav-btn active" onclick="tglFav(event,'${tk}')">⭐</button>
-                    <span class="ticker-code">${tk}</span>
-                </div><span style="font-size:.68rem;color:var(--muted)">조건 미달</span></div>
-                <div style="font-size:.72rem;color:var(--muted);padding:4px 0">오늘은 MA정배열, 외국인 매수, 거래량 등 기본 조건을 충족하지 못했습니다.</div>
-            </div></div>`;
+            const si=searchIndex.find(t=>t.ticker===tk);
+            if(si){
+                const ths=[{l:'+1.5%',v:si.prob_1_5},{l:'+2.0%',v:si.prob_2_0},{l:'+2.5%',v:si.prob_2_5},{l:'+3.0%',v:si.prob_3_0}];
+                const pb=ths.map(h=>`<div class="prob-cell"><div class="prob-label">${h.l}</div><div class="prob-bar"><div class="prob-fill" style="width:${Math.min(h.v,100)}%;background:${pc(h.v)}"></div><div class="prob-num">${h.v.toFixed(1)}%</div></div></div>`).join('');
+                const reasons=(si.rejection_reasons||[]).map(r=>`· ${r}`).join('<br>');
+                html+=`<div class="card favorited"><div class="card-main" style="cursor:default">
+                    <div class="card-row1"><div class="ticker-group">
+                        <button class="fav-btn active" onclick="tglFav(event,'${tk}')">⭐</button>
+                        <span class="ticker-code">${tk}</span>
+                        <span class="ticker-name">${si.name||''}</span>
+                    </div><span style="font-size:.68rem;color:var(--yellow)">조건 미달</span></div>
+                    <div class="prob-row">${pb}</div>
+                    <div style="font-size:.68rem;color:#b8960a;padding:6px 8px;background:#110f00;border-radius:6px;line-height:1.5">${reasons}</div>
+                </div></div>`;
+            } else {
+                html+=`<div class="card"><div class="card-main" style="cursor:default">
+                    <div class="card-row1"><div class="ticker-group">
+                        <button class="fav-btn active" onclick="tglFav(event,'${tk}')">⭐</button>
+                        <span class="ticker-code">${tk}</span>
+                    </div><span style="font-size:.68rem;color:var(--muted)">데이터 없음</span></div>
+                    <div style="font-size:.72rem;color:var(--muted);padding:4px 0">이 종목의 데이터를 찾을 수 없습니다.</div>
+                </div></div>`;
+            }
         });
     }
     el.innerHTML=html;
@@ -334,6 +388,7 @@ async function init(){
     try{const r=await fetch('data/latest.json');allData=await r.json();
     allRecs=allData.recommendations||[];
     allCandidates=allData.all_candidates||allRecs;
+    searchIndex=allData.search_index||[];
     document.getElementById('date-info').textContent=allData.date||'—';
     document.getElementById('stats').textContent=`${allData.screened_count||0}종목 → ${allData.candidates_count||0}통과 → ${allRecs.length}종목`;
     if(allData.is_stale){
