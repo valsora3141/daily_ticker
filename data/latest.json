@@ -1,0 +1,223 @@
+{
+  "version": 2,
+  "date": "2026-02-13",
+  "generated_at": "2026-02-17 17:20",
+  "screened_count": 927,
+  "candidates_count": 83,
+  "sort_by": "+2.0% 확률",
+  "is_stale": true,
+  "recommendations": [
+    {
+      "ticker": "005440",
+      "name": "현대지에프홀딩스",
+      "grade": "A",
+      "prob_1_5": 96.1,
+      "prob_2_0": 94.1,
+      "prob_2_5": 91.8,
+      "prob_3_0": 88.4,
+      "change_pct": 17.14,
+      "volume_ratio": 10.28,
+      "gap_from_ma20_pct": 50.84,
+      "foreigner_trend": 3,
+      "institution_buying": true,
+      "upper_shadow_ratio": 0.269,
+      "return_5d": 44.92,
+      "foreigner_intensity": 0.0032,
+      "risks": [
+        "MA20 과이격",
+        "거래량 과열"
+      ]
+    },
+    {
+      "ticker": "006800",
+      "name": "미래에셋증권",
+      "grade": "A",
+      "prob_1_5": 88.7,
+      "prob_2_0": 84.1,
+      "prob_2_5": 79.6,
+      "prob_3_0": 73.6,
+      "change_pct": 16.67,
+      "volume_ratio": 2.71,
+      "gap_from_ma20_pct": 49.71,
+      "foreigner_trend": 2,
+      "institution_buying": false,
+      "upper_shadow_ratio": 0.303,
+      "return_5d": 28.33,
+      "foreigner_intensity": 0.0195,
+      "risks": [
+        "MA20 과이격",
+        "추격매수 주의"
+      ]
+    },
+    {
+      "ticker": "003540",
+      "name": "대신증권",
+      "grade": "A",
+      "prob_1_5": 88.7,
+      "prob_2_0": 83.7,
+      "prob_2_5": 79.3,
+      "prob_3_0": 72.8,
+      "change_pct": 17.11,
+      "volume_ratio": 7.94,
+      "gap_from_ma20_pct": 36.49,
+      "foreigner_trend": 2,
+      "institution_buying": false,
+      "upper_shadow_ratio": 0.689,
+      "return_5d": 38.0,
+      "foreigner_intensity": 0.0008,
+      "risks": [
+        "MA20 과이격",
+        "윗꼬리 주의",
+        "거래량 과열",
+        "추격매수 주의"
+      ]
+    },
+    {
+      "ticker": "088350",
+      "name": "한화생명",
+      "grade": "A",
+      "prob_1_5": 85.2,
+      "prob_2_0": 79.3,
+      "prob_2_5": 73.2,
+      "prob_3_0": 65.2,
+      "change_pct": 8.54,
+      "volume_ratio": 5.79,
+      "gap_from_ma20_pct": 35.17,
+      "foreigner_trend": 2,
+      "institution_buying": true,
+      "upper_shadow_ratio": 0.525,
+      "return_5d": 34.73,
+      "foreigner_intensity": 0.0136,
+      "risks": [
+        "MA20 과이격",
+        "거래량 과열"
+      ]
+    },
+    {
+      "ticker": "130660",
+      "name": "한전산업",
+      "grade": "A",
+      "prob_1_5": 84.3,
+      "prob_2_0": 78.2,
+      "prob_2_5": 71.8,
+      "prob_3_0": 64.2,
+      "change_pct": 7.81,
+      "volume_ratio": 5.88,
+      "gap_from_ma20_pct": 44.83,
+      "foreigner_trend": 3,
+      "institution_buying": true,
+      "upper_shadow_ratio": 0.538,
+      "return_5d": 27.15,
+      "foreigner_intensity": 0.0011,
+      "risks": [
+        "MA20 과이격",
+        "거래량 과열"
+      ]
+    },
+    {
+      "ticker": "003530",
+      "name": "한화투자증권",
+      "grade": "A",
+      "prob_1_5": 81.0,
+      "prob_2_0": 74.4,
+      "prob_2_5": 68.9,
+      "prob_3_0": 61.8,
+      "change_pct": 15.36,
+      "volume_ratio": 8.48,
+      "gap_from_ma20_pct": 24.47,
+      "foreigner_trend": 4,
+      "institution_buying": true,
+      "upper_shadow_ratio": 0.456,
+      "return_5d": 20.85,
+      "foreigner_intensity": 0.0208,
+      "risks": [
+        "MA20 과이격",
+        "거래량 과열",
+        "추격매수 주의"
+      ]
+    },
+    {
+      "ticker": "004310",
+      "name": "현대약품",
+      "grade": "A",
+      "prob_1_5": 74.8,
+      "prob_2_0": 66.5,
+      "prob_2_5": 59.4,
+      "prob_3_0": 51.1,
+      "change_pct": 10.14,
+      "volume_ratio": 3.91,
+      "gap_from_ma20_pct": 17.43,
+      "foreigner_trend": 2,
+      "institution_buying": true,
+      "upper_shadow_ratio": 0.587,
+      "return_5d": 20.71,
+      "foreigner_intensity": 0.0252,
+      "risks": [
+        "MA20 과이격"
+      ]
+    },
+    {
+      "ticker": "002810",
+      "name": "삼영무역",
+      "grade": "A",
+      "prob_1_5": 74.5,
+      "prob_2_0": 66.0,
+      "prob_2_5": 60.2,
+      "prob_3_0": 53.4,
+      "change_pct": 14.47,
+      "volume_ratio": 1.28,
+      "gap_from_ma20_pct": 21.92,
+      "foreigner_trend": 3,
+      "institution_buying": false,
+      "upper_shadow_ratio": 0.579,
+      "return_5d": 19.13,
+      "foreigner_intensity": 0.1308,
+      "risks": [
+        "MA20 과이격",
+        "추격매수 주의"
+      ]
+    },
+    {
+      "ticker": "017670",
+      "name": "SK텔레콤",
+      "grade": "A",
+      "prob_1_5": 72.9,
+      "prob_2_0": 64.4,
+      "prob_2_5": 57.5,
+      "prob_3_0": 49.9,
+      "change_pct": 12.78,
+      "volume_ratio": 2.07,
+      "gap_from_ma20_pct": 26.2,
+      "foreigner_trend": 3,
+      "institution_buying": false,
+      "upper_shadow_ratio": 0.231,
+      "return_5d": 25.0,
+      "foreigner_intensity": 0.1523,
+      "risks": [
+        "MA20 과이격",
+        "추격매수 주의"
+      ]
+    },
+    {
+      "ticker": "00680K",
+      "name": "미래에셋증권2우B",
+      "grade": "A",
+      "prob_1_5": 70.1,
+      "prob_2_0": 60.6,
+      "prob_2_5": 52.6,
+      "prob_3_0": 44.9,
+      "change_pct": 11.58,
+      "volume_ratio": 1.84,
+      "gap_from_ma20_pct": 31.02,
+      "foreigner_trend": 4,
+      "institution_buying": true,
+      "upper_shadow_ratio": 0.088,
+      "return_5d": 21.0,
+      "foreigner_intensity": 0.1556,
+      "risks": [
+        "MA20 과이격",
+        "추격매수 주의"
+      ]
+    }
+  ]
+}
