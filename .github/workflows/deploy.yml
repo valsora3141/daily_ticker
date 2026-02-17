@@ -3,7 +3,8 @@ name: Deploy Site
 on:
   push:
     paths:
-      - 'site/**'
+      - 'site/index.html'
+      - 'site/style.css'
     branches:
       - main
 
@@ -14,20 +15,17 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 2
+    timeout-minutes: 3
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download latest data
+      - name: Preserve existing data from gh-pages
         run: |
-          gh release download db-latest \
-            --pattern 'latest.json' \
-            --dir site/data/ \
-            --clobber 2>/dev/null || echo "No cached data, using repo version"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        continue-on-error: true
+          git fetch origin gh-pages:gh-pages 2>/dev/null || echo "No gh-pages branch yet"
+          mkdir -p site/data
+          git show gh-pages:data/latest.json > site/data/latest.json 2>/dev/null || echo "No latest.json"
+          git show gh-pages:data/history.json > site/data/history.json 2>/dev/null || echo "No history.json"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
