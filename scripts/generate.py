@@ -141,7 +141,7 @@ def main():
     # Sort by +2% probability descending
     results.sort(key=lambda r: r["probabilities"][SORT_THRESHOLD], reverse=True)
 
-    # Top N
+    # Top N for main display
     top = results[:MAX_OUTPUT]
 
     print(f"\n  === TOP {len(top)} CANDIDATES ===")
@@ -157,8 +157,13 @@ def main():
     # Step 4: Write JSON
     print(f"\n[4/4] Writing output...")
 
-    output_entries = _format_output(top)
-    _fill_ticker_names(output_entries)
+    # Format ALL candidates (for search), flag top N as featured
+    all_entries = _format_output(results)
+    for i, entry in enumerate(all_entries):
+        entry["featured"] = i < MAX_OUTPUT
+        entry["rank"] = i + 1
+
+    _fill_ticker_names(all_entries)
 
     # Count screened
     screened_count = sum(
@@ -174,7 +179,8 @@ def main():
         "candidates_count": len(candidates),
         "sort_by": f"+{SORT_THRESHOLD}% 확률",
         "is_stale": target_date < datetime.now().strftime("%Y-%m-%d"),
-        "recommendations": output_entries,
+        "recommendations": [e for e in all_entries if e["featured"]],
+        "all_candidates": all_entries,
     }
 
     out_path = Path(OUTPUT_PATH)
