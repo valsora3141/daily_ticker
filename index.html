@@ -25,6 +25,7 @@
         .content{padding:0 12px 80px}
         .banner{margin:8px 0 12px;padding:10px 12px;background:#100e00;border:1px solid #2a2400;border-radius:10px;font-size:.72rem;color:#b8960a;line-height:1.6}
         .banner b{color:#dab508}
+        .stale-banner{margin:8px 12px;padding:8px 12px;background:#1a0a0a;border:1px solid #3a1a1a;border-radius:8px;font-size:.72rem;color:#e05555;line-height:1.5}
         .card{background:var(--card);border:1px solid var(--card-border);border-radius:12px;margin-bottom:8px;overflow:hidden;animation:fadeUp .3s ease both}
         .card.favorited{border-left:3px solid var(--yellow)}
         .card-main{padding:12px 14px;cursor:pointer}
@@ -58,6 +59,12 @@
         .detail-features .lb{color:var(--muted)}
         .sort-bar{display:flex;justify-content:flex-end;padding:0 4px 6px}
         .sort-select{background:#111;border:1px solid #222;color:var(--dim);font-size:.68rem;padding:4px 8px;border-radius:6px;font-family:var(--font)}
+        .search-box{margin:12px 0;display:flex;gap:8px}
+        .search-input{flex:1;background:#0e0e0e;border:1px solid #222;color:var(--text);font-size:.82rem;padding:10px 12px;border-radius:8px;font-family:var(--mono);outline:none}
+        .search-input:focus{border-color:var(--green)}
+        .search-input::placeholder{color:var(--muted)}
+        .search-result{margin:8px 0;padding:10px 12px;background:#0e0e0e;border:1px solid #1a1a1a;border-radius:8px;font-size:.75rem;color:var(--dim)}
+        .search-result .not-found{color:var(--muted)}
         .history-card{background:var(--card);border:1px solid var(--card-border);border-radius:10px;padding:12px;margin-bottom:8px}
         .history-date{font-family:var(--mono);font-size:.72rem;color:var(--dim);margin-bottom:6px}
         .history-item{display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid #1a1a1a;font-size:.72rem}
@@ -111,7 +118,14 @@
 </div>
 
 <div class="content tab-content" id="tab-watchlist" style="display:none">
-    <div style="padding-top:12px" id="watchlist-content"></div>
+    <div style="padding-top:12px">
+        <div class="search-box">
+            <input class="search-input" id="search-input" type="text" placeholder="종목코드 또는 종목명 검색 (예: 005930, 삼성전자)" inputmode="search">
+        </div>
+        <div id="search-result"></div>
+        <div style="font-size:.7rem;color:var(--muted);padding:4px 0 8px;border-bottom:1px solid #1a1a1a;margin-bottom:8px">⭐ 관심 종목</div>
+        <div id="watchlist-content"></div>
+    </div>
 </div>
 
 <div class="content tab-content" id="tab-history" style="display:none">
@@ -122,7 +136,7 @@
 <div class="footer">과거 6년 KOSPI 데이터 기반 통계 모델 (17개 변수)<br>Brier 0.16~0.23 | 투자 판단은 본인 책임</div>
 
 <script>
-let allData=null,allRecs=[],favorites=JSON.parse(localStorage.getItem('ilil_favs')||'[]'),currentFilter='all',currentSort='prob_2_0';
+let allData=null,allRecs=[],allCandidates=[],favorites=JSON.parse(localStorage.getItem('ilil_favs')||'[]'),currentFilter='all',currentSort='prob_2_0';
 
 function pc(p){return p>=50?'var(--green)':p>=40?'var(--blue)':p>=30?'var(--yellow)':'#333'}
 
@@ -166,6 +180,40 @@ function bS(t){
     return p.join(' · ');
 }
 
+function renderCard(t,showFav){
+    const fv=favorites.includes(t.ticker);
+    const ths=[{l:'+1.5%',v:t.prob_1_5},{l:'+2.0%',v:t.prob_2_0},{l:'+2.5%',v:t.prob_2_5},{l:'+3.0%',v:t.prob_3_0}];
+    const pb=ths.map(h=>`<div class="prob-cell"><div class="prob-label">${h.l}</div><div class="prob-bar"><div class="prob-fill" style="width:${Math.min(h.v,100)}%;background:${pc(h.v)}"></div><div class="prob-num">${h.v.toFixed(1)}%</div></div></div>`).join('');
+    const ct=bC(t);
+    const ctH=ct?`<div class="detail-section detail-caution">⚠️ ${ct}</div>`:'';
+    const rankTag=t.featured?`<span style="font-size:.6rem;color:var(--green);margin-left:6px">TOP ${t.rank}</span>`:(t.rank?`<span style="font-size:.6rem;color:var(--muted);margin-left:6px">#${t.rank}/${allCandidates.length}</span>`:'');
+    return`<div class="card ${fv?'favorited':''}" data-ticker="${t.ticker}">
+        <div class="card-main" onclick="tglCard(this)">
+            <div class="card-row1"><div class="ticker-group">
+                ${showFav?`<button class="fav-btn ${fv?'active':''}" onclick="tglFav(event,'${t.ticker}')">⭐</button>`:''}
+                <span class="ticker-code">${t.ticker}</span><span class="ticker-name">${t.name||''}</span>${rankTag}
+            </div><span class="grade-badge grade-${t.grade}">${t.grade}</span></div>
+            <div class="prob-row">${pb}</div>
+            <div class="card-summary">${bS(t)}</div>
+            <div class="card-expand"><span class="expand-arrow">▼</span></div>
+        </div>
+        <div class="card-detail"><div class="detail-inner">
+            <div class="detail-section detail-why">${bW(t)}</div>
+            ${ctH}
+            <div class="detail-features">
+                <span><span class="lb">전일등락</span> ${t.change_pct>=0?'+':''}${t.change_pct}%</span>
+                <span><span class="lb">거래량</span> ${t.volume_ratio.toFixed(1)}x</span>
+                <span><span class="lb">MA20갭</span> ${t.gap_from_ma20_pct>=0?'+':''}${t.gap_from_ma20_pct.toFixed(1)}%</span>
+                <span><span class="lb">외국인</span> ${t.foreigner_trend}일 연속</span>
+                <span><span class="lb">기관</span> ${t.institution_buying?'매수':'—'}</span>
+                <span><span class="lb">5일수익</span> ${t.return_5d>=0?'+':''}${t.return_5d.toFixed(1)}%</span>
+                <span><span class="lb">윗꼬리</span> ${(t.upper_shadow_ratio*100).toFixed(0)}%</span>
+                <span><span class="lb">외인강도</span> ${(t.foreigner_intensity*100).toFixed(1)}%</span>
+            </div>
+        </div></div>
+    </div>`;
+}
+
 function renderRecs(){
     let fl=[...allRecs];
     if(currentFilter==='fav')fl=fl.filter(t=>favorites.includes(t.ticker));
@@ -175,38 +223,7 @@ function renderRecs(){
     else fl.sort((a,b)=>(b[currentSort]||0)-(a[currentSort]||0));
     const el=document.getElementById('rec-list');
     if(!fl.length){el.innerHTML=`<div class="empty-msg">${currentFilter==='fav'?'관심 종목이 없습니다. ⭐을 눌러 추가하세요.':'해당 조건의 종목이 없습니다.'}</div>`;return}
-    el.innerHTML=fl.map(t=>{
-        const fv=favorites.includes(t.ticker);
-        const ths=[{l:'+1.5%',v:t.prob_1_5},{l:'+2.0%',v:t.prob_2_0},{l:'+2.5%',v:t.prob_2_5},{l:'+3.0%',v:t.prob_3_0}];
-        const pb=ths.map(h=>`<div class="prob-cell"><div class="prob-label">${h.l}</div><div class="prob-bar"><div class="prob-fill" style="width:${Math.min(h.v,100)}%;background:${pc(h.v)}"></div><div class="prob-num">${h.v.toFixed(1)}%</div></div></div>`).join('');
-        const ct=bC(t);
-        const ctH=ct?`<div class="detail-section detail-caution">⚠️ ${ct}</div>`:'';
-        return`<div class="card ${fv?'favorited':''}" data-ticker="${t.ticker}">
-            <div class="card-main" onclick="tglCard(this)">
-                <div class="card-row1"><div class="ticker-group">
-                    <button class="fav-btn ${fv?'active':''}" onclick="tglFav(event,'${t.ticker}')">⭐</button>
-                    <span class="ticker-code">${t.ticker}</span><span class="ticker-name">${t.name||''}</span>
-                </div><span class="grade-badge grade-${t.grade}">${t.grade}</span></div>
-                <div class="prob-row">${pb}</div>
-                <div class="card-summary">${bS(t)}</div>
-                <div class="card-expand"><span class="expand-arrow">▼</span></div>
-            </div>
-            <div class="card-detail"><div class="detail-inner">
-                <div class="detail-section detail-why">${bW(t)}</div>
-                ${ctH}
-                <div class="detail-features">
-                    <span><span class="lb">전일등락</span> ${t.change_pct>=0?'+':''}${t.change_pct}%</span>
-                    <span><span class="lb">거래량</span> ${t.volume_ratio.toFixed(1)}x</span>
-                    <span><span class="lb">MA20갭</span> ${t.gap_from_ma20_pct>=0?'+':''}${t.gap_from_ma20_pct.toFixed(1)}%</span>
-                    <span><span class="lb">외국인</span> ${t.foreigner_trend}일 연속</span>
-                    <span><span class="lb">기관</span> ${t.institution_buying?'매수':'—'}</span>
-                    <span><span class="lb">5일수익</span> ${t.return_5d>=0?'+':''}${t.return_5d.toFixed(1)}%</span>
-                    <span><span class="lb">윗꼬리</span> ${(t.upper_shadow_ratio*100).toFixed(0)}%</span>
-                    <span><span class="lb">외인강도</span> ${(t.foreigner_intensity*100).toFixed(1)}%</span>
-                </div>
-            </div></div>
-        </div>`;
-    }).join('');
+    el.innerHTML=fl.map(t=>renderCard(t,true)).join('');
 }
 
 function tglCard(el){el.closest('.card').classList.toggle('open')}
@@ -219,22 +236,56 @@ function tglFav(e,tk){
     renderRecs();renderWL();
 }
 
+// ─── Search ───
+function searchTicker(query){
+    const el=document.getElementById('search-result');
+    if(!query||query.length<2){el.innerHTML='';return}
+    query=query.trim().toUpperCase();
+
+    // Search in all candidates
+    const found=allCandidates.find(t=>
+        t.ticker===query||t.ticker.includes(query)||
+        (t.name&&t.name.toUpperCase().includes(query))
+    );
+
+    if(found){
+        el.innerHTML=`<div style="font-size:.7rem;color:var(--dim);margin-bottom:4px">검색 결과 (오늘 ${allCandidates.length}개 후보 중)</div>`+renderCard(found,true);
+    } else {
+        el.innerHTML=`<div class="search-result"><span class="not-found">
+            "${query}" — 오늘 분석 대상에 포함되지 않았습니다.<br>
+            <span style="font-size:.68rem">기본 조건 미달: MA정배열, 외국인 매수, 거래량 등의 조건을 충족하지 못했습니다.</span>
+        </span></div>`;
+    }
+}
+
+let searchTimer;
+document.getElementById('search-input').addEventListener('input',e=>{
+    clearTimeout(searchTimer);
+    searchTimer=setTimeout(()=>searchTicker(e.target.value),200);
+});
+
 function renderWL(){
     const el=document.getElementById('watchlist-content');
-    const fv=allRecs.filter(t=>favorites.includes(t.ticker));
-    if(!fv.length){el.innerHTML='<div class="empty-msg">관심 종목이 없습니다.<br>추천 탭에서 ⭐을 눌러 추가하세요.</div>';return}
-    el.innerHTML=fv.map(t=>{
-        const ths=[{l:'+1.5%',v:t.prob_1_5},{l:'+2.0%',v:t.prob_2_0},{l:'+2.5%',v:t.prob_2_5},{l:'+3.0%',v:t.prob_3_0}];
-        const pb=ths.map(h=>`<div class="prob-cell"><div class="prob-label">${h.l}</div><div class="prob-bar"><div class="prob-fill" style="width:${Math.min(h.v,100)}%;background:${pc(h.v)}"></div><div class="prob-num">${h.v.toFixed(1)}%</div></div></div>`).join('');
-        return`<div class="card favorited"><div class="card-main">
-            <div class="card-row1"><div class="ticker-group">
-                <button class="fav-btn active" onclick="tglFav(event,'${t.ticker}')">⭐</button>
-                <span class="ticker-code">${t.ticker}</span><span class="ticker-name">${t.name||''}</span>
-            </div><span class="grade-badge grade-${t.grade}">${t.grade}</span></div>
-            <div class="prob-row">${pb}</div>
-            <div class="card-summary">${bS(t)}</div>
-        </div></div>`;
-    }).join('');
+    const fv=allCandidates.filter(t=>favorites.includes(t.ticker));
+    const missingFavs=favorites.filter(tk=>!allCandidates.find(t=>t.ticker===tk));
+
+    if(!fv.length&&!missingFavs.length){el.innerHTML='<div class="empty-msg">관심 종목이 없습니다.<br>⭐을 눌러 추가하거나, 위에서 검색하세요.</div>';return}
+
+    let html=fv.map(t=>renderCard(t,true)).join('');
+
+    if(missingFavs.length){
+        html+=`<div style="font-size:.7rem;color:var(--muted);padding:12px 0 6px;border-top:1px solid #1a1a1a;margin-top:8px">오늘 조건 미달 종목</div>`;
+        missingFavs.forEach(tk=>{
+            html+=`<div class="card"><div class="card-main" style="cursor:default">
+                <div class="card-row1"><div class="ticker-group">
+                    <button class="fav-btn active" onclick="tglFav(event,'${tk}')">⭐</button>
+                    <span class="ticker-code">${tk}</span>
+                </div><span style="font-size:.68rem;color:var(--muted)">조건 미달</span></div>
+                <div style="font-size:.72rem;color:var(--muted);padding:4px 0">오늘은 MA정배열, 외국인 매수, 거래량 등 기본 조건을 충족하지 못했습니다.</div>
+            </div></div>`;
+        });
+    }
+    el.innerHTML=html;
 }
 
 async function loadHist(){
@@ -253,11 +304,11 @@ function renderHist(h){
         <div style="font-size:.68rem;color:var(--muted)">${hit}/${tot}건 적중</div>
     </div>`;
     h.days.slice(0,14).forEach(d=>{
-        html+=`<div class="history-card"><div class="history-date">${d.date}</div>`;
+        html+=`<div class="history-card"><div class="history-date">${d.date} (${d.hits}/${d.total} 적중)</div>`;
         d.results.forEach(r=>{
             const cls=r.hit?'result-hit':'result-miss';
             const txt=r.hit?'✓ 도달':'✗ 미달';
-            const act=r.actual_high_pct!==undefined?`(장중최고 +${r.actual_high_pct.toFixed(1)}%)`:'';
+            const act=r.actual_high_pct!==undefined?`(최고 +${r.actual_high_pct.toFixed(1)}%)`:'';
             html+=`<div class="history-item"><div><span style="font-weight:600">${r.ticker}</span> <span style="color:var(--muted)">${r.name||''}</span> <span style="color:var(--muted)">예측 ${r.predicted_prob.toFixed(0)}%</span></div><div class="${cls}">${txt} ${act}</div></div>`;
         });
         html+='</div>';
@@ -280,15 +331,15 @@ document.querySelectorAll('.filter-chip').forEach(c=>c.addEventListener('click',
 document.getElementById('sort-select').addEventListener('change',e=>{currentSort=e.target.value;renderRecs()});
 
 async function init(){
-    try{const r=await fetch('data/latest.json');allData=await r.json();allRecs=allData.recommendations||[];
+    try{const r=await fetch('data/latest.json');allData=await r.json();
+    allRecs=allData.recommendations||[];
+    allCandidates=allData.all_candidates||allRecs;
     document.getElementById('date-info').textContent=allData.date||'—';
-    let statsText=`${allData.screened_count||0}종목 → ${allData.candidates_count||0}통과 → ${allRecs.length}종목`;
-    document.getElementById('stats').textContent=statsText;
+    document.getElementById('stats').textContent=`${allData.screened_count||0}종목 → ${allData.candidates_count||0}통과 → ${allRecs.length}종목`;
     if(allData.is_stale){
-        const staleEl=document.createElement('div');
-        staleEl.style.cssText='margin:8px 12px;padding:8px 12px;background:#1a0a0a;border:1px solid #3a1a1a;border-radius:8px;font-size:.72rem;color:#e05555;line-height:1.5';
-        staleEl.innerHTML=`📅 휴장일로 인해 <b>${allData.date}</b> 기준 데이터입니다. 장 개장 후 업데이트됩니다.`;
-        document.getElementById('tab-recs').insertBefore(staleEl,document.getElementById('tab-recs').firstChild);
+        const s=document.createElement('div');s.className='stale-banner';
+        s.innerHTML=`📅 휴장일로 인해 <b>${allData.date}</b> 기준 데이터입니다. 장 개장 후 업데이트됩니다.`;
+        document.getElementById('tab-recs').insertBefore(s,document.getElementById('tab-recs').firstChild);
     }
     renderRecs();loadHist()}catch(e){document.getElementById('stats').textContent='데이터 로딩 실패'}
 }
