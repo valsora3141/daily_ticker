@@ -1,0 +1,36 @@
+name: Deploy Site
+
+on:
+  push:
+    paths:
+      - 'site/**'
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download latest data
+        run: |
+          gh release download db-latest \
+            --pattern 'latest.json' \
+            --dir site/data/ \
+            --clobber 2>/dev/null || echo "No cached data, using repo version"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
