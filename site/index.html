@@ -100,7 +100,7 @@
         <br>- 웬만하면 아 더 오를 것 같은데 할 때 만족하고 파는게 장기적으로 이득입니다.
         <br><b>- 장 시작가에 사서 오늘 안에 팔 때</b> 오를 확률입니다.
         <br><b>당일청산(스캘핑)이 아닌 경우 사이트의 데이터가 전혀 도움되지 않을 확률이 높습니다.</b>
-        <br> - 최상위 10개 티커만 표시됩니다. 나머지는 관심 티커->검색 통해서 볼 것.
+        <br>- 최상위 10개 티커만 표시됩니다. 나머지는 관심 티커→검색 통해서 볼 것.
     </div>
     <div class="filter-bar" id="filter-bar">
         <button class="filter-chip active" data-filter="all">전체</button>
@@ -219,9 +219,13 @@ function renderCard(t,showFav){
 }
 
 function renderRecs(){
-    let fl=[...allRecs];
-    if(currentFilter==='fav')fl=fl.filter(t=>favorites.includes(t.ticker));
-    else if(currentFilter!=='all')fl=fl.filter(t=>t.grade===currentFilter);
+    let fl;
+    if(currentFilter==='fav'){
+        fl=allCandidates.filter(t=>favorites.includes(t.ticker));
+    } else {
+        fl=[...allRecs];
+        if(currentFilter!=='all')fl=fl.filter(t=>t.grade===currentFilter);
+    }
     if(currentSort==='grade'){const o={A:0,B:1,C:2,D:3};fl.sort((a,b)=>(o[a.grade]||9)-(o[b.grade]||9))}
     else if(currentSort==='change_pct')fl.sort((a,b)=>b.change_pct-a.change_pct);
     else fl.sort((a,b)=>(b[currentSort]||0)-(a[currentSort]||0));
