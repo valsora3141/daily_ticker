@@ -1,18 +1,20 @@
-# Runs daily after KRX market close
 name: Daily Ticker Scan
 
 on:
   schedule:
-    - cron: '0 7 * * 1-5'  # 16:00 KST (07:00 UTC) Mon-Fri
-  workflow_dispatch:        # Manual trigger
+    - cron: '10 7 * * 1-5'  # 16:10 KST (07:10 UTC) Mon-Fri
+  workflow_dispatch:          # Manual trigger
 
 permissions:
   contents: write
   pages: write
+  id-token: write
 
 jobs:
   scan:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+
     steps:
       - uses: actions/checkout@v4
 
@@ -23,8 +25,43 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run scanner
-        run: python scripts/generate.py
+      - name: Download database from release
+        run: |
+          gh release download db-latest \
+            --pattern 'daily_cache.db.zip' \
+            --dir data/ \
+            --clobber 2>/dev/null || echo "No existing DB found"
+
+          if [ -f data/daily_cache.db.zip ]; then
+            cd data && unzip -o daily_cache.db.zip && rm daily_cache.db.zip && cd ..
+            echo "DB downloaded: $(ls -lh data/daily_cache.db)"
+          else
+            echo "WARNING: No DB found. First run will fail — upload DB manually first."
+            exit 1
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Track history (verify yesterday)
+        run: |
+          python scripts/track_history.py || echo "History tracking skipped"
+
+      - name: Update data and generate recommendations
+        run: |
+          python scripts/generate.py --update --retrain
+
+      - name: Upload updated database to release
+        run: |
+          cd data && zip -r daily_cache.db.zip daily_cache.db && cd ..
+
+          gh release delete db-latest --yes 2>/dev/null || true
+          gh release create db-latest \
+            data/daily_cache.db.zip \
+            --title "Database (latest)" \
+            --notes "Auto-updated $(date -u +%Y-%m-%d)" \
+            --latest=false
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
