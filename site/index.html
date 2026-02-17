@@ -101,7 +101,7 @@
         <br><b>- 장 시작가에 사서 오늘 안에 팔 때</b> 오를 확률입니다.
         <br><b>당일청산(스캘핑)이 아닌 경우 사이트의 데이터가 전혀 도움되지 않을 확률이 높습니다.</b>
         <br>- 최상위 10개 티커만 표시됩니다. 나머지는 관심 티커→검색 통해서 볼 것.
-        <br>- <b>미달</b> = 기본 조건(MA정배열, 외국인 매수 등)을 충족하지 못한 종목.
+        <br>- 등급 <b>미달</b> = 기본 조건(MA정배열, 외국인 매수 등)을 충족하지 못한 종목. 확률 산출 불가.
     </div>
     <div class="filter-bar" id="filter-bar">
         <button class="filter-chip active" data-filter="all">전체</button>
@@ -187,24 +187,26 @@ function bS(t){
 
 function renderCard(t,showFav){
     const fv=favorites.includes(t.ticker);
-    const ths=[{l:'+1.5%',v:t.prob_1_5},{l:'+2.0%',v:t.prob_2_0},{l:'+2.5%',v:t.prob_2_5},{l:'+3.0%',v:t.prob_3_0}];
-    const pb=ths.map(h=>`<div class="prob-cell"><div class="prob-label">${h.l}</div><div class="prob-bar"><div class="prob-fill" style="width:${Math.min(h.v,100)}%;background:${pc(h.v)}"></div><div class="prob-num">${h.v.toFixed(1)}%</div></div></div>`).join('');
-    const ct=bC(t);
-    const ctH=ct?`<div class="detail-section detail-caution">⚠️ ${ct}</div>`:'';
+    const isMidal=t.grade==='미달';
+    let pb;
+    if(isMidal){
+        pb=`<div style="text-align:center;padding:6px 0;font-size:.72rem;color:#555;background:#0a0a0a;border-radius:4px">기본 조건 미달 — 확률 산출 불가</div>`;
+    } else {
+        const ths=[{l:'+1.5%',v:t.prob_1_5},{l:'+2.0%',v:t.prob_2_0},{l:'+2.5%',v:t.prob_2_5},{l:'+3.0%',v:t.prob_3_0}];
+        pb=`<div class="prob-row">`+ths.map(h=>`<div class="prob-cell"><div class="prob-label">${h.l}</div><div class="prob-bar"><div class="prob-fill" style="width:${Math.min(h.v,100)}%;background:${pc(h.v)}"></div><div class="prob-num">${h.v.toFixed(1)}%</div></div></div>`).join('')+`</div>`;
+    }
     const rankTag=t.featured?`<span style="font-size:.6rem;color:var(--green);margin-left:6px">TOP ${t.rank}</span>`:(t.rank?`<span style="font-size:.6rem;color:var(--muted);margin-left:6px">#${t.rank}/${allCandidates.length}</span>`:'');
-    return`<div class="card ${fv?'favorited':''}" data-ticker="${t.ticker}">
-        <div class="card-main" onclick="tglCard(this)">
-            <div class="card-row1"><div class="ticker-group">
-                ${showFav?`<button class="fav-btn ${fv?'active':''}" onclick="tglFav(event,'${t.ticker}')">⭐</button>`:''}
-                <span class="ticker-code">${t.ticker}</span><span class="ticker-name">${t.name||''}</span>${rankTag}
-            </div><span class="grade-badge grade-${t.grade}">${t.grade}</span></div>
-            <div class="prob-row">${pb}</div>
-            <div class="card-summary">${bS(t)}</div>
-            <div class="card-expand"><span class="expand-arrow">▼</span></div>
-        </div>
-        <div class="card-detail"><div class="detail-inner">
-            <div class="detail-section detail-why">${bW(t)}</div>
-            ${ctH}
+    let detailHtml;
+    if(isMidal){
+        const reasons=(t.risks||[]).map(r=>`· ${r}`).join('<br>');
+        detailHtml=`<div class="detail-section detail-caution">
+            <b>⚠️ 추천 기본 조건 미달 종목입니다.</b><br>
+            ${reasons||'상세 사유 없음'}
+            <br><br><span style="font-size:.68rem">확률이 높아 보여도 구조적 조건(이동평균선 정배열, 외국인 매수 추세 등)을 충족하지 못해 신뢰도가 낮습니다. 매수를 권하지 않습니다.</span>
+        </div>`;
+    } else {
+        const ct=bC(t);
+        detailHtml=`<div class="detail-section detail-why">${bW(t)}</div>${ct?`<div class="detail-section detail-caution">⚠️ ${ct}</div>`:''}
             <div class="detail-features">
                 <span><span class="lb">전일등락</span> ${t.change_pct>=0?'+':''}${t.change_pct}%</span>
                 <span><span class="lb">거래량</span> ${t.volume_ratio.toFixed(1)}x</span>
@@ -214,7 +216,21 @@ function renderCard(t,showFav){
                 <span><span class="lb">5일수익</span> ${t.return_5d>=0?'+':''}${t.return_5d.toFixed(1)}%</span>
                 <span><span class="lb">윗꼬리</span> ${(t.upper_shadow_ratio*100).toFixed(0)}%</span>
                 <span><span class="lb">외인강도</span> ${(t.foreigner_intensity*100).toFixed(1)}%</span>
-            </div>
+            </div>`;
+    }
+    const summaryText=isMidal?`<span style="color:var(--yellow)">⚠️ 조건 미달 — 참고용</span>`:bS(t);
+    return`<div class="card ${fv?'favorited':''}" data-ticker="${t.ticker}">
+        <div class="card-main" onclick="tglCard(this)">
+            <div class="card-row1"><div class="ticker-group">
+                ${showFav?`<button class="fav-btn ${fv?'active':''}" onclick="tglFav(event,'${t.ticker}')">⭐</button>`:''}
+                <span class="ticker-code">${t.ticker}</span><span class="ticker-name">${t.name||''}</span>${rankTag}
+            </div><span class="grade-badge grade-${t.grade}">${t.grade}</span></div>
+            ${pb}
+            <div class="card-summary">${summaryText}</div>
+            <div class="card-expand"><span class="expand-arrow">▼</span></div>
+        </div>
+        <div class="card-detail"><div class="detail-inner">
+            ${detailHtml}
         </div></div>
     </div>`;
 }
@@ -251,52 +267,16 @@ function searchTicker(query){
     if(!query||query.length<2){el.innerHTML='';return}
     query=query.trim().toUpperCase();
 
-    // Search in gate-passers first (have full data)
-    const gatePass=allCandidates.find(t=>
+    const found=allCandidates.find(t=>
         t.ticker===query||t.ticker.includes(query)||
         (t.name&&t.name.toUpperCase().includes(query))
     );
 
-    if(gatePass){
-        el.innerHTML=`<div style="font-size:.7rem;color:var(--dim);margin-bottom:4px">✅ 조건 충족 종목 (${allCandidates.length}개 중 #${gatePass.rank||'—'})</div>`+renderCard(gatePass,true);
-        return;
-    }
-
-    // Search in all other tickers
-    const other=searchIndex.find(t=>
-        t.ticker===query||t.ticker.includes(query)||
-        (t.name&&t.name.toUpperCase().includes(query))
-    );
-
-    if(other){
-        const ths=[{l:'+1.5%',v:other.prob_1_5},{l:'+2.0%',v:other.prob_2_0},{l:'+2.5%',v:other.prob_2_5},{l:'+3.0%',v:other.prob_3_0}];
-        const pb=ths.map(h=>`<div class="prob-cell"><div class="prob-label">${h.l}</div><div class="prob-bar"><div class="prob-fill" style="width:${Math.min(h.v,100)}%;background:${pc(h.v)}"></div><div class="prob-num">${h.v.toFixed(1)}%</div></div></div>`).join('');
-        const reasons=other.rejection_reasons||[];
-        const reasonText=reasons.map(r=>`· ${r}`).join('<br>');
-        const fv=favorites.includes(other.ticker);
-
-        el.innerHTML=`<div style="font-size:.7rem;color:var(--yellow);margin-bottom:4px">⚠️ 조건 미달 종목 — 참고용 확률만 표시</div>
-            <div class="card ${fv?'favorited':''}">
-                <div class="card-main">
-                    <div class="card-row1"><div class="ticker-group">
-                        <button class="fav-btn ${fv?'active':''}" onclick="tglFav(event,'${other.ticker}')">⭐</button>
-                        <span class="ticker-code">${other.ticker}</span>
-                        <span class="ticker-name">${other.name||''}</span>
-                    </div><span style="font-size:.68rem;color:var(--yellow)">조건 미달</span></div>
-                    <div class="prob-row">${pb}</div>
-                    <div style="font-size:.72rem;color:#b8960a;padding:8px 10px;background:#110f00;border-radius:8px;border-left:3px solid #6b5300;line-height:1.6">
-                        <b>미달 사유:</b><br>${reasonText}
-                    </div>
-                    <div class="detail-features" style="margin-top:8px">
-                        <span><span class="lb">전일등락</span> ${other.change_pct>=0?'+':''}${other.change_pct}%</span>
-                        <span><span class="lb">거래량</span> ${other.volume_ratio.toFixed(1)}x</span>
-                        <span><span class="lb">MA20갭</span> ${other.gap_from_ma20_pct>=0?'+':''}${other.gap_from_ma20_pct.toFixed(1)}%</span>
-                        <span><span class="lb">외국인</span> ${other.foreigner_trend}일</span>
-                        <span><span class="lb">기관</span> ${other.institution_buying?'매수':'—'}</span>
-                        <span><span class="lb">5일수익</span> ${other.return_5d>=0?'+':''}${other.return_5d.toFixed(1)}%</span>
-                    </div>
-                </div>
-            </div>`;
+    if(found){
+        const label=found.grade==='미달'
+            ?`<div style="font-size:.7rem;color:var(--yellow);margin-bottom:4px">⚠️ 조건 미달 종목</div>`
+            :`<div style="font-size:.7rem;color:var(--dim);margin-bottom:4px">✅ 조건 충족 종목</div>`;
+        el.innerHTML=label+renderCard(found,true);
     } else {
         el.innerHTML=`<div class="search-result"><span class="not-found">
             "${query}" — 해당 종목을 찾을 수 없습니다.<br>
