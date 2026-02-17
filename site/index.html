@@ -36,7 +36,7 @@
         .ticker-code{font-family:var(--mono);font-size:.82rem;font-weight:600;color:#fff}
         .ticker-name{font-size:.75rem;color:#999}
         .grade-badge{font-family:var(--mono);font-size:.65rem;font-weight:700;padding:2px 8px;border-radius:4px;letter-spacing:.5px}
-        .grade-A{background:#0a2a0a;color:var(--green)}.grade-B{background:#0a1a2a;color:var(--blue)}.grade-C{background:#1a1a0a;color:var(--yellow)}.grade-D{background:#1a1010;color:#666}
+        .grade-A{background:#0a2a0a;color:var(--green)}.grade-B{background:#0a1a2a;color:var(--blue)}.grade-C{background:#1a1a0a;color:var(--yellow)}.grade-D{background:#1a1010;color:#666}.grade-미달{background:#1a1010;color:#555}
         .prob-row{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin-bottom:6px}
         .prob-cell{text-align:center}
         .prob-label{font-size:.58rem;color:var(--muted);margin-bottom:2px;font-family:var(--mono)}
@@ -101,6 +101,7 @@
         <br><b>- 장 시작가에 사서 오늘 안에 팔 때</b> 오를 확률입니다.
         <br><b>당일청산(스캘핑)이 아닌 경우 사이트의 데이터가 전혀 도움되지 않을 확률이 높습니다.</b>
         <br>- 최상위 10개 티커만 표시됩니다. 나머지는 관심 티커→검색 통해서 볼 것.
+        <br>- <b>미달</b> = 기본 조건(MA정배열, 외국인 매수 등)을 충족하지 못한 종목.
     </div>
     <div class="filter-bar" id="filter-bar">
         <button class="filter-chip active" data-filter="all">전체</button>
@@ -397,6 +398,17 @@ async function init(){
     allRecs=allData.recommendations||[];
     allCandidates=allData.all_candidates||allRecs;
     searchIndex=allData.search_index||[];
+    // Merge searchIndex into allCandidates with N/A defaults so all searches/filters work uniformly
+    searchIndex.forEach(si=>{
+        allCandidates.push({
+            ticker:si.ticker,name:si.name||'',grade:'미달',
+            prob_1_5:si.prob_1_5,prob_2_0:si.prob_2_0,prob_2_5:si.prob_2_5,prob_3_0:si.prob_3_0,
+            change_pct:si.change_pct,volume_ratio:si.volume_ratio,gap_from_ma20_pct:si.gap_from_ma20_pct,
+            foreigner_trend:si.foreigner_trend,institution_buying:si.institution_buying,
+            return_5d:si.return_5d,upper_shadow_ratio:si.upper_shadow_ratio,foreigner_intensity:si.foreigner_intensity,
+            risks:si.rejection_reasons||[],featured:false,rank:null
+        });
+    });
     document.getElementById('date-info').textContent=allData.date||'—';
     document.getElementById('stats').textContent=`${allData.screened_count||0}종목 → ${allData.candidates_count||0}통과 → ${allRecs.length}종목`;
     if(allData.is_stale){
