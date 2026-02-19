@@ -1,9 +1,109 @@
 {
-  "days": [],
+  "days": [
+    {
+      "date": "2026-02-13",
+      "next_trading_date": "2026-02-19",
+      "total": 10,
+      "hits": 9,
+      "hit_rate": 90.0,
+      "results": [
+        {
+          "ticker": "005440",
+          "name": "현대지에프홀딩스",
+          "predicted_prob": 94.1,
+          "grade": "A",
+          "actual_high_pct": 6.2,
+          "actual_close_pct": -0.6,
+          "hit": true
+        },
+        {
+          "ticker": "006800",
+          "name": "미래에셋증권",
+          "predicted_prob": 84.1,
+          "grade": "A",
+          "actual_high_pct": 5.7,
+          "actual_close_pct": 2.5,
+          "hit": true
+        },
+        {
+          "ticker": "003540",
+          "name": "대신증권",
+          "predicted_prob": 83.7,
+          "grade": "A",
+          "actual_high_pct": 2.1,
+          "actual_close_pct": 1.7,
+          "hit": true
+        },
+        {
+          "ticker": "088350",
+          "name": "한화생명",
+          "predicted_prob": 79.3,
+          "grade": "A",
+          "actual_high_pct": 5.2,
+          "actual_close_pct": 1.6,
+          "hit": true
+        },
+        {
+          "ticker": "130660",
+          "name": "한전산업",
+          "predicted_prob": 78.2,
+          "grade": "A",
+          "actual_high_pct": 9.4,
+          "actual_close_pct": 1.8,
+          "hit": true
+        },
+        {
+          "ticker": "003530",
+          "name": "한화투자증권",
+          "predicted_prob": 74.4,
+          "grade": "A",
+          "actual_high_pct": 18.8,
+          "actual_close_pct": 18.8,
+          "hit": true
+        },
+        {
+          "ticker": "004310",
+          "name": "현대약품",
+          "predicted_prob": 66.5,
+          "grade": "A",
+          "actual_high_pct": 6.8,
+          "actual_close_pct": -1.2,
+          "hit": true
+        },
+        {
+          "ticker": "002810",
+          "name": "삼영무역",
+          "predicted_prob": 66.0,
+          "grade": "A",
+          "actual_high_pct": 3.5,
+          "actual_close_pct": 2.3,
+          "hit": true
+        },
+        {
+          "ticker": "017670",
+          "name": "SK텔레콤",
+          "predicted_prob": 64.4,
+          "grade": "A",
+          "actual_high_pct": 0.7,
+          "actual_close_pct": -3.2,
+          "hit": false
+        },
+        {
+          "ticker": "00680K",
+          "name": "미래에셋증권2우B",
+          "predicted_prob": 60.6,
+          "grade": "A",
+          "actual_high_pct": 11.7,
+          "actual_close_pct": 4.1,
+          "hit": true
+        }
+      ]
+    }
+  ],
   "aggregate": {
-    "total_predictions": 0,
-    "total_hits": 0,
-    "hit_rate": 0,
-    "days_tracked": 0
+    "total_predictions": 10,
+    "total_hits": 9,
+    "hit_rate": 90.0,
+    "days_tracked": 1
   }
 }
