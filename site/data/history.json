@@ -1,0 +1,5932 @@
+{
+  "days": [
+    {
+      "date": "2026-02-12",
+      "next_trading_date": "2026-02-13",
+      "total": 10,
+      "hits": 2,
+      "hit_rate": 20.0,
+      "results": [
+        {
+          "ticker": "036580",
+          "name": "팜스코",
+          "predicted_prob": 73.2,
+          "grade": "A",
+          "actual_high_pct": 0.7,
+          "actual_close_pct": -1.1,
+          "hit": false
+        },
+        {
+          "ticker": "004560",
+          "name": "현대비앤지스틸",
+          "predicted_prob": 69.1,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.3,
+          "hit": false
+        },
+        {
+          "ticker": "010690",
+          "name": "화신",
+          "predicted_prob": 62.8,
+          "grade": "A",
+          "actual_high_pct": 2.0,
+          "actual_close_pct": -4.6,
+          "hit": false
+        },
+        {
+          "ticker": "007340",
+          "name": "DN오토모티브",
+          "predicted_prob": 60.1,
+          "grade": "A",
+          "actual_high_pct": 6.0,
+          "actual_close_pct": 2.8,
+          "hit": true
+        },
+        {
+          "ticker": "005690",
+          "name": "파미셀",
+          "predicted_prob": 58.7,
+          "grade": "A",
+          "actual_high_pct": 1.4,
+          "actual_close_pct": -9.2,
+          "hit": false
+        },
+        {
+          "ticker": "013580",
+          "name": "계룡건설",
+          "predicted_prob": 53.2,
+          "grade": "A",
+          "actual_high_pct": 2.9,
+          "actual_close_pct": 0.8,
+          "hit": true
+        },
+        {
+          "ticker": "009450",
+          "name": "경동나비엔",
+          "predicted_prob": 51.5,
+          "grade": "A",
+          "actual_high_pct": 1.8,
+          "actual_close_pct": -0.3,
+          "hit": false
+        },
+        {
+          "ticker": "078520",
+          "name": "에이블씨엔씨",
+          "predicted_prob": 47.7,
+          "grade": "B",
+          "actual_high_pct": 0.4,
+          "actual_close_pct": -3.4,
+          "hit": false
+        },
+        {
+          "ticker": "009320",
+          "name": "아진전자부품",
+          "predicted_prob": 43.9,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -3.9,
+          "hit": false
+        },
+        {
+          "ticker": "192650",
+          "name": "드림텍",
+          "predicted_prob": 43.1,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -5.5,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "next_trading_date": "2026-02-12",
+      "total": 10,
+      "hits": 3,
+      "hit_rate": 30.0,
+      "results": [
+        {
+          "ticker": "049800",
+          "name": "우진플라임",
+          "predicted_prob": 93.9,
+          "grade": "A",
+          "actual_high_pct": 4.5,
+          "actual_close_pct": 4.5,
+          "hit": true
+        },
+        {
+          "ticker": "000120",
+          "name": "CJ대한통운",
+          "predicted_prob": 76.4,
+          "grade": "A",
+          "actual_high_pct": 1.0,
+          "actual_close_pct": -4.3,
+          "hit": false
+        },
+        {
+          "ticker": "139480",
+          "name": "이마트",
+          "predicted_prob": 74.4,
+          "grade": "A",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -8.9,
+          "hit": false
+        },
+        {
+          "ticker": "009830",
+          "name": "한화솔루션",
+          "predicted_prob": 69.4,
+          "grade": "A",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -1.8,
+          "hit": false
+        },
+        {
+          "ticker": "005440",
+          "name": "현대지에프홀딩스",
+          "predicted_prob": 68.8,
+          "grade": "A",
+          "actual_high_pct": 1.4,
+          "actual_close_pct": -15.1,
+          "hit": false
+        },
+        {
+          "ticker": "090460",
+          "name": "비에이치",
+          "predicted_prob": 58.8,
+          "grade": "A",
+          "actual_high_pct": 3.7,
+          "actual_close_pct": 2.6,
+          "hit": true
+        },
+        {
+          "ticker": "005960",
+          "name": "동부건설",
+          "predicted_prob": 55.3,
+          "grade": "A",
+          "actual_high_pct": 1.1,
+          "actual_close_pct": 0.4,
+          "hit": false
+        },
+        {
+          "ticker": "023530",
+          "name": "롯데쇼핑",
+          "predicted_prob": 52.3,
+          "grade": "A",
+          "actual_high_pct": 0.9,
+          "actual_close_pct": -1.8,
+          "hit": false
+        },
+        {
+          "ticker": "282330",
+          "name": "BGF리테일",
+          "predicted_prob": 51.4,
+          "grade": "A",
+          "actual_high_pct": 0.7,
+          "actual_close_pct": -0.3,
+          "hit": false
+        },
+        {
+          "ticker": "025560",
+          "name": "미래산업",
+          "predicted_prob": 51.1,
+          "grade": "A",
+          "actual_high_pct": 2.7,
+          "actual_close_pct": -2.3,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "date": "2026-02-10",
+      "next_trading_date": "2026-02-11",
+      "total": 10,
+      "hits": 6,
+      "hit_rate": 60.0,
+      "results": [
+        {
+          "ticker": "018880",
+          "name": "한온시스템",
+          "predicted_prob": 80.0,
+          "grade": "A",
+          "actual_high_pct": 0.3,
+          "actual_close_pct": -3.3,
+          "hit": false
+        },
+        {
+          "ticker": "049800",
+          "name": "우진플라임",
+          "predicted_prob": 73.9,
+          "grade": "A",
+          "actual_high_pct": 29.4,
+          "actual_close_pct": 19.8,
+          "hit": true
+        },
+        {
+          "ticker": "002310",
+          "name": "아세아제지",
+          "predicted_prob": 73.2,
+          "grade": "A",
+          "actual_high_pct": 3.4,
+          "actual_close_pct": -11.4,
+          "hit": true
+        },
+        {
+          "ticker": "020000",
+          "name": "한섬",
+          "predicted_prob": 71.9,
+          "grade": "A",
+          "actual_high_pct": 7.0,
+          "actual_close_pct": 6.5,
+          "hit": true
+        },
+        {
+          "ticker": "033240",
+          "name": "자화전자",
+          "predicted_prob": 70.6,
+          "grade": "A",
+          "actual_high_pct": 4.5,
+          "actual_close_pct": 4.1,
+          "hit": true
+        },
+        {
+          "ticker": "000370",
+          "name": "한화손해보험",
+          "predicted_prob": 66.1,
+          "grade": "A",
+          "actual_high_pct": 3.6,
+          "actual_close_pct": 1.0,
+          "hit": true
+        },
+        {
+          "ticker": "003540",
+          "name": "대신증권",
+          "predicted_prob": 60.0,
+          "grade": "A",
+          "actual_high_pct": 0.4,
+          "actual_close_pct": -2.4,
+          "hit": false
+        },
+        {
+          "ticker": "088350",
+          "name": "한화생명",
+          "predicted_prob": 59.8,
+          "grade": "A",
+          "actual_high_pct": 3.8,
+          "actual_close_pct": 2.3,
+          "hit": true
+        },
+        {
+          "ticker": "004170",
+          "name": "신세계",
+          "predicted_prob": 52.9,
+          "grade": "A",
+          "actual_high_pct": 1.2,
+          "actual_close_pct": -5.6,
+          "hit": false
+        },
+        {
+          "ticker": "000240",
+          "name": "한국앤컴퍼니",
+          "predicted_prob": 51.6,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -4.0,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2026-02-09",
+      "next_trading_date": "2026-02-10",
+      "total": 10,
+      "hits": 4,
+      "hit_rate": 40.0,
+      "results": [
+        {
+          "ticker": "009830",
+          "name": "한화솔루션",
+          "predicted_prob": 92.1,
+          "grade": "A",
+          "actual_high_pct": 2.3,
+          "actual_close_pct": -2.5,
+          "hit": true
+        },
+        {
+          "ticker": "011930",
+          "name": "신성이엔지",
+          "predicted_prob": 74.3,
+          "grade": "A",
+          "actual_high_pct": 4.5,
+          "actual_close_pct": -1.2,
+          "hit": true
+        },
+        {
+          "ticker": "090430",
+          "name": "아모레퍼시픽",
+          "predicted_prob": 71.4,
+          "grade": "A",
+          "actual_high_pct": 1.8,
+          "actual_close_pct": 0.7,
+          "hit": false
+        },
+        {
+          "ticker": "004960",
+          "name": "한신공영",
+          "predicted_prob": 67.8,
+          "grade": "A",
+          "actual_high_pct": 6.4,
+          "actual_close_pct": 0.4,
+          "hit": true
+        },
+        {
+          "ticker": "010060",
+          "name": "OCI홀딩스",
+          "predicted_prob": 62.6,
+          "grade": "A",
+          "actual_high_pct": 1.9,
+          "actual_close_pct": -1.5,
+          "hit": false
+        },
+        {
+          "ticker": "475150",
+          "name": "SK이터닉스",
+          "predicted_prob": 59.7,
+          "grade": "A",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -1.9,
+          "hit": false
+        },
+        {
+          "ticker": "078520",
+          "name": "에이블씨엔씨",
+          "predicted_prob": 59.5,
+          "grade": "A",
+          "actual_high_pct": 1.8,
+          "actual_close_pct": -3.0,
+          "hit": false
+        },
+        {
+          "ticker": "002790",
+          "name": "아모레퍼시픽홀딩스",
+          "predicted_prob": 59.5,
+          "grade": "A",
+          "actual_high_pct": 1.3,
+          "actual_close_pct": 0.4,
+          "hit": false
+        },
+        {
+          "ticker": "178920",
+          "name": "PI첨단소재",
+          "predicted_prob": 59.3,
+          "grade": "A",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -3.7,
+          "hit": false
+        },
+        {
+          "ticker": "090460",
+          "name": "비에이치",
+          "predicted_prob": 58.2,
+          "grade": "A",
+          "actual_high_pct": 7.0,
+          "actual_close_pct": 1.2,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "date": "2026-02-06",
+      "next_trading_date": "2026-02-09",
+      "total": 10,
+      "hits": 4,
+      "hit_rate": 40.0,
+      "results": [
+        {
+          "ticker": "009830",
+          "name": "한화솔루션",
+          "predicted_prob": 89.6,
+          "grade": "A",
+          "actual_high_pct": 18.5,
+          "actual_close_pct": 13.8,
+          "hit": true
+        },
+        {
+          "ticker": "009190",
+          "name": "대양금속",
+          "predicted_prob": 60.4,
+          "grade": "A",
+          "actual_high_pct": 4.9,
+          "actual_close_pct": 1.6,
+          "hit": true
+        },
+        {
+          "ticker": "011930",
+          "name": "신성이엔지",
+          "predicted_prob": 57.0,
+          "grade": "A",
+          "actual_high_pct": 13.4,
+          "actual_close_pct": 6.6,
+          "hit": true
+        },
+        {
+          "ticker": "010660",
+          "name": "화천기계",
+          "predicted_prob": 55.4,
+          "grade": "A",
+          "actual_high_pct": 1.3,
+          "actual_close_pct": -10.2,
+          "hit": false
+        },
+        {
+          "ticker": "007110",
+          "name": "일신석재",
+          "predicted_prob": 47.0,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -4.1,
+          "hit": false
+        },
+        {
+          "ticker": "251270",
+          "name": "넷마블",
+          "predicted_prob": 43.9,
+          "grade": "B",
+          "actual_high_pct": 1.4,
+          "actual_close_pct": -0.2,
+          "hit": false
+        },
+        {
+          "ticker": "070960",
+          "name": "모나용평",
+          "predicted_prob": 41.9,
+          "grade": "B",
+          "actual_high_pct": 1.2,
+          "actual_close_pct": 0.0,
+          "hit": false
+        },
+        {
+          "ticker": "009270",
+          "name": "신원",
+          "predicted_prob": 36.0,
+          "grade": "C",
+          "actual_high_pct": 0.9,
+          "actual_close_pct": -2.1,
+          "hit": false
+        },
+        {
+          "ticker": "002350",
+          "name": "넥센타이어",
+          "predicted_prob": 35.6,
+          "grade": "C",
+          "actual_high_pct": 3.2,
+          "actual_close_pct": 1.5,
+          "hit": true
+        },
+        {
+          "ticker": "014530",
+          "name": "극동유화",
+          "predicted_prob": 35.2,
+          "grade": "C",
+          "actual_high_pct": 1.6,
+          "actual_close_pct": -1.8,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2026-02-05",
+      "next_trading_date": "2026-02-06",
+      "total": 10,
+      "hits": 5,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "323410",
+          "name": "카카오뱅크",
+          "predicted_prob": 62.2,
+          "grade": "A",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -3.5,
+          "hit": false
+        },
+        {
+          "ticker": "005090",
+          "name": "SGC에너지",
+          "predicted_prob": 62.1,
+          "grade": "A",
+          "actual_high_pct": 8.1,
+          "actual_close_pct": 7.1,
+          "hit": true
+        },
+        {
+          "ticker": "011930",
+          "name": "신성이엔지",
+          "predicted_prob": 57.5,
+          "grade": "A",
+          "actual_high_pct": 6.7,
+          "actual_close_pct": 4.8,
+          "hit": true
+        },
+        {
+          "ticker": "020150",
+          "name": "롯데에너지머티리얼즈",
+          "predicted_prob": 53.6,
+          "grade": "A",
+          "actual_high_pct": 2.3,
+          "actual_close_pct": -1.3,
+          "hit": true
+        },
+        {
+          "ticker": "009830",
+          "name": "한화솔루션",
+          "predicted_prob": 51.7,
+          "grade": "A",
+          "actual_high_pct": 27.9,
+          "actual_close_pct": 18.3,
+          "hit": true
+        },
+        {
+          "ticker": "002350",
+          "name": "넥센타이어",
+          "predicted_prob": 45.4,
+          "grade": "B",
+          "actual_high_pct": 2.7,
+          "actual_close_pct": 2.6,
+          "hit": true
+        },
+        {
+          "ticker": "005960",
+          "name": "동부건설",
+          "predicted_prob": 45.4,
+          "grade": "B",
+          "actual_high_pct": 0.5,
+          "actual_close_pct": -3.6,
+          "hit": false
+        },
+        {
+          "ticker": "005750",
+          "name": "대림바스",
+          "predicted_prob": 42.6,
+          "grade": "B",
+          "actual_high_pct": 2.0,
+          "actual_close_pct": -0.9,
+          "hit": false
+        },
+        {
+          "ticker": "000120",
+          "name": "CJ대한통운",
+          "predicted_prob": 41.7,
+          "grade": "B",
+          "actual_high_pct": 0.6,
+          "actual_close_pct": -3.8,
+          "hit": false
+        },
+        {
+          "ticker": "001340",
+          "name": "PKC",
+          "predicted_prob": 41.7,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -5.9,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "next_trading_date": "2026-02-05",
+      "total": 10,
+      "hits": 7,
+      "hit_rate": 70.0,
+      "results": [
+        {
+          "ticker": "128820",
+          "name": "대성산업",
+          "predicted_prob": 98.2,
+          "grade": "A",
+          "actual_high_pct": 4.8,
+          "actual_close_pct": -16.5,
+          "hit": true
+        },
+        {
+          "ticker": "084670",
+          "name": "동양고속",
+          "predicted_prob": 87.4,
+          "grade": "A",
+          "actual_high_pct": 2.8,
+          "actual_close_pct": -14.2,
+          "hit": true
+        },
+        {
+          "ticker": "457190",
+          "name": "이수스페셜티케미컬",
+          "predicted_prob": 77.6,
+          "grade": "A",
+          "actual_high_pct": 0.4,
+          "actual_close_pct": -10.8,
+          "hit": false
+        },
+        {
+          "ticker": "007120",
+          "name": "미래아이앤지",
+          "predicted_prob": 72.2,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -6.2,
+          "hit": false
+        },
+        {
+          "ticker": "45226K",
+          "name": "한화갤러리아우",
+          "predicted_prob": 72.0,
+          "grade": "A",
+          "actual_high_pct": 9.8,
+          "actual_close_pct": -4.7,
+          "hit": true
+        },
+        {
+          "ticker": "020150",
+          "name": "롯데에너지머티리얼즈",
+          "predicted_prob": 68.5,
+          "grade": "A",
+          "actual_high_pct": 9.0,
+          "actual_close_pct": 5.4,
+          "hit": true
+        },
+        {
+          "ticker": "178920",
+          "name": "PI첨단소재",
+          "predicted_prob": 68.0,
+          "grade": "A",
+          "actual_high_pct": 1.6,
+          "actual_close_pct": -3.0,
+          "hit": false
+        },
+        {
+          "ticker": "000520",
+          "name": "삼일제약",
+          "predicted_prob": 64.0,
+          "grade": "A",
+          "actual_high_pct": 5.7,
+          "actual_close_pct": 1.2,
+          "hit": true
+        },
+        {
+          "ticker": "000650",
+          "name": "천일고속",
+          "predicted_prob": 63.2,
+          "grade": "A",
+          "actual_high_pct": 2.9,
+          "actual_close_pct": -7.5,
+          "hit": true
+        },
+        {
+          "ticker": "011690",
+          "name": "와이투솔루션",
+          "predicted_prob": 60.9,
+          "grade": "A",
+          "actual_high_pct": 11.8,
+          "actual_close_pct": 1.5,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "next_trading_date": "2026-02-04",
+      "total": 10,
+      "hits": 7,
+      "hit_rate": 70.0,
+      "results": [
+        {
+          "ticker": "272210",
+          "name": "한화시스템",
+          "predicted_prob": 93.7,
+          "grade": "A",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -1.4,
+          "hit": false
+        },
+        {
+          "ticker": "136490",
+          "name": "선진",
+          "predicted_prob": 88.7,
+          "grade": "A",
+          "actual_high_pct": 5.2,
+          "actual_close_pct": 2.6,
+          "hit": true
+        },
+        {
+          "ticker": "000050",
+          "name": "경방",
+          "predicted_prob": 81.2,
+          "grade": "A",
+          "actual_high_pct": 19.0,
+          "actual_close_pct": 7.2,
+          "hit": true
+        },
+        {
+          "ticker": "033240",
+          "name": "자화전자",
+          "predicted_prob": 75.0,
+          "grade": "A",
+          "actual_high_pct": 10.1,
+          "actual_close_pct": 9.2,
+          "hit": true
+        },
+        {
+          "ticker": "002020",
+          "name": "코오롱",
+          "predicted_prob": 73.5,
+          "grade": "A",
+          "actual_high_pct": 2.6,
+          "actual_close_pct": -3.7,
+          "hit": true
+        },
+        {
+          "ticker": "003530",
+          "name": "한화투자증권",
+          "predicted_prob": 71.1,
+          "grade": "A",
+          "actual_high_pct": 1.2,
+          "actual_close_pct": -1.5,
+          "hit": false
+        },
+        {
+          "ticker": "039490",
+          "name": "키움증권",
+          "predicted_prob": 69.7,
+          "grade": "A",
+          "actual_high_pct": 1.2,
+          "actual_close_pct": -2.2,
+          "hit": false
+        },
+        {
+          "ticker": "001440",
+          "name": "대한전선",
+          "predicted_prob": 69.1,
+          "grade": "A",
+          "actual_high_pct": 13.1,
+          "actual_close_pct": 10.0,
+          "hit": true
+        },
+        {
+          "ticker": "001430",
+          "name": "세아베스틸지주",
+          "predicted_prob": 68.6,
+          "grade": "A",
+          "actual_high_pct": 2.8,
+          "actual_close_pct": 0.3,
+          "hit": true
+        },
+        {
+          "ticker": "010120",
+          "name": "LS ELECTRIC",
+          "predicted_prob": 66.0,
+          "grade": "A",
+          "actual_high_pct": 7.7,
+          "actual_close_pct": 4.6,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "date": "2026-02-02",
+      "next_trading_date": "2026-02-03",
+      "total": 10,
+      "hits": 8,
+      "hit_rate": 80.0,
+      "results": [
+        {
+          "ticker": "033240",
+          "name": "자화전자",
+          "predicted_prob": 64.8,
+          "grade": "A",
+          "actual_high_pct": 9.7,
+          "actual_close_pct": 8.8,
+          "hit": true
+        },
+        {
+          "ticker": "002020",
+          "name": "코오롱",
+          "predicted_prob": 53.2,
+          "grade": "A",
+          "actual_high_pct": 10.0,
+          "actual_close_pct": 9.6,
+          "hit": true
+        },
+        {
+          "ticker": "000520",
+          "name": "삼일제약",
+          "predicted_prob": 46.2,
+          "grade": "B",
+          "actual_high_pct": 0.4,
+          "actual_close_pct": 0.1,
+          "hit": false
+        },
+        {
+          "ticker": "016740",
+          "name": "두올",
+          "predicted_prob": 42.6,
+          "grade": "B",
+          "actual_high_pct": 2.8,
+          "actual_close_pct": 1.2,
+          "hit": true
+        },
+        {
+          "ticker": "244920",
+          "name": "에이플러스에셋",
+          "predicted_prob": 40.5,
+          "grade": "B",
+          "actual_high_pct": 8.2,
+          "actual_close_pct": 5.0,
+          "hit": true
+        },
+        {
+          "ticker": "012630",
+          "name": "HDC",
+          "predicted_prob": 39.3,
+          "grade": "C",
+          "actual_high_pct": 8.6,
+          "actual_close_pct": 7.6,
+          "hit": true
+        },
+        {
+          "ticker": "095570",
+          "name": "AJ네트웍스",
+          "predicted_prob": 38.5,
+          "grade": "C",
+          "actual_high_pct": 3.0,
+          "actual_close_pct": 1.7,
+          "hit": true
+        },
+        {
+          "ticker": "028670",
+          "name": "팬오션",
+          "predicted_prob": 38.2,
+          "grade": "C",
+          "actual_high_pct": 0.7,
+          "actual_close_pct": 0.3,
+          "hit": false
+        },
+        {
+          "ticker": "086790",
+          "name": "하나금융지주",
+          "predicted_prob": 35.2,
+          "grade": "C",
+          "actual_high_pct": 4.6,
+          "actual_close_pct": 4.2,
+          "hit": true
+        },
+        {
+          "ticker": "012750",
+          "name": "에스원",
+          "predicted_prob": 32.4,
+          "grade": "C",
+          "actual_high_pct": 3.8,
+          "actual_close_pct": 3.8,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "date": "2026-01-30",
+      "next_trading_date": "2026-02-02",
+      "total": 10,
+      "hits": 5,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "353200",
+          "name": "대덕전자",
+          "predicted_prob": 84.9,
+          "grade": "A",
+          "actual_high_pct": 2.6,
+          "actual_close_pct": -2.7,
+          "hit": true
+        },
+        {
+          "ticker": "009470",
+          "name": "삼화전기",
+          "predicted_prob": 78.8,
+          "grade": "A",
+          "actual_high_pct": 0.4,
+          "actual_close_pct": -4.6,
+          "hit": false
+        },
+        {
+          "ticker": "001740",
+          "name": "SK네트웍스",
+          "predicted_prob": 66.2,
+          "grade": "A",
+          "actual_high_pct": 2.9,
+          "actual_close_pct": -8.8,
+          "hit": true
+        },
+        {
+          "ticker": "006800",
+          "name": "미래에셋증권",
+          "predicted_prob": 62.9,
+          "grade": "A",
+          "actual_high_pct": 0.5,
+          "actual_close_pct": -7.1,
+          "hit": false
+        },
+        {
+          "ticker": "489790",
+          "name": "한화비전",
+          "predicted_prob": 60.8,
+          "grade": "A",
+          "actual_high_pct": 1.0,
+          "actual_close_pct": -6.6,
+          "hit": false
+        },
+        {
+          "ticker": "007810",
+          "name": "코리아써키트",
+          "predicted_prob": 60.5,
+          "grade": "A",
+          "actual_high_pct": 4.9,
+          "actual_close_pct": -4.7,
+          "hit": true
+        },
+        {
+          "ticker": "281820",
+          "name": "케이씨텍",
+          "predicted_prob": 52.2,
+          "grade": "A",
+          "actual_high_pct": 7.3,
+          "actual_close_pct": -2.0,
+          "hit": true
+        },
+        {
+          "ticker": "012030",
+          "name": "DB",
+          "predicted_prob": 51.2,
+          "grade": "A",
+          "actual_high_pct": 2.6,
+          "actual_close_pct": -4.6,
+          "hit": true
+        },
+        {
+          "ticker": "042700",
+          "name": "한미반도체",
+          "predicted_prob": 50.4,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -8.7,
+          "hit": false
+        },
+        {
+          "ticker": "017670",
+          "name": "SK텔레콤",
+          "predicted_prob": 49.5,
+          "grade": "B",
+          "actual_high_pct": 0.6,
+          "actual_close_pct": -3.4,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2026-01-29",
+      "next_trading_date": "2026-01-30",
+      "total": 10,
+      "hits": 10,
+      "hit_rate": 100.0,
+      "results": [
+        {
+          "ticker": "009470",
+          "name": "삼화전기",
+          "predicted_prob": 85.6,
+          "grade": "A",
+          "actual_high_pct": 10.0,
+          "actual_close_pct": 2.4,
+          "hit": true
+        },
+        {
+          "ticker": "006800",
+          "name": "미래에셋증권",
+          "predicted_prob": 80.0,
+          "grade": "A",
+          "actual_high_pct": 11.8,
+          "actual_close_pct": 7.1,
+          "hit": true
+        },
+        {
+          "ticker": "003530",
+          "name": "한화투자증권",
+          "predicted_prob": 68.0,
+          "grade": "A",
+          "actual_high_pct": 2.9,
+          "actual_close_pct": -2.4,
+          "hit": true
+        },
+        {
+          "ticker": "010130",
+          "name": "고려아연",
+          "predicted_prob": 64.4,
+          "grade": "A",
+          "actual_high_pct": 4.8,
+          "actual_close_pct": -2.9,
+          "hit": true
+        },
+        {
+          "ticker": "001200",
+          "name": "유진투자증권",
+          "predicted_prob": 62.4,
+          "grade": "A",
+          "actual_high_pct": 3.6,
+          "actual_close_pct": -0.8,
+          "hit": true
+        },
+        {
+          "ticker": "120110",
+          "name": "코오롱인더",
+          "predicted_prob": 60.6,
+          "grade": "A",
+          "actual_high_pct": 5.3,
+          "actual_close_pct": 3.4,
+          "hit": true
+        },
+        {
+          "ticker": "042700",
+          "name": "한미반도체",
+          "predicted_prob": 60.1,
+          "grade": "A",
+          "actual_high_pct": 10.1,
+          "actual_close_pct": 5.6,
+          "hit": true
+        },
+        {
+          "ticker": "071050",
+          "name": "한국금융지주",
+          "predicted_prob": 54.3,
+          "grade": "A",
+          "actual_high_pct": 2.5,
+          "actual_close_pct": -0.5,
+          "hit": true
+        },
+        {
+          "ticker": "499790",
+          "name": "GS피앤엘",
+          "predicted_prob": 53.9,
+          "grade": "A",
+          "actual_high_pct": 7.5,
+          "actual_close_pct": 3.9,
+          "hit": true
+        },
+        {
+          "ticker": "023590",
+          "name": "다우기술",
+          "predicted_prob": 51.5,
+          "grade": "A",
+          "actual_high_pct": 4.0,
+          "actual_close_pct": 1.3,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "date": "2026-01-28",
+      "next_trading_date": "2026-01-29",
+      "total": 10,
+      "hits": 4,
+      "hit_rate": 40.0,
+      "results": [
+        {
+          "ticker": "001390",
+          "name": "KG케미칼",
+          "predicted_prob": 61.6,
+          "grade": "A",
+          "actual_high_pct": 2.5,
+          "actual_close_pct": 1.9,
+          "hit": true
+        },
+        {
+          "ticker": "020150",
+          "name": "롯데에너지머티리얼즈",
+          "predicted_prob": 57.6,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -6.1,
+          "hit": false
+        },
+        {
+          "ticker": "066970",
+          "name": "엘앤에프",
+          "predicted_prob": 54.2,
+          "grade": "A",
+          "actual_high_pct": 0.4,
+          "actual_close_pct": -6.1,
+          "hit": false
+        },
+        {
+          "ticker": "128940",
+          "name": "한미약품",
+          "predicted_prob": 54.1,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -3.3,
+          "hit": false
+        },
+        {
+          "ticker": "023590",
+          "name": "다우기술",
+          "predicted_prob": 52.0,
+          "grade": "A",
+          "actual_high_pct": 8.0,
+          "actual_close_pct": 4.5,
+          "hit": true
+        },
+        {
+          "ticker": "005070",
+          "name": "코스모신소재",
+          "predicted_prob": 51.6,
+          "grade": "A",
+          "actual_high_pct": 1.4,
+          "actual_close_pct": -2.7,
+          "hit": false
+        },
+        {
+          "ticker": "039490",
+          "name": "키움증권",
+          "predicted_prob": 50.0,
+          "grade": "A",
+          "actual_high_pct": 9.9,
+          "actual_close_pct": 7.7,
+          "hit": true
+        },
+        {
+          "ticker": "195870",
+          "name": "해성디에스",
+          "predicted_prob": 49.9,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -4.8,
+          "hit": false
+        },
+        {
+          "ticker": "002710",
+          "name": "TCC스틸",
+          "predicted_prob": 49.0,
+          "grade": "B",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -1.4,
+          "hit": false
+        },
+        {
+          "ticker": "020000",
+          "name": "한섬",
+          "predicted_prob": 48.4,
+          "grade": "B",
+          "actual_high_pct": 5.4,
+          "actual_close_pct": 5.1,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "date": "2026-01-27",
+      "next_trading_date": "2026-01-28",
+      "total": 10,
+      "hits": 6,
+      "hit_rate": 60.0,
+      "results": [
+        {
+          "ticker": "457190",
+          "name": "이수스페셜티케미컬",
+          "predicted_prob": 73.2,
+          "grade": "A",
+          "actual_high_pct": 2.9,
+          "actual_close_pct": 1.2,
+          "hit": true
+        },
+        {
+          "ticker": "017670",
+          "name": "SK텔레콤",
+          "predicted_prob": 61.0,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.4,
+          "hit": false
+        },
+        {
+          "ticker": "000990",
+          "name": "DB하이텍",
+          "predicted_prob": 44.2,
+          "grade": "B",
+          "actual_high_pct": 4.1,
+          "actual_close_pct": 2.5,
+          "hit": true
+        },
+        {
+          "ticker": "000660",
+          "name": "SK하이닉스",
+          "predicted_prob": 44.1,
+          "grade": "B",
+          "actual_high_pct": 5.4,
+          "actual_close_pct": 3.8,
+          "hit": true
+        },
+        {
+          "ticker": "023590",
+          "name": "다우기술",
+          "predicted_prob": 42.7,
+          "grade": "B",
+          "actual_high_pct": 10.7,
+          "actual_close_pct": 6.0,
+          "hit": true
+        },
+        {
+          "ticker": "028050",
+          "name": "삼성E&A",
+          "predicted_prob": 41.1,
+          "grade": "B",
+          "actual_high_pct": 6.2,
+          "actual_close_pct": 5.6,
+          "hit": true
+        },
+        {
+          "ticker": "004990",
+          "name": "롯데지주",
+          "predicted_prob": 40.8,
+          "grade": "B",
+          "actual_high_pct": 0.7,
+          "actual_close_pct": -1.0,
+          "hit": false
+        },
+        {
+          "ticker": "005930",
+          "name": "삼성전자",
+          "predicted_prob": 40.2,
+          "grade": "B",
+          "actual_high_pct": 0.4,
+          "actual_close_pct": -0.1,
+          "hit": false
+        },
+        {
+          "ticker": "094800",
+          "name": "맵스리얼티",
+          "predicted_prob": 39.7,
+          "grade": "C",
+          "actual_high_pct": 3.7,
+          "actual_close_pct": 1.6,
+          "hit": true
+        },
+        {
+          "ticker": "035420",
+          "name": "NAVER",
+          "predicted_prob": 39.6,
+          "grade": "C",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -2.6,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2026-01-26",
+      "next_trading_date": "2026-01-27",
+      "total": 10,
+      "hits": 5,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "010130",
+          "name": "고려아연",
+          "predicted_prob": 67.6,
+          "grade": "A",
+          "actual_high_pct": 3.1,
+          "actual_close_pct": 2.6,
+          "hit": true
+        },
+        {
+          "ticker": "454910",
+          "name": "두산로보틱스",
+          "predicted_prob": 62.1,
+          "grade": "A",
+          "actual_high_pct": 0.8,
+          "actual_close_pct": -0.9,
+          "hit": false
+        },
+        {
+          "ticker": "071950",
+          "name": "코아스",
+          "predicted_prob": 59.4,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -2.6,
+          "hit": false
+        },
+        {
+          "ticker": "006110",
+          "name": "삼아알미늄",
+          "predicted_prob": 59.1,
+          "grade": "A",
+          "actual_high_pct": 1.2,
+          "actual_close_pct": -0.5,
+          "hit": false
+        },
+        {
+          "ticker": "004560",
+          "name": "현대비앤지스틸",
+          "predicted_prob": 58.1,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -2.5,
+          "hit": false
+        },
+        {
+          "ticker": "005070",
+          "name": "코스모신소재",
+          "predicted_prob": 54.3,
+          "grade": "A",
+          "actual_high_pct": 2.8,
+          "actual_close_pct": 0.8,
+          "hit": true
+        },
+        {
+          "ticker": "450080",
+          "name": "에코프로머티",
+          "predicted_prob": 52.9,
+          "grade": "A",
+          "actual_high_pct": 4.3,
+          "actual_close_pct": 1.9,
+          "hit": true
+        },
+        {
+          "ticker": "028050",
+          "name": "삼성E&A",
+          "predicted_prob": 52.0,
+          "grade": "A",
+          "actual_high_pct": 4.8,
+          "actual_close_pct": 3.8,
+          "hit": true
+        },
+        {
+          "ticker": "003670",
+          "name": "포스코퓨처엠",
+          "predicted_prob": 50.8,
+          "grade": "A",
+          "actual_high_pct": 2.0,
+          "actual_close_pct": 1.1,
+          "hit": false
+        },
+        {
+          "ticker": "002710",
+          "name": "TCC스틸",
+          "predicted_prob": 49.9,
+          "grade": "B",
+          "actual_high_pct": 2.3,
+          "actual_close_pct": 0.3,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "date": "2026-01-23",
+      "next_trading_date": "2026-01-26",
+      "total": 10,
+      "hits": 4,
+      "hit_rate": 40.0,
+      "results": [
+        {
+          "ticker": "006800",
+          "name": "미래에셋증권",
+          "predicted_prob": 72.5,
+          "grade": "A",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -1.2,
+          "hit": false
+        },
+        {
+          "ticker": "000720",
+          "name": "현대건설",
+          "predicted_prob": 63.2,
+          "grade": "A",
+          "actual_high_pct": 1.7,
+          "actual_close_pct": -2.6,
+          "hit": false
+        },
+        {
+          "ticker": "003530",
+          "name": "한화투자증권",
+          "predicted_prob": 52.1,
+          "grade": "A",
+          "actual_high_pct": 2.1,
+          "actual_close_pct": 0.5,
+          "hit": true
+        },
+        {
+          "ticker": "016740",
+          "name": "두올",
+          "predicted_prob": 48.0,
+          "grade": "B",
+          "actual_high_pct": 6.7,
+          "actual_close_pct": -0.4,
+          "hit": true
+        },
+        {
+          "ticker": "011420",
+          "name": "갤럭시아에스엠",
+          "predicted_prob": 46.0,
+          "grade": "B",
+          "actual_high_pct": 4.2,
+          "actual_close_pct": -0.2,
+          "hit": true
+        },
+        {
+          "ticker": "028050",
+          "name": "삼성E&A",
+          "predicted_prob": 45.3,
+          "grade": "B",
+          "actual_high_pct": 10.1,
+          "actual_close_pct": 3.8,
+          "hit": true
+        },
+        {
+          "ticker": "323410",
+          "name": "카카오뱅크",
+          "predicted_prob": 44.1,
+          "grade": "B",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -2.9,
+          "hit": false
+        },
+        {
+          "ticker": "005940",
+          "name": "NH투자증권",
+          "predicted_prob": 41.7,
+          "grade": "B",
+          "actual_high_pct": 1.0,
+          "actual_close_pct": -1.0,
+          "hit": false
+        },
+        {
+          "ticker": "026890",
+          "name": "스틱인베스트먼트",
+          "predicted_prob": 41.5,
+          "grade": "B",
+          "actual_high_pct": 0.5,
+          "actual_close_pct": 0.1,
+          "hit": false
+        },
+        {
+          "ticker": "000150",
+          "name": "두산",
+          "predicted_prob": 41.0,
+          "grade": "B",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -4.0,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2026-01-22",
+      "next_trading_date": "2026-01-23",
+      "total": 10,
+      "hits": 3,
+      "hit_rate": 30.0,
+      "results": [
+        {
+          "ticker": "009470",
+          "name": "삼화전기",
+          "predicted_prob": 80.5,
+          "grade": "A",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -5.3,
+          "hit": false
+        },
+        {
+          "ticker": "006400",
+          "name": "삼성SDI",
+          "predicted_prob": 77.3,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -7.2,
+          "hit": false
+        },
+        {
+          "ticker": "071950",
+          "name": "코아스",
+          "predicted_prob": 69.4,
+          "grade": "A",
+          "actual_high_pct": 5.4,
+          "actual_close_pct": -0.1,
+          "hit": true
+        },
+        {
+          "ticker": "278470",
+          "name": "에이피알",
+          "predicted_prob": 54.7,
+          "grade": "A",
+          "actual_high_pct": 4.1,
+          "actual_close_pct": -2.0,
+          "hit": true
+        },
+        {
+          "ticker": "066970",
+          "name": "엘앤에프",
+          "predicted_prob": 50.9,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -6.4,
+          "hit": false
+        },
+        {
+          "ticker": "001440",
+          "name": "대한전선",
+          "predicted_prob": 49.9,
+          "grade": "B",
+          "actual_high_pct": 0.5,
+          "actual_close_pct": -3.5,
+          "hit": false
+        },
+        {
+          "ticker": "336260",
+          "name": "두산퓨얼셀",
+          "predicted_prob": 48.6,
+          "grade": "B",
+          "actual_high_pct": 1.8,
+          "actual_close_pct": -0.3,
+          "hit": false
+        },
+        {
+          "ticker": "000990",
+          "name": "DB하이텍",
+          "predicted_prob": 46.7,
+          "grade": "B",
+          "actual_high_pct": 0.5,
+          "actual_close_pct": -2.3,
+          "hit": false
+        },
+        {
+          "ticker": "000150",
+          "name": "두산",
+          "predicted_prob": 44.3,
+          "grade": "B",
+          "actual_high_pct": 4.9,
+          "actual_close_pct": 3.6,
+          "hit": true
+        },
+        {
+          "ticker": "014680",
+          "name": "한솔케미칼",
+          "predicted_prob": 44.3,
+          "grade": "B",
+          "actual_high_pct": 1.9,
+          "actual_close_pct": -4.8,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2026-01-21",
+      "next_trading_date": "2026-01-22",
+      "total": 10,
+      "hits": 3,
+      "hit_rate": 30.0,
+      "results": [
+        {
+          "ticker": "011700",
+          "name": "한신기계",
+          "predicted_prob": 87.9,
+          "grade": "A",
+          "actual_high_pct": 1.0,
+          "actual_close_pct": -14.2,
+          "hit": false
+        },
+        {
+          "ticker": "012170",
+          "name": "아센디오",
+          "predicted_prob": 67.1,
+          "grade": "A",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -4.4,
+          "hit": false
+        },
+        {
+          "ticker": "005385",
+          "name": "현대차우",
+          "predicted_prob": 60.5,
+          "grade": "A",
+          "actual_high_pct": 0.5,
+          "actual_close_pct": -7.9,
+          "hit": false
+        },
+        {
+          "ticker": "033530",
+          "name": "SJG세종",
+          "predicted_prob": 58.0,
+          "grade": "A",
+          "actual_high_pct": 4.0,
+          "actual_close_pct": -6.7,
+          "hit": true
+        },
+        {
+          "ticker": "007120",
+          "name": "미래아이앤지",
+          "predicted_prob": 49.3,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -0.4,
+          "hit": false
+        },
+        {
+          "ticker": "018500",
+          "name": "동원금속",
+          "predicted_prob": 48.2,
+          "grade": "B",
+          "actual_high_pct": 1.7,
+          "actual_close_pct": -0.4,
+          "hit": false
+        },
+        {
+          "ticker": "000990",
+          "name": "DB하이텍",
+          "predicted_prob": 46.8,
+          "grade": "B",
+          "actual_high_pct": 5.4,
+          "actual_close_pct": 0.6,
+          "hit": true
+        },
+        {
+          "ticker": "025540",
+          "name": "한국단자",
+          "predicted_prob": 35.0,
+          "grade": "C",
+          "actual_high_pct": 2.9,
+          "actual_close_pct": -2.9,
+          "hit": true
+        },
+        {
+          "ticker": "005930",
+          "name": "삼성전자",
+          "predicted_prob": 34.0,
+          "grade": "C",
+          "actual_high_pct": 1.3,
+          "actual_close_pct": -1.7,
+          "hit": false
+        },
+        {
+          "ticker": "005935",
+          "name": "삼성전자우",
+          "predicted_prob": 32.6,
+          "grade": "C",
+          "actual_high_pct": 0.3,
+          "actual_close_pct": -2.8,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2026-01-20",
+      "next_trading_date": "2026-01-21",
+      "total": 10,
+      "hits": 4,
+      "hit_rate": 40.0,
+      "results": [
+        {
+          "ticker": "015760",
+          "name": "한국전력",
+          "predicted_prob": 72.6,
+          "grade": "A",
+          "actual_high_pct": 6.4,
+          "actual_close_pct": 4.0,
+          "hit": true
+        },
+        {
+          "ticker": "052690",
+          "name": "한전기술",
+          "predicted_prob": 70.5,
+          "grade": "A",
+          "actual_high_pct": 1.9,
+          "actual_close_pct": -0.4,
+          "hit": false
+        },
+        {
+          "ticker": "457190",
+          "name": "이수스페셜티케미컬",
+          "predicted_prob": 68.2,
+          "grade": "A",
+          "actual_high_pct": 9.2,
+          "actual_close_pct": 7.7,
+          "hit": true
+        },
+        {
+          "ticker": "010820",
+          "name": "퍼스텍",
+          "predicted_prob": 65.9,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -4.0,
+          "hit": false
+        },
+        {
+          "ticker": "377300",
+          "name": "카카오페이",
+          "predicted_prob": 54.4,
+          "grade": "A",
+          "actual_high_pct": 1.5,
+          "actual_close_pct": -3.7,
+          "hit": false
+        },
+        {
+          "ticker": "000720",
+          "name": "현대건설",
+          "predicted_prob": 49.9,
+          "grade": "B",
+          "actual_high_pct": 6.3,
+          "actual_close_pct": 5.3,
+          "hit": true
+        },
+        {
+          "ticker": "267250",
+          "name": "HD현대",
+          "predicted_prob": 48.8,
+          "grade": "B",
+          "actual_high_pct": 1.9,
+          "actual_close_pct": -3.6,
+          "hit": false
+        },
+        {
+          "ticker": "450080",
+          "name": "에코프로머티",
+          "predicted_prob": 43.8,
+          "grade": "B",
+          "actual_high_pct": 1.3,
+          "actual_close_pct": -1.2,
+          "hit": false
+        },
+        {
+          "ticker": "006400",
+          "name": "삼성SDI",
+          "predicted_prob": 43.6,
+          "grade": "B",
+          "actual_high_pct": 3.3,
+          "actual_close_pct": 2.5,
+          "hit": true
+        },
+        {
+          "ticker": "051600",
+          "name": "한전KPS",
+          "predicted_prob": 41.4,
+          "grade": "B",
+          "actual_high_pct": 0.8,
+          "actual_close_pct": -3.3,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2026-01-19",
+      "next_trading_date": "2026-01-20",
+      "total": 10,
+      "hits": 5,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "454910",
+          "name": "두산로보틱스",
+          "predicted_prob": 83.2,
+          "grade": "A",
+          "actual_high_pct": 0.7,
+          "actual_close_pct": -4.1,
+          "hit": false
+        },
+        {
+          "ticker": "000270",
+          "name": "기아",
+          "predicted_prob": 75.3,
+          "grade": "A",
+          "actual_high_pct": 1.7,
+          "actual_close_pct": -5.8,
+          "hit": false
+        },
+        {
+          "ticker": "033530",
+          "name": "SJG세종",
+          "predicted_prob": 70.1,
+          "grade": "A",
+          "actual_high_pct": 0.4,
+          "actual_close_pct": -7.0,
+          "hit": false
+        },
+        {
+          "ticker": "052690",
+          "name": "한전기술",
+          "predicted_prob": 56.4,
+          "grade": "A",
+          "actual_high_pct": 12.0,
+          "actual_close_pct": 9.6,
+          "hit": true
+        },
+        {
+          "ticker": "047050",
+          "name": "포스코인터내셔널",
+          "predicted_prob": 54.1,
+          "grade": "A",
+          "actual_high_pct": 3.5,
+          "actual_close_pct": 1.6,
+          "hit": true
+        },
+        {
+          "ticker": "066570",
+          "name": "LG전자",
+          "predicted_prob": 53.5,
+          "grade": "A",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -3.8,
+          "hit": false
+        },
+        {
+          "ticker": "017040",
+          "name": "광명전기",
+          "predicted_prob": 51.0,
+          "grade": "A",
+          "actual_high_pct": 3.4,
+          "actual_close_pct": 0.5,
+          "hit": true
+        },
+        {
+          "ticker": "336260",
+          "name": "두산퓨얼셀",
+          "predicted_prob": 49.5,
+          "grade": "B",
+          "actual_high_pct": 1.2,
+          "actual_close_pct": -2.3,
+          "hit": false
+        },
+        {
+          "ticker": "005490",
+          "name": "POSCO홀딩스",
+          "predicted_prob": 46.4,
+          "grade": "B",
+          "actual_high_pct": 3.3,
+          "actual_close_pct": 2.4,
+          "hit": true
+        },
+        {
+          "ticker": "006400",
+          "name": "삼성SDI",
+          "predicted_prob": 44.8,
+          "grade": "B",
+          "actual_high_pct": 6.4,
+          "actual_close_pct": 2.2,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "date": "2026-01-16",
+      "next_trading_date": "2026-01-19",
+      "total": 10,
+      "hits": 2,
+      "hit_rate": 20.0,
+      "results": [
+        {
+          "ticker": "052690",
+          "name": "한전기술",
+          "predicted_prob": 67.9,
+          "grade": "A",
+          "actual_high_pct": 3.7,
+          "actual_close_pct": 2.5,
+          "hit": true
+        },
+        {
+          "ticker": "200880",
+          "name": "서연이화",
+          "predicted_prob": 67.6,
+          "grade": "A",
+          "actual_high_pct": 1.2,
+          "actual_close_pct": -2.7,
+          "hit": false
+        },
+        {
+          "ticker": "047040",
+          "name": "대우건설",
+          "predicted_prob": 63.1,
+          "grade": "A",
+          "actual_high_pct": 0.4,
+          "actual_close_pct": -5.1,
+          "hit": false
+        },
+        {
+          "ticker": "000720",
+          "name": "현대건설",
+          "predicted_prob": 59.2,
+          "grade": "A",
+          "actual_high_pct": 0.8,
+          "actual_close_pct": -0.6,
+          "hit": false
+        },
+        {
+          "ticker": "010690",
+          "name": "화신",
+          "predicted_prob": 52.3,
+          "grade": "A",
+          "actual_high_pct": 0.6,
+          "actual_close_pct": -5.7,
+          "hit": false
+        },
+        {
+          "ticker": "009420",
+          "name": "한올바이오파마",
+          "predicted_prob": 50.7,
+          "grade": "A",
+          "actual_high_pct": 1.8,
+          "actual_close_pct": 0.6,
+          "hit": false
+        },
+        {
+          "ticker": "007860",
+          "name": "서연",
+          "predicted_prob": 48.6,
+          "grade": "B",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -3.3,
+          "hit": false
+        },
+        {
+          "ticker": "009320",
+          "name": "아진전자부품",
+          "predicted_prob": 47.7,
+          "grade": "B",
+          "actual_high_pct": 3.1,
+          "actual_close_pct": -1.7,
+          "hit": true
+        },
+        {
+          "ticker": "012610",
+          "name": "경인양행",
+          "predicted_prob": 45.6,
+          "grade": "B",
+          "actual_high_pct": 1.8,
+          "actual_close_pct": -1.1,
+          "hit": false
+        },
+        {
+          "ticker": "012450",
+          "name": "한화에어로스페이스",
+          "predicted_prob": 44.4,
+          "grade": "B",
+          "actual_high_pct": 1.7,
+          "actual_close_pct": 1.1,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2026-01-15",
+      "next_trading_date": "2026-01-16",
+      "total": 10,
+      "hits": 6,
+      "hit_rate": 60.0,
+      "results": [
+        {
+          "ticker": "272210",
+          "name": "한화시스템",
+          "predicted_prob": 85.9,
+          "grade": "A",
+          "actual_high_pct": 1.2,
+          "actual_close_pct": -4.5,
+          "hit": false
+        },
+        {
+          "ticker": "000880",
+          "name": "한화",
+          "predicted_prob": 79.8,
+          "grade": "A",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -7.2,
+          "hit": false
+        },
+        {
+          "ticker": "007810",
+          "name": "코리아써키트",
+          "predicted_prob": 76.4,
+          "grade": "A",
+          "actual_high_pct": 8.8,
+          "actual_close_pct": 5.2,
+          "hit": true
+        },
+        {
+          "ticker": "004800",
+          "name": "효성",
+          "predicted_prob": 65.5,
+          "grade": "A",
+          "actual_high_pct": 2.7,
+          "actual_close_pct": -1.6,
+          "hit": true
+        },
+        {
+          "ticker": "000720",
+          "name": "현대건설",
+          "predicted_prob": 59.0,
+          "grade": "A",
+          "actual_high_pct": 6.3,
+          "actual_close_pct": 4.7,
+          "hit": true
+        },
+        {
+          "ticker": "298040",
+          "name": "효성중공업",
+          "predicted_prob": 53.7,
+          "grade": "A",
+          "actual_high_pct": 3.5,
+          "actual_close_pct": 2.6,
+          "hit": true
+        },
+        {
+          "ticker": "005385",
+          "name": "현대차우",
+          "predicted_prob": 52.9,
+          "grade": "A",
+          "actual_high_pct": 3.8,
+          "actual_close_pct": -0.7,
+          "hit": true
+        },
+        {
+          "ticker": "064400",
+          "name": "LG씨엔에스",
+          "predicted_prob": 51.0,
+          "grade": "A",
+          "actual_high_pct": 2.3,
+          "actual_close_pct": -8.7,
+          "hit": true
+        },
+        {
+          "ticker": "000270",
+          "name": "기아",
+          "predicted_prob": 50.2,
+          "grade": "A",
+          "actual_high_pct": 0.9,
+          "actual_close_pct": -4.4,
+          "hit": false
+        },
+        {
+          "ticker": "042660",
+          "name": "한화오션",
+          "predicted_prob": 49.2,
+          "grade": "B",
+          "actual_high_pct": 0.9,
+          "actual_close_pct": -1.9,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2026-01-14",
+      "next_trading_date": "2026-01-15",
+      "total": 10,
+      "hits": 6,
+      "hit_rate": 60.0,
+      "results": [
+        {
+          "ticker": "000720",
+          "name": "현대건설",
+          "predicted_prob": 52.2,
+          "grade": "A",
+          "actual_high_pct": 6.4,
+          "actual_close_pct": 6.3,
+          "hit": true
+        },
+        {
+          "ticker": "052690",
+          "name": "한전기술",
+          "predicted_prob": 52.2,
+          "grade": "A",
+          "actual_high_pct": 0.7,
+          "actual_close_pct": -1.0,
+          "hit": false
+        },
+        {
+          "ticker": "336260",
+          "name": "두산퓨얼셀",
+          "predicted_prob": 52.2,
+          "grade": "A",
+          "actual_high_pct": 1.7,
+          "actual_close_pct": -1.4,
+          "hit": false
+        },
+        {
+          "ticker": "010120",
+          "name": "LS ELECTRIC",
+          "predicted_prob": 49.9,
+          "grade": "B",
+          "actual_high_pct": 3.0,
+          "actual_close_pct": -1.9,
+          "hit": true
+        },
+        {
+          "ticker": "000990",
+          "name": "DB하이텍",
+          "predicted_prob": 48.5,
+          "grade": "B",
+          "actual_high_pct": 2.5,
+          "actual_close_pct": 2.0,
+          "hit": true
+        },
+        {
+          "ticker": "267250",
+          "name": "HD현대",
+          "predicted_prob": 45.9,
+          "grade": "B",
+          "actual_high_pct": 3.3,
+          "actual_close_pct": -2.9,
+          "hit": true
+        },
+        {
+          "ticker": "000270",
+          "name": "기아",
+          "predicted_prob": 43.0,
+          "grade": "B",
+          "actual_high_pct": 6.8,
+          "actual_close_pct": 6.8,
+          "hit": true
+        },
+        {
+          "ticker": "033530",
+          "name": "SJG세종",
+          "predicted_prob": 42.6,
+          "grade": "B",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -2.4,
+          "hit": false
+        },
+        {
+          "ticker": "005385",
+          "name": "현대차우",
+          "predicted_prob": 38.7,
+          "grade": "C",
+          "actual_high_pct": 6.2,
+          "actual_close_pct": 6.2,
+          "hit": true
+        },
+        {
+          "ticker": "006260",
+          "name": "LS",
+          "predicted_prob": 35.8,
+          "grade": "C",
+          "actual_high_pct": 1.6,
+          "actual_close_pct": -0.4,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2026-01-13",
+      "next_trading_date": "2026-01-14",
+      "total": 10,
+      "hits": 6,
+      "hit_rate": 60.0,
+      "results": [
+        {
+          "ticker": "012450",
+          "name": "한화에어로스페이스",
+          "predicted_prob": 57.0,
+          "grade": "A",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -0.8,
+          "hit": false
+        },
+        {
+          "ticker": "005385",
+          "name": "현대차우",
+          "predicted_prob": 52.5,
+          "grade": "A",
+          "actual_high_pct": 2.7,
+          "actual_close_pct": 2.7,
+          "hit": true
+        },
+        {
+          "ticker": "000880",
+          "name": "한화",
+          "predicted_prob": 52.1,
+          "grade": "A",
+          "actual_high_pct": 29.8,
+          "actual_close_pct": 27.6,
+          "hit": true
+        },
+        {
+          "ticker": "036570",
+          "name": "엔씨소프트",
+          "predicted_prob": 47.2,
+          "grade": "B",
+          "actual_high_pct": 5.5,
+          "actual_close_pct": 1.0,
+          "hit": true
+        },
+        {
+          "ticker": "005490",
+          "name": "POSCO홀딩스",
+          "predicted_prob": 47.2,
+          "grade": "B",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -2.1,
+          "hit": false
+        },
+        {
+          "ticker": "064350",
+          "name": "현대로템",
+          "predicted_prob": 45.2,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -2.6,
+          "hit": false
+        },
+        {
+          "ticker": "024900",
+          "name": "디와이덕양",
+          "predicted_prob": 44.8,
+          "grade": "B",
+          "actual_high_pct": 2.6,
+          "actual_close_pct": -0.4,
+          "hit": true
+        },
+        {
+          "ticker": "336260",
+          "name": "두산퓨얼셀",
+          "predicted_prob": 42.9,
+          "grade": "B",
+          "actual_high_pct": 15.1,
+          "actual_close_pct": 10.1,
+          "hit": true
+        },
+        {
+          "ticker": "000720",
+          "name": "현대건설",
+          "predicted_prob": 42.2,
+          "grade": "B",
+          "actual_high_pct": 8.8,
+          "actual_close_pct": 3.2,
+          "hit": true
+        },
+        {
+          "ticker": "015760",
+          "name": "한국전력",
+          "predicted_prob": 41.0,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -2.5,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2026-01-12",
+      "next_trading_date": "2026-01-13",
+      "total": 10,
+      "hits": 6,
+      "hit_rate": 60.0,
+      "results": [
+        {
+          "ticker": "000720",
+          "name": "현대건설",
+          "predicted_prob": 77.6,
+          "grade": "A",
+          "actual_high_pct": 3.6,
+          "actual_close_pct": 3.6,
+          "hit": true
+        },
+        {
+          "ticker": "105840",
+          "name": "우진",
+          "predicted_prob": 65.8,
+          "grade": "A",
+          "actual_high_pct": 2.7,
+          "actual_close_pct": 2.5,
+          "hit": true
+        },
+        {
+          "ticker": "082740",
+          "name": "한화엔진",
+          "predicted_prob": 58.0,
+          "grade": "A",
+          "actual_high_pct": 1.9,
+          "actual_close_pct": 0.6,
+          "hit": false
+        },
+        {
+          "ticker": "272210",
+          "name": "한화시스템",
+          "predicted_prob": 57.1,
+          "grade": "A",
+          "actual_high_pct": 17.7,
+          "actual_close_pct": 14.6,
+          "hit": true
+        },
+        {
+          "ticker": "009320",
+          "name": "아진전자부품",
+          "predicted_prob": 56.9,
+          "grade": "A",
+          "actual_high_pct": 16.0,
+          "actual_close_pct": 2.6,
+          "hit": true
+        },
+        {
+          "ticker": "267250",
+          "name": "HD현대",
+          "predicted_prob": 56.4,
+          "grade": "A",
+          "actual_high_pct": 1.5,
+          "actual_close_pct": 1.1,
+          "hit": false
+        },
+        {
+          "ticker": "017960",
+          "name": "한국카본",
+          "predicted_prob": 55.6,
+          "grade": "A",
+          "actual_high_pct": 1.4,
+          "actual_close_pct": -3.3,
+          "hit": false
+        },
+        {
+          "ticker": "267270",
+          "name": "HD건설기계",
+          "predicted_prob": 55.5,
+          "grade": "A",
+          "actual_high_pct": 2.4,
+          "actual_close_pct": 1.1,
+          "hit": true
+        },
+        {
+          "ticker": "042660",
+          "name": "한화오션",
+          "predicted_prob": 50.1,
+          "grade": "A",
+          "actual_high_pct": 3.7,
+          "actual_close_pct": 3.7,
+          "hit": true
+        },
+        {
+          "ticker": "241560",
+          "name": "두산밥캣",
+          "predicted_prob": 44.8,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -2.7,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2026-01-09",
+      "next_trading_date": "2026-01-12",
+      "total": 10,
+      "hits": 5,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "017960",
+          "name": "한국카본",
+          "predicted_prob": 80.4,
+          "grade": "A",
+          "actual_high_pct": 8.6,
+          "actual_close_pct": 5.3,
+          "hit": true
+        },
+        {
+          "ticker": "023810",
+          "name": "인팩",
+          "predicted_prob": 67.6,
+          "grade": "A",
+          "actual_high_pct": 1.5,
+          "actual_close_pct": 0.3,
+          "hit": false
+        },
+        {
+          "ticker": "012450",
+          "name": "한화에어로스페이스",
+          "predicted_prob": 62.4,
+          "grade": "A",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -3.5,
+          "hit": false
+        },
+        {
+          "ticker": "000860",
+          "name": "강남제비스코",
+          "predicted_prob": 58.1,
+          "grade": "A",
+          "actual_high_pct": 1.8,
+          "actual_close_pct": 0.6,
+          "hit": false
+        },
+        {
+          "ticker": "009320",
+          "name": "아진전자부품",
+          "predicted_prob": 55.8,
+          "grade": "A",
+          "actual_high_pct": 7.7,
+          "actual_close_pct": 3.5,
+          "hit": true
+        },
+        {
+          "ticker": "010100",
+          "name": "한국무브넥스",
+          "predicted_prob": 53.5,
+          "grade": "A",
+          "actual_high_pct": 16.4,
+          "actual_close_pct": 6.1,
+          "hit": true
+        },
+        {
+          "ticker": "077970",
+          "name": "STX엔진",
+          "predicted_prob": 50.6,
+          "grade": "A",
+          "actual_high_pct": 2.7,
+          "actual_close_pct": 0.9,
+          "hit": true
+        },
+        {
+          "ticker": "008700",
+          "name": "아남전자",
+          "predicted_prob": 49.2,
+          "grade": "B",
+          "actual_high_pct": 2.1,
+          "actual_close_pct": -2.1,
+          "hit": true
+        },
+        {
+          "ticker": "075580",
+          "name": "세진중공업",
+          "predicted_prob": 48.5,
+          "grade": "B",
+          "actual_high_pct": 0.5,
+          "actual_close_pct": -1.7,
+          "hit": false
+        },
+        {
+          "ticker": "005385",
+          "name": "현대차우",
+          "predicted_prob": 48.5,
+          "grade": "B",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -4.0,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2026-01-08",
+      "next_trading_date": "2026-01-09",
+      "total": 10,
+      "hits": 7,
+      "hit_rate": 70.0,
+      "results": [
+        {
+          "ticker": "000860",
+          "name": "강남제비스코",
+          "predicted_prob": 55.7,
+          "grade": "A",
+          "actual_high_pct": 12.2,
+          "actual_close_pct": 7.7,
+          "hit": true
+        },
+        {
+          "ticker": "000660",
+          "name": "SK하이닉스",
+          "predicted_prob": 49.1,
+          "grade": "B",
+          "actual_high_pct": 1.6,
+          "actual_close_pct": 0.0,
+          "hit": false
+        },
+        {
+          "ticker": "012450",
+          "name": "한화에어로스페이스",
+          "predicted_prob": 46.6,
+          "grade": "B",
+          "actual_high_pct": 10.7,
+          "actual_close_pct": 10.3,
+          "hit": true
+        },
+        {
+          "ticker": "009420",
+          "name": "한올바이오파마",
+          "predicted_prob": 43.9,
+          "grade": "B",
+          "actual_high_pct": 1.2,
+          "actual_close_pct": -2.9,
+          "hit": false
+        },
+        {
+          "ticker": "042660",
+          "name": "한화오션",
+          "predicted_prob": 43.0,
+          "grade": "B",
+          "actual_high_pct": 4.0,
+          "actual_close_pct": 3.8,
+          "hit": true
+        },
+        {
+          "ticker": "005870",
+          "name": "휴니드",
+          "predicted_prob": 42.1,
+          "grade": "B",
+          "actual_high_pct": 2.2,
+          "actual_close_pct": -5.3,
+          "hit": true
+        },
+        {
+          "ticker": "036570",
+          "name": "엔씨소프트",
+          "predicted_prob": 41.9,
+          "grade": "B",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -2.2,
+          "hit": false
+        },
+        {
+          "ticker": "071970",
+          "name": "HD현대마린엔진",
+          "predicted_prob": 41.6,
+          "grade": "B",
+          "actual_high_pct": 4.8,
+          "actual_close_pct": 4.8,
+          "hit": true
+        },
+        {
+          "ticker": "003570",
+          "name": "SNT다이내믹스",
+          "predicted_prob": 40.2,
+          "grade": "B",
+          "actual_high_pct": 6.2,
+          "actual_close_pct": 2.8,
+          "hit": true
+        },
+        {
+          "ticker": "097230",
+          "name": "HJ중공업",
+          "predicted_prob": 39.5,
+          "grade": "C",
+          "actual_high_pct": 3.5,
+          "actual_close_pct": 3.3,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "date": "2026-01-07",
+      "next_trading_date": "2026-01-08",
+      "total": 10,
+      "hits": 6,
+      "hit_rate": 60.0,
+      "results": [
+        {
+          "ticker": "005380",
+          "name": "현대차",
+          "predicted_prob": 67.6,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -5.7,
+          "hit": false
+        },
+        {
+          "ticker": "042700",
+          "name": "한미반도체",
+          "predicted_prob": 65.0,
+          "grade": "A",
+          "actual_high_pct": 10.0,
+          "actual_close_pct": 1.6,
+          "hit": true
+        },
+        {
+          "ticker": "123690",
+          "name": "한국화장품",
+          "predicted_prob": 64.9,
+          "grade": "A",
+          "actual_high_pct": 3.0,
+          "actual_close_pct": -2.5,
+          "hit": true
+        },
+        {
+          "ticker": "009420",
+          "name": "한올바이오파마",
+          "predicted_prob": 51.9,
+          "grade": "A",
+          "actual_high_pct": 4.3,
+          "actual_close_pct": 2.5,
+          "hit": true
+        },
+        {
+          "ticker": "005385",
+          "name": "현대차우",
+          "predicted_prob": 49.5,
+          "grade": "B",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -6.2,
+          "hit": false
+        },
+        {
+          "ticker": "097230",
+          "name": "HJ중공업",
+          "predicted_prob": 48.7,
+          "grade": "B",
+          "actual_high_pct": 5.0,
+          "actual_close_pct": 2.9,
+          "hit": true
+        },
+        {
+          "ticker": "005930",
+          "name": "삼성전자",
+          "predicted_prob": 45.4,
+          "grade": "B",
+          "actual_high_pct": 4.5,
+          "actual_close_pct": 0.4,
+          "hit": true
+        },
+        {
+          "ticker": "005387",
+          "name": "현대차2우B",
+          "predicted_prob": 44.3,
+          "grade": "B",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -5.6,
+          "hit": false
+        },
+        {
+          "ticker": "000660",
+          "name": "SK하이닉스",
+          "predicted_prob": 43.0,
+          "grade": "B",
+          "actual_high_pct": 7.8,
+          "actual_close_pct": 3.4,
+          "hit": true
+        },
+        {
+          "ticker": "454910",
+          "name": "두산로보틱스",
+          "predicted_prob": 42.3,
+          "grade": "B",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -2.8,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2026-01-06",
+      "next_trading_date": "2026-01-07",
+      "total": 10,
+      "hits": 3,
+      "hit_rate": 30.0,
+      "results": [
+        {
+          "ticker": "003160",
+          "name": "디아이",
+          "predicted_prob": 80.6,
+          "grade": "A",
+          "actual_high_pct": 0.5,
+          "actual_close_pct": -6.7,
+          "hit": false
+        },
+        {
+          "ticker": "042700",
+          "name": "한미반도체",
+          "predicted_prob": 71.3,
+          "grade": "A",
+          "actual_high_pct": 1.4,
+          "actual_close_pct": -4.0,
+          "hit": false
+        },
+        {
+          "ticker": "006800",
+          "name": "미래에셋증권",
+          "predicted_prob": 63.1,
+          "grade": "A",
+          "actual_high_pct": 0.9,
+          "actual_close_pct": -2.4,
+          "hit": false
+        },
+        {
+          "ticker": "047810",
+          "name": "한국항공우주",
+          "predicted_prob": 57.8,
+          "grade": "A",
+          "actual_high_pct": 1.6,
+          "actual_close_pct": 1.0,
+          "hit": false
+        },
+        {
+          "ticker": "000500",
+          "name": "가온전선",
+          "predicted_prob": 54.8,
+          "grade": "A",
+          "actual_high_pct": 1.7,
+          "actual_close_pct": -5.6,
+          "hit": false
+        },
+        {
+          "ticker": "000660",
+          "name": "SK하이닉스",
+          "predicted_prob": 45.5,
+          "grade": "B",
+          "actual_high_pct": 0.3,
+          "actual_close_pct": -2.4,
+          "hit": false
+        },
+        {
+          "ticker": "021050",
+          "name": "서원",
+          "predicted_prob": 45.0,
+          "grade": "B",
+          "actual_high_pct": 4.1,
+          "actual_close_pct": -2.4,
+          "hit": true
+        },
+        {
+          "ticker": "267270",
+          "name": "HD건설기계",
+          "predicted_prob": 44.5,
+          "grade": "B",
+          "actual_high_pct": 3.5,
+          "actual_close_pct": -0.6,
+          "hit": true
+        },
+        {
+          "ticker": "011500",
+          "name": "한농화성",
+          "predicted_prob": 41.7,
+          "grade": "B",
+          "actual_high_pct": 0.4,
+          "actual_close_pct": -4.3,
+          "hit": false
+        },
+        {
+          "ticker": "097520",
+          "name": "엠씨넥스",
+          "predicted_prob": 40.3,
+          "grade": "B",
+          "actual_high_pct": 6.1,
+          "actual_close_pct": 3.4,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "date": "2026-01-05",
+      "next_trading_date": "2026-01-06",
+      "total": 10,
+      "hits": 5,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "014910",
+          "name": "성문전자",
+          "predicted_prob": 98.7,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -11.6,
+          "hit": false
+        },
+        {
+          "ticker": "042700",
+          "name": "한미반도체",
+          "predicted_prob": 72.2,
+          "grade": "A",
+          "actual_high_pct": 8.7,
+          "actual_close_pct": 8.7,
+          "hit": true
+        },
+        {
+          "ticker": "010580",
+          "name": "에스엠벡셀",
+          "predicted_prob": 55.1,
+          "grade": "A",
+          "actual_high_pct": 1.1,
+          "actual_close_pct": -6.1,
+          "hit": false
+        },
+        {
+          "ticker": "402340",
+          "name": "SK스퀘어",
+          "predicted_prob": 54.9,
+          "grade": "A",
+          "actual_high_pct": 6.1,
+          "actual_close_pct": 5.5,
+          "hit": true
+        },
+        {
+          "ticker": "005930",
+          "name": "삼성전자",
+          "predicted_prob": 52.2,
+          "grade": "A",
+          "actual_high_pct": 3.0,
+          "actual_close_pct": 2.7,
+          "hit": true
+        },
+        {
+          "ticker": "005935",
+          "name": "삼성전자우",
+          "predicted_prob": 47.6,
+          "grade": "B",
+          "actual_high_pct": 2.5,
+          "actual_close_pct": 2.5,
+          "hit": true
+        },
+        {
+          "ticker": "009420",
+          "name": "한올바이오파마",
+          "predicted_prob": 47.4,
+          "grade": "B",
+          "actual_high_pct": 4.0,
+          "actual_close_pct": 0.0,
+          "hit": true
+        },
+        {
+          "ticker": "001440",
+          "name": "대한전선",
+          "predicted_prob": 45.2,
+          "grade": "B",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -3.2,
+          "hit": false
+        },
+        {
+          "ticker": "025820",
+          "name": "이구산업",
+          "predicted_prob": 44.6,
+          "grade": "B",
+          "actual_high_pct": 1.9,
+          "actual_close_pct": -1.4,
+          "hit": false
+        },
+        {
+          "ticker": "103590",
+          "name": "일진전기",
+          "predicted_prob": 42.2,
+          "grade": "B",
+          "actual_high_pct": 0.6,
+          "actual_close_pct": -1.7,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2026-01-02",
+      "next_trading_date": "2026-01-05",
+      "total": 10,
+      "hits": 5,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "308170",
+          "name": "씨티알모빌리티",
+          "predicted_prob": 98.7,
+          "grade": "A",
+          "actual_high_pct": 8.0,
+          "actual_close_pct": 3.4,
+          "hit": true
+        },
+        {
+          "ticker": "093240",
+          "name": "형지엘리트",
+          "predicted_prob": 98.2,
+          "grade": "A",
+          "actual_high_pct": 30.3,
+          "actual_close_pct": 8.1,
+          "hit": true
+        },
+        {
+          "ticker": "003160",
+          "name": "디아이",
+          "predicted_prob": 50.2,
+          "grade": "A",
+          "actual_high_pct": 1.4,
+          "actual_close_pct": -1.0,
+          "hit": false
+        },
+        {
+          "ticker": "005930",
+          "name": "삼성전자",
+          "predicted_prob": 47.0,
+          "grade": "B",
+          "actual_high_pct": 3.0,
+          "actual_close_pct": 2.6,
+          "hit": true
+        },
+        {
+          "ticker": "214420",
+          "name": "토니모리",
+          "predicted_prob": 46.4,
+          "grade": "B",
+          "actual_high_pct": 0.6,
+          "actual_close_pct": -4.1,
+          "hit": false
+        },
+        {
+          "ticker": "003580",
+          "name": "HLB글로벌",
+          "predicted_prob": 40.5,
+          "grade": "B",
+          "actual_high_pct": 2.5,
+          "actual_close_pct": 1.8,
+          "hit": true
+        },
+        {
+          "ticker": "000990",
+          "name": "DB하이텍",
+          "predicted_prob": 38.3,
+          "grade": "C",
+          "actual_high_pct": 2.1,
+          "actual_close_pct": 0.7,
+          "hit": true
+        },
+        {
+          "ticker": "352820",
+          "name": "하이브",
+          "predicted_prob": 37.2,
+          "grade": "C",
+          "actual_high_pct": 0.7,
+          "actual_close_pct": -3.8,
+          "hit": false
+        },
+        {
+          "ticker": "009150",
+          "name": "삼성전기",
+          "predicted_prob": 36.6,
+          "grade": "C",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -1.5,
+          "hit": false
+        },
+        {
+          "ticker": "281820",
+          "name": "케이씨텍",
+          "predicted_prob": 36.0,
+          "grade": "C",
+          "actual_high_pct": 0.3,
+          "actual_close_pct": -0.9,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2025-12-30",
+      "next_trading_date": "2026-01-02",
+      "total": 10,
+      "hits": 6,
+      "hit_rate": 60.0,
+      "results": [
+        {
+          "ticker": "18064K",
+          "name": "한진칼우",
+          "predicted_prob": 63.6,
+          "grade": "A",
+          "actual_high_pct": 1.0,
+          "actual_close_pct": -4.2,
+          "hit": false
+        },
+        {
+          "ticker": "007810",
+          "name": "코리아써키트",
+          "predicted_prob": 63.4,
+          "grade": "A",
+          "actual_high_pct": 0.6,
+          "actual_close_pct": -1.4,
+          "hit": false
+        },
+        {
+          "ticker": "402340",
+          "name": "SK스퀘어",
+          "predicted_prob": 48.3,
+          "grade": "B",
+          "actual_high_pct": 6.4,
+          "actual_close_pct": 6.4,
+          "hit": true
+        },
+        {
+          "ticker": "037270",
+          "name": "YG PLUS",
+          "predicted_prob": 39.6,
+          "grade": "C",
+          "actual_high_pct": 0.8,
+          "actual_close_pct": -0.4,
+          "hit": false
+        },
+        {
+          "ticker": "003580",
+          "name": "HLB글로벌",
+          "predicted_prob": 37.4,
+          "grade": "C",
+          "actual_high_pct": 4.2,
+          "actual_close_pct": 2.5,
+          "hit": true
+        },
+        {
+          "ticker": "001260",
+          "name": "남광토건",
+          "predicted_prob": 33.7,
+          "grade": "C",
+          "actual_high_pct": 6.9,
+          "actual_close_pct": 0.6,
+          "hit": true
+        },
+        {
+          "ticker": "352820",
+          "name": "하이브",
+          "predicted_prob": 31.4,
+          "grade": "C",
+          "actual_high_pct": 2.6,
+          "actual_close_pct": 1.8,
+          "hit": true
+        },
+        {
+          "ticker": "012630",
+          "name": "HDC",
+          "predicted_prob": 31.2,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -5.1,
+          "hit": false
+        },
+        {
+          "ticker": "077500",
+          "name": "유니퀘스트",
+          "predicted_prob": 28.7,
+          "grade": "D",
+          "actual_high_pct": 3.0,
+          "actual_close_pct": 1.7,
+          "hit": true
+        },
+        {
+          "ticker": "281820",
+          "name": "케이씨텍",
+          "predicted_prob": 28.4,
+          "grade": "D",
+          "actual_high_pct": 5.7,
+          "actual_close_pct": 5.7,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "date": "2025-12-29",
+      "next_trading_date": "2025-12-30",
+      "total": 10,
+      "hits": 3,
+      "hit_rate": 30.0,
+      "results": [
+        {
+          "ticker": "025820",
+          "name": "이구산업",
+          "predicted_prob": 69.4,
+          "grade": "A",
+          "actual_high_pct": 0.7,
+          "actual_close_pct": -4.1,
+          "hit": false
+        },
+        {
+          "ticker": "007810",
+          "name": "코리아써키트",
+          "predicted_prob": 53.9,
+          "grade": "A",
+          "actual_high_pct": 13.0,
+          "actual_close_pct": 10.5,
+          "hit": true
+        },
+        {
+          "ticker": "022100",
+          "name": "포스코DX",
+          "predicted_prob": 49.2,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -3.8,
+          "hit": false
+        },
+        {
+          "ticker": "006345",
+          "name": "대원전선우",
+          "predicted_prob": 42.3,
+          "grade": "B",
+          "actual_high_pct": 0.4,
+          "actual_close_pct": -2.1,
+          "hit": false
+        },
+        {
+          "ticker": "000660",
+          "name": "SK하이닉스",
+          "predicted_prob": 42.1,
+          "grade": "B",
+          "actual_high_pct": 3.1,
+          "actual_close_pct": 1.9,
+          "hit": true
+        },
+        {
+          "ticker": "012450",
+          "name": "한화에어로스페이스",
+          "predicted_prob": 40.2,
+          "grade": "B",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -2.3,
+          "hit": false
+        },
+        {
+          "ticker": "001440",
+          "name": "대한전선",
+          "predicted_prob": 39.7,
+          "grade": "C",
+          "actual_high_pct": 0.9,
+          "actual_close_pct": -1.5,
+          "hit": false
+        },
+        {
+          "ticker": "047810",
+          "name": "한국항공우주",
+          "predicted_prob": 38.0,
+          "grade": "C",
+          "actual_high_pct": 0.5,
+          "actual_close_pct": -1.1,
+          "hit": false
+        },
+        {
+          "ticker": "010100",
+          "name": "한국무브넥스",
+          "predicted_prob": 37.7,
+          "grade": "C",
+          "actual_high_pct": 4.3,
+          "actual_close_pct": -1.9,
+          "hit": true
+        },
+        {
+          "ticker": "000490",
+          "name": "대동",
+          "predicted_prob": 29.2,
+          "grade": "D",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -2.3,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2025-12-26",
+      "next_trading_date": "2025-12-29",
+      "total": 10,
+      "hits": 2,
+      "hit_rate": 20.0,
+      "results": [
+        {
+          "ticker": "004310",
+          "name": "현대약품",
+          "predicted_prob": 93.0,
+          "grade": "A",
+          "actual_high_pct": 8.0,
+          "actual_close_pct": 0.7,
+          "hit": true
+        },
+        {
+          "ticker": "023810",
+          "name": "인팩",
+          "predicted_prob": 72.1,
+          "grade": "A",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -6.9,
+          "hit": false
+        },
+        {
+          "ticker": "014280",
+          "name": "금강공업",
+          "predicted_prob": 51.0,
+          "grade": "A",
+          "actual_high_pct": 0.3,
+          "actual_close_pct": -16.6,
+          "hit": false
+        },
+        {
+          "ticker": "019180",
+          "name": "티에이치엔",
+          "predicted_prob": 45.8,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -2.3,
+          "hit": false
+        },
+        {
+          "ticker": "122900",
+          "name": "아이마켓코리아",
+          "predicted_prob": 31.1,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -2.0,
+          "hit": false
+        },
+        {
+          "ticker": "005930",
+          "name": "삼성전자",
+          "predicted_prob": 29.2,
+          "grade": "D",
+          "actual_high_pct": 0.3,
+          "actual_close_pct": 0.1,
+          "hit": false
+        },
+        {
+          "ticker": "005935",
+          "name": "삼성전자우",
+          "predicted_prob": 27.5,
+          "grade": "D",
+          "actual_high_pct": 0.4,
+          "actual_close_pct": -0.2,
+          "hit": false
+        },
+        {
+          "ticker": "030210",
+          "name": "다올투자증권",
+          "predicted_prob": 26.8,
+          "grade": "D",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -2.4,
+          "hit": false
+        },
+        {
+          "ticker": "039490",
+          "name": "키움증권",
+          "predicted_prob": 25.9,
+          "grade": "D",
+          "actual_high_pct": 3.5,
+          "actual_close_pct": 2.8,
+          "hit": true
+        },
+        {
+          "ticker": "000660",
+          "name": "SK하이닉스",
+          "predicted_prob": 24.8,
+          "grade": "D",
+          "actual_high_pct": 1.6,
+          "actual_close_pct": 1.6,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2025-12-24",
+      "next_trading_date": "2025-12-26",
+      "total": 10,
+      "hits": 1,
+      "hit_rate": 10.0,
+      "results": [
+        {
+          "ticker": "004310",
+          "name": "현대약품",
+          "predicted_prob": 74.5,
+          "grade": "A",
+          "actual_high_pct": 24.6,
+          "actual_close_pct": 15.6,
+          "hit": true
+        },
+        {
+          "ticker": "047810",
+          "name": "한국항공우주",
+          "predicted_prob": 34.1,
+          "grade": "C",
+          "actual_high_pct": 0.8,
+          "actual_close_pct": -3.5,
+          "hit": false
+        },
+        {
+          "ticker": "011150",
+          "name": "CJ씨푸드",
+          "predicted_prob": 33.6,
+          "grade": "C",
+          "actual_high_pct": 0.9,
+          "actual_close_pct": -1.7,
+          "hit": false
+        },
+        {
+          "ticker": "006260",
+          "name": "LS",
+          "predicted_prob": 32.8,
+          "grade": "C",
+          "actual_high_pct": 0.6,
+          "actual_close_pct": -2.8,
+          "hit": false
+        },
+        {
+          "ticker": "009160",
+          "name": "SIMPAC",
+          "predicted_prob": 32.6,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -2.0,
+          "hit": false
+        },
+        {
+          "ticker": "084680",
+          "name": "이월드",
+          "predicted_prob": 31.9,
+          "grade": "C",
+          "actual_high_pct": 0.4,
+          "actual_close_pct": -0.3,
+          "hit": false
+        },
+        {
+          "ticker": "001450",
+          "name": "현대해상",
+          "predicted_prob": 27.1,
+          "grade": "D",
+          "actual_high_pct": 1.3,
+          "actual_close_pct": -2.9,
+          "hit": false
+        },
+        {
+          "ticker": "003490",
+          "name": "대한항공",
+          "predicted_prob": 26.6,
+          "grade": "D",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.5,
+          "hit": false
+        },
+        {
+          "ticker": "016380",
+          "name": "KG스틸",
+          "predicted_prob": 23.5,
+          "grade": "D",
+          "actual_high_pct": 0.9,
+          "actual_close_pct": -0.5,
+          "hit": false
+        },
+        {
+          "ticker": "034310",
+          "name": "NICE",
+          "predicted_prob": 22.2,
+          "grade": "D",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -2.9,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2025-12-23",
+      "next_trading_date": "2025-12-24",
+      "total": 10,
+      "hits": 7,
+      "hit_rate": 70.0,
+      "results": [
+        {
+          "ticker": "022100",
+          "name": "포스코DX",
+          "predicted_prob": 54.7,
+          "grade": "A",
+          "actual_high_pct": 3.8,
+          "actual_close_pct": -2.2,
+          "hit": true
+        },
+        {
+          "ticker": "272210",
+          "name": "한화시스템",
+          "predicted_prob": 50.6,
+          "grade": "A",
+          "actual_high_pct": 2.0,
+          "actual_close_pct": -5.7,
+          "hit": true
+        },
+        {
+          "ticker": "010780",
+          "name": "아이에스동서",
+          "predicted_prob": 48.7,
+          "grade": "B",
+          "actual_high_pct": 0.8,
+          "actual_close_pct": 0.6,
+          "hit": false
+        },
+        {
+          "ticker": "071970",
+          "name": "HD현대마린엔진",
+          "predicted_prob": 44.1,
+          "grade": "B",
+          "actual_high_pct": 2.8,
+          "actual_close_pct": -3.2,
+          "hit": true
+        },
+        {
+          "ticker": "033530",
+          "name": "SJG세종",
+          "predicted_prob": 40.0,
+          "grade": "B",
+          "actual_high_pct": 14.3,
+          "actual_close_pct": 12.4,
+          "hit": true
+        },
+        {
+          "ticker": "088350",
+          "name": "한화생명",
+          "predicted_prob": 38.4,
+          "grade": "C",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -0.9,
+          "hit": false
+        },
+        {
+          "ticker": "082740",
+          "name": "한화엔진",
+          "predicted_prob": 37.0,
+          "grade": "C",
+          "actual_high_pct": 6.6,
+          "actual_close_pct": -3.1,
+          "hit": true
+        },
+        {
+          "ticker": "009160",
+          "name": "SIMPAC",
+          "predicted_prob": 31.3,
+          "grade": "C",
+          "actual_high_pct": 1.8,
+          "actual_close_pct": 0.7,
+          "hit": false
+        },
+        {
+          "ticker": "084680",
+          "name": "이월드",
+          "predicted_prob": 30.0,
+          "grade": "C",
+          "actual_high_pct": 7.0,
+          "actual_close_pct": 3.9,
+          "hit": true
+        },
+        {
+          "ticker": "011150",
+          "name": "CJ씨푸드",
+          "predicted_prob": 29.5,
+          "grade": "D",
+          "actual_high_pct": 2.7,
+          "actual_close_pct": -0.3,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "date": "2025-12-22",
+      "next_trading_date": "2025-12-23",
+      "total": 10,
+      "hits": 4,
+      "hit_rate": 40.0,
+      "results": [
+        {
+          "ticker": "023810",
+          "name": "인팩",
+          "predicted_prob": 78.9,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.7,
+          "hit": false
+        },
+        {
+          "ticker": "033530",
+          "name": "SJG세종",
+          "predicted_prob": 46.7,
+          "grade": "B",
+          "actual_high_pct": 5.1,
+          "actual_close_pct": 2.4,
+          "hit": true
+        },
+        {
+          "ticker": "272210",
+          "name": "한화시스템",
+          "predicted_prob": 42.5,
+          "grade": "B",
+          "actual_high_pct": 6.7,
+          "actual_close_pct": 0.9,
+          "hit": true
+        },
+        {
+          "ticker": "010780",
+          "name": "아이에스동서",
+          "predicted_prob": 41.3,
+          "grade": "B",
+          "actual_high_pct": 5.3,
+          "actual_close_pct": 4.5,
+          "hit": true
+        },
+        {
+          "ticker": "950210",
+          "name": "프레스티지바이오파마",
+          "predicted_prob": 36.3,
+          "grade": "C",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -5.1,
+          "hit": false
+        },
+        {
+          "ticker": "071970",
+          "name": "HD현대마린엔진",
+          "predicted_prob": 35.8,
+          "grade": "C",
+          "actual_high_pct": 6.0,
+          "actual_close_pct": 4.7,
+          "hit": true
+        },
+        {
+          "ticker": "001440",
+          "name": "대한전선",
+          "predicted_prob": 34.7,
+          "grade": "C",
+          "actual_high_pct": 0.4,
+          "actual_close_pct": -3.2,
+          "hit": false
+        },
+        {
+          "ticker": "013570",
+          "name": "디와이",
+          "predicted_prob": 34.2,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -2.6,
+          "hit": false
+        },
+        {
+          "ticker": "005935",
+          "name": "삼성전자우",
+          "predicted_prob": 31.5,
+          "grade": "C",
+          "actual_high_pct": 1.3,
+          "actual_close_pct": 0.5,
+          "hit": false
+        },
+        {
+          "ticker": "010100",
+          "name": "한국무브넥스",
+          "predicted_prob": 31.1,
+          "grade": "C",
+          "actual_high_pct": 1.1,
+          "actual_close_pct": -4.5,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2025-12-19",
+      "next_trading_date": "2025-12-22",
+      "total": 10,
+      "hits": 4,
+      "hit_rate": 40.0,
+      "results": [
+        {
+          "ticker": "272210",
+          "name": "한화시스템",
+          "predicted_prob": 51.7,
+          "grade": "A",
+          "actual_high_pct": 4.2,
+          "actual_close_pct": 2.7,
+          "hit": true
+        },
+        {
+          "ticker": "194370",
+          "name": "제이에스코퍼레이션",
+          "predicted_prob": 45.2,
+          "grade": "B",
+          "actual_high_pct": 0.8,
+          "actual_close_pct": 0.7,
+          "hit": false
+        },
+        {
+          "ticker": "006805",
+          "name": "미래에셋증권우",
+          "predicted_prob": 39.6,
+          "grade": "C",
+          "actual_high_pct": 3.5,
+          "actual_close_pct": -2.3,
+          "hit": true
+        },
+        {
+          "ticker": "000520",
+          "name": "삼일제약",
+          "predicted_prob": 39.0,
+          "grade": "C",
+          "actual_high_pct": 1.7,
+          "actual_close_pct": -9.9,
+          "hit": false
+        },
+        {
+          "ticker": "002920",
+          "name": "유성기업",
+          "predicted_prob": 36.7,
+          "grade": "C",
+          "actual_high_pct": 3.3,
+          "actual_close_pct": 1.6,
+          "hit": true
+        },
+        {
+          "ticker": "035510",
+          "name": "신세계 I&C",
+          "predicted_prob": 36.3,
+          "grade": "C",
+          "actual_high_pct": 1.1,
+          "actual_close_pct": -0.4,
+          "hit": false
+        },
+        {
+          "ticker": "006800",
+          "name": "미래에셋증권",
+          "predicted_prob": 36.2,
+          "grade": "C",
+          "actual_high_pct": 4.4,
+          "actual_close_pct": 0.2,
+          "hit": true
+        },
+        {
+          "ticker": "001060",
+          "name": "JW중외제약",
+          "predicted_prob": 34.5,
+          "grade": "C",
+          "actual_high_pct": 0.7,
+          "actual_close_pct": -1.2,
+          "hit": false
+        },
+        {
+          "ticker": "011150",
+          "name": "CJ씨푸드",
+          "predicted_prob": 33.2,
+          "grade": "C",
+          "actual_high_pct": 0.9,
+          "actual_close_pct": 0.2,
+          "hit": false
+        },
+        {
+          "ticker": "483650",
+          "name": "달바글로벌",
+          "predicted_prob": 33.1,
+          "grade": "C",
+          "actual_high_pct": 0.8,
+          "actual_close_pct": -1.5,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2025-12-18",
+      "next_trading_date": "2025-12-19",
+      "total": 8,
+      "hits": 3,
+      "hit_rate": 37.5,
+      "results": [
+        {
+          "ticker": "006280",
+          "name": "녹십자",
+          "predicted_prob": 38.3,
+          "grade": "C",
+          "actual_high_pct": 0.7,
+          "actual_close_pct": 0.2,
+          "hit": false
+        },
+        {
+          "ticker": "483650",
+          "name": "달바글로벌",
+          "predicted_prob": 37.8,
+          "grade": "C",
+          "actual_high_pct": 0.4,
+          "actual_close_pct": 0.4,
+          "hit": false
+        },
+        {
+          "ticker": "006805",
+          "name": "미래에셋증권우",
+          "predicted_prob": 33.2,
+          "grade": "C",
+          "actual_high_pct": 7.9,
+          "actual_close_pct": 1.2,
+          "hit": true
+        },
+        {
+          "ticker": "138930",
+          "name": "BNK금융지주",
+          "predicted_prob": 27.3,
+          "grade": "D",
+          "actual_high_pct": 0.8,
+          "actual_close_pct": 0.2,
+          "hit": false
+        },
+        {
+          "ticker": "00680K",
+          "name": "미래에셋증권2우B",
+          "predicted_prob": 26.4,
+          "grade": "D",
+          "actual_high_pct": 5.3,
+          "actual_close_pct": 3.9,
+          "hit": true
+        },
+        {
+          "ticker": "000520",
+          "name": "삼일제약",
+          "predicted_prob": 24.1,
+          "grade": "D",
+          "actual_high_pct": 10.7,
+          "actual_close_pct": 8.8,
+          "hit": true
+        },
+        {
+          "ticker": "030000",
+          "name": "제일기획",
+          "predicted_prob": 21.3,
+          "grade": "D",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -0.4,
+          "hit": false
+        },
+        {
+          "ticker": "415640",
+          "name": "KB발해인프라",
+          "predicted_prob": 18.6,
+          "grade": "D",
+          "actual_high_pct": 0.4,
+          "actual_close_pct": 0.4,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2025-12-17",
+      "next_trading_date": "2025-12-18",
+      "total": 10,
+      "hits": 5,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "090370",
+          "name": "메타랩스",
+          "predicted_prob": 95.3,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -18.6,
+          "hit": false
+        },
+        {
+          "ticker": "010780",
+          "name": "아이에스동서",
+          "predicted_prob": 70.6,
+          "grade": "A",
+          "actual_high_pct": 3.3,
+          "actual_close_pct": 0.0,
+          "hit": true
+        },
+        {
+          "ticker": "195870",
+          "name": "해성디에스",
+          "predicted_prob": 62.8,
+          "grade": "A",
+          "actual_high_pct": 4.5,
+          "actual_close_pct": 0.9,
+          "hit": true
+        },
+        {
+          "ticker": "011210",
+          "name": "현대위아",
+          "predicted_prob": 54.4,
+          "grade": "A",
+          "actual_high_pct": 2.5,
+          "actual_close_pct": 1.2,
+          "hit": true
+        },
+        {
+          "ticker": "105630",
+          "name": "한세실업",
+          "predicted_prob": 49.8,
+          "grade": "B",
+          "actual_high_pct": 4.4,
+          "actual_close_pct": 1.8,
+          "hit": true
+        },
+        {
+          "ticker": "017180",
+          "name": "명문제약",
+          "predicted_prob": 48.5,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -4.2,
+          "hit": false
+        },
+        {
+          "ticker": "093050",
+          "name": "LF",
+          "predicted_prob": 44.9,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -3.1,
+          "hit": false
+        },
+        {
+          "ticker": "006280",
+          "name": "녹십자",
+          "predicted_prob": 44.1,
+          "grade": "B",
+          "actual_high_pct": 3.6,
+          "actual_close_pct": 2.1,
+          "hit": true
+        },
+        {
+          "ticker": "088350",
+          "name": "한화생명",
+          "predicted_prob": 37.0,
+          "grade": "C",
+          "actual_high_pct": 0.9,
+          "actual_close_pct": -0.6,
+          "hit": false
+        },
+        {
+          "ticker": "002310",
+          "name": "아세아제지",
+          "predicted_prob": 36.2,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -2.3,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2025-12-16",
+      "next_trading_date": "2025-12-17",
+      "total": 10,
+      "hits": 4,
+      "hit_rate": 40.0,
+      "results": [
+        {
+          "ticker": "007120",
+          "name": "미래아이앤지",
+          "predicted_prob": 88.0,
+          "grade": "A",
+          "actual_high_pct": 2.7,
+          "actual_close_pct": -6.6,
+          "hit": true
+        },
+        {
+          "ticker": "004310",
+          "name": "현대약품",
+          "predicted_prob": 80.8,
+          "grade": "A",
+          "actual_high_pct": 3.8,
+          "actual_close_pct": -8.1,
+          "hit": true
+        },
+        {
+          "ticker": "317400",
+          "name": "자이에스앤디",
+          "predicted_prob": 57.0,
+          "grade": "A",
+          "actual_high_pct": 1.9,
+          "actual_close_pct": -2.7,
+          "hit": false
+        },
+        {
+          "ticker": "006280",
+          "name": "녹십자",
+          "predicted_prob": 41.2,
+          "grade": "B",
+          "actual_high_pct": 3.6,
+          "actual_close_pct": -0.1,
+          "hit": true
+        },
+        {
+          "ticker": "483650",
+          "name": "달바글로벌",
+          "predicted_prob": 39.0,
+          "grade": "C",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -4.2,
+          "hit": false
+        },
+        {
+          "ticker": "002310",
+          "name": "아세아제지",
+          "predicted_prob": 33.6,
+          "grade": "C",
+          "actual_high_pct": 2.1,
+          "actual_close_pct": -0.4,
+          "hit": true
+        },
+        {
+          "ticker": "005250",
+          "name": "녹십자홀딩스",
+          "predicted_prob": 33.0,
+          "grade": "C",
+          "actual_high_pct": 1.2,
+          "actual_close_pct": -1.1,
+          "hit": false
+        },
+        {
+          "ticker": "003850",
+          "name": "보령",
+          "predicted_prob": 31.6,
+          "grade": "C",
+          "actual_high_pct": 1.5,
+          "actual_close_pct": 0.3,
+          "hit": false
+        },
+        {
+          "ticker": "009200",
+          "name": "무림페이퍼",
+          "predicted_prob": 31.3,
+          "grade": "C",
+          "actual_high_pct": 1.7,
+          "actual_close_pct": 1.0,
+          "hit": false
+        },
+        {
+          "ticker": "030190",
+          "name": "NICE평가정보",
+          "predicted_prob": 31.0,
+          "grade": "C",
+          "actual_high_pct": 0.6,
+          "actual_close_pct": -1.2,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2025-12-15",
+      "next_trading_date": "2025-12-16",
+      "total": 10,
+      "hits": 3,
+      "hit_rate": 30.0,
+      "results": [
+        {
+          "ticker": "092200",
+          "name": "디아이씨",
+          "predicted_prob": 80.4,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -8.7,
+          "hit": false
+        },
+        {
+          "ticker": "002220",
+          "name": "한일철강",
+          "predicted_prob": 61.6,
+          "grade": "A",
+          "actual_high_pct": 3.7,
+          "actual_close_pct": -4.9,
+          "hit": true
+        },
+        {
+          "ticker": "011280",
+          "name": "태림포장",
+          "predicted_prob": 55.9,
+          "grade": "A",
+          "actual_high_pct": 1.9,
+          "actual_close_pct": -1.9,
+          "hit": false
+        },
+        {
+          "ticker": "010660",
+          "name": "화천기계",
+          "predicted_prob": 46.0,
+          "grade": "B",
+          "actual_high_pct": 3.0,
+          "actual_close_pct": -0.7,
+          "hit": true
+        },
+        {
+          "ticker": "006110",
+          "name": "삼아알미늄",
+          "predicted_prob": 43.3,
+          "grade": "B",
+          "actual_high_pct": 0.6,
+          "actual_close_pct": -6.3,
+          "hit": false
+        },
+        {
+          "ticker": "009160",
+          "name": "SIMPAC",
+          "predicted_prob": 42.7,
+          "grade": "B",
+          "actual_high_pct": 1.6,
+          "actual_close_pct": -2.3,
+          "hit": false
+        },
+        {
+          "ticker": "139480",
+          "name": "이마트",
+          "predicted_prob": 42.3,
+          "grade": "B",
+          "actual_high_pct": 3.3,
+          "actual_close_pct": -0.4,
+          "hit": true
+        },
+        {
+          "ticker": "011210",
+          "name": "현대위아",
+          "predicted_prob": 40.8,
+          "grade": "B",
+          "actual_high_pct": 0.6,
+          "actual_close_pct": -4.1,
+          "hit": false
+        },
+        {
+          "ticker": "022100",
+          "name": "포스코DX",
+          "predicted_prob": 40.6,
+          "grade": "B",
+          "actual_high_pct": 0.3,
+          "actual_close_pct": -7.8,
+          "hit": false
+        },
+        {
+          "ticker": "035510",
+          "name": "신세계 I&C",
+          "predicted_prob": 38.8,
+          "grade": "C",
+          "actual_high_pct": 0.7,
+          "actual_close_pct": -4.4,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2025-12-12",
+      "next_trading_date": "2025-12-15",
+      "total": 10,
+      "hits": 4,
+      "hit_rate": 40.0,
+      "results": [
+        {
+          "ticker": "001430",
+          "name": "세아베스틸지주",
+          "predicted_prob": 96.8,
+          "grade": "A",
+          "actual_high_pct": 10.5,
+          "actual_close_pct": 0.0,
+          "hit": true
+        },
+        {
+          "ticker": "249420",
+          "name": "일동제약",
+          "predicted_prob": 79.4,
+          "grade": "A",
+          "actual_high_pct": 1.4,
+          "actual_close_pct": -7.9,
+          "hit": false
+        },
+        {
+          "ticker": "180640",
+          "name": "한진칼",
+          "predicted_prob": 76.8,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -14.3,
+          "hit": false
+        },
+        {
+          "ticker": "006340",
+          "name": "대원전선",
+          "predicted_prob": 63.4,
+          "grade": "A",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -2.2,
+          "hit": false
+        },
+        {
+          "ticker": "105840",
+          "name": "우진",
+          "predicted_prob": 60.7,
+          "grade": "A",
+          "actual_high_pct": 1.2,
+          "actual_close_pct": -1.9,
+          "hit": false
+        },
+        {
+          "ticker": "014280",
+          "name": "금강공업",
+          "predicted_prob": 58.8,
+          "grade": "A",
+          "actual_high_pct": 2.2,
+          "actual_close_pct": -0.4,
+          "hit": true
+        },
+        {
+          "ticker": "002020",
+          "name": "코오롱",
+          "predicted_prob": 49.1,
+          "grade": "B",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -2.5,
+          "hit": false
+        },
+        {
+          "ticker": "000720",
+          "name": "현대건설",
+          "predicted_prob": 45.7,
+          "grade": "B",
+          "actual_high_pct": 5.4,
+          "actual_close_pct": 3.4,
+          "hit": true
+        },
+        {
+          "ticker": "194370",
+          "name": "제이에스코퍼레이션",
+          "predicted_prob": 44.5,
+          "grade": "B",
+          "actual_high_pct": 3.8,
+          "actual_close_pct": 2.8,
+          "hit": true
+        },
+        {
+          "ticker": "023590",
+          "name": "다우기술",
+          "predicted_prob": 42.6,
+          "grade": "B",
+          "actual_high_pct": 0.7,
+          "actual_close_pct": -1.0,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2025-12-11",
+      "next_trading_date": "2025-12-12",
+      "total": 10,
+      "hits": 7,
+      "hit_rate": 70.0,
+      "results": [
+        {
+          "ticker": "000650",
+          "name": "천일고속",
+          "predicted_prob": 99.5,
+          "grade": "A",
+          "actual_high_pct": 2.2,
+          "actual_close_pct": -9.8,
+          "hit": true
+        },
+        {
+          "ticker": "013360",
+          "name": "일성건설",
+          "predicted_prob": 93.3,
+          "grade": "A",
+          "actual_high_pct": 3.7,
+          "actual_close_pct": -3.2,
+          "hit": true
+        },
+        {
+          "ticker": "249420",
+          "name": "일동제약",
+          "predicted_prob": 91.1,
+          "grade": "A",
+          "actual_high_pct": 10.1,
+          "actual_close_pct": 8.3,
+          "hit": true
+        },
+        {
+          "ticker": "105840",
+          "name": "우진",
+          "predicted_prob": 65.9,
+          "grade": "A",
+          "actual_high_pct": 7.9,
+          "actual_close_pct": 6.9,
+          "hit": true
+        },
+        {
+          "ticker": "033240",
+          "name": "자화전자",
+          "predicted_prob": 65.5,
+          "grade": "A",
+          "actual_high_pct": 3.3,
+          "actual_close_pct": 2.3,
+          "hit": true
+        },
+        {
+          "ticker": "004960",
+          "name": "한신공영",
+          "predicted_prob": 65.3,
+          "grade": "A",
+          "actual_high_pct": 7.4,
+          "actual_close_pct": 2.4,
+          "hit": true
+        },
+        {
+          "ticker": "001530",
+          "name": "DI동일",
+          "predicted_prob": 59.1,
+          "grade": "A",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -10.3,
+          "hit": false
+        },
+        {
+          "ticker": "000760",
+          "name": "이화산업",
+          "predicted_prob": 49.8,
+          "grade": "B",
+          "actual_high_pct": 0.8,
+          "actual_close_pct": -5.5,
+          "hit": false
+        },
+        {
+          "ticker": "014280",
+          "name": "금강공업",
+          "predicted_prob": 41.6,
+          "grade": "B",
+          "actual_high_pct": 10.8,
+          "actual_close_pct": 4.5,
+          "hit": true
+        },
+        {
+          "ticker": "194370",
+          "name": "제이에스코퍼레이션",
+          "predicted_prob": 40.5,
+          "grade": "B",
+          "actual_high_pct": 0.9,
+          "actual_close_pct": -0.7,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2025-12-10",
+      "next_trading_date": "2025-12-11",
+      "total": 10,
+      "hits": 6,
+      "hit_rate": 60.0,
+      "results": [
+        {
+          "ticker": "002420",
+          "name": "세기상사",
+          "predicted_prob": 60.7,
+          "grade": "A",
+          "actual_high_pct": 14.1,
+          "actual_close_pct": 2.1,
+          "hit": true
+        },
+        {
+          "ticker": "249420",
+          "name": "일동제약",
+          "predicted_prob": 52.7,
+          "grade": "A",
+          "actual_high_pct": 23.7,
+          "actual_close_pct": 19.3,
+          "hit": true
+        },
+        {
+          "ticker": "006110",
+          "name": "삼아알미늄",
+          "predicted_prob": 51.4,
+          "grade": "A",
+          "actual_high_pct": 1.1,
+          "actual_close_pct": -7.7,
+          "hit": false
+        },
+        {
+          "ticker": "033240",
+          "name": "자화전자",
+          "predicted_prob": 51.3,
+          "grade": "A",
+          "actual_high_pct": 16.0,
+          "actual_close_pct": 11.9,
+          "hit": true
+        },
+        {
+          "ticker": "105840",
+          "name": "우진",
+          "predicted_prob": 45.1,
+          "grade": "B",
+          "actual_high_pct": 13.6,
+          "actual_close_pct": 10.3,
+          "hit": true
+        },
+        {
+          "ticker": "002220",
+          "name": "한일철강",
+          "predicted_prob": 43.3,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.1,
+          "hit": false
+        },
+        {
+          "ticker": "010660",
+          "name": "화천기계",
+          "predicted_prob": 38.3,
+          "grade": "C",
+          "actual_high_pct": 1.7,
+          "actual_close_pct": 0.0,
+          "hit": false
+        },
+        {
+          "ticker": "042670",
+          "name": "HD현대인프라코어",
+          "predicted_prob": 32.6,
+          "grade": "C",
+          "actual_high_pct": 6.7,
+          "actual_close_pct": 3.7,
+          "hit": true
+        },
+        {
+          "ticker": "002710",
+          "name": "TCC스틸",
+          "predicted_prob": 32.5,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -3.3,
+          "hit": false
+        },
+        {
+          "ticker": "001820",
+          "name": "삼화콘덴서",
+          "predicted_prob": 31.4,
+          "grade": "C",
+          "actual_high_pct": 3.0,
+          "actual_close_pct": 0.2,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "date": "2025-12-09",
+      "next_trading_date": "2025-12-10",
+      "total": 10,
+      "hits": 3,
+      "hit_rate": 30.0,
+      "results": [
+        {
+          "ticker": "457190",
+          "name": "이수스페셜티케미컬",
+          "predicted_prob": 69.9,
+          "grade": "A",
+          "actual_high_pct": 2.8,
+          "actual_close_pct": -0.9,
+          "hit": true
+        },
+        {
+          "ticker": "011690",
+          "name": "와이투솔루션",
+          "predicted_prob": 67.9,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -11.0,
+          "hit": false
+        },
+        {
+          "ticker": "012200",
+          "name": "계양전기",
+          "predicted_prob": 52.8,
+          "grade": "A",
+          "actual_high_pct": 0.4,
+          "actual_close_pct": -2.6,
+          "hit": false
+        },
+        {
+          "ticker": "064400",
+          "name": "LG씨엔에스",
+          "predicted_prob": 40.7,
+          "grade": "B",
+          "actual_high_pct": 0.9,
+          "actual_close_pct": -2.1,
+          "hit": false
+        },
+        {
+          "ticker": "007340",
+          "name": "DN오토모티브",
+          "predicted_prob": 38.6,
+          "grade": "C",
+          "actual_high_pct": 0.7,
+          "actual_close_pct": -2.3,
+          "hit": false
+        },
+        {
+          "ticker": "194370",
+          "name": "제이에스코퍼레이션",
+          "predicted_prob": 37.5,
+          "grade": "C",
+          "actual_high_pct": 2.9,
+          "actual_close_pct": 1.6,
+          "hit": true
+        },
+        {
+          "ticker": "249420",
+          "name": "일동제약",
+          "predicted_prob": 37.1,
+          "grade": "C",
+          "actual_high_pct": 12.0,
+          "actual_close_pct": 5.2,
+          "hit": true
+        },
+        {
+          "ticker": "317400",
+          "name": "자이에스앤디",
+          "predicted_prob": 37.1,
+          "grade": "C",
+          "actual_high_pct": 0.9,
+          "actual_close_pct": -2.0,
+          "hit": false
+        },
+        {
+          "ticker": "071970",
+          "name": "HD현대마린엔진",
+          "predicted_prob": 36.0,
+          "grade": "C",
+          "actual_high_pct": 1.1,
+          "actual_close_pct": -2.6,
+          "hit": false
+        },
+        {
+          "ticker": "082740",
+          "name": "한화엔진",
+          "predicted_prob": 35.2,
+          "grade": "C",
+          "actual_high_pct": 1.8,
+          "actual_close_pct": -1.9,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2025-12-08",
+      "next_trading_date": "2025-12-09",
+      "total": 10,
+      "hits": 7,
+      "hit_rate": 70.0,
+      "results": [
+        {
+          "ticker": "457190",
+          "name": "이수스페셜티케미컬",
+          "predicted_prob": 55.7,
+          "grade": "A",
+          "actual_high_pct": 18.8,
+          "actual_close_pct": 16.9,
+          "hit": true
+        },
+        {
+          "ticker": "005950",
+          "name": "이수화학",
+          "predicted_prob": 50.5,
+          "grade": "A",
+          "actual_high_pct": 9.3,
+          "actual_close_pct": 2.6,
+          "hit": true
+        },
+        {
+          "ticker": "012200",
+          "name": "계양전기",
+          "predicted_prob": 45.9,
+          "grade": "B",
+          "actual_high_pct": 7.3,
+          "actual_close_pct": 5.2,
+          "hit": true
+        },
+        {
+          "ticker": "022100",
+          "name": "포스코DX",
+          "predicted_prob": 41.0,
+          "grade": "B",
+          "actual_high_pct": 5.2,
+          "actual_close_pct": 0.7,
+          "hit": true
+        },
+        {
+          "ticker": "005070",
+          "name": "코스모신소재",
+          "predicted_prob": 39.2,
+          "grade": "C",
+          "actual_high_pct": 5.2,
+          "actual_close_pct": 1.7,
+          "hit": true
+        },
+        {
+          "ticker": "450080",
+          "name": "에코프로머티",
+          "predicted_prob": 38.4,
+          "grade": "C",
+          "actual_high_pct": 6.1,
+          "actual_close_pct": 5.0,
+          "hit": true
+        },
+        {
+          "ticker": "317400",
+          "name": "자이에스앤디",
+          "predicted_prob": 37.8,
+          "grade": "C",
+          "actual_high_pct": 1.8,
+          "actual_close_pct": -0.1,
+          "hit": false
+        },
+        {
+          "ticker": "278470",
+          "name": "에이피알",
+          "predicted_prob": 36.2,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -3.0,
+          "hit": false
+        },
+        {
+          "ticker": "006110",
+          "name": "삼아알미늄",
+          "predicted_prob": 36.2,
+          "grade": "C",
+          "actual_high_pct": 4.4,
+          "actual_close_pct": 0.4,
+          "hit": true
+        },
+        {
+          "ticker": "373220",
+          "name": "LG에너지솔루션",
+          "predicted_prob": 34.2,
+          "grade": "C",
+          "actual_high_pct": 1.6,
+          "actual_close_pct": -0.1,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2025-12-05",
+      "next_trading_date": "2025-12-08",
+      "total": 10,
+      "hits": 4,
+      "hit_rate": 40.0,
+      "results": [
+        {
+          "ticker": "450140",
+          "name": "코오롱모빌리티그룹",
+          "predicted_prob": 93.5,
+          "grade": "A",
+          "actual_high_pct": 33.9,
+          "actual_close_pct": 12.2,
+          "hit": true
+        },
+        {
+          "ticker": "105840",
+          "name": "우진",
+          "predicted_prob": 72.5,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -8.6,
+          "hit": false
+        },
+        {
+          "ticker": "010100",
+          "name": "한국무브넥스",
+          "predicted_prob": 65.5,
+          "grade": "A",
+          "actual_high_pct": 4.9,
+          "actual_close_pct": -5.8,
+          "hit": true
+        },
+        {
+          "ticker": "007340",
+          "name": "DN오토모티브",
+          "predicted_prob": 54.6,
+          "grade": "A",
+          "actual_high_pct": 1.1,
+          "actual_close_pct": 0.5,
+          "hit": false
+        },
+        {
+          "ticker": "064400",
+          "name": "LG씨엔에스",
+          "predicted_prob": 52.6,
+          "grade": "A",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -4.5,
+          "hit": false
+        },
+        {
+          "ticker": "000720",
+          "name": "현대건설",
+          "predicted_prob": 51.9,
+          "grade": "A",
+          "actual_high_pct": 3.6,
+          "actual_close_pct": -1.3,
+          "hit": true
+        },
+        {
+          "ticker": "005380",
+          "name": "현대차",
+          "predicted_prob": 47.2,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.7,
+          "hit": false
+        },
+        {
+          "ticker": "014790",
+          "name": "HL D&I",
+          "predicted_prob": 44.3,
+          "grade": "B",
+          "actual_high_pct": 1.5,
+          "actual_close_pct": -4.3,
+          "hit": false
+        },
+        {
+          "ticker": "066570",
+          "name": "LG전자",
+          "predicted_prob": 40.5,
+          "grade": "B",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -2.6,
+          "hit": false
+        },
+        {
+          "ticker": "317400",
+          "name": "자이에스앤디",
+          "predicted_prob": 40.5,
+          "grade": "B",
+          "actual_high_pct": 4.2,
+          "actual_close_pct": 1.6,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "date": "2025-12-04",
+      "next_trading_date": "2025-12-05",
+      "total": 10,
+      "hits": 5,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "000850",
+          "name": "화천기공",
+          "predicted_prob": 63.1,
+          "grade": "A",
+          "actual_high_pct": 0.3,
+          "actual_close_pct": -7.1,
+          "hit": false
+        },
+        {
+          "ticker": "033530",
+          "name": "SJG세종",
+          "predicted_prob": 59.7,
+          "grade": "A",
+          "actual_high_pct": 9.1,
+          "actual_close_pct": 2.1,
+          "hit": true
+        },
+        {
+          "ticker": "060980",
+          "name": "HL홀딩스",
+          "predicted_prob": 56.0,
+          "grade": "A",
+          "actual_high_pct": 4.4,
+          "actual_close_pct": 1.1,
+          "hit": true
+        },
+        {
+          "ticker": "005880",
+          "name": "대한해운",
+          "predicted_prob": 44.7,
+          "grade": "B",
+          "actual_high_pct": 1.2,
+          "actual_close_pct": -0.6,
+          "hit": false
+        },
+        {
+          "ticker": "012330",
+          "name": "현대모비스",
+          "predicted_prob": 43.7,
+          "grade": "B",
+          "actual_high_pct": 4.7,
+          "actual_close_pct": 4.3,
+          "hit": true
+        },
+        {
+          "ticker": "454910",
+          "name": "두산로보틱스",
+          "predicted_prob": 41.8,
+          "grade": "B",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -6.9,
+          "hit": false
+        },
+        {
+          "ticker": "005850",
+          "name": "에스엘",
+          "predicted_prob": 41.1,
+          "grade": "B",
+          "actual_high_pct": 4.7,
+          "actual_close_pct": 3.6,
+          "hit": true
+        },
+        {
+          "ticker": "011070",
+          "name": "LG이노텍",
+          "predicted_prob": 36.7,
+          "grade": "C",
+          "actual_high_pct": 1.8,
+          "actual_close_pct": 0.9,
+          "hit": false
+        },
+        {
+          "ticker": "005960",
+          "name": "동부건설",
+          "predicted_prob": 36.1,
+          "grade": "C",
+          "actual_high_pct": 1.5,
+          "actual_close_pct": -1.5,
+          "hit": false
+        },
+        {
+          "ticker": "064960",
+          "name": "SNT모티브",
+          "predicted_prob": 33.8,
+          "grade": "C",
+          "actual_high_pct": 2.3,
+          "actual_close_pct": 1.4,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "date": "2025-12-03",
+      "next_trading_date": "2025-12-04",
+      "total": 10,
+      "hits": 4,
+      "hit_rate": 40.0,
+      "results": [
+        {
+          "ticker": "011690",
+          "name": "와이투솔루션",
+          "predicted_prob": 72.4,
+          "grade": "A",
+          "actual_high_pct": 15.1,
+          "actual_close_pct": 4.6,
+          "hit": true
+        },
+        {
+          "ticker": "005800",
+          "name": "신영와코루",
+          "predicted_prob": 58.5,
+          "grade": "A",
+          "actual_high_pct": 0.8,
+          "actual_close_pct": -3.9,
+          "hit": false
+        },
+        {
+          "ticker": "105840",
+          "name": "우진",
+          "predicted_prob": 51.5,
+          "grade": "A",
+          "actual_high_pct": 1.7,
+          "actual_close_pct": -2.9,
+          "hit": false
+        },
+        {
+          "ticker": "064960",
+          "name": "SNT모티브",
+          "predicted_prob": 47.3,
+          "grade": "B",
+          "actual_high_pct": 3.9,
+          "actual_close_pct": 0.4,
+          "hit": true
+        },
+        {
+          "ticker": "005850",
+          "name": "에스엘",
+          "predicted_prob": 43.3,
+          "grade": "B",
+          "actual_high_pct": 1.5,
+          "actual_close_pct": -1.5,
+          "hit": false
+        },
+        {
+          "ticker": "073240",
+          "name": "금호타이어",
+          "predicted_prob": 41.7,
+          "grade": "B",
+          "actual_high_pct": 2.6,
+          "actual_close_pct": 1.4,
+          "hit": true
+        },
+        {
+          "ticker": "000120",
+          "name": "CJ대한통운",
+          "predicted_prob": 38.4,
+          "grade": "C",
+          "actual_high_pct": 0.5,
+          "actual_close_pct": -1.2,
+          "hit": false
+        },
+        {
+          "ticker": "000720",
+          "name": "현대건설",
+          "predicted_prob": 37.6,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -3.4,
+          "hit": false
+        },
+        {
+          "ticker": "011070",
+          "name": "LG이노텍",
+          "predicted_prob": 37.2,
+          "grade": "C",
+          "actual_high_pct": 4.8,
+          "actual_close_pct": 4.8,
+          "hit": true
+        },
+        {
+          "ticker": "101530",
+          "name": "해태제과식품",
+          "predicted_prob": 34.4,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -3.2,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2025-12-02",
+      "next_trading_date": "2025-12-03",
+      "total": 10,
+      "hits": 1,
+      "hit_rate": 10.0,
+      "results": [
+        {
+          "ticker": "450140",
+          "name": "코오롱모빌리티그룹",
+          "predicted_prob": 79.9,
+          "grade": "A",
+          "actual_high_pct": 5.4,
+          "actual_close_pct": -5.1,
+          "hit": true
+        },
+        {
+          "ticker": "019180",
+          "name": "티에이치엔",
+          "predicted_prob": 63.3,
+          "grade": "A",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -5.2,
+          "hit": false
+        },
+        {
+          "ticker": "079160",
+          "name": "CJ CGV",
+          "predicted_prob": 49.3,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -13.5,
+          "hit": false
+        },
+        {
+          "ticker": "003620",
+          "name": "KG모빌리티",
+          "predicted_prob": 48.4,
+          "grade": "B",
+          "actual_high_pct": 1.8,
+          "actual_close_pct": -0.6,
+          "hit": false
+        },
+        {
+          "ticker": "062040",
+          "name": "산일전기",
+          "predicted_prob": 47.9,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -0.7,
+          "hit": false
+        },
+        {
+          "ticker": "111770",
+          "name": "영원무역",
+          "predicted_prob": 45.6,
+          "grade": "B",
+          "actual_high_pct": 0.7,
+          "actual_close_pct": -1.5,
+          "hit": false
+        },
+        {
+          "ticker": "033530",
+          "name": "SJG세종",
+          "predicted_prob": 44.6,
+          "grade": "B",
+          "actual_high_pct": 1.9,
+          "actual_close_pct": 0.0,
+          "hit": false
+        },
+        {
+          "ticker": "194370",
+          "name": "제이에스코퍼레이션",
+          "predicted_prob": 41.7,
+          "grade": "B",
+          "actual_high_pct": 1.9,
+          "actual_close_pct": 1.2,
+          "hit": false
+        },
+        {
+          "ticker": "005880",
+          "name": "대한해운",
+          "predicted_prob": 38.5,
+          "grade": "C",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -4.2,
+          "hit": false
+        },
+        {
+          "ticker": "031430",
+          "name": "신세계인터내셔날",
+          "predicted_prob": 37.8,
+          "grade": "C",
+          "actual_high_pct": 1.8,
+          "actual_close_pct": 0.3,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2025-12-01",
+      "next_trading_date": "2025-12-02",
+      "total": 10,
+      "hits": 5,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "007810",
+          "name": "코리아써키트",
+          "predicted_prob": 77.0,
+          "grade": "A",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -6.8,
+          "hit": false
+        },
+        {
+          "ticker": "019180",
+          "name": "티에이치엔",
+          "predicted_prob": 57.0,
+          "grade": "A",
+          "actual_high_pct": 9.3,
+          "actual_close_pct": 5.8,
+          "hit": true
+        },
+        {
+          "ticker": "007815",
+          "name": "코리아써우",
+          "predicted_prob": 53.8,
+          "grade": "A",
+          "actual_high_pct": 3.4,
+          "actual_close_pct": -3.0,
+          "hit": true
+        },
+        {
+          "ticker": "058730",
+          "name": "다스코",
+          "predicted_prob": 47.7,
+          "grade": "B",
+          "actual_high_pct": 6.5,
+          "actual_close_pct": 3.8,
+          "hit": true
+        },
+        {
+          "ticker": "011690",
+          "name": "와이투솔루션",
+          "predicted_prob": 42.3,
+          "grade": "B",
+          "actual_high_pct": 2.0,
+          "actual_close_pct": 1.7,
+          "hit": true
+        },
+        {
+          "ticker": "950210",
+          "name": "프레스티지바이오파마",
+          "predicted_prob": 39.7,
+          "grade": "C",
+          "actual_high_pct": 1.1,
+          "actual_close_pct": 0.4,
+          "hit": false
+        },
+        {
+          "ticker": "195870",
+          "name": "해성디에스",
+          "predicted_prob": 33.7,
+          "grade": "C",
+          "actual_high_pct": 2.0,
+          "actual_close_pct": -2.5,
+          "hit": false
+        },
+        {
+          "ticker": "026890",
+          "name": "스틱인베스트먼트",
+          "predicted_prob": 33.5,
+          "grade": "C",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -3.0,
+          "hit": false
+        },
+        {
+          "ticker": "079160",
+          "name": "CJ CGV",
+          "predicted_prob": 33.4,
+          "grade": "C",
+          "actual_high_pct": 10.3,
+          "actual_close_pct": 8.8,
+          "hit": true
+        },
+        {
+          "ticker": "002760",
+          "name": "보락",
+          "predicted_prob": 33.2,
+          "grade": "C",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -0.5,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2025-11-28",
+      "next_trading_date": "2025-12-01",
+      "total": 10,
+      "hits": 3,
+      "hit_rate": 30.0,
+      "results": [
+        {
+          "ticker": "002020",
+          "name": "코오롱",
+          "predicted_prob": 45.0,
+          "grade": "B",
+          "actual_high_pct": 0.5,
+          "actual_close_pct": -2.5,
+          "hit": false
+        },
+        {
+          "ticker": "011690",
+          "name": "와이투솔루션",
+          "predicted_prob": 44.1,
+          "grade": "B",
+          "actual_high_pct": 4.3,
+          "actual_close_pct": 1.8,
+          "hit": true
+        },
+        {
+          "ticker": "307950",
+          "name": "현대오토에버",
+          "predicted_prob": 37.7,
+          "grade": "C",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -2.8,
+          "hit": false
+        },
+        {
+          "ticker": "011210",
+          "name": "현대위아",
+          "predicted_prob": 37.5,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -5.5,
+          "hit": false
+        },
+        {
+          "ticker": "023960",
+          "name": "에쓰씨엔지니어링",
+          "predicted_prob": 36.1,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -8.6,
+          "hit": false
+        },
+        {
+          "ticker": "000720",
+          "name": "현대건설",
+          "predicted_prob": 34.9,
+          "grade": "C",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -5.0,
+          "hit": false
+        },
+        {
+          "ticker": "014440",
+          "name": "영보화학",
+          "predicted_prob": 31.2,
+          "grade": "C",
+          "actual_high_pct": 2.6,
+          "actual_close_pct": 2.4,
+          "hit": true
+        },
+        {
+          "ticker": "005850",
+          "name": "에스엘",
+          "predicted_prob": 30.3,
+          "grade": "C",
+          "actual_high_pct": 1.1,
+          "actual_close_pct": -2.3,
+          "hit": false
+        },
+        {
+          "ticker": "417310",
+          "name": "코람코더원리츠",
+          "predicted_prob": 28.5,
+          "grade": "D",
+          "actual_high_pct": 3.4,
+          "actual_close_pct": 3.2,
+          "hit": true
+        },
+        {
+          "ticker": "096760",
+          "name": "JW홀딩스",
+          "predicted_prob": 28.4,
+          "grade": "D",
+          "actual_high_pct": 0.9,
+          "actual_close_pct": -0.8,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2025-11-27",
+      "next_trading_date": "2025-11-28",
+      "total": 10,
+      "hits": 3,
+      "hit_rate": 30.0,
+      "results": [
+        {
+          "ticker": "092200",
+          "name": "디아이씨",
+          "predicted_prob": 61.1,
+          "grade": "A",
+          "actual_high_pct": 28.9,
+          "actual_close_pct": 24.0,
+          "hit": true
+        },
+        {
+          "ticker": "023960",
+          "name": "에쓰씨엔지니어링",
+          "predicted_prob": 48.5,
+          "grade": "B",
+          "actual_high_pct": 1.6,
+          "actual_close_pct": 1.0,
+          "hit": false
+        },
+        {
+          "ticker": "105840",
+          "name": "우진",
+          "predicted_prob": 37.0,
+          "grade": "C",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -3.0,
+          "hit": false
+        },
+        {
+          "ticker": "081660",
+          "name": "미스토홀딩스",
+          "predicted_prob": 33.2,
+          "grade": "C",
+          "actual_high_pct": 0.8,
+          "actual_close_pct": -2.3,
+          "hit": false
+        },
+        {
+          "ticker": "090460",
+          "name": "비에이치",
+          "predicted_prob": 32.6,
+          "grade": "C",
+          "actual_high_pct": 1.3,
+          "actual_close_pct": -1.5,
+          "hit": false
+        },
+        {
+          "ticker": "194370",
+          "name": "제이에스코퍼레이션",
+          "predicted_prob": 30.7,
+          "grade": "C",
+          "actual_high_pct": 2.2,
+          "actual_close_pct": 2.2,
+          "hit": true
+        },
+        {
+          "ticker": "053210",
+          "name": "스카이라이프",
+          "predicted_prob": 29.2,
+          "grade": "D",
+          "actual_high_pct": 0.7,
+          "actual_close_pct": -0.9,
+          "hit": false
+        },
+        {
+          "ticker": "005850",
+          "name": "에스엘",
+          "predicted_prob": 29.2,
+          "grade": "D",
+          "actual_high_pct": 5.0,
+          "actual_close_pct": 3.2,
+          "hit": true
+        },
+        {
+          "ticker": "014680",
+          "name": "한솔케미칼",
+          "predicted_prob": 29.1,
+          "grade": "D",
+          "actual_high_pct": 1.9,
+          "actual_close_pct": -1.4,
+          "hit": false
+        },
+        {
+          "ticker": "079160",
+          "name": "CJ CGV",
+          "predicted_prob": 28.2,
+          "grade": "D",
+          "actual_high_pct": 1.8,
+          "actual_close_pct": 1.4,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2025-11-26",
+      "next_trading_date": "2025-11-27",
+      "total": 10,
+      "hits": 5,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "079900",
+          "name": "전진건설로봇",
+          "predicted_prob": 44.0,
+          "grade": "B",
+          "actual_high_pct": 0.7,
+          "actual_close_pct": 0.0,
+          "hit": false
+        },
+        {
+          "ticker": "326030",
+          "name": "SK바이오팜",
+          "predicted_prob": 44.0,
+          "grade": "B",
+          "actual_high_pct": 1.2,
+          "actual_close_pct": -2.0,
+          "hit": false
+        },
+        {
+          "ticker": "102260",
+          "name": "동성케미컬",
+          "predicted_prob": 42.5,
+          "grade": "B",
+          "actual_high_pct": 2.2,
+          "actual_close_pct": 0.2,
+          "hit": true
+        },
+        {
+          "ticker": "023960",
+          "name": "에쓰씨엔지니어링",
+          "predicted_prob": 42.1,
+          "grade": "B",
+          "actual_high_pct": 10.0,
+          "actual_close_pct": 9.7,
+          "hit": true
+        },
+        {
+          "ticker": "000720",
+          "name": "현대건설",
+          "predicted_prob": 39.4,
+          "grade": "C",
+          "actual_high_pct": 4.0,
+          "actual_close_pct": -0.6,
+          "hit": true
+        },
+        {
+          "ticker": "105840",
+          "name": "우진",
+          "predicted_prob": 38.6,
+          "grade": "C",
+          "actual_high_pct": 5.6,
+          "actual_close_pct": 4.5,
+          "hit": true
+        },
+        {
+          "ticker": "015760",
+          "name": "한국전력",
+          "predicted_prob": 38.5,
+          "grade": "C",
+          "actual_high_pct": 1.9,
+          "actual_close_pct": -2.3,
+          "hit": false
+        },
+        {
+          "ticker": "003000",
+          "name": "부광약품",
+          "predicted_prob": 36.0,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -0.8,
+          "hit": false
+        },
+        {
+          "ticker": "051910",
+          "name": "LG화학",
+          "predicted_prob": 35.3,
+          "grade": "C",
+          "actual_high_pct": 2.0,
+          "actual_close_pct": 0.3,
+          "hit": true
+        },
+        {
+          "ticker": "025560",
+          "name": "미래산업",
+          "predicted_prob": 33.9,
+          "grade": "C",
+          "actual_high_pct": 1.5,
+          "actual_close_pct": -2.7,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2025-11-25",
+      "next_trading_date": "2025-11-26",
+      "total": 10,
+      "hits": 6,
+      "hit_rate": 60.0,
+      "results": [
+        {
+          "ticker": "007660",
+          "name": "이수페타시스",
+          "predicted_prob": 67.5,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -3.3,
+          "hit": false
+        },
+        {
+          "ticker": "244920",
+          "name": "에이플러스에셋",
+          "predicted_prob": 58.9,
+          "grade": "A",
+          "actual_high_pct": 6.7,
+          "actual_close_pct": 4.4,
+          "hit": true
+        },
+        {
+          "ticker": "353200",
+          "name": "대덕전자",
+          "predicted_prob": 49.4,
+          "grade": "B",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -5.9,
+          "hit": false
+        },
+        {
+          "ticker": "402340",
+          "name": "SK스퀘어",
+          "predicted_prob": 39.0,
+          "grade": "C",
+          "actual_high_pct": 0.3,
+          "actual_close_pct": -1.0,
+          "hit": false
+        },
+        {
+          "ticker": "102260",
+          "name": "동성케미컬",
+          "predicted_prob": 37.0,
+          "grade": "C",
+          "actual_high_pct": 4.7,
+          "actual_close_pct": 1.8,
+          "hit": true
+        },
+        {
+          "ticker": "015760",
+          "name": "한국전력",
+          "predicted_prob": 36.0,
+          "grade": "C",
+          "actual_high_pct": 3.6,
+          "actual_close_pct": 1.3,
+          "hit": true
+        },
+        {
+          "ticker": "026890",
+          "name": "스틱인베스트먼트",
+          "predicted_prob": 34.8,
+          "grade": "C",
+          "actual_high_pct": 4.2,
+          "actual_close_pct": 2.1,
+          "hit": true
+        },
+        {
+          "ticker": "028260",
+          "name": "삼성물산",
+          "predicted_prob": 31.6,
+          "grade": "C",
+          "actual_high_pct": 2.8,
+          "actual_close_pct": 0.9,
+          "hit": true
+        },
+        {
+          "ticker": "014440",
+          "name": "영보화학",
+          "predicted_prob": 31.1,
+          "grade": "C",
+          "actual_high_pct": 0.9,
+          "actual_close_pct": -0.7,
+          "hit": false
+        },
+        {
+          "ticker": "105630",
+          "name": "한세실업",
+          "predicted_prob": 27.5,
+          "grade": "D",
+          "actual_high_pct": 2.3,
+          "actual_close_pct": 2.3,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "date": "2025-11-24",
+      "next_trading_date": "2025-11-25",
+      "total": 10,
+      "hits": 4,
+      "hit_rate": 40.0,
+      "results": [
+        {
+          "ticker": "180640",
+          "name": "한진칼",
+          "predicted_prob": 44.2,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -7.3,
+          "hit": false
+        },
+        {
+          "ticker": "003610",
+          "name": "방림",
+          "predicted_prob": 39.8,
+          "grade": "C",
+          "actual_high_pct": 4.0,
+          "actual_close_pct": -0.2,
+          "hit": true
+        },
+        {
+          "ticker": "278470",
+          "name": "에이피알",
+          "predicted_prob": 36.5,
+          "grade": "C",
+          "actual_high_pct": 2.8,
+          "actual_close_pct": 1.0,
+          "hit": true
+        },
+        {
+          "ticker": "079160",
+          "name": "CJ CGV",
+          "predicted_prob": 31.8,
+          "grade": "C",
+          "actual_high_pct": 1.8,
+          "actual_close_pct": -0.5,
+          "hit": false
+        },
+        {
+          "ticker": "326030",
+          "name": "SK바이오팜",
+          "predicted_prob": 31.2,
+          "grade": "C",
+          "actual_high_pct": 3.4,
+          "actual_close_pct": -0.1,
+          "hit": true
+        },
+        {
+          "ticker": "181710",
+          "name": "NHN",
+          "predicted_prob": 28.6,
+          "grade": "D",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.1,
+          "hit": false
+        },
+        {
+          "ticker": "032640",
+          "name": "LG유플러스",
+          "predicted_prob": 27.9,
+          "grade": "D",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -5.0,
+          "hit": false
+        },
+        {
+          "ticker": "010960",
+          "name": "삼호개발",
+          "predicted_prob": 26.3,
+          "grade": "D",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.4,
+          "hit": false
+        },
+        {
+          "ticker": "035250",
+          "name": "강원랜드",
+          "predicted_prob": 24.9,
+          "grade": "D",
+          "actual_high_pct": 0.3,
+          "actual_close_pct": -2.4,
+          "hit": false
+        },
+        {
+          "ticker": "014440",
+          "name": "영보화학",
+          "predicted_prob": 24.8,
+          "grade": "D",
+          "actual_high_pct": 4.2,
+          "actual_close_pct": 4.2,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "date": "2025-11-21",
+      "next_trading_date": "2025-11-24",
+      "total": 10,
+      "hits": 3,
+      "hit_rate": 30.0,
+      "results": [
+        {
+          "ticker": "0030R0",
+          "name": "대신밸류리츠",
+          "predicted_prob": 40.2,
+          "grade": "B",
+          "actual_high_pct": 1.0,
+          "actual_close_pct": -0.3,
+          "hit": false
+        },
+        {
+          "ticker": "003610",
+          "name": "방림",
+          "predicted_prob": 36.3,
+          "grade": "C",
+          "actual_high_pct": 5.4,
+          "actual_close_pct": -0.5,
+          "hit": true
+        },
+        {
+          "ticker": "058730",
+          "name": "다스코",
+          "predicted_prob": 34.9,
+          "grade": "C",
+          "actual_high_pct": 20.5,
+          "actual_close_pct": 10.8,
+          "hit": true
+        },
+        {
+          "ticker": "033780",
+          "name": "KT&G",
+          "predicted_prob": 29.0,
+          "grade": "D",
+          "actual_high_pct": 0.5,
+          "actual_close_pct": 0.3,
+          "hit": false
+        },
+        {
+          "ticker": "294870",
+          "name": "HDC현대산업개발",
+          "predicted_prob": 28.9,
+          "grade": "D",
+          "actual_high_pct": 1.5,
+          "actual_close_pct": -2.4,
+          "hit": false
+        },
+        {
+          "ticker": "010960",
+          "name": "삼호개발",
+          "predicted_prob": 28.8,
+          "grade": "D",
+          "actual_high_pct": 1.7,
+          "actual_close_pct": -0.1,
+          "hit": false
+        },
+        {
+          "ticker": "079160",
+          "name": "CJ CGV",
+          "predicted_prob": 28.4,
+          "grade": "D",
+          "actual_high_pct": 3.7,
+          "actual_close_pct": -1.2,
+          "hit": true
+        },
+        {
+          "ticker": "194370",
+          "name": "제이에스코퍼레이션",
+          "predicted_prob": 25.8,
+          "grade": "D",
+          "actual_high_pct": 1.4,
+          "actual_close_pct": -1.9,
+          "hit": false
+        },
+        {
+          "ticker": "234080",
+          "name": "JW생명과학",
+          "predicted_prob": 24.5,
+          "grade": "D",
+          "actual_high_pct": 1.2,
+          "actual_close_pct": -3.4,
+          "hit": false
+        },
+        {
+          "ticker": "016740",
+          "name": "두올",
+          "predicted_prob": 24.1,
+          "grade": "D",
+          "actual_high_pct": 0.4,
+          "actual_close_pct": -0.4,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2025-11-20",
+      "next_trading_date": "2025-11-21",
+      "total": 10,
+      "hits": 6,
+      "hit_rate": 60.0,
+      "results": [
+        {
+          "ticker": "032350",
+          "name": "롯데관광개발",
+          "predicted_prob": 67.9,
+          "grade": "A",
+          "actual_high_pct": 2.3,
+          "actual_close_pct": -0.2,
+          "hit": true
+        },
+        {
+          "ticker": "010400",
+          "name": "우진아이엔에스",
+          "predicted_prob": 66.6,
+          "grade": "A",
+          "actual_high_pct": 4.6,
+          "actual_close_pct": 0.9,
+          "hit": true
+        },
+        {
+          "ticker": "249420",
+          "name": "일동제약",
+          "predicted_prob": 57.6,
+          "grade": "A",
+          "actual_high_pct": 5.6,
+          "actual_close_pct": 4.3,
+          "hit": true
+        },
+        {
+          "ticker": "092200",
+          "name": "디아이씨",
+          "predicted_prob": 53.1,
+          "grade": "A",
+          "actual_high_pct": 7.9,
+          "actual_close_pct": 3.1,
+          "hit": true
+        },
+        {
+          "ticker": "030190",
+          "name": "NICE평가정보",
+          "predicted_prob": 48.5,
+          "grade": "B",
+          "actual_high_pct": 0.3,
+          "actual_close_pct": -1.0,
+          "hit": false
+        },
+        {
+          "ticker": "005690",
+          "name": "파미셀",
+          "predicted_prob": 48.4,
+          "grade": "B",
+          "actual_high_pct": 2.4,
+          "actual_close_pct": -5.3,
+          "hit": true
+        },
+        {
+          "ticker": "010120",
+          "name": "LS ELECTRIC",
+          "predicted_prob": 45.3,
+          "grade": "B",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -6.6,
+          "hit": false
+        },
+        {
+          "ticker": "047400",
+          "name": "유니온머티리얼",
+          "predicted_prob": 44.3,
+          "grade": "B",
+          "actual_high_pct": 2.9,
+          "actual_close_pct": -3.9,
+          "hit": true
+        },
+        {
+          "ticker": "128820",
+          "name": "대성산업",
+          "predicted_prob": 43.4,
+          "grade": "B",
+          "actual_high_pct": 1.7,
+          "actual_close_pct": -9.8,
+          "hit": false
+        },
+        {
+          "ticker": "002790",
+          "name": "아모레퍼시픽홀딩스",
+          "predicted_prob": 41.9,
+          "grade": "B",
+          "actual_high_pct": 0.3,
+          "actual_close_pct": -1.9,
+          "hit": false
+        }
+      ]
+    },
+    {
+      "date": "2025-11-19",
+      "next_trading_date": "2025-11-20",
+      "total": 10,
+      "hits": 8,
+      "hit_rate": 80.0,
+      "results": [
+        {
+          "ticker": "092200",
+          "name": "디아이씨",
+          "predicted_prob": 67.8,
+          "grade": "A",
+          "actual_high_pct": 8.0,
+          "actual_close_pct": 3.6,
+          "hit": true
+        },
+        {
+          "ticker": "058730",
+          "name": "다스코",
+          "predicted_prob": 58.4,
+          "grade": "A",
+          "actual_high_pct": 7.6,
+          "actual_close_pct": 4.7,
+          "hit": true
+        },
+        {
+          "ticker": "111770",
+          "name": "영원무역",
+          "predicted_prob": 57.8,
+          "grade": "A",
+          "actual_high_pct": 4.3,
+          "actual_close_pct": 2.0,
+          "hit": true
+        },
+        {
+          "ticker": "010400",
+          "name": "우진아이엔에스",
+          "predicted_prob": 54.0,
+          "grade": "A",
+          "actual_high_pct": 12.6,
+          "actual_close_pct": 10.2,
+          "hit": true
+        },
+        {
+          "ticker": "002790",
+          "name": "아모레퍼시픽홀딩스",
+          "predicted_prob": 47.9,
+          "grade": "B",
+          "actual_high_pct": 8.5,
+          "actual_close_pct": 5.6,
+          "hit": true
+        },
+        {
+          "ticker": "010950",
+          "name": "S-Oil",
+          "predicted_prob": 37.8,
+          "grade": "C",
+          "actual_high_pct": 1.7,
+          "actual_close_pct": 0.3,
+          "hit": false
+        },
+        {
+          "ticker": "195870",
+          "name": "해성디에스",
+          "predicted_prob": 34.7,
+          "grade": "C",
+          "actual_high_pct": 1.2,
+          "actual_close_pct": -8.8,
+          "hit": false
+        },
+        {
+          "ticker": "095570",
+          "name": "AJ네트웍스",
+          "predicted_prob": 34.4,
+          "grade": "C",
+          "actual_high_pct": 2.4,
+          "actual_close_pct": 1.7,
+          "hit": true
+        },
+        {
+          "ticker": "194370",
+          "name": "제이에스코퍼레이션",
+          "predicted_prob": 32.8,
+          "grade": "C",
+          "actual_high_pct": 6.3,
+          "actual_close_pct": 5.9,
+          "hit": true
+        },
+        {
+          "ticker": "204320",
+          "name": "HL만도",
+          "predicted_prob": 32.5,
+          "grade": "C",
+          "actual_high_pct": 7.2,
+          "actual_close_pct": 1.8,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "date": "2025-11-18",
+      "next_trading_date": "2025-11-19",
+      "total": 10,
+      "hits": 2,
+      "hit_rate": 20.0,
+      "results": [
+        {
+          "ticker": "032350",
+          "name": "롯데관광개발",
+          "predicted_prob": 37.1,
+          "grade": "C",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -8.9,
+          "hit": false
+        },
+        {
+          "ticker": "015760",
+          "name": "한국전력",
+          "predicted_prob": 34.9,
+          "grade": "C",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -6.2,
+          "hit": false
+        },
+        {
+          "ticker": "015860",
+          "name": "일진홀딩스",
+          "predicted_prob": 33.1,
+          "grade": "C",
+          "actual_high_pct": 1.9,
+          "actual_close_pct": -1.5,
+          "hit": false
+        },
+        {
+          "ticker": "026960",
+          "name": "동서",
+          "predicted_prob": 33.1,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.9,
+          "hit": false
+        },
+        {
+          "ticker": "023530",
+          "name": "롯데쇼핑",
+          "predicted_prob": 32.1,
+          "grade": "C",
+          "actual_high_pct": 2.3,
+          "actual_close_pct": -2.2,
+          "hit": true
+        },
+        {
+          "ticker": "329180",
+          "name": "HD현대중공업",
+          "predicted_prob": 30.8,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -5.9,
+          "hit": false
+        },
+        {
+          "ticker": "004100",
+          "name": "태양금속",
+          "predicted_prob": 30.6,
+          "grade": "C",
+          "actual_high_pct": 3.1,
+          "actual_close_pct": 1.1,
+          "hit": true
+        },
+        {
+          "ticker": "010620",
+          "name": "HD현대미포",
+          "predicted_prob": 30.2,
+          "grade": "C",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -6.0,
+          "hit": false
+        },
+        {
+          "ticker": "002020",
+          "name": "코오롱",
+          "predicted_prob": 29.6,
+          "grade": "D",
+          "actual_high_pct": 1.4,
+          "actual_close_pct": -2.7,
+          "hit": false
+        },
+        {
+          "ticker": "234080",
+          "name": "JW생명과학",
+          "predicted_prob": 28.5,
+          "grade": "D",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -3.5,
+          "hit": false
+        }
+      ]
+    }
+  ],
+  "aggregate": {
+    "total_predictions": 598,
+    "total_hits": 280,
+    "hit_rate": 46.8,
+    "days_tracked": 60
+  }
+}
