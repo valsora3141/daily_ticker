@@ -36,13 +36,31 @@ jobs:
             cd data && unzip -o daily_cache.db.zip && rm daily_cache.db.zip && cd ..
             echo "DB downloaded: $(ls -lh data/daily_cache.db)"
           else
-            echo "WARNING: No DB found. First run will fail — upload DB manually first."
+            echo "WARNING: No DB found."
             exit 1
           fi
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Track history (verify yesterday)
+      - name: Restore site data from gh-pages
+        run: |
+          git fetch origin gh-pages:gh-pages 2>/dev/null || echo "No gh-pages branch"
+          mkdir -p site/data/archive
+
+          # Restore history
+          git show gh-pages:data/history.json > site/data/history.json 2>/dev/null || echo '{"days":[]}' > site/data/history.json
+
+          # Restore previous latest.json (needed for archiving)
+          git show gh-pages:data/latest.json > site/data/latest.json 2>/dev/null || echo "No previous latest.json"
+
+          # Restore archived predictions
+          for f in $(git ls-tree --name-only gh-pages:data/archive/ 2>/dev/null); do
+            git show "gh-pages:data/archive/$f" > "site/data/archive/$f" 2>/dev/null || true
+          done
+
+          echo "Restored archive files: $(ls site/data/archive/ 2>/dev/null | wc -l)"
+
+      - name: Track history (verify previous predictions)
         run: |
           python scripts/track_history.py || echo "History tracking skipped"
 
