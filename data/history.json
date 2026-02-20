@@ -104,6 +104,7 @@
     "total_predictions": 10,
     "total_hits": 9,
     "hit_rate": 90.0,
-    "days_tracked": 1
+    "days_tracked": 1,
+    "updated_at": "2026-02-20 07:55"
   }
 }
