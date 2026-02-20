@@ -60,13 +60,13 @@ jobs:
 
           echo "Restored archive files: $(ls site/data/archive/ 2>/dev/null | wc -l)"
 
-      - name: Track history (verify previous predictions)
-        run: |
-          python scripts/track_history.py || echo "History tracking skipped"
-
       - name: Update data and generate recommendations
         run: |
           python scripts/generate.py --update --retrain
+
+      - name: Track history (verify previous predictions)
+        run: |
+          python scripts/track_history.py || echo "History tracking skipped"
 
       - name: Upload updated database to release
         run: |
