@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-02-19",
+      "next_trading_date": "2026-02-20",
+      "total": 10,
+      "hits": 6,
+      "hit_rate": 60.0,
+      "results": [
+        {
+          "ticker": "018880",
+          "name": "한온시스템",
+          "predicted_prob": 89.5,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -7.22,
+          "hit": false
+        },
+        {
+          "ticker": "011690",
+          "name": "와이투솔루션",
+          "predicted_prob": 77.7,
+          "grade": "A",
+          "actual_high_pct": 1.95,
+          "actual_close_pct": -3.78,
+          "hit": false
+        },
+        {
+          "ticker": "002310",
+          "name": "아세아제지",
+          "predicted_prob": 77.3,
+          "grade": "A",
+          "actual_high_pct": 1.81,
+          "actual_close_pct": -4.88,
+          "hit": false
+        },
+        {
+          "ticker": "047040",
+          "name": "대우건설",
+          "predicted_prob": 76.5,
+          "grade": "A",
+          "actual_high_pct": 5.09,
+          "actual_close_pct": -0.76,
+          "hit": true
+        },
+        {
+          "ticker": "081000",
+          "name": "일진다이아",
+          "predicted_prob": 74.2,
+          "grade": "A",
+          "actual_high_pct": 3.67,
+          "actual_close_pct": 1.41,
+          "hit": true
+        },
+        {
+          "ticker": "452260",
+          "name": "한화갤러리아",
+          "predicted_prob": 71.2,
+          "grade": "A",
+          "actual_high_pct": 21.84,
+          "actual_close_pct": 12.26,
+          "hit": true
+        },
+        {
+          "ticker": "322000",
+          "name": "HD현대에너지솔루션",
+          "predicted_prob": 70.7,
+          "grade": "A",
+          "actual_high_pct": 3.98,
+          "actual_close_pct": -1.93,
+          "hit": true
+        },
+        {
+          "ticker": "112610",
+          "name": "씨에스윈드",
+          "predicted_prob": 70.4,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -2.45,
+          "hit": false
+        },
+        {
+          "ticker": "181710",
+          "name": "NHN",
+          "predicted_prob": 70.3,
+          "grade": "A",
+          "actual_high_pct": 2.5,
+          "actual_close_pct": 0.83,
+          "hit": true
+        },
+        {
+          "ticker": "009150",
+          "name": "삼성전기",
+          "predicted_prob": 65.2,
+          "grade": "A",
+          "actual_high_pct": 8.12,
+          "actual_close_pct": 5.6,
+          "hit": true
+        }
+      ]
+    },
+    {
       "date": "2026-02-13",
       "next_trading_date": "2026-02-19",
       "total": 10,
@@ -101,10 +200,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 10,
-    "total_hits": 9,
-    "hit_rate": 90.0,
-    "days_tracked": 1,
-    "updated_at": "2026-02-20 07:55"
+    "total_predictions": 20,
+    "total_hits": 15,
+    "hit_rate": 75.0,
+    "days_tracked": 2,
+    "updated_at": "2026-02-20 10:06"
   }
 }
