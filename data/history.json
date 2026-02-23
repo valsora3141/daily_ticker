@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-02-20",
+      "next_trading_date": "2026-02-23",
+      "total": 10,
+      "hits": 5,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "084870",
+          "name": "TBH글로벌",
+          "predicted_prob": 92.4,
+          "grade": "A",
+          "actual_high_pct": 13.29,
+          "actual_close_pct": 9.23,
+          "hit": true
+        },
+        {
+          "ticker": "130660",
+          "name": "한전산업",
+          "predicted_prob": 90.0,
+          "grade": "A",
+          "actual_high_pct": 2.08,
+          "actual_close_pct": -2.84,
+          "hit": true
+        },
+        {
+          "ticker": "003720",
+          "name": "삼영",
+          "predicted_prob": 74.3,
+          "grade": "A",
+          "actual_high_pct": 0.32,
+          "actual_close_pct": -11.94,
+          "hit": false
+        },
+        {
+          "ticker": "011700",
+          "name": "한신기계",
+          "predicted_prob": 69.0,
+          "grade": "A",
+          "actual_high_pct": 1.25,
+          "actual_close_pct": -5.18,
+          "hit": false
+        },
+        {
+          "ticker": "004560",
+          "name": "현대비앤지스틸",
+          "predicted_prob": 67.4,
+          "grade": "A",
+          "actual_high_pct": 18.6,
+          "actual_close_pct": 11.68,
+          "hit": true
+        },
+        {
+          "ticker": "004960",
+          "name": "한신공영",
+          "predicted_prob": 65.6,
+          "grade": "A",
+          "actual_high_pct": 3.27,
+          "actual_close_pct": -5.07,
+          "hit": true
+        },
+        {
+          "ticker": "004020",
+          "name": "현대제철",
+          "predicted_prob": 61.5,
+          "grade": "A",
+          "actual_high_pct": 0.26,
+          "actual_close_pct": -5.36,
+          "hit": false
+        },
+        {
+          "ticker": "272210",
+          "name": "한화시스템",
+          "predicted_prob": 56.9,
+          "grade": "A",
+          "actual_high_pct": 1.04,
+          "actual_close_pct": -3.22,
+          "hit": false
+        },
+        {
+          "ticker": "465770",
+          "name": "STX그린로지스",
+          "predicted_prob": 54.8,
+          "grade": "A",
+          "actual_high_pct": 5.88,
+          "actual_close_pct": 0.44,
+          "hit": true
+        },
+        {
+          "ticker": "047050",
+          "name": "포스코인터내셔널",
+          "predicted_prob": 52.9,
+          "grade": "A",
+          "actual_high_pct": 0.53,
+          "actual_close_pct": -2.53,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-02-19",
       "next_trading_date": "2026-02-20",
       "total": 10,
@@ -200,10 +299,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 20,
-    "total_hits": 15,
-    "hit_rate": 75.0,
-    "days_tracked": 2,
-    "updated_at": "2026-02-20 10:06"
+    "total_predictions": 30,
+    "total_hits": 20,
+    "hit_rate": 66.7,
+    "days_tracked": 3,
+    "updated_at": "2026-02-23 08:03"
   }
 }
