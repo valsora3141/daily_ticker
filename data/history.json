@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-02-23",
+      "next_trading_date": "2026-02-24",
+      "total": 10,
+      "hits": 7,
+      "hit_rate": 70.0,
+      "results": [
+        {
+          "ticker": "000400",
+          "name": "롯데손해보험",
+          "predicted_prob": 86.1,
+          "grade": "A",
+          "actual_high_pct": 0.37,
+          "actual_close_pct": -11.34,
+          "hit": false
+        },
+        {
+          "ticker": "004560",
+          "name": "현대비앤지스틸",
+          "predicted_prob": 83.7,
+          "grade": "A",
+          "actual_high_pct": 3.92,
+          "actual_close_pct": -4.61,
+          "hit": true
+        },
+        {
+          "ticker": "084870",
+          "name": "TBH글로벌",
+          "predicted_prob": 79.8,
+          "grade": "A",
+          "actual_high_pct": 2.98,
+          "actual_close_pct": 1.24,
+          "hit": true
+        },
+        {
+          "ticker": "004100",
+          "name": "태양금속",
+          "predicted_prob": 76.5,
+          "grade": "A",
+          "actual_high_pct": 4.08,
+          "actual_close_pct": -0.33,
+          "hit": true
+        },
+        {
+          "ticker": "005440",
+          "name": "현대지에프홀딩스",
+          "predicted_prob": 75.0,
+          "grade": "A",
+          "actual_high_pct": 28.58,
+          "actual_close_pct": 23.76,
+          "hit": true
+        },
+        {
+          "ticker": "005960",
+          "name": "동부건설",
+          "predicted_prob": 72.8,
+          "grade": "A",
+          "actual_high_pct": 6.8,
+          "actual_close_pct": 5.84,
+          "hit": true
+        },
+        {
+          "ticker": "363280",
+          "name": "티와이홀딩스",
+          "predicted_prob": 67.5,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.94,
+          "hit": false
+        },
+        {
+          "ticker": "103590",
+          "name": "일진전기",
+          "predicted_prob": 65.6,
+          "grade": "A",
+          "actual_high_pct": 3.71,
+          "actual_close_pct": 1.73,
+          "hit": true
+        },
+        {
+          "ticker": "005690",
+          "name": "파미셀",
+          "predicted_prob": 63.3,
+          "grade": "A",
+          "actual_high_pct": 1.03,
+          "actual_close_pct": -1.95,
+          "hit": false
+        },
+        {
+          "ticker": "439260",
+          "name": "대한조선",
+          "predicted_prob": 59.2,
+          "grade": "A",
+          "actual_high_pct": 2.58,
+          "actual_close_pct": 1.29,
+          "hit": true
+        }
+      ]
+    },
+    {
       "date": "2026-02-20",
       "next_trading_date": "2026-02-23",
       "total": 10,
@@ -299,10 +398,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 30,
-    "total_hits": 20,
-    "hit_rate": 66.7,
-    "days_tracked": 3,
-    "updated_at": "2026-02-23 08:03"
+    "total_predictions": 40,
+    "total_hits": 27,
+    "hit_rate": 67.5,
+    "days_tracked": 4,
+    "updated_at": "2026-02-24 08:00"
   }
 }
