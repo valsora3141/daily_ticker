@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-02-24",
+      "next_trading_date": "2026-02-25",
+      "total": 10,
+      "hits": 7,
+      "hit_rate": 70.0,
+      "results": [
+        {
+          "ticker": "452260",
+          "name": "한화갤러리아",
+          "predicted_prob": 78.8,
+          "grade": "A",
+          "actual_high_pct": 19.15,
+          "actual_close_pct": 3.61,
+          "hit": true
+        },
+        {
+          "ticker": "047040",
+          "name": "대우건설",
+          "predicted_prob": 70.4,
+          "grade": "A",
+          "actual_high_pct": 10.28,
+          "actual_close_pct": 5.8,
+          "hit": true
+        },
+        {
+          "ticker": "006345",
+          "name": "대원전선우",
+          "predicted_prob": 69.6,
+          "grade": "A",
+          "actual_high_pct": 9.8,
+          "actual_close_pct": -9.9,
+          "hit": true
+        },
+        {
+          "ticker": "008930",
+          "name": "한미사이언스",
+          "predicted_prob": 69.5,
+          "grade": "A",
+          "actual_high_pct": 0.6,
+          "actual_close_pct": -6.79,
+          "hit": false
+        },
+        {
+          "ticker": "014790",
+          "name": "HL D&I",
+          "predicted_prob": 65.8,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -3.03,
+          "hit": false
+        },
+        {
+          "ticker": "180640",
+          "name": "한진칼",
+          "predicted_prob": 57.1,
+          "grade": "A",
+          "actual_high_pct": 10.79,
+          "actual_close_pct": 9.15,
+          "hit": true
+        },
+        {
+          "ticker": "011500",
+          "name": "한농화성",
+          "predicted_prob": 56.6,
+          "grade": "A",
+          "actual_high_pct": 9.28,
+          "actual_close_pct": -1.11,
+          "hit": true
+        },
+        {
+          "ticker": "439260",
+          "name": "대한조선",
+          "predicted_prob": 51.9,
+          "grade": "A",
+          "actual_high_pct": 1.87,
+          "actual_close_pct": -1.87,
+          "hit": false
+        },
+        {
+          "ticker": "353200",
+          "name": "대덕전자",
+          "predicted_prob": 48.7,
+          "grade": "B",
+          "actual_high_pct": 3.14,
+          "actual_close_pct": -5.38,
+          "hit": true
+        },
+        {
+          "ticker": "034730",
+          "name": "SK",
+          "predicted_prob": 46.7,
+          "grade": "B",
+          "actual_high_pct": 4.25,
+          "actual_close_pct": 2.25,
+          "hit": true
+        }
+      ]
+    },
+    {
       "date": "2026-02-23",
       "next_trading_date": "2026-02-24",
       "total": 10,
@@ -398,10 +497,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 40,
-    "total_hits": 27,
-    "hit_rate": 67.5,
-    "days_tracked": 4,
-    "updated_at": "2026-02-24 08:00"
+    "total_predictions": 50,
+    "total_hits": 34,
+    "hit_rate": 68.0,
+    "days_tracked": 5,
+    "updated_at": "2026-02-25 08:01"
   }
 }
