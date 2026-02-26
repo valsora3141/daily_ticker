@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-02-25",
+      "next_trading_date": "2026-02-26",
+      "total": 10,
+      "hits": 5,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "084870",
+          "name": "TBH글로벌",
+          "predicted_prob": 89.5,
+          "grade": "A",
+          "actual_high_pct": 11.22,
+          "actual_close_pct": 10.24,
+          "hit": true
+        },
+        {
+          "ticker": "005850",
+          "name": "에스엘",
+          "predicted_prob": 77.5,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -2.88,
+          "hit": false
+        },
+        {
+          "ticker": "005090",
+          "name": "SGC에너지",
+          "predicted_prob": 75.8,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -6.76,
+          "hit": false
+        },
+        {
+          "ticker": "047040",
+          "name": "대우건설",
+          "predicted_prob": 72.4,
+          "grade": "A",
+          "actual_high_pct": 20.82,
+          "actual_close_pct": 11.92,
+          "hit": true
+        },
+        {
+          "ticker": "000720",
+          "name": "현대건설",
+          "predicted_prob": 72.3,
+          "grade": "A",
+          "actual_high_pct": 2.0,
+          "actual_close_pct": 1.12,
+          "hit": false
+        },
+        {
+          "ticker": "180640",
+          "name": "한진칼",
+          "predicted_prob": 61.2,
+          "grade": "A",
+          "actual_high_pct": 4.14,
+          "actual_close_pct": 2.13,
+          "hit": true
+        },
+        {
+          "ticker": "000270",
+          "name": "기아",
+          "predicted_prob": 60.6,
+          "grade": "A",
+          "actual_high_pct": 5.37,
+          "actual_close_pct": 4.36,
+          "hit": true
+        },
+        {
+          "ticker": "307950",
+          "name": "현대오토에버",
+          "predicted_prob": 60.5,
+          "grade": "A",
+          "actual_high_pct": 4.37,
+          "actual_close_pct": 2.75,
+          "hit": true
+        },
+        {
+          "ticker": "010130",
+          "name": "고려아연",
+          "predicted_prob": 57.4,
+          "grade": "A",
+          "actual_high_pct": 1.54,
+          "actual_close_pct": -1.01,
+          "hit": false
+        },
+        {
+          "ticker": "049800",
+          "name": "우진플라임",
+          "predicted_prob": 56.5,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -5.66,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-02-24",
       "next_trading_date": "2026-02-25",
       "total": 10,
@@ -497,10 +596,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 50,
-    "total_hits": 34,
-    "hit_rate": 68.0,
-    "days_tracked": 5,
-    "updated_at": "2026-02-25 08:01"
+    "total_predictions": 60,
+    "total_hits": 39,
+    "hit_rate": 65.0,
+    "days_tracked": 6,
+    "updated_at": "2026-02-26 07:59"
   }
 }
