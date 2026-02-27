@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-02-26",
+      "next_trading_date": "2026-02-27",
+      "total": 10,
+      "hits": 5,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "489790",
+          "name": "한화비전",
+          "predicted_prob": 85.6,
+          "grade": "A",
+          "actual_high_pct": 9.89,
+          "actual_close_pct": 4.27,
+          "hit": true
+        },
+        {
+          "ticker": "011070",
+          "name": "LG이노텍",
+          "predicted_prob": 79.4,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -4.2,
+          "hit": false
+        },
+        {
+          "ticker": "066570",
+          "name": "LG전자",
+          "predicted_prob": 62.7,
+          "grade": "A",
+          "actual_high_pct": 4.98,
+          "actual_close_pct": 0.69,
+          "hit": true
+        },
+        {
+          "ticker": "000720",
+          "name": "현대건설",
+          "predicted_prob": 62.1,
+          "grade": "A",
+          "actual_high_pct": 7.21,
+          "actual_close_pct": -0.18,
+          "hit": true
+        },
+        {
+          "ticker": "012330",
+          "name": "현대모비스",
+          "predicted_prob": 54.8,
+          "grade": "A",
+          "actual_high_pct": 4.73,
+          "actual_close_pct": 1.97,
+          "hit": true
+        },
+        {
+          "ticker": "034220",
+          "name": "LG디스플레이",
+          "predicted_prob": 54.6,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -8.95,
+          "hit": false
+        },
+        {
+          "ticker": "000150",
+          "name": "두산",
+          "predicted_prob": 52.8,
+          "grade": "A",
+          "actual_high_pct": 8.37,
+          "actual_close_pct": 6.95,
+          "hit": true
+        },
+        {
+          "ticker": "002020",
+          "name": "코오롱",
+          "predicted_prob": 46.1,
+          "grade": "B",
+          "actual_high_pct": 1.71,
+          "actual_close_pct": -1.99,
+          "hit": false
+        },
+        {
+          "ticker": "377300",
+          "name": "카카오페이",
+          "predicted_prob": 44.1,
+          "grade": "B",
+          "actual_high_pct": 0.72,
+          "actual_close_pct": -4.15,
+          "hit": false
+        },
+        {
+          "ticker": "012510",
+          "name": "더존비즈온",
+          "predicted_prob": 43.8,
+          "grade": "B",
+          "actual_high_pct": 0.08,
+          "actual_close_pct": -0.17,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-02-25",
       "next_trading_date": "2026-02-26",
       "total": 10,
@@ -596,10 +695,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 60,
-    "total_hits": 39,
-    "hit_rate": 65.0,
-    "days_tracked": 6,
-    "updated_at": "2026-02-26 07:59"
+    "total_predictions": 70,
+    "total_hits": 44,
+    "hit_rate": 62.9,
+    "days_tracked": 7,
+    "updated_at": "2026-02-27 07:56"
   }
 }
