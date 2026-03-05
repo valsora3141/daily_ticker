@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-02-27",
+      "next_trading_date": "2026-03-03",
+      "total": 10,
+      "hits": 4,
+      "hit_rate": 40.0,
+      "results": [
+        {
+          "ticker": "042700",
+          "name": "한미반도체",
+          "predicted_prob": 88.9,
+          "grade": "A",
+          "actual_high_pct": 1.75,
+          "actual_close_pct": -10.19,
+          "hit": false
+        },
+        {
+          "ticker": "006340",
+          "name": "대원전선",
+          "predicted_prob": 83.4,
+          "grade": "A",
+          "actual_high_pct": 6.32,
+          "actual_close_pct": -10.83,
+          "hit": true
+        },
+        {
+          "ticker": "005090",
+          "name": "SGC에너지",
+          "predicted_prob": 79.7,
+          "grade": "A",
+          "actual_high_pct": 4.37,
+          "actual_close_pct": -5.56,
+          "hit": true
+        },
+        {
+          "ticker": "010690",
+          "name": "화신",
+          "predicted_prob": 71.2,
+          "grade": "A",
+          "actual_high_pct": 1.65,
+          "actual_close_pct": -10.91,
+          "hit": false
+        },
+        {
+          "ticker": "005380",
+          "name": "현대차",
+          "predicted_prob": 69.3,
+          "grade": "A",
+          "actual_high_pct": 0.61,
+          "actual_close_pct": -9.02,
+          "hit": false
+        },
+        {
+          "ticker": "000150",
+          "name": "두산",
+          "predicted_prob": 58.6,
+          "grade": "A",
+          "actual_high_pct": 0.94,
+          "actual_close_pct": -9.29,
+          "hit": false
+        },
+        {
+          "ticker": "011210",
+          "name": "현대위아",
+          "predicted_prob": 53.4,
+          "grade": "A",
+          "actual_high_pct": 1.44,
+          "actual_close_pct": -12.07,
+          "hit": false
+        },
+        {
+          "ticker": "439260",
+          "name": "대한조선",
+          "predicted_prob": 50.9,
+          "grade": "A",
+          "actual_high_pct": 4.0,
+          "actual_close_pct": -6.43,
+          "hit": true
+        },
+        {
+          "ticker": "051910",
+          "name": "LG화학",
+          "predicted_prob": 49.1,
+          "grade": "B",
+          "actual_high_pct": 1.24,
+          "actual_close_pct": -10.2,
+          "hit": false
+        },
+        {
+          "ticker": "007660",
+          "name": "이수페타시스",
+          "predicted_prob": 44.5,
+          "grade": "B",
+          "actual_high_pct": 2.95,
+          "actual_close_pct": -8.37,
+          "hit": true
+        }
+      ]
+    },
+    {
       "date": "2026-02-26",
       "next_trading_date": "2026-02-27",
       "total": 10,
@@ -695,10 +794,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 70,
-    "total_hits": 44,
-    "hit_rate": 62.9,
-    "days_tracked": 7,
-    "updated_at": "2026-03-05 08:00"
+    "total_predictions": 80,
+    "total_hits": 48,
+    "hit_rate": 60.0,
+    "days_tracked": 8,
+    "updated_at": "2026-03-05 08:06"
   }
 }
