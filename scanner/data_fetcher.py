@@ -161,16 +161,32 @@ class DailyDataFetcher:
             raise ImportError("pykrx required: pip install pykrx")
 
         conn = sqlite3.connect(self.db_path)
-        row = conn.execute(
+        ohlcv_max = conn.execute(
             "SELECT MAX(date) FROM collection_log WHERE data_type = 'ohlcv'"
-        ).fetchone()
+        ).fetchone()[0]
+
+        # Find earliest date where OHLCV exists but investor data is absent/empty
+        investor_gap_from = conn.execute("""
+            SELECT MIN(o.date) FROM collection_log o
+            LEFT JOIN collection_log i
+                ON i.date = o.date AND i.data_type = 'investor' AND i.tickers_count > 0
+            WHERE o.data_type = 'ohlcv' AND o.tickers_count > 0
+              AND i.date IS NULL
+        """).fetchone()[0]
         conn.close()
 
-        if row[0]:
-            start = (pd.Timestamp(row[0]) + pd.Timedelta(days=1)).strftime("%Y%m%d")
+        if ohlcv_max:
+            ohlcv_start = (pd.Timestamp(ohlcv_max) + pd.Timedelta(days=1)).strftime("%Y%m%d")
         else:
             # Default: 90 calendar days back (~60 trading days for MA60)
-            start = (pd.Timestamp.now() - pd.Timedelta(days=90)).strftime("%Y%m%d")
+            ohlcv_start = (pd.Timestamp.now() - pd.Timedelta(days=90)).strftime("%Y%m%d")
+
+        if investor_gap_from:
+            start = min(ohlcv_start, investor_gap_from.replace("-", ""))
+            if start != ohlcv_start:
+                print(f"  Investor gap detected from {investor_gap_from} — backfilling")
+        else:
+            start = ohlcv_start
 
         end = datetime.now().strftime("%Y%m%d")
         print(f"Updating from {start} to {end}...")
