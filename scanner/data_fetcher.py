@@ -14,6 +14,7 @@ Usage:
 
 import sqlite3
 import time
+import requests
 import pandas as pd
 import numpy as np
 from pathlib import Path
@@ -22,9 +23,52 @@ from typing import Optional, Dict, List
 
 try:
     from pykrx import stock as pykrx_stock
+    from pykrx.website.comm import webio as _pykrx_webio
     PYKRX_AVAILABLE = True
 except ImportError:
     PYKRX_AVAILABLE = False
+    _pykrx_webio = None
+
+_UA = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+)
+_LOGIN_PAGE = "https://data.krx.co.kr/contents/MDC/COMS/client/MDCCOMS001.cmd"
+_LOGIN_JSP  = "https://data.krx.co.kr/contents/MDC/COMS/client/view/login.jsp?site=mdc"
+_LOGIN_URL  = "https://data.krx.co.kr/contents/MDC/COMS/client/MDCCOMS001D1.cmd"
+_session = requests.Session()
+
+
+def _patch_webio():
+    """Inject shared session into pykrx webio so all requests carry KRX cookies."""
+    if _pykrx_webio is None:
+        return
+    def _post_read(self, **params):
+        return _session.post(self.url, headers=self.headers, data=params)
+    def _get_read(self, **params):
+        return _session.get(self.url, headers=self.headers, params=params)
+    _pykrx_webio.Post.read = _post_read
+    _pykrx_webio.Get.read = _get_read
+
+
+def login_krx(login_id: str, login_pw: str) -> bool:
+    """Login to data.krx.co.kr and inject session cookies into pykrx."""
+    _session.get(_LOGIN_PAGE, headers={"User-Agent": _UA}, timeout=15)
+    _session.get(_LOGIN_JSP,  headers={"User-Agent": _UA, "Referer": _LOGIN_PAGE}, timeout=15)
+    payload = {
+        "mbrNm": "", "telNo": "", "di": "", "certType": "",
+        "mbrId": login_id, "pw": login_pw,
+    }
+    headers = {"User-Agent": _UA, "Referer": _LOGIN_PAGE}
+    resp = _session.post(_LOGIN_URL, data=payload, headers=headers, timeout=15)
+    data = resp.json()
+    error_code = data.get("_error_code", "")
+    if error_code == "CD011":  # duplicate login
+        payload["skipDup"] = "Y"
+        resp = _session.post(_LOGIN_URL, data=payload, headers=headers, timeout=15)
+        error_code = resp.json().get("_error_code", "")
+    _patch_webio()
+    return error_code == "CD001"  # CD001 = success
 
 
 class DailyDataFetcher:
@@ -93,6 +137,19 @@ class DailyDataFetcher:
 
         conn.commit()
         conn.close()
+
+    # ─────────────────────────────────────────────────────────
+    # Auth
+    # ─────────────────────────────────────────────────────────
+
+    def login(self, login_id: str, login_pw: str) -> bool:
+        """Login to KRX and patch pykrx to use the authenticated session."""
+        ok = login_krx(login_id, login_pw)
+        if ok:
+            print(f"  KRX login OK ({login_id})")
+        else:
+            print(f"  WARNING: KRX login failed — fetches may return empty data")
+        return ok
 
     # ─────────────────────────────────────────────────────────
     # Collection

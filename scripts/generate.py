@@ -16,6 +16,7 @@ Usage:
 """
 
 import json
+import os
 import sys
 import numpy as np
 import argparse
@@ -66,6 +67,12 @@ def main():
 
     if args.update:
         print("\n[1/4] Updating data from KRX...")
+        krx_id = os.getenv("KRX_ID", "")
+        krx_pw = os.getenv("KRX_PW", "")
+        if krx_id and krx_pw:
+            fetcher.login(krx_id, krx_pw)
+        else:
+            print("  WARNING: KRX_ID/KRX_PW not set — skipping login (may fail post-2026-03)")
         fetcher.update()
     else:
         print("\n[1/4] Using cached data.")

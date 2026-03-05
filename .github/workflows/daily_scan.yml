@@ -63,6 +63,9 @@ jobs:
       - name: Update data and generate recommendations
         run: |
           python scripts/generate.py --update --retrain
+        env:
+          KRX_ID: ${{ secrets.KRX_ID }}
+          KRX_PW: ${{ secrets.KRX_PW }}
 
       - name: Track history (verify previous predictions)
         run: |
