@@ -189,7 +189,7 @@ class DailyDataFetcher:
 
         trading_days = self._get_trading_days(start_date, end_date)
         collected_ohlcv = self._get_collected_dates("ohlcv")
-        collected_investor = self._get_collected_dates("investor")
+        collected_investor = self._get_collected_investor_dates()
 
         remaining_ohlcv = [d for d in trading_days if d not in collected_ohlcv]
         remaining_investor = [d for d in trading_days if d not in collected_investor]
@@ -438,6 +438,25 @@ class DailyDataFetcher:
         ).fetchall()}
         conn.close()
         return dates
+
+    def _get_collected_investor_dates(self) -> set:
+        """
+        Return dates where investor data is genuinely done — meaning either:
+          - tickers_count > 0 (real data collected), OR
+          - OHLCV was also empty that day (genuine holiday, no trading)
+
+        Excludes dates logged with count=0 while OHLCV has data, which indicates
+        a failed fetch (e.g. pre-auth pykrx returning empty) rather than a holiday.
+        """
+        conn = sqlite3.connect(self.db_path)
+        with_data = {r[0] for r in conn.execute(
+            "SELECT date FROM collection_log WHERE data_type='investor' AND tickers_count > 0"
+        ).fetchall()}
+        holidays = {r[0] for r in conn.execute(
+            "SELECT date FROM collection_log WHERE data_type='ohlcv' AND tickers_count = 0"
+        ).fetchall()}
+        conn.close()
+        return with_data | holidays
 
     def _log_collection(self, conn, day: str, data_type: str, count: int):
         conn.execute("""
