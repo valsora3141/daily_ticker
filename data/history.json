@@ -1,6 +1,87 @@
 {
   "days": [
     {
+      "date": "2026-03-09",
+      "next_trading_date": "2026-03-10",
+      "total": 8,
+      "hits": 5,
+      "hit_rate": 62.5,
+      "results": [
+        {
+          "ticker": "025860",
+          "name": "남해화학",
+          "predicted_prob": 71.1,
+          "grade": "A",
+          "actual_high_pct": 7.7,
+          "actual_close_pct": 2.61,
+          "hit": true
+        },
+        {
+          "ticker": "001550",
+          "name": "조비",
+          "predicted_prob": 63.0,
+          "grade": "A",
+          "actual_high_pct": 8.94,
+          "actual_close_pct": 1.13,
+          "hit": true
+        },
+        {
+          "ticker": "005090",
+          "name": "SGC에너지",
+          "predicted_prob": 48.2,
+          "grade": "B",
+          "actual_high_pct": 14.96,
+          "actual_close_pct": 12.8,
+          "hit": true
+        },
+        {
+          "ticker": "017960",
+          "name": "한국카본",
+          "predicted_prob": 45.7,
+          "grade": "B",
+          "actual_high_pct": 2.61,
+          "actual_close_pct": -3.18,
+          "hit": true
+        },
+        {
+          "ticker": "439260",
+          "name": "대한조선",
+          "predicted_prob": 43.0,
+          "grade": "B",
+          "actual_high_pct": 0.29,
+          "actual_close_pct": -4.69,
+          "hit": false
+        },
+        {
+          "ticker": "002100",
+          "name": "경농",
+          "predicted_prob": 40.1,
+          "grade": "B",
+          "actual_high_pct": 5.6,
+          "actual_close_pct": 0.32,
+          "hit": true
+        },
+        {
+          "ticker": "005010",
+          "name": "휴스틸",
+          "predicted_prob": 36.3,
+          "grade": "C",
+          "actual_high_pct": 0.54,
+          "actual_close_pct": -3.37,
+          "hit": false
+        },
+        {
+          "ticker": "329180",
+          "name": "HD현대중공업",
+          "predicted_prob": 26.0,
+          "grade": "D",
+          "actual_high_pct": 0.51,
+          "actual_close_pct": -0.51,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-03-06",
       "next_trading_date": "2026-03-09",
       "total": 7,
@@ -866,10 +947,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 87,
-    "total_hits": 51,
-    "hit_rate": 58.6,
-    "days_tracked": 9,
-    "updated_at": "2026-03-10 07:53"
+    "total_predictions": 95,
+    "total_hits": 56,
+    "hit_rate": 58.9,
+    "days_tracked": 10,
+    "updated_at": "2026-03-11 07:53"
   }
 }
