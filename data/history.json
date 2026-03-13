@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-03-11",
+      "next_trading_date": "2026-03-12",
+      "total": 10,
+      "hits": 7,
+      "hit_rate": 70.0,
+      "results": [
+        {
+          "ticker": "006800",
+          "name": "미래에셋증권",
+          "predicted_prob": 63.2,
+          "grade": "A",
+          "actual_high_pct": 0.84,
+          "actual_close_pct": -1.54,
+          "hit": false
+        },
+        {
+          "ticker": "011930",
+          "name": "신성이엔지",
+          "predicted_prob": 59.1,
+          "grade": "A",
+          "actual_high_pct": 4.1,
+          "actual_close_pct": 0.41,
+          "hit": true
+        },
+        {
+          "ticker": "138490",
+          "name": "코오롱ENP",
+          "predicted_prob": 58.9,
+          "grade": "A",
+          "actual_high_pct": 3.51,
+          "actual_close_pct": -0.6,
+          "hit": true
+        },
+        {
+          "ticker": "010780",
+          "name": "아이에스동서",
+          "predicted_prob": 45.3,
+          "grade": "B",
+          "actual_high_pct": 9.56,
+          "actual_close_pct": 7.62,
+          "hit": true
+        },
+        {
+          "ticker": "105840",
+          "name": "우진",
+          "predicted_prob": 44.8,
+          "grade": "B",
+          "actual_high_pct": 5.78,
+          "actual_close_pct": 0.93,
+          "hit": true
+        },
+        {
+          "ticker": "450080",
+          "name": "에코프로머티",
+          "predicted_prob": 43.0,
+          "grade": "B",
+          "actual_high_pct": 3.36,
+          "actual_close_pct": -0.15,
+          "hit": true
+        },
+        {
+          "ticker": "006360",
+          "name": "GS건설",
+          "predicted_prob": 40.1,
+          "grade": "B",
+          "actual_high_pct": 3.08,
+          "actual_close_pct": 0.47,
+          "hit": true
+        },
+        {
+          "ticker": "005010",
+          "name": "휴스틸",
+          "predicted_prob": 39.9,
+          "grade": "C",
+          "actual_high_pct": 9.56,
+          "actual_close_pct": 6.55,
+          "hit": true
+        },
+        {
+          "ticker": "004000",
+          "name": "롯데정밀화학",
+          "predicted_prob": 37.9,
+          "grade": "C",
+          "actual_high_pct": 0.38,
+          "actual_close_pct": 0.0,
+          "hit": false
+        },
+        {
+          "ticker": "012630",
+          "name": "HDC",
+          "predicted_prob": 37.5,
+          "grade": "C",
+          "actual_high_pct": 0.6,
+          "actual_close_pct": -2.78,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-03-10",
       "next_trading_date": "2026-03-11",
       "total": 8,
@@ -1028,10 +1127,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 103,
-    "total_hits": 60,
-    "hit_rate": 58.3,
-    "days_tracked": 11,
-    "updated_at": "2026-03-12 07:53"
+    "total_predictions": 113,
+    "total_hits": 67,
+    "hit_rate": 59.3,
+    "days_tracked": 12,
+    "updated_at": "2026-03-13 07:54"
   }
 }
