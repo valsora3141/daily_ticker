@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-03-13",
+      "next_trading_date": "2026-03-16",
+      "total": 10,
+      "hits": 4,
+      "hit_rate": 40.0,
+      "results": [
+        {
+          "ticker": "047040",
+          "name": "대우건설",
+          "predicted_prob": 87.2,
+          "grade": "A",
+          "actual_high_pct": 0.63,
+          "actual_close_pct": -5.67,
+          "hit": false
+        },
+        {
+          "ticker": "475150",
+          "name": "SK이터닉스",
+          "predicted_prob": 72.8,
+          "grade": "A",
+          "actual_high_pct": 1.58,
+          "actual_close_pct": -6.45,
+          "hit": false
+        },
+        {
+          "ticker": "003280",
+          "name": "흥아해운",
+          "predicted_prob": 63.5,
+          "grade": "A",
+          "actual_high_pct": 23.37,
+          "actual_close_pct": 23.37,
+          "hit": true
+        },
+        {
+          "ticker": "051630",
+          "name": "진양화학",
+          "predicted_prob": 52.8,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -3.82,
+          "hit": false
+        },
+        {
+          "ticker": "000720",
+          "name": "현대건설",
+          "predicted_prob": 48.1,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -4.09,
+          "hit": false
+        },
+        {
+          "ticker": "105840",
+          "name": "우진",
+          "predicted_prob": 47.6,
+          "grade": "B",
+          "actual_high_pct": 1.9,
+          "actual_close_pct": -8.46,
+          "hit": false
+        },
+        {
+          "ticker": "002140",
+          "name": "고려산업",
+          "predicted_prob": 42.7,
+          "grade": "B",
+          "actual_high_pct": 3.55,
+          "actual_close_pct": -1.78,
+          "hit": true
+        },
+        {
+          "ticker": "097230",
+          "name": "HJ중공업",
+          "predicted_prob": 41.9,
+          "grade": "B",
+          "actual_high_pct": 4.64,
+          "actual_close_pct": -5.18,
+          "hit": true
+        },
+        {
+          "ticker": "004105",
+          "name": "태양금속우",
+          "predicted_prob": 39.2,
+          "grade": "C",
+          "actual_high_pct": 2.12,
+          "actual_close_pct": -2.0,
+          "hit": true
+        },
+        {
+          "ticker": "053690",
+          "name": "한미글로벌",
+          "predicted_prob": 35.7,
+          "grade": "C",
+          "actual_high_pct": 0.25,
+          "actual_close_pct": -3.82,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-03-12",
       "next_trading_date": "2026-03-13",
       "total": 10,
@@ -1226,10 +1325,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 123,
-    "total_hits": 75,
-    "hit_rate": 61.0,
-    "days_tracked": 13,
-    "updated_at": "2026-03-16 08:15"
+    "total_predictions": 133,
+    "total_hits": 79,
+    "hit_rate": 59.4,
+    "days_tracked": 14,
+    "updated_at": "2026-03-17 08:01"
   }
 }
