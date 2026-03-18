@@ -1,6 +1,96 @@
 {
   "days": [
     {
+      "date": "2026-03-16",
+      "next_trading_date": "2026-03-17",
+      "total": 9,
+      "hits": 5,
+      "hit_rate": 55.6,
+      "results": [
+        {
+          "ticker": "465770",
+          "name": "STX그린로지스",
+          "predicted_prob": 80.5,
+          "grade": "A",
+          "actual_high_pct": 16.6,
+          "actual_close_pct": 3.78,
+          "hit": true
+        },
+        {
+          "ticker": "006110",
+          "name": "삼아알미늄",
+          "predicted_prob": 61.8,
+          "grade": "A",
+          "actual_high_pct": 2.02,
+          "actual_close_pct": 1.59,
+          "hit": true
+        },
+        {
+          "ticker": "010820",
+          "name": "퍼스텍",
+          "predicted_prob": 54.9,
+          "grade": "A",
+          "actual_high_pct": 0.75,
+          "actual_close_pct": -6.09,
+          "hit": false
+        },
+        {
+          "ticker": "047810",
+          "name": "한국항공우주",
+          "predicted_prob": 40.5,
+          "grade": "B",
+          "actual_high_pct": 3.46,
+          "actual_close_pct": 1.2,
+          "hit": true
+        },
+        {
+          "ticker": "035510",
+          "name": "신세계 I&C",
+          "predicted_prob": 35.9,
+          "grade": "C",
+          "actual_high_pct": 7.62,
+          "actual_close_pct": 7.62,
+          "hit": true
+        },
+        {
+          "ticker": "005680",
+          "name": "삼영전자",
+          "predicted_prob": 33.2,
+          "grade": "C",
+          "actual_high_pct": 16.16,
+          "actual_close_pct": 5.39,
+          "hit": true
+        },
+        {
+          "ticker": "002450",
+          "name": "삼익악기",
+          "predicted_prob": 28.8,
+          "grade": "D",
+          "actual_high_pct": 0.59,
+          "actual_close_pct": 0.5,
+          "hit": false
+        },
+        {
+          "ticker": "027410",
+          "name": "BGF",
+          "predicted_prob": 28.5,
+          "grade": "D",
+          "actual_high_pct": 1.16,
+          "actual_close_pct": 0.7,
+          "hit": false
+        },
+        {
+          "ticker": "017180",
+          "name": "명문제약",
+          "predicted_prob": 28.4,
+          "grade": "D",
+          "actual_high_pct": 0.16,
+          "actual_close_pct": -2.05,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-03-13",
       "next_trading_date": "2026-03-16",
       "total": 10,
@@ -1325,10 +1415,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 133,
-    "total_hits": 79,
-    "hit_rate": 59.4,
-    "days_tracked": 14,
-    "updated_at": "2026-03-17 08:01"
+    "total_predictions": 142,
+    "total_hits": 84,
+    "hit_rate": 59.2,
+    "days_tracked": 15,
+    "updated_at": "2026-03-18 07:59"
   }
 }
