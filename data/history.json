@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-03-18",
+      "next_trading_date": "2026-03-19",
+      "total": 10,
+      "hits": 9,
+      "hit_rate": 90.0,
+      "results": [
+        {
+          "ticker": "047040",
+          "name": "대우건설",
+          "predicted_prob": 94.1,
+          "grade": "A",
+          "actual_high_pct": 18.48,
+          "actual_close_pct": 11.06,
+          "hit": true
+        },
+        {
+          "ticker": "010060",
+          "name": "OCI홀딩스",
+          "predicted_prob": 78.6,
+          "grade": "A",
+          "actual_high_pct": 4.62,
+          "actual_close_pct": 0.66,
+          "hit": true
+        },
+        {
+          "ticker": "006340",
+          "name": "대원전선",
+          "predicted_prob": 74.1,
+          "grade": "A",
+          "actual_high_pct": 9.54,
+          "actual_close_pct": 3.66,
+          "hit": true
+        },
+        {
+          "ticker": "006360",
+          "name": "GS건설",
+          "predicted_prob": 71.9,
+          "grade": "A",
+          "actual_high_pct": 6.84,
+          "actual_close_pct": 1.37,
+          "hit": true
+        },
+        {
+          "ticker": "005680",
+          "name": "삼영전자",
+          "predicted_prob": 61.4,
+          "grade": "A",
+          "actual_high_pct": 6.27,
+          "actual_close_pct": 6.13,
+          "hit": true
+        },
+        {
+          "ticker": "217590",
+          "name": "티엠씨",
+          "predicted_prob": 55.2,
+          "grade": "A",
+          "actual_high_pct": 12.46,
+          "actual_close_pct": 7.94,
+          "hit": true
+        },
+        {
+          "ticker": "019180",
+          "name": "티에이치엔",
+          "predicted_prob": 53.6,
+          "grade": "A",
+          "actual_high_pct": 5.65,
+          "actual_close_pct": 1.33,
+          "hit": true
+        },
+        {
+          "ticker": "011930",
+          "name": "신성이엔지",
+          "predicted_prob": 52.6,
+          "grade": "A",
+          "actual_high_pct": 15.88,
+          "actual_close_pct": 4.05,
+          "hit": true
+        },
+        {
+          "ticker": "088350",
+          "name": "한화생명",
+          "predicted_prob": 46.7,
+          "grade": "B",
+          "actual_high_pct": 1.2,
+          "actual_close_pct": -1.79,
+          "hit": false
+        },
+        {
+          "ticker": "010120",
+          "name": "LS ELECTRIC",
+          "predicted_prob": 45.0,
+          "grade": "B",
+          "actual_high_pct": 9.65,
+          "actual_close_pct": 6.59,
+          "hit": true
+        }
+      ]
+    },
+    {
       "date": "2026-03-17",
       "next_trading_date": "2026-03-18",
       "total": 8,
@@ -1496,10 +1595,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 150,
-    "total_hits": 89,
-    "hit_rate": 59.3,
-    "days_tracked": 16,
-    "updated_at": "2026-03-19 07:54"
+    "total_predictions": 160,
+    "total_hits": 98,
+    "hit_rate": 61.3,
+    "days_tracked": 17,
+    "updated_at": "2026-03-20 07:53"
   }
 }
