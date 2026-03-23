@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-03-19",
+      "next_trading_date": "2026-03-20",
+      "total": 10,
+      "hits": 5,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "005960",
+          "name": "동부건설",
+          "predicted_prob": 63.4,
+          "grade": "A",
+          "actual_high_pct": 11.68,
+          "actual_close_pct": 8.11,
+          "hit": true
+        },
+        {
+          "ticker": "112610",
+          "name": "씨에스윈드",
+          "predicted_prob": 57.0,
+          "grade": "A",
+          "actual_high_pct": 1.91,
+          "actual_close_pct": -2.79,
+          "hit": false
+        },
+        {
+          "ticker": "053690",
+          "name": "한미글로벌",
+          "predicted_prob": 51.6,
+          "grade": "A",
+          "actual_high_pct": 16.19,
+          "actual_close_pct": 11.48,
+          "hit": true
+        },
+        {
+          "ticker": "217590",
+          "name": "티엠씨",
+          "predicted_prob": 51.6,
+          "grade": "A",
+          "actual_high_pct": 6.11,
+          "actual_close_pct": 3.06,
+          "hit": true
+        },
+        {
+          "ticker": "005680",
+          "name": "삼영전자",
+          "predicted_prob": 51.2,
+          "grade": "A",
+          "actual_high_pct": 1.64,
+          "actual_close_pct": -0.82,
+          "hit": false
+        },
+        {
+          "ticker": "034830",
+          "name": "한국토지신탁",
+          "predicted_prob": 48.7,
+          "grade": "B",
+          "actual_high_pct": 2.95,
+          "actual_close_pct": 2.53,
+          "hit": true
+        },
+        {
+          "ticker": "010120",
+          "name": "LS ELECTRIC",
+          "predicted_prob": 46.7,
+          "grade": "B",
+          "actual_high_pct": 0.67,
+          "actual_close_pct": -1.66,
+          "hit": false
+        },
+        {
+          "ticker": "006110",
+          "name": "삼아알미늄",
+          "predicted_prob": 45.5,
+          "grade": "B",
+          "actual_high_pct": 0.15,
+          "actual_close_pct": -1.21,
+          "hit": false
+        },
+        {
+          "ticker": "007660",
+          "name": "이수페타시스",
+          "predicted_prob": 38.9,
+          "grade": "C",
+          "actual_high_pct": 0.23,
+          "actual_close_pct": -3.35,
+          "hit": false
+        },
+        {
+          "ticker": "011070",
+          "name": "LG이노텍",
+          "predicted_prob": 38.3,
+          "grade": "C",
+          "actual_high_pct": 3.46,
+          "actual_close_pct": 2.42,
+          "hit": true
+        }
+      ]
+    },
+    {
       "date": "2026-03-18",
       "next_trading_date": "2026-03-19",
       "total": 10,
@@ -1595,10 +1694,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 160,
-    "total_hits": 98,
-    "hit_rate": 61.3,
-    "days_tracked": 17,
-    "updated_at": "2026-03-20 07:53"
+    "total_predictions": 170,
+    "total_hits": 103,
+    "hit_rate": 60.6,
+    "days_tracked": 18,
+    "updated_at": "2026-03-23 08:08"
   }
 }
