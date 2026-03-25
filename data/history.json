@@ -1,6 +1,78 @@
 {
   "days": [
     {
+      "date": "2026-03-23",
+      "next_trading_date": "2026-03-24",
+      "total": 7,
+      "hits": 3,
+      "hit_rate": 42.9,
+      "results": [
+        {
+          "ticker": "092220",
+          "name": "KEC",
+          "predicted_prob": 83.9,
+          "grade": "A",
+          "actual_high_pct": 14.43,
+          "actual_close_pct": 0.85,
+          "hit": true
+        },
+        {
+          "ticker": "000210",
+          "name": "DL",
+          "predicted_prob": 54.3,
+          "grade": "A",
+          "actual_high_pct": 0.16,
+          "actual_close_pct": -10.25,
+          "hit": false
+        },
+        {
+          "ticker": "090460",
+          "name": "비에이치",
+          "predicted_prob": 49.6,
+          "grade": "B",
+          "actual_high_pct": 0.21,
+          "actual_close_pct": -3.99,
+          "hit": false
+        },
+        {
+          "ticker": "013000",
+          "name": "세우글로벌",
+          "predicted_prob": 39.7,
+          "grade": "C",
+          "actual_high_pct": 2.5,
+          "actual_close_pct": 0.52,
+          "hit": true
+        },
+        {
+          "ticker": "161890",
+          "name": "한국콜마",
+          "predicted_prob": 30.4,
+          "grade": "C",
+          "actual_high_pct": 0.25,
+          "actual_close_pct": -1.64,
+          "hit": false
+        },
+        {
+          "ticker": "009580",
+          "name": "무림P&P",
+          "predicted_prob": 30.2,
+          "grade": "C",
+          "actual_high_pct": 17.6,
+          "actual_close_pct": 4.64,
+          "hit": true
+        },
+        {
+          "ticker": "395400",
+          "name": "SK리츠",
+          "predicted_prob": 26.3,
+          "grade": "D",
+          "actual_high_pct": 1.28,
+          "actual_close_pct": 1.28,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-03-20",
       "next_trading_date": "2026-03-23",
       "total": 10,
@@ -1793,10 +1865,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 180,
-    "total_hits": 110,
-    "hit_rate": 61.1,
-    "days_tracked": 19,
-    "updated_at": "2026-03-24 08:02"
+    "total_predictions": 187,
+    "total_hits": 113,
+    "hit_rate": 60.4,
+    "days_tracked": 20,
+    "updated_at": "2026-03-25 08:00"
   }
 }
