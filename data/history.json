@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-03-25",
+      "next_trading_date": "2026-03-26",
+      "total": 10,
+      "hits": 7,
+      "hit_rate": 70.0,
+      "results": [
+        {
+          "ticker": "004440",
+          "name": "삼일씨엔에스",
+          "predicted_prob": 97.3,
+          "grade": "A",
+          "actual_high_pct": 17.89,
+          "actual_close_pct": 5.96,
+          "hit": true
+        },
+        {
+          "ticker": "353200",
+          "name": "대덕전자",
+          "predicted_prob": 75.2,
+          "grade": "A",
+          "actual_high_pct": 5.79,
+          "actual_close_pct": 1.62,
+          "hit": true
+        },
+        {
+          "ticker": "066970",
+          "name": "엘앤에프",
+          "predicted_prob": 68.0,
+          "grade": "A",
+          "actual_high_pct": 2.98,
+          "actual_close_pct": 0.21,
+          "hit": true
+        },
+        {
+          "ticker": "489790",
+          "name": "한화비전",
+          "predicted_prob": 67.1,
+          "grade": "A",
+          "actual_high_pct": 0.22,
+          "actual_close_pct": -8.16,
+          "hit": false
+        },
+        {
+          "ticker": "006805",
+          "name": "미래에셋증권우",
+          "predicted_prob": 47.6,
+          "grade": "B",
+          "actual_high_pct": 4.03,
+          "actual_close_pct": -4.25,
+          "hit": true
+        },
+        {
+          "ticker": "011070",
+          "name": "LG이노텍",
+          "predicted_prob": 47.6,
+          "grade": "B",
+          "actual_high_pct": 4.19,
+          "actual_close_pct": -2.26,
+          "hit": true
+        },
+        {
+          "ticker": "008060",
+          "name": "대덕",
+          "predicted_prob": 45.0,
+          "grade": "B",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -2.74,
+          "hit": false
+        },
+        {
+          "ticker": "195870",
+          "name": "해성디에스",
+          "predicted_prob": 44.5,
+          "grade": "B",
+          "actual_high_pct": 4.08,
+          "actual_close_pct": -3.74,
+          "hit": true
+        },
+        {
+          "ticker": "029460",
+          "name": "케이씨",
+          "predicted_prob": 42.2,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -3.75,
+          "hit": false
+        },
+        {
+          "ticker": "138490",
+          "name": "코오롱ENP",
+          "predicted_prob": 40.8,
+          "grade": "B",
+          "actual_high_pct": 8.76,
+          "actual_close_pct": 5.2,
+          "hit": true
+        }
+      ]
+    },
+    {
       "date": "2026-03-24",
       "next_trading_date": "2026-03-25",
       "total": 10,
@@ -1964,10 +2063,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 197,
-    "total_hits": 120,
-    "hit_rate": 60.9,
-    "days_tracked": 21,
-    "updated_at": "2026-03-26 08:08"
+    "total_predictions": 207,
+    "total_hits": 127,
+    "hit_rate": 61.4,
+    "days_tracked": 22,
+    "updated_at": "2026-03-27 08:05"
   }
 }
