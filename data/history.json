@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-03-26",
+      "next_trading_date": "2026-03-27",
+      "total": 10,
+      "hits": 8,
+      "hit_rate": 80.0,
+      "results": [
+        {
+          "ticker": "004440",
+          "name": "삼일씨엔에스",
+          "predicted_prob": 86.9,
+          "grade": "A",
+          "actual_high_pct": 13.6,
+          "actual_close_pct": 3.84,
+          "hit": true
+        },
+        {
+          "ticker": "009580",
+          "name": "무림P&P",
+          "predicted_prob": 72.6,
+          "grade": "A",
+          "actual_high_pct": 4.3,
+          "actual_close_pct": -7.12,
+          "hit": true
+        },
+        {
+          "ticker": "003000",
+          "name": "부광약품",
+          "predicted_prob": 71.7,
+          "grade": "A",
+          "actual_high_pct": 6.0,
+          "actual_close_pct": 2.89,
+          "hit": true
+        },
+        {
+          "ticker": "007810",
+          "name": "코리아써키트",
+          "predicted_prob": 58.5,
+          "grade": "A",
+          "actual_high_pct": 10.21,
+          "actual_close_pct": 5.93,
+          "hit": true
+        },
+        {
+          "ticker": "002020",
+          "name": "코오롱",
+          "predicted_prob": 54.4,
+          "grade": "A",
+          "actual_high_pct": 9.92,
+          "actual_close_pct": 9.92,
+          "hit": true
+        },
+        {
+          "ticker": "007340",
+          "name": "DN오토모티브",
+          "predicted_prob": 52.4,
+          "grade": "A",
+          "actual_high_pct": 1.86,
+          "actual_close_pct": 0.87,
+          "hit": false
+        },
+        {
+          "ticker": "012630",
+          "name": "HDC",
+          "predicted_prob": 48.7,
+          "grade": "B",
+          "actual_high_pct": 2.05,
+          "actual_close_pct": -2.56,
+          "hit": true
+        },
+        {
+          "ticker": "120110",
+          "name": "코오롱인더",
+          "predicted_prob": 42.4,
+          "grade": "B",
+          "actual_high_pct": 1.01,
+          "actual_close_pct": 1.01,
+          "hit": false
+        },
+        {
+          "ticker": "009200",
+          "name": "무림페이퍼",
+          "predicted_prob": 41.5,
+          "grade": "B",
+          "actual_high_pct": 5.41,
+          "actual_close_pct": -5.86,
+          "hit": true
+        },
+        {
+          "ticker": "138490",
+          "name": "코오롱ENP",
+          "predicted_prob": 41.1,
+          "grade": "B",
+          "actual_high_pct": 3.01,
+          "actual_close_pct": 2.67,
+          "hit": true
+        }
+      ]
+    },
+    {
       "date": "2026-03-25",
       "next_trading_date": "2026-03-26",
       "total": 10,
@@ -2063,10 +2162,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 207,
-    "total_hits": 127,
-    "hit_rate": 61.4,
-    "days_tracked": 22,
-    "updated_at": "2026-03-27 08:05"
+    "total_predictions": 217,
+    "total_hits": 135,
+    "hit_rate": 62.2,
+    "days_tracked": 23,
+    "updated_at": "2026-03-30 08:47"
   }
 }
