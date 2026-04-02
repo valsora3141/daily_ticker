@@ -1,6 +1,51 @@
 {
   "days": [
     {
+      "date": "2026-03-31",
+      "next_trading_date": "2026-04-01",
+      "total": 4,
+      "hits": 4,
+      "hit_rate": 100.0,
+      "results": [
+        {
+          "ticker": "003280",
+          "name": "흥아해운",
+          "predicted_prob": 94.2,
+          "grade": "A",
+          "actual_high_pct": 10.03,
+          "actual_close_pct": 3.34,
+          "hit": true
+        },
+        {
+          "ticker": "008350",
+          "name": "남선알미늄",
+          "predicted_prob": 93.3,
+          "grade": "A",
+          "actual_high_pct": 5.6,
+          "actual_close_pct": -5.83,
+          "hit": true
+        },
+        {
+          "ticker": "025890",
+          "name": "한국주강",
+          "predicted_prob": 68.2,
+          "grade": "A",
+          "actual_high_pct": 3.42,
+          "actual_close_pct": 0.15,
+          "hit": true
+        },
+        {
+          "ticker": "016090",
+          "name": "대현",
+          "predicted_prob": 25.4,
+          "grade": "D",
+          "actual_high_pct": 2.6,
+          "actual_close_pct": 2.36,
+          "hit": true
+        }
+      ]
+    },
+    {
       "date": "2026-03-30",
       "next_trading_date": "2026-03-31",
       "total": 10,
@@ -2360,10 +2405,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 237,
-    "total_hits": 144,
-    "hit_rate": 60.8,
-    "days_tracked": 25,
-    "updated_at": "2026-04-01 08:21"
+    "total_predictions": 241,
+    "total_hits": 148,
+    "hit_rate": 61.4,
+    "days_tracked": 26,
+    "updated_at": "2026-04-02 08:13"
   }
 }
