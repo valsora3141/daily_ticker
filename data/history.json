@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-04-02",
+      "next_trading_date": "2026-04-03",
+      "total": 10,
+      "hits": 4,
+      "hit_rate": 40.0,
+      "results": [
+        {
+          "ticker": "322000",
+          "name": "HD현대에너지솔루션",
+          "predicted_prob": 58.1,
+          "grade": "A",
+          "actual_high_pct": 31.79,
+          "actual_close_pct": 31.79,
+          "hit": true
+        },
+        {
+          "ticker": "093050",
+          "name": "LF",
+          "predicted_prob": 37.4,
+          "grade": "C",
+          "actual_high_pct": 0.78,
+          "actual_close_pct": -4.5,
+          "hit": false
+        },
+        {
+          "ticker": "012450",
+          "name": "한화에어로스페이스",
+          "predicted_prob": 36.9,
+          "grade": "C",
+          "actual_high_pct": 4.37,
+          "actual_close_pct": 2.19,
+          "hit": true
+        },
+        {
+          "ticker": "006400",
+          "name": "삼성SDI",
+          "predicted_prob": 34.5,
+          "grade": "C",
+          "actual_high_pct": 1.88,
+          "actual_close_pct": -2.88,
+          "hit": false
+        },
+        {
+          "ticker": "003670",
+          "name": "포스코퓨처엠",
+          "predicted_prob": 32.2,
+          "grade": "C",
+          "actual_high_pct": 1.14,
+          "actual_close_pct": -3.42,
+          "hit": false
+        },
+        {
+          "ticker": "009190",
+          "name": "대양금속",
+          "predicted_prob": 30.0,
+          "grade": "C",
+          "actual_high_pct": 3.72,
+          "actual_close_pct": 2.16,
+          "hit": true
+        },
+        {
+          "ticker": "373220",
+          "name": "LG에너지솔루션",
+          "predicted_prob": 27.8,
+          "grade": "D",
+          "actual_high_pct": 1.1,
+          "actual_close_pct": -2.8,
+          "hit": false
+        },
+        {
+          "ticker": "016090",
+          "name": "대현",
+          "predicted_prob": 27.0,
+          "grade": "D",
+          "actual_high_pct": 1.09,
+          "actual_close_pct": 0.98,
+          "hit": false
+        },
+        {
+          "ticker": "096770",
+          "name": "SK이노베이션",
+          "predicted_prob": 26.7,
+          "grade": "D",
+          "actual_high_pct": 1.18,
+          "actual_close_pct": 0.0,
+          "hit": false
+        },
+        {
+          "ticker": "097950",
+          "name": "CJ제일제당",
+          "predicted_prob": 22.8,
+          "grade": "D",
+          "actual_high_pct": 4.28,
+          "actual_close_pct": 1.8,
+          "hit": true
+        }
+      ]
+    },
+    {
       "date": "2026-04-01",
       "next_trading_date": "2026-04-02",
       "total": 10,
@@ -2504,10 +2603,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 251,
-    "total_hits": 154,
-    "hit_rate": 61.4,
-    "days_tracked": 27,
-    "updated_at": "2026-04-03 08:08"
+    "total_predictions": 261,
+    "total_hits": 158,
+    "hit_rate": 60.5,
+    "days_tracked": 28,
+    "updated_at": "2026-04-06 08:45"
   }
 }
