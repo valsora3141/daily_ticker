@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-04-03",
+      "next_trading_date": "2026-04-06",
+      "total": 10,
+      "hits": 6,
+      "hit_rate": 60.0,
+      "results": [
+        {
+          "ticker": "017900",
+          "name": "광전자",
+          "predicted_prob": 98.5,
+          "grade": "A",
+          "actual_high_pct": 21.13,
+          "actual_close_pct": 21.13,
+          "hit": true
+        },
+        {
+          "ticker": "011930",
+          "name": "신성이엔지",
+          "predicted_prob": 89.2,
+          "grade": "A",
+          "actual_high_pct": 8.35,
+          "actual_close_pct": 2.88,
+          "hit": true
+        },
+        {
+          "ticker": "092790",
+          "name": "넥스틸",
+          "predicted_prob": 87.1,
+          "grade": "A",
+          "actual_high_pct": 13.6,
+          "actual_close_pct": 5.12,
+          "hit": true
+        },
+        {
+          "ticker": "010820",
+          "name": "퍼스텍",
+          "predicted_prob": 82.3,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -12.11,
+          "hit": false
+        },
+        {
+          "ticker": "001250",
+          "name": "GS글로벌",
+          "predicted_prob": 82.0,
+          "grade": "A",
+          "actual_high_pct": 16.92,
+          "actual_close_pct": 11.48,
+          "hit": true
+        },
+        {
+          "ticker": "112610",
+          "name": "씨에스윈드",
+          "predicted_prob": 76.3,
+          "grade": "A",
+          "actual_high_pct": 3.31,
+          "actual_close_pct": -2.91,
+          "hit": true
+        },
+        {
+          "ticker": "100090",
+          "name": "SK오션플랜트",
+          "predicted_prob": 65.1,
+          "grade": "A",
+          "actual_high_pct": 0.17,
+          "actual_close_pct": -3.54,
+          "hit": false
+        },
+        {
+          "ticker": "017960",
+          "name": "한국카본",
+          "predicted_prob": 56.8,
+          "grade": "A",
+          "actual_high_pct": 1.08,
+          "actual_close_pct": 0.11,
+          "hit": false
+        },
+        {
+          "ticker": "084680",
+          "name": "이월드",
+          "predicted_prob": 52.5,
+          "grade": "A",
+          "actual_high_pct": 4.99,
+          "actual_close_pct": 1.23,
+          "hit": true
+        },
+        {
+          "ticker": "126720",
+          "name": "수산인더스트리",
+          "predicted_prob": 44.9,
+          "grade": "B",
+          "actual_high_pct": 0.52,
+          "actual_close_pct": -4.86,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-04-02",
       "next_trading_date": "2026-04-03",
       "total": 10,
@@ -2603,10 +2702,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 261,
-    "total_hits": 158,
+    "total_predictions": 271,
+    "total_hits": 164,
     "hit_rate": 60.5,
-    "days_tracked": 28,
-    "updated_at": "2026-04-06 08:45"
+    "days_tracked": 29,
+    "updated_at": "2026-04-07 08:19"
   }
 }
