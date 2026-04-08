@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-04-06",
+      "next_trading_date": "2026-04-07",
+      "total": 10,
+      "hits": 7,
+      "hit_rate": 70.0,
+      "results": [
+        {
+          "ticker": "008350",
+          "name": "남선알미늄",
+          "predicted_prob": 93.0,
+          "grade": "A",
+          "actual_high_pct": 21.52,
+          "actual_close_pct": 6.6,
+          "hit": true
+        },
+        {
+          "ticker": "018470",
+          "name": "조일알미늄",
+          "predicted_prob": 83.1,
+          "grade": "A",
+          "actual_high_pct": 9.93,
+          "actual_close_pct": -2.8,
+          "hit": true
+        },
+        {
+          "ticker": "001780",
+          "name": "알루코",
+          "predicted_prob": 77.8,
+          "grade": "A",
+          "actual_high_pct": 4.66,
+          "actual_close_pct": -3.35,
+          "hit": true
+        },
+        {
+          "ticker": "006110",
+          "name": "삼아알미늄",
+          "predicted_prob": 62.7,
+          "grade": "A",
+          "actual_high_pct": 5.6,
+          "actual_close_pct": -1.23,
+          "hit": true
+        },
+        {
+          "ticker": "092790",
+          "name": "넥스틸",
+          "predicted_prob": 53.4,
+          "grade": "A",
+          "actual_high_pct": 3.56,
+          "actual_close_pct": -4.04,
+          "hit": true
+        },
+        {
+          "ticker": "006400",
+          "name": "삼성SDI",
+          "predicted_prob": 43.7,
+          "grade": "B",
+          "actual_high_pct": 4.46,
+          "actual_close_pct": 1.78,
+          "hit": true
+        },
+        {
+          "ticker": "011760",
+          "name": "현대코퍼레이션",
+          "predicted_prob": 37.0,
+          "grade": "C",
+          "actual_high_pct": 1.84,
+          "actual_close_pct": -1.29,
+          "hit": false
+        },
+        {
+          "ticker": "010950",
+          "name": "S-Oil",
+          "predicted_prob": 35.8,
+          "grade": "C",
+          "actual_high_pct": 4.07,
+          "actual_close_pct": -0.61,
+          "hit": true
+        },
+        {
+          "ticker": "002310",
+          "name": "아세아제지",
+          "predicted_prob": 33.4,
+          "grade": "C",
+          "actual_high_pct": 1.08,
+          "actual_close_pct": -0.43,
+          "hit": false
+        },
+        {
+          "ticker": "069730",
+          "name": "DSR제강",
+          "predicted_prob": 33.2,
+          "grade": "C",
+          "actual_high_pct": 1.9,
+          "actual_close_pct": 1.52,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-04-03",
       "next_trading_date": "2026-04-06",
       "total": 10,
@@ -2702,10 +2801,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 271,
-    "total_hits": 164,
-    "hit_rate": 60.5,
-    "days_tracked": 29,
-    "updated_at": "2026-04-07 08:19"
+    "total_predictions": 281,
+    "total_hits": 171,
+    "hit_rate": 60.9,
+    "days_tracked": 30,
+    "updated_at": "2026-04-08 08:19"
   }
 }
