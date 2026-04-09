@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-04-07",
+      "next_trading_date": "2026-04-08",
+      "total": 10,
+      "hits": 1,
+      "hit_rate": 10.0,
+      "results": [
+        {
+          "ticker": "066970",
+          "name": "엘앤에프",
+          "predicted_prob": 70.7,
+          "grade": "A",
+          "actual_high_pct": 0.05,
+          "actual_close_pct": -4.01,
+          "hit": false
+        },
+        {
+          "ticker": "450080",
+          "name": "에코프로머티",
+          "predicted_prob": 50.8,
+          "grade": "A",
+          "actual_high_pct": 0.66,
+          "actual_close_pct": 0.52,
+          "hit": false
+        },
+        {
+          "ticker": "002020",
+          "name": "코오롱",
+          "predicted_prob": 43.9,
+          "grade": "B",
+          "actual_high_pct": 1.18,
+          "actual_close_pct": -3.11,
+          "hit": false
+        },
+        {
+          "ticker": "483650",
+          "name": "달바글로벌",
+          "predicted_prob": 41.5,
+          "grade": "B",
+          "actual_high_pct": 0.6,
+          "actual_close_pct": -0.42,
+          "hit": false
+        },
+        {
+          "ticker": "011170",
+          "name": "롯데케미칼",
+          "predicted_prob": 38.7,
+          "grade": "C",
+          "actual_high_pct": 0.22,
+          "actual_close_pct": -0.22,
+          "hit": false
+        },
+        {
+          "ticker": "000720",
+          "name": "현대건설",
+          "predicted_prob": 38.2,
+          "grade": "C",
+          "actual_high_pct": 20.1,
+          "actual_close_pct": 14.23,
+          "hit": true
+        },
+        {
+          "ticker": "006400",
+          "name": "삼성SDI",
+          "predicted_prob": 35.3,
+          "grade": "C",
+          "actual_high_pct": 0.11,
+          "actual_close_pct": 0.11,
+          "hit": false
+        },
+        {
+          "ticker": "006880",
+          "name": "신송홀딩스",
+          "predicted_prob": 35.2,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.96,
+          "hit": false
+        },
+        {
+          "ticker": "012450",
+          "name": "한화에어로스페이스",
+          "predicted_prob": 34.4,
+          "grade": "C",
+          "actual_high_pct": 0.33,
+          "actual_close_pct": -1.53,
+          "hit": false
+        },
+        {
+          "ticker": "005070",
+          "name": "코스모신소재",
+          "predicted_prob": 32.2,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -0.19,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-04-06",
       "next_trading_date": "2026-04-07",
       "total": 10,
@@ -2801,10 +2900,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 281,
-    "total_hits": 171,
-    "hit_rate": 60.9,
-    "days_tracked": 30,
-    "updated_at": "2026-04-08 08:19"
+    "total_predictions": 291,
+    "total_hits": 172,
+    "hit_rate": 59.1,
+    "days_tracked": 31,
+    "updated_at": "2026-04-09 08:46"
   }
 }
