@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-04-08",
+      "next_trading_date": "2026-04-09",
+      "total": 10,
+      "hits": 8,
+      "hit_rate": 80.0,
+      "results": [
+        {
+          "ticker": "017900",
+          "name": "광전자",
+          "predicted_prob": 99.3,
+          "grade": "A",
+          "actual_high_pct": 21.03,
+          "actual_close_pct": 21.03,
+          "hit": true
+        },
+        {
+          "ticker": "006110",
+          "name": "삼아알미늄",
+          "predicted_prob": 76.8,
+          "grade": "A",
+          "actual_high_pct": 12.43,
+          "actual_close_pct": 5.95,
+          "hit": true
+        },
+        {
+          "ticker": "053690",
+          "name": "한미글로벌",
+          "predicted_prob": 75.1,
+          "grade": "A",
+          "actual_high_pct": 0.32,
+          "actual_close_pct": -2.07,
+          "hit": false
+        },
+        {
+          "ticker": "005960",
+          "name": "동부건설",
+          "predicted_prob": 63.2,
+          "grade": "A",
+          "actual_high_pct": 6.57,
+          "actual_close_pct": 3.01,
+          "hit": true
+        },
+        {
+          "ticker": "006650",
+          "name": "대한유화",
+          "predicted_prob": 60.3,
+          "grade": "A",
+          "actual_high_pct": 11.18,
+          "actual_close_pct": 6.74,
+          "hit": true
+        },
+        {
+          "ticker": "009410",
+          "name": "태영건설",
+          "predicted_prob": 60.3,
+          "grade": "A",
+          "actual_high_pct": 11.25,
+          "actual_close_pct": 4.0,
+          "hit": true
+        },
+        {
+          "ticker": "003070",
+          "name": "코오롱글로벌",
+          "predicted_prob": 59.5,
+          "grade": "A",
+          "actual_high_pct": 3.97,
+          "actual_close_pct": -0.83,
+          "hit": true
+        },
+        {
+          "ticker": "009150",
+          "name": "삼성전기",
+          "predicted_prob": 58.5,
+          "grade": "A",
+          "actual_high_pct": 2.54,
+          "actual_close_pct": 0.78,
+          "hit": true
+        },
+        {
+          "ticker": "002150",
+          "name": "도화엔지니어링",
+          "predicted_prob": 54.3,
+          "grade": "A",
+          "actual_high_pct": 2.82,
+          "actual_close_pct": -1.27,
+          "hit": true
+        },
+        {
+          "ticker": "039490",
+          "name": "키움증권",
+          "predicted_prob": 52.6,
+          "grade": "A",
+          "actual_high_pct": 1.78,
+          "actual_close_pct": -0.67,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-04-07",
       "next_trading_date": "2026-04-08",
       "total": 10,
@@ -2900,10 +2999,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 291,
-    "total_hits": 172,
-    "hit_rate": 59.1,
-    "days_tracked": 31,
-    "updated_at": "2026-04-09 08:46"
+    "total_predictions": 301,
+    "total_hits": 180,
+    "hit_rate": 59.8,
+    "days_tracked": 32,
+    "updated_at": "2026-04-10 08:45"
   }
 }
