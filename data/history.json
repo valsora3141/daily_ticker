@@ -1,6 +1,96 @@
 {
   "days": [
     {
+      "date": "2026-04-09",
+      "next_trading_date": "2026-04-10",
+      "total": 9,
+      "hits": 3,
+      "hit_rate": 33.3,
+      "results": [
+        {
+          "ticker": "017550",
+          "name": "수산세보틱스",
+          "predicted_prob": 84.8,
+          "grade": "A",
+          "actual_high_pct": 4.61,
+          "actual_close_pct": -3.66,
+          "hit": true
+        },
+        {
+          "ticker": "092790",
+          "name": "넥스틸",
+          "predicted_prob": 79.1,
+          "grade": "A",
+          "actual_high_pct": 1.47,
+          "actual_close_pct": -2.94,
+          "hit": false
+        },
+        {
+          "ticker": "071090",
+          "name": "하이스틸",
+          "predicted_prob": 74.5,
+          "grade": "A",
+          "actual_high_pct": 1.98,
+          "actual_close_pct": -7.25,
+          "hit": false
+        },
+        {
+          "ticker": "002690",
+          "name": "동일제강",
+          "predicted_prob": 62.3,
+          "grade": "A",
+          "actual_high_pct": 3.99,
+          "actual_close_pct": -4.38,
+          "hit": true
+        },
+        {
+          "ticker": "282330",
+          "name": "BGF리테일",
+          "predicted_prob": 54.2,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -8.77,
+          "hit": false
+        },
+        {
+          "ticker": "079550",
+          "name": "LIG넥스원",
+          "predicted_prob": 50.8,
+          "grade": "A",
+          "actual_high_pct": 6.63,
+          "actual_close_pct": 3.48,
+          "hit": true
+        },
+        {
+          "ticker": "009410",
+          "name": "태영건설",
+          "predicted_prob": 49.9,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -8.18,
+          "hit": false
+        },
+        {
+          "ticker": "017670",
+          "name": "SK텔레콤",
+          "predicted_prob": 47.9,
+          "grade": "B",
+          "actual_high_pct": 1.37,
+          "actual_close_pct": -2.11,
+          "hit": false
+        },
+        {
+          "ticker": "000150",
+          "name": "두산",
+          "predicted_prob": 46.2,
+          "grade": "B",
+          "actual_high_pct": 1.1,
+          "actual_close_pct": 0.39,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-04-08",
       "next_trading_date": "2026-04-09",
       "total": 10,
@@ -2999,10 +3089,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 301,
-    "total_hits": 180,
-    "hit_rate": 59.8,
-    "days_tracked": 32,
-    "updated_at": "2026-04-10 08:45"
+    "total_predictions": 310,
+    "total_hits": 183,
+    "hit_rate": 59.0,
+    "days_tracked": 33,
+    "updated_at": "2026-04-13 09:09"
   }
 }
