@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-04-10",
+      "next_trading_date": "2026-04-13",
+      "total": 10,
+      "hits": 10,
+      "hit_rate": 100.0,
+      "results": [
+        {
+          "ticker": "010820",
+          "name": "퍼스텍",
+          "predicted_prob": 81.5,
+          "grade": "A",
+          "actual_high_pct": 3.64,
+          "actual_close_pct": 1.69,
+          "hit": true
+        },
+        {
+          "ticker": "047040",
+          "name": "대우건설",
+          "predicted_prob": 73.5,
+          "grade": "A",
+          "actual_high_pct": 7.07,
+          "actual_close_pct": 1.71,
+          "hit": true
+        },
+        {
+          "ticker": "109070",
+          "name": "주성코퍼레이션",
+          "predicted_prob": 62.4,
+          "grade": "A",
+          "actual_high_pct": 18.77,
+          "actual_close_pct": 18.77,
+          "hit": true
+        },
+        {
+          "ticker": "009150",
+          "name": "삼성전기",
+          "predicted_prob": 60.4,
+          "grade": "A",
+          "actual_high_pct": 4.32,
+          "actual_close_pct": 2.34,
+          "hit": true
+        },
+        {
+          "ticker": "100840",
+          "name": "SNT에너지",
+          "predicted_prob": 57.5,
+          "grade": "A",
+          "actual_high_pct": 5.46,
+          "actual_close_pct": 2.89,
+          "hit": true
+        },
+        {
+          "ticker": "004100",
+          "name": "태양금속",
+          "predicted_prob": 52.4,
+          "grade": "A",
+          "actual_high_pct": 2.28,
+          "actual_close_pct": 0.91,
+          "hit": true
+        },
+        {
+          "ticker": "001820",
+          "name": "삼화콘덴서",
+          "predicted_prob": 50.7,
+          "grade": "A",
+          "actual_high_pct": 3.73,
+          "actual_close_pct": 0.81,
+          "hit": true
+        },
+        {
+          "ticker": "020150",
+          "name": "롯데에너지머티리얼즈",
+          "predicted_prob": 48.8,
+          "grade": "B",
+          "actual_high_pct": 5.56,
+          "actual_close_pct": -2.57,
+          "hit": true
+        },
+        {
+          "ticker": "241560",
+          "name": "두산밥캣",
+          "predicted_prob": 48.6,
+          "grade": "B",
+          "actual_high_pct": 2.19,
+          "actual_close_pct": -0.44,
+          "hit": true
+        },
+        {
+          "ticker": "278470",
+          "name": "에이피알",
+          "predicted_prob": 47.7,
+          "grade": "B",
+          "actual_high_pct": 3.42,
+          "actual_close_pct": 1.14,
+          "hit": true
+        }
+      ]
+    },
+    {
       "date": "2026-04-09",
       "next_trading_date": "2026-04-10",
       "total": 9,
@@ -3089,10 +3188,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 310,
-    "total_hits": 183,
-    "hit_rate": 59.0,
-    "days_tracked": 33,
-    "updated_at": "2026-04-13 09:09"
+    "total_predictions": 320,
+    "total_hits": 193,
+    "hit_rate": 60.3,
+    "days_tracked": 34,
+    "updated_at": "2026-04-14 08:52"
   }
 }
