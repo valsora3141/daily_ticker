@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-04-13",
+      "next_trading_date": "2026-04-14",
+      "total": 10,
+      "hits": 7,
+      "hit_rate": 70.0,
+      "results": [
+        {
+          "ticker": "092790",
+          "name": "넥스틸",
+          "predicted_prob": 68.4,
+          "grade": "A",
+          "actual_high_pct": 2.45,
+          "actual_close_pct": -1.03,
+          "hit": true
+        },
+        {
+          "ticker": "006370",
+          "name": "대구백화점",
+          "predicted_prob": 65.6,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -6.01,
+          "hit": false
+        },
+        {
+          "ticker": "025860",
+          "name": "남해화학",
+          "predicted_prob": 65.4,
+          "grade": "A",
+          "actual_high_pct": 7.74,
+          "actual_close_pct": 1.91,
+          "hit": true
+        },
+        {
+          "ticker": "072130",
+          "name": "유엔젤",
+          "predicted_prob": 59.6,
+          "grade": "A",
+          "actual_high_pct": 6.18,
+          "actual_close_pct": -2.54,
+          "hit": true
+        },
+        {
+          "ticker": "062040",
+          "name": "산일전기",
+          "predicted_prob": 59.0,
+          "grade": "A",
+          "actual_high_pct": 3.5,
+          "actual_close_pct": 0.38,
+          "hit": true
+        },
+        {
+          "ticker": "017960",
+          "name": "한국카본",
+          "predicted_prob": 50.5,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.38,
+          "hit": false
+        },
+        {
+          "ticker": "001550",
+          "name": "조비",
+          "predicted_prob": 48.5,
+          "grade": "B",
+          "actual_high_pct": 4.83,
+          "actual_close_pct": -0.8,
+          "hit": true
+        },
+        {
+          "ticker": "483650",
+          "name": "달바글로벌",
+          "predicted_prob": 47.0,
+          "grade": "B",
+          "actual_high_pct": 2.46,
+          "actual_close_pct": -3.41,
+          "hit": true
+        },
+        {
+          "ticker": "002710",
+          "name": "TCC스틸",
+          "predicted_prob": 46.6,
+          "grade": "B",
+          "actual_high_pct": 0.29,
+          "actual_close_pct": -3.33,
+          "hit": false
+        },
+        {
+          "ticker": "047400",
+          "name": "유니온머티리얼",
+          "predicted_prob": 42.7,
+          "grade": "B",
+          "actual_high_pct": 2.26,
+          "actual_close_pct": -1.24,
+          "hit": true
+        }
+      ]
+    },
+    {
       "date": "2026-04-10",
       "next_trading_date": "2026-04-13",
       "total": 10,
@@ -3188,10 +3287,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 320,
-    "total_hits": 193,
-    "hit_rate": 60.3,
-    "days_tracked": 34,
-    "updated_at": "2026-04-14 08:52"
+    "total_predictions": 330,
+    "total_hits": 200,
+    "hit_rate": 60.6,
+    "days_tracked": 35,
+    "updated_at": "2026-04-15 08:53"
   }
 }
