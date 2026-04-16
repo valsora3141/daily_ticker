@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-04-14",
+      "next_trading_date": "2026-04-15",
+      "total": 10,
+      "hits": 2,
+      "hit_rate": 20.0,
+      "results": [
+        {
+          "ticker": "026940",
+          "name": "부국철강",
+          "predicted_prob": 84.2,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -3.3,
+          "hit": false
+        },
+        {
+          "ticker": "010820",
+          "name": "퍼스텍",
+          "predicted_prob": 66.7,
+          "grade": "A",
+          "actual_high_pct": 6.28,
+          "actual_close_pct": 2.18,
+          "hit": true
+        },
+        {
+          "ticker": "018470",
+          "name": "조일알미늄",
+          "predicted_prob": 63.1,
+          "grade": "A",
+          "actual_high_pct": 0.05,
+          "actual_close_pct": -6.41,
+          "hit": false
+        },
+        {
+          "ticker": "336260",
+          "name": "두산퓨얼셀",
+          "predicted_prob": 58.2,
+          "grade": "A",
+          "actual_high_pct": 0.45,
+          "actual_close_pct": -1.01,
+          "hit": false
+        },
+        {
+          "ticker": "062040",
+          "name": "산일전기",
+          "predicted_prob": 56.1,
+          "grade": "A",
+          "actual_high_pct": 6.65,
+          "actual_close_pct": 4.24,
+          "hit": true
+        },
+        {
+          "ticker": "402340",
+          "name": "SK스퀘어",
+          "predicted_prob": 54.8,
+          "grade": "A",
+          "actual_high_pct": 1.18,
+          "actual_close_pct": -1.63,
+          "hit": false
+        },
+        {
+          "ticker": "000150",
+          "name": "두산",
+          "predicted_prob": 50.8,
+          "grade": "A",
+          "actual_high_pct": 0.21,
+          "actual_close_pct": -3.41,
+          "hit": false
+        },
+        {
+          "ticker": "001820",
+          "name": "삼화콘덴서",
+          "predicted_prob": 48.7,
+          "grade": "B",
+          "actual_high_pct": 1.96,
+          "actual_close_pct": -3.92,
+          "hit": false
+        },
+        {
+          "ticker": "004100",
+          "name": "태양금속",
+          "predicted_prob": 44.8,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -4.9,
+          "hit": false
+        },
+        {
+          "ticker": "000660",
+          "name": "SK하이닉스",
+          "predicted_prob": 44.0,
+          "grade": "B",
+          "actual_high_pct": 0.69,
+          "actual_close_pct": -2.49,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-04-13",
       "next_trading_date": "2026-04-14",
       "total": 10,
@@ -3287,10 +3386,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 330,
-    "total_hits": 200,
-    "hit_rate": 60.6,
-    "days_tracked": 35,
-    "updated_at": "2026-04-15 08:53"
+    "total_predictions": 340,
+    "total_hits": 202,
+    "hit_rate": 59.4,
+    "days_tracked": 36,
+    "updated_at": "2026-04-16 08:54"
   }
 }
