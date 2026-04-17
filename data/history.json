@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-04-15",
+      "next_trading_date": "2026-04-16",
+      "total": 10,
+      "hits": 3,
+      "hit_rate": 30.0,
+      "results": [
+        {
+          "ticker": "047040",
+          "name": "대우건설",
+          "predicted_prob": 89.6,
+          "grade": "A",
+          "actual_high_pct": 0.17,
+          "actual_close_pct": -1.21,
+          "hit": false
+        },
+        {
+          "ticker": "010820",
+          "name": "퍼스텍",
+          "predicted_prob": 72.5,
+          "grade": "A",
+          "actual_high_pct": 3.32,
+          "actual_close_pct": -2.66,
+          "hit": true
+        },
+        {
+          "ticker": "018260",
+          "name": "삼성에스디에스",
+          "predicted_prob": 64.4,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.55,
+          "hit": false
+        },
+        {
+          "ticker": "009150",
+          "name": "삼성전기",
+          "predicted_prob": 58.6,
+          "grade": "A",
+          "actual_high_pct": 3.38,
+          "actual_close_pct": 2.73,
+          "hit": true
+        },
+        {
+          "ticker": "006370",
+          "name": "대구백화점",
+          "predicted_prob": 57.2,
+          "grade": "A",
+          "actual_high_pct": 1.62,
+          "actual_close_pct": -6.94,
+          "hit": false
+        },
+        {
+          "ticker": "062040",
+          "name": "산일전기",
+          "predicted_prob": 56.3,
+          "grade": "A",
+          "actual_high_pct": 0.16,
+          "actual_close_pct": -2.33,
+          "hit": false
+        },
+        {
+          "ticker": "015860",
+          "name": "일진홀딩스",
+          "predicted_prob": 52.7,
+          "grade": "A",
+          "actual_high_pct": 0.7,
+          "actual_close_pct": -3.84,
+          "hit": false
+        },
+        {
+          "ticker": "229640",
+          "name": "LS에코에너지",
+          "predicted_prob": 52.0,
+          "grade": "A",
+          "actual_high_pct": 8.27,
+          "actual_close_pct": 6.2,
+          "hit": true
+        },
+        {
+          "ticker": "009410",
+          "name": "태영건설",
+          "predicted_prob": 51.5,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -3.65,
+          "hit": false
+        },
+        {
+          "ticker": "023350",
+          "name": "한국종합기술",
+          "predicted_prob": 48.5,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -2.93,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-04-14",
       "next_trading_date": "2026-04-15",
       "total": 10,
@@ -3386,10 +3485,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 340,
-    "total_hits": 202,
-    "hit_rate": 59.4,
-    "days_tracked": 36,
-    "updated_at": "2026-04-16 08:54"
+    "total_predictions": 350,
+    "total_hits": 205,
+    "hit_rate": 58.6,
+    "days_tracked": 37,
+    "updated_at": "2026-04-17 08:52"
   }
 }
