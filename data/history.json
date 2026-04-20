@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-04-16",
+      "next_trading_date": "2026-04-17",
+      "total": 10,
+      "hits": 7,
+      "hit_rate": 70.0,
+      "results": [
+        {
+          "ticker": "000500",
+          "name": "가온전선",
+          "predicted_prob": 76.1,
+          "grade": "A",
+          "actual_high_pct": 7.65,
+          "actual_close_pct": 5.92,
+          "hit": true
+        },
+        {
+          "ticker": "005880",
+          "name": "대한해운",
+          "predicted_prob": 59.5,
+          "grade": "A",
+          "actual_high_pct": 2.79,
+          "actual_close_pct": -4.01,
+          "hit": true
+        },
+        {
+          "ticker": "229640",
+          "name": "LS에코에너지",
+          "predicted_prob": 59.4,
+          "grade": "A",
+          "actual_high_pct": 2.63,
+          "actual_close_pct": 1.05,
+          "hit": true
+        },
+        {
+          "ticker": "001440",
+          "name": "대한전선",
+          "predicted_prob": 58.9,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -6.65,
+          "hit": false
+        },
+        {
+          "ticker": "004380",
+          "name": "삼익THK",
+          "predicted_prob": 56.6,
+          "grade": "A",
+          "actual_high_pct": 2.53,
+          "actual_close_pct": -6.24,
+          "hit": true
+        },
+        {
+          "ticker": "004170",
+          "name": "신세계",
+          "predicted_prob": 49.5,
+          "grade": "B",
+          "actual_high_pct": 4.0,
+          "actual_close_pct": 1.07,
+          "hit": true
+        },
+        {
+          "ticker": "023530",
+          "name": "롯데쇼핑",
+          "predicted_prob": 48.3,
+          "grade": "B",
+          "actual_high_pct": 3.16,
+          "actual_close_pct": 0.92,
+          "hit": true
+        },
+        {
+          "ticker": "052690",
+          "name": "한전기술",
+          "predicted_prob": 48.2,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -3.43,
+          "hit": false
+        },
+        {
+          "ticker": "004920",
+          "name": "씨아이테크",
+          "predicted_prob": 48.1,
+          "grade": "B",
+          "actual_high_pct": 0.32,
+          "actual_close_pct": -2.32,
+          "hit": false
+        },
+        {
+          "ticker": "004105",
+          "name": "태양금속우",
+          "predicted_prob": 46.1,
+          "grade": "B",
+          "actual_high_pct": 4.65,
+          "actual_close_pct": 3.26,
+          "hit": true
+        }
+      ]
+    },
+    {
       "date": "2026-04-15",
       "next_trading_date": "2026-04-16",
       "total": 10,
@@ -3485,10 +3584,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 350,
-    "total_hits": 205,
-    "hit_rate": 58.6,
-    "days_tracked": 37,
-    "updated_at": "2026-04-17 08:52"
+    "total_predictions": 360,
+    "total_hits": 212,
+    "hit_rate": 58.9,
+    "days_tracked": 38,
+    "updated_at": "2026-04-20 09:18"
   }
 }
