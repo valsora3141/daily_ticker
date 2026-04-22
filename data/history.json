@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-04-20",
+      "next_trading_date": "2026-04-21",
+      "total": 10,
+      "hits": 3,
+      "hit_rate": 30.0,
+      "results": [
+        {
+          "ticker": "003720",
+          "name": "삼영",
+          "predicted_prob": 67.5,
+          "grade": "A",
+          "actual_high_pct": 9.11,
+          "actual_close_pct": 6.94,
+          "hit": true
+        },
+        {
+          "ticker": "012030",
+          "name": "DB",
+          "predicted_prob": 55.1,
+          "grade": "A",
+          "actual_high_pct": 3.02,
+          "actual_close_pct": 1.01,
+          "hit": true
+        },
+        {
+          "ticker": "000500",
+          "name": "가온전선",
+          "predicted_prob": 53.4,
+          "grade": "A",
+          "actual_high_pct": 1.89,
+          "actual_close_pct": 1.11,
+          "hit": false
+        },
+        {
+          "ticker": "015860",
+          "name": "일진홀딩스",
+          "predicted_prob": 49.8,
+          "grade": "B",
+          "actual_high_pct": 1.25,
+          "actual_close_pct": -1.82,
+          "hit": false
+        },
+        {
+          "ticker": "181710",
+          "name": "NHN",
+          "predicted_prob": 49.1,
+          "grade": "B",
+          "actual_high_pct": 0.35,
+          "actual_close_pct": -4.72,
+          "hit": false
+        },
+        {
+          "ticker": "000150",
+          "name": "두산",
+          "predicted_prob": 48.5,
+          "grade": "B",
+          "actual_high_pct": 1.34,
+          "actual_close_pct": -0.77,
+          "hit": false
+        },
+        {
+          "ticker": "007660",
+          "name": "이수페타시스",
+          "predicted_prob": 47.3,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.19,
+          "hit": false
+        },
+        {
+          "ticker": "006400",
+          "name": "삼성SDI",
+          "predicted_prob": 45.4,
+          "grade": "B",
+          "actual_high_pct": 13.68,
+          "actual_close_pct": 13.16,
+          "hit": true
+        },
+        {
+          "ticker": "489790",
+          "name": "한화비전",
+          "predicted_prob": 43.5,
+          "grade": "B",
+          "actual_high_pct": 0.12,
+          "actual_close_pct": -0.12,
+          "hit": false
+        },
+        {
+          "ticker": "005690",
+          "name": "파미셀",
+          "predicted_prob": 40.0,
+          "grade": "B",
+          "actual_high_pct": 0.05,
+          "actual_close_pct": -5.59,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-04-17",
       "next_trading_date": "2026-04-20",
       "total": 10,
@@ -3683,10 +3782,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 370,
-    "total_hits": 218,
-    "hit_rate": 58.9,
-    "days_tracked": 39,
-    "updated_at": "2026-04-21 09:00"
+    "total_predictions": 380,
+    "total_hits": 221,
+    "hit_rate": 58.2,
+    "days_tracked": 40,
+    "updated_at": "2026-04-22 08:56"
   }
 }
