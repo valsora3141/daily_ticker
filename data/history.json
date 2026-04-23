@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-04-21",
+      "next_trading_date": "2026-04-22",
+      "total": 10,
+      "hits": 5,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "006400",
+          "name": "삼성SDI",
+          "predicted_prob": 83.6,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -3.94,
+          "hit": false
+        },
+        {
+          "ticker": "010060",
+          "name": "OCI홀딩스",
+          "predicted_prob": 82.0,
+          "grade": "A",
+          "actual_high_pct": 9.35,
+          "actual_close_pct": 6.8,
+          "hit": true
+        },
+        {
+          "ticker": "009150",
+          "name": "삼성전기",
+          "predicted_prob": 77.7,
+          "grade": "A",
+          "actual_high_pct": 2.26,
+          "actual_close_pct": 1.75,
+          "hit": true
+        },
+        {
+          "ticker": "017550",
+          "name": "수산세보틱스",
+          "predicted_prob": 75.4,
+          "grade": "A",
+          "actual_high_pct": 13.1,
+          "actual_close_pct": 5.95,
+          "hit": true
+        },
+        {
+          "ticker": "457190",
+          "name": "이수스페셜티케미컬",
+          "predicted_prob": 71.4,
+          "grade": "A",
+          "actual_high_pct": 0.5,
+          "actual_close_pct": 0.0,
+          "hit": false
+        },
+        {
+          "ticker": "006360",
+          "name": "GS건설",
+          "predicted_prob": 67.5,
+          "grade": "A",
+          "actual_high_pct": 0.36,
+          "actual_close_pct": -0.71,
+          "hit": false
+        },
+        {
+          "ticker": "003720",
+          "name": "삼영",
+          "predicted_prob": 65.2,
+          "grade": "A",
+          "actual_high_pct": 2.03,
+          "actual_close_pct": -5.13,
+          "hit": true
+        },
+        {
+          "ticker": "001440",
+          "name": "대한전선",
+          "predicted_prob": 60.5,
+          "grade": "A",
+          "actual_high_pct": 4.24,
+          "actual_close_pct": 2.5,
+          "hit": true
+        },
+        {
+          "ticker": "005420",
+          "name": "코스모화학",
+          "predicted_prob": 51.9,
+          "grade": "A",
+          "actual_high_pct": 1.07,
+          "actual_close_pct": 0.43,
+          "hit": false
+        },
+        {
+          "ticker": "373220",
+          "name": "LG에너지솔루션",
+          "predicted_prob": 51.3,
+          "grade": "A",
+          "actual_high_pct": 0.31,
+          "actual_close_pct": -1.42,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-04-20",
       "next_trading_date": "2026-04-21",
       "total": 10,
@@ -3782,10 +3881,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 380,
-    "total_hits": 221,
-    "hit_rate": 58.2,
-    "days_tracked": 40,
-    "updated_at": "2026-04-22 08:56"
+    "total_predictions": 390,
+    "total_hits": 226,
+    "hit_rate": 57.9,
+    "days_tracked": 41,
+    "updated_at": "2026-04-23 09:02"
   }
 }
