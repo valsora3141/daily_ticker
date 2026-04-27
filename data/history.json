@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-04-23",
+      "next_trading_date": "2026-04-24",
+      "total": 10,
+      "hits": 5,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "336370",
+          "name": "솔루스첨단소재",
+          "predicted_prob": 90.5,
+          "grade": "A",
+          "actual_high_pct": 1.77,
+          "actual_close_pct": 1.46,
+          "hit": false
+        },
+        {
+          "ticker": "003720",
+          "name": "삼영",
+          "predicted_prob": 72.0,
+          "grade": "A",
+          "actual_high_pct": 7.01,
+          "actual_close_pct": 3.64,
+          "hit": true
+        },
+        {
+          "ticker": "001360",
+          "name": "삼성제약",
+          "predicted_prob": 65.8,
+          "grade": "A",
+          "actual_high_pct": 14.29,
+          "actual_close_pct": 7.14,
+          "hit": true
+        },
+        {
+          "ticker": "195870",
+          "name": "해성디에스",
+          "predicted_prob": 62.4,
+          "grade": "A",
+          "actual_high_pct": 5.94,
+          "actual_close_pct": 3.29,
+          "hit": true
+        },
+        {
+          "ticker": "010140",
+          "name": "삼성중공업",
+          "predicted_prob": 54.3,
+          "grade": "A",
+          "actual_high_pct": 0.14,
+          "actual_close_pct": -1.85,
+          "hit": false
+        },
+        {
+          "ticker": "483650",
+          "name": "달바글로벌",
+          "predicted_prob": 54.3,
+          "grade": "A",
+          "actual_high_pct": 2.11,
+          "actual_close_pct": 1.47,
+          "hit": true
+        },
+        {
+          "ticker": "097230",
+          "name": "HJ중공업",
+          "predicted_prob": 53.4,
+          "grade": "A",
+          "actual_high_pct": 1.36,
+          "actual_close_pct": -3.46,
+          "hit": false
+        },
+        {
+          "ticker": "078520",
+          "name": "에이블씨엔씨",
+          "predicted_prob": 47.2,
+          "grade": "B",
+          "actual_high_pct": 5.14,
+          "actual_close_pct": 0.63,
+          "hit": true
+        },
+        {
+          "ticker": "105840",
+          "name": "우진",
+          "predicted_prob": 46.4,
+          "grade": "B",
+          "actual_high_pct": 1.04,
+          "actual_close_pct": -0.17,
+          "hit": false
+        },
+        {
+          "ticker": "021050",
+          "name": "서원",
+          "predicted_prob": 44.7,
+          "grade": "B",
+          "actual_high_pct": 0.07,
+          "actual_close_pct": -2.29,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-04-22",
       "next_trading_date": "2026-04-23",
       "total": 10,
@@ -3980,10 +4079,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 400,
-    "total_hits": 232,
-    "hit_rate": 58.0,
-    "days_tracked": 42,
-    "updated_at": "2026-04-24 09:08"
+    "total_predictions": 410,
+    "total_hits": 237,
+    "hit_rate": 57.8,
+    "days_tracked": 43,
+    "updated_at": "2026-04-27 09:28"
   }
 }
