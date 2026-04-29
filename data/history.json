@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-04-27",
+      "next_trading_date": "2026-04-28",
+      "total": 10,
+      "hits": 3,
+      "hit_rate": 30.0,
+      "results": [
+        {
+          "ticker": "006345",
+          "name": "대원전선우",
+          "predicted_prob": 97.4,
+          "grade": "A",
+          "actual_high_pct": 0.68,
+          "actual_close_pct": -9.8,
+          "hit": false
+        },
+        {
+          "ticker": "006340",
+          "name": "대원전선",
+          "predicted_prob": 92.4,
+          "grade": "A",
+          "actual_high_pct": 0.66,
+          "actual_close_pct": -5.71,
+          "hit": false
+        },
+        {
+          "ticker": "001250",
+          "name": "GS글로벌",
+          "predicted_prob": 85.9,
+          "grade": "A",
+          "actual_high_pct": 11.57,
+          "actual_close_pct": 1.96,
+          "hit": true
+        },
+        {
+          "ticker": "004710",
+          "name": "한솔테크닉스",
+          "predicted_prob": 77.1,
+          "grade": "A",
+          "actual_high_pct": 2.52,
+          "actual_close_pct": -6.88,
+          "hit": true
+        },
+        {
+          "ticker": "001290",
+          "name": "상상인증권",
+          "predicted_prob": 76.9,
+          "grade": "A",
+          "actual_high_pct": 8.84,
+          "actual_close_pct": -8.44,
+          "hit": true
+        },
+        {
+          "ticker": "103590",
+          "name": "일진전기",
+          "predicted_prob": 71.9,
+          "grade": "A",
+          "actual_high_pct": 0.08,
+          "actual_close_pct": -7.0,
+          "hit": false
+        },
+        {
+          "ticker": "452260",
+          "name": "한화갤러리아",
+          "predicted_prob": 70.9,
+          "grade": "A",
+          "actual_high_pct": 1.29,
+          "actual_close_pct": -8.48,
+          "hit": false
+        },
+        {
+          "ticker": "069960",
+          "name": "현대백화점",
+          "predicted_prob": 69.6,
+          "grade": "A",
+          "actual_high_pct": 0.81,
+          "actual_close_pct": -0.63,
+          "hit": false
+        },
+        {
+          "ticker": "000680",
+          "name": "LS네트웍스",
+          "predicted_prob": 63.0,
+          "grade": "A",
+          "actual_high_pct": 0.68,
+          "actual_close_pct": -7.83,
+          "hit": false
+        },
+        {
+          "ticker": "011690",
+          "name": "와이투솔루션",
+          "predicted_prob": 62.6,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -6.2,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-04-24",
       "next_trading_date": "2026-04-27",
       "total": 10,
@@ -4178,10 +4277,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 420,
-    "total_hits": 238,
-    "hit_rate": 56.7,
-    "days_tracked": 44,
-    "updated_at": "2026-04-28 09:33"
+    "total_predictions": 430,
+    "total_hits": 241,
+    "hit_rate": 56.0,
+    "days_tracked": 45,
+    "updated_at": "2026-04-29 09:23"
   }
 }
