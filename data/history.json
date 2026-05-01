@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-04-29",
+      "next_trading_date": "2026-04-30",
+      "total": 10,
+      "hits": 5,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "006345",
+          "name": "대원전선우",
+          "predicted_prob": 99.4,
+          "grade": "A",
+          "actual_high_pct": 29.51,
+          "actual_close_pct": 15.05,
+          "hit": true
+        },
+        {
+          "ticker": "005950",
+          "name": "이수화학",
+          "predicted_prob": 85.2,
+          "grade": "A",
+          "actual_high_pct": 0.76,
+          "actual_close_pct": -5.92,
+          "hit": false
+        },
+        {
+          "ticker": "001440",
+          "name": "대한전선",
+          "predicted_prob": 77.1,
+          "grade": "A",
+          "actual_high_pct": 14.89,
+          "actual_close_pct": 8.9,
+          "hit": true
+        },
+        {
+          "ticker": "082740",
+          "name": "한화엔진",
+          "predicted_prob": 77.0,
+          "grade": "A",
+          "actual_high_pct": 5.01,
+          "actual_close_pct": 2.44,
+          "hit": true
+        },
+        {
+          "ticker": "103590",
+          "name": "일진전기",
+          "predicted_prob": 71.2,
+          "grade": "A",
+          "actual_high_pct": 6.04,
+          "actual_close_pct": 1.32,
+          "hit": true
+        },
+        {
+          "ticker": "336260",
+          "name": "두산퓨얼셀",
+          "predicted_prob": 70.9,
+          "grade": "A",
+          "actual_high_pct": 0.32,
+          "actual_close_pct": -2.72,
+          "hit": false
+        },
+        {
+          "ticker": "005010",
+          "name": "휴스틸",
+          "predicted_prob": 66.7,
+          "grade": "A",
+          "actual_high_pct": 1.85,
+          "actual_close_pct": -2.71,
+          "hit": false
+        },
+        {
+          "ticker": "004430",
+          "name": "송원산업",
+          "predicted_prob": 65.3,
+          "grade": "A",
+          "actual_high_pct": 15.38,
+          "actual_close_pct": 9.31,
+          "hit": true
+        },
+        {
+          "ticker": "002020",
+          "name": "코오롱",
+          "predicted_prob": 56.6,
+          "grade": "A",
+          "actual_high_pct": 0.27,
+          "actual_close_pct": -3.61,
+          "hit": false
+        },
+        {
+          "ticker": "011690",
+          "name": "와이투솔루션",
+          "predicted_prob": 56.1,
+          "grade": "A",
+          "actual_high_pct": 1.55,
+          "actual_close_pct": -2.87,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-04-28",
       "next_trading_date": "2026-04-29",
       "total": 10,
@@ -4376,10 +4475,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 440,
-    "total_hits": 244,
-    "hit_rate": 55.5,
-    "days_tracked": 46,
-    "updated_at": "2026-04-30 09:23"
+    "total_predictions": 450,
+    "total_hits": 249,
+    "hit_rate": 55.3,
+    "days_tracked": 47,
+    "updated_at": "2026-05-01 09:06"
   }
 }
