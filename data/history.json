@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-05-04",
+      "next_trading_date": "2026-05-06",
+      "total": 10,
+      "hits": 3,
+      "hit_rate": 30.0,
+      "results": [
+        {
+          "ticker": "062040",
+          "name": "산일전기",
+          "predicted_prob": 96.3,
+          "grade": "A",
+          "actual_high_pct": 0.3,
+          "actual_close_pct": -2.89,
+          "hit": false
+        },
+        {
+          "ticker": "000500",
+          "name": "가온전선",
+          "predicted_prob": 93.9,
+          "grade": "A",
+          "actual_high_pct": 26.05,
+          "actual_close_pct": 23.36,
+          "hit": true
+        },
+        {
+          "ticker": "020150",
+          "name": "롯데에너지머티리얼즈",
+          "predicted_prob": 84.8,
+          "grade": "A",
+          "actual_high_pct": 1.62,
+          "actual_close_pct": -1.88,
+          "hit": false
+        },
+        {
+          "ticker": "003470",
+          "name": "유안타증권",
+          "predicted_prob": 72.8,
+          "grade": "A",
+          "actual_high_pct": 15.32,
+          "actual_close_pct": 15.32,
+          "hit": true
+        },
+        {
+          "ticker": "077500",
+          "name": "유니퀘스트",
+          "predicted_prob": 72.0,
+          "grade": "A",
+          "actual_high_pct": 1.93,
+          "actual_close_pct": -5.33,
+          "hit": false
+        },
+        {
+          "ticker": "178920",
+          "name": "PI첨단소재",
+          "predicted_prob": 70.7,
+          "grade": "A",
+          "actual_high_pct": 0.16,
+          "actual_close_pct": -2.65,
+          "hit": false
+        },
+        {
+          "ticker": "012610",
+          "name": "경인양행",
+          "predicted_prob": 67.9,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -8.26,
+          "hit": false
+        },
+        {
+          "ticker": "009150",
+          "name": "삼성전기",
+          "predicted_prob": 67.8,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -6.08,
+          "hit": false
+        },
+        {
+          "ticker": "009155",
+          "name": "삼성전기우",
+          "predicted_prob": 67.8,
+          "grade": "A",
+          "actual_high_pct": 2.53,
+          "actual_close_pct": -3.54,
+          "hit": true
+        },
+        {
+          "ticker": "011690",
+          "name": "와이투솔루션",
+          "predicted_prob": 67.0,
+          "grade": "A",
+          "actual_high_pct": 0.11,
+          "actual_close_pct": -2.93,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-04-30",
       "next_trading_date": "2026-05-04",
       "total": 10,
@@ -4574,10 +4673,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 460,
-    "total_hits": 250,
-    "hit_rate": 54.3,
-    "days_tracked": 48,
-    "updated_at": "2026-05-06 09:35"
+    "total_predictions": 470,
+    "total_hits": 253,
+    "hit_rate": 53.8,
+    "days_tracked": 49,
+    "updated_at": "2026-05-07 09:44"
   }
 }
