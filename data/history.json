@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-05-06",
+      "next_trading_date": "2026-05-07",
+      "total": 10,
+      "hits": 5,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "004800",
+          "name": "효성",
+          "predicted_prob": 85.0,
+          "grade": "A",
+          "actual_high_pct": 4.26,
+          "actual_close_pct": -9.51,
+          "hit": true
+        },
+        {
+          "ticker": "006800",
+          "name": "미래에셋증권",
+          "predicted_prob": 75.3,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -4.59,
+          "hit": false
+        },
+        {
+          "ticker": "003530",
+          "name": "한화투자증권",
+          "predicted_prob": 73.4,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -8.32,
+          "hit": false
+        },
+        {
+          "ticker": "018880",
+          "name": "한온시스템",
+          "predicted_prob": 72.7,
+          "grade": "A",
+          "actual_high_pct": 2.02,
+          "actual_close_pct": -10.09,
+          "hit": true
+        },
+        {
+          "ticker": "028260",
+          "name": "삼성물산",
+          "predicted_prob": 68.8,
+          "grade": "A",
+          "actual_high_pct": 3.44,
+          "actual_close_pct": 3.32,
+          "hit": true
+        },
+        {
+          "ticker": "034730",
+          "name": "SK",
+          "predicted_prob": 67.7,
+          "grade": "A",
+          "actual_high_pct": 2.43,
+          "actual_close_pct": 1.5,
+          "hit": true
+        },
+        {
+          "ticker": "000660",
+          "name": "SK하이닉스",
+          "predicted_prob": 65.5,
+          "grade": "A",
+          "actual_high_pct": 2.65,
+          "actual_close_pct": 1.97,
+          "hit": true
+        },
+        {
+          "ticker": "248070",
+          "name": "솔루엠",
+          "predicted_prob": 65.5,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -4.82,
+          "hit": false
+        },
+        {
+          "ticker": "015860",
+          "name": "일진홀딩스",
+          "predicted_prob": 64.2,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -4.52,
+          "hit": false
+        },
+        {
+          "ticker": "011070",
+          "name": "LG이노텍",
+          "predicted_prob": 59.7,
+          "grade": "A",
+          "actual_high_pct": 0.93,
+          "actual_close_pct": -0.93,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-05-04",
       "next_trading_date": "2026-05-06",
       "total": 10,
@@ -4673,10 +4772,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 470,
-    "total_hits": 253,
+    "total_predictions": 480,
+    "total_hits": 258,
     "hit_rate": 53.8,
-    "days_tracked": 49,
-    "updated_at": "2026-05-07 09:44"
+    "days_tracked": 50,
+    "updated_at": "2026-05-08 08:48"
   }
 }
