@@ -1,7 +1,7 @@
 {
   "version": 2,
   "date": "2026-05-08",
-  "generated_at": "2026-06-17 12:00",
+  "generated_at": "2026-06-19 11:44",
   "screened_count": 898,
   "candidates_count": 39,
   "sort_by": "+2.0% 확률",
@@ -7286,7 +7286,7 @@
     },
     {
       "ticker": "006490",
-      "name": "인스코비",
+      "name": "프리티",
       "passed_gate": false,
       "rejection_reasons": [
         "주가 1,000원 미만"
