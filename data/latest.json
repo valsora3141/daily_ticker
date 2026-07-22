@@ -1,7 +1,7 @@
 {
   "version": 2,
   "date": "2026-05-08",
-  "generated_at": "2026-07-21 09:42",
+  "generated_at": "2026-07-22 09:41",
   "screened_count": 898,
   "candidates_count": 39,
   "sort_by": "+2.0% 확률",
@@ -11135,7 +11135,7 @@
     },
     {
       "ticker": "018500",
-      "name": "동원금속",
+      "name": "동원모빌리티",
       "passed_gate": false,
       "rejection_reasons": [
         "5일 이동평균 아래",
