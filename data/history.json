@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-05-08",
+      "next_trading_date": "2026-05-11",
+      "total": 10,
+      "hits": 7,
+      "hit_rate": 70.0,
+      "results": [
+        {
+          "ticker": "001440",
+          "name": "대한전선",
+          "predicted_prob": 87.8,
+          "grade": "A",
+          "actual_high_pct": 2.99,
+          "actual_close_pct": -4.34,
+          "hit": true
+        },
+        {
+          "ticker": "015860",
+          "name": "일진홀딩스",
+          "predicted_prob": 72.2,
+          "grade": "A",
+          "actual_high_pct": 11.41,
+          "actual_close_pct": 0.43,
+          "hit": true
+        },
+        {
+          "ticker": "013000",
+          "name": "세우글로벌",
+          "predicted_prob": 70.9,
+          "grade": "A",
+          "actual_high_pct": 7.32,
+          "actual_close_pct": -3.83,
+          "hit": true
+        },
+        {
+          "ticker": "002020",
+          "name": "코오롱",
+          "predicted_prob": 70.5,
+          "grade": "A",
+          "actual_high_pct": 2.31,
+          "actual_close_pct": -2.07,
+          "hit": true
+        },
+        {
+          "ticker": "33626K",
+          "name": "두산퓨얼셀1우",
+          "predicted_prob": 66.8,
+          "grade": "A",
+          "actual_high_pct": 9.45,
+          "actual_close_pct": -0.08,
+          "hit": true
+        },
+        {
+          "ticker": "028260",
+          "name": "삼성물산",
+          "predicted_prob": 57.1,
+          "grade": "A",
+          "actual_high_pct": 0.21,
+          "actual_close_pct": -5.64,
+          "hit": false
+        },
+        {
+          "ticker": "005380",
+          "name": "현대차",
+          "predicted_prob": 52.9,
+          "grade": "A",
+          "actual_high_pct": 3.65,
+          "actual_close_pct": 2.38,
+          "hit": true
+        },
+        {
+          "ticker": "011210",
+          "name": "현대위아",
+          "predicted_prob": 49.6,
+          "grade": "B",
+          "actual_high_pct": 1.16,
+          "actual_close_pct": -1.1,
+          "hit": false
+        },
+        {
+          "ticker": "278470",
+          "name": "에이피알",
+          "predicted_prob": 48.4,
+          "grade": "B",
+          "actual_high_pct": 6.05,
+          "actual_close_pct": -1.79,
+          "hit": true
+        },
+        {
+          "ticker": "011690",
+          "name": "와이투솔루션",
+          "predicted_prob": 46.4,
+          "grade": "B",
+          "actual_high_pct": 0.11,
+          "actual_close_pct": -8.44,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-05-07",
       "next_trading_date": "2026-05-08",
       "total": 10,
@@ -4871,10 +4970,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 490,
-    "total_hits": 262,
-    "hit_rate": 53.5,
-    "days_tracked": 51,
-    "updated_at": "2026-08-11 08:14"
+    "total_predictions": 500,
+    "total_hits": 269,
+    "hit_rate": 53.8,
+    "days_tracked": 52,
+    "updated_at": "2026-08-12 08:38"
   }
 }
