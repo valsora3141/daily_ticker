@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-08-12",
+      "next_trading_date": "2026-08-13",
+      "total": 10,
+      "hits": 7,
+      "hit_rate": 70.0,
+      "results": [
+        {
+          "ticker": "003350",
+          "name": "한국화장품제조",
+          "predicted_prob": 88.3,
+          "grade": "A",
+          "actual_high_pct": 11.48,
+          "actual_close_pct": -3.04,
+          "hit": true
+        },
+        {
+          "ticker": "192820",
+          "name": "코스맥스",
+          "predicted_prob": 76.5,
+          "grade": "A",
+          "actual_high_pct": 7.82,
+          "actual_close_pct": 2.47,
+          "hit": true
+        },
+        {
+          "ticker": "077500",
+          "name": "유니퀘스트",
+          "predicted_prob": 72.5,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -9.18,
+          "hit": false
+        },
+        {
+          "ticker": "006340",
+          "name": "대원전선",
+          "predicted_prob": 64.6,
+          "grade": "A",
+          "actual_high_pct": 3.76,
+          "actual_close_pct": -2.01,
+          "hit": true
+        },
+        {
+          "ticker": "480370",
+          "name": "씨케이솔루션",
+          "predicted_prob": 50.4,
+          "grade": "A",
+          "actual_high_pct": 21.41,
+          "actual_close_pct": -3.94,
+          "hit": true
+        },
+        {
+          "ticker": "024720",
+          "name": "콜마홀딩스",
+          "predicted_prob": 48.9,
+          "grade": "B",
+          "actual_high_pct": 1.81,
+          "actual_close_pct": -1.52,
+          "hit": false
+        },
+        {
+          "ticker": "011230",
+          "name": "삼화전자",
+          "predicted_prob": 45.6,
+          "grade": "B",
+          "actual_high_pct": 7.73,
+          "actual_close_pct": -4.67,
+          "hit": true
+        },
+        {
+          "ticker": "096760",
+          "name": "JW홀딩스",
+          "predicted_prob": 44.2,
+          "grade": "B",
+          "actual_high_pct": 0.48,
+          "actual_close_pct": -3.59,
+          "hit": false
+        },
+        {
+          "ticker": "161390",
+          "name": "한국타이어앤테크놀로지",
+          "predicted_prob": 44.1,
+          "grade": "B",
+          "actual_high_pct": 4.3,
+          "actual_close_pct": 2.44,
+          "hit": true
+        },
+        {
+          "ticker": "109070",
+          "name": "주성코퍼레이션",
+          "predicted_prob": 42.8,
+          "grade": "B",
+          "actual_high_pct": 9.5,
+          "actual_close_pct": 7.87,
+          "hit": true
+        }
+      ]
+    },
+    {
       "date": "2026-05-08",
       "next_trading_date": "2026-05-11",
       "total": 10,
@@ -4970,10 +5069,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 500,
-    "total_hits": 269,
-    "hit_rate": 53.8,
-    "days_tracked": 52,
-    "updated_at": "2026-08-13 08:42"
+    "total_predictions": 510,
+    "total_hits": 276,
+    "hit_rate": 54.1,
+    "days_tracked": 53,
+    "updated_at": "2026-08-14 08:36"
   }
 }
