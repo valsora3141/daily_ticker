@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-08-13",
+      "next_trading_date": "2026-08-14",
+      "total": 10,
+      "hits": 5,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "317400",
+          "name": "자이에스앤디",
+          "predicted_prob": 66.0,
+          "grade": "A",
+          "actual_high_pct": 9.95,
+          "actual_close_pct": 6.14,
+          "hit": true
+        },
+        {
+          "ticker": "013700",
+          "name": "까뮤이앤씨",
+          "predicted_prob": 53.4,
+          "grade": "A",
+          "actual_high_pct": 3.19,
+          "actual_close_pct": -4.92,
+          "hit": true
+        },
+        {
+          "ticker": "009420",
+          "name": "한올바이오파마",
+          "predicted_prob": 52.5,
+          "grade": "A",
+          "actual_high_pct": 2.16,
+          "actual_close_pct": -0.67,
+          "hit": true
+        },
+        {
+          "ticker": "073240",
+          "name": "금호타이어",
+          "predicted_prob": 52.5,
+          "grade": "A",
+          "actual_high_pct": 7.8,
+          "actual_close_pct": -0.85,
+          "hit": true
+        },
+        {
+          "ticker": "009830",
+          "name": "한화솔루션",
+          "predicted_prob": 51.3,
+          "grade": "A",
+          "actual_high_pct": 0.96,
+          "actual_close_pct": -3.01,
+          "hit": false
+        },
+        {
+          "ticker": "112610",
+          "name": "씨에스윈드",
+          "predicted_prob": 49.6,
+          "grade": "B",
+          "actual_high_pct": 0.64,
+          "actual_close_pct": -0.21,
+          "hit": false
+        },
+        {
+          "ticker": "109070",
+          "name": "주성코퍼레이션",
+          "predicted_prob": 49.0,
+          "grade": "B",
+          "actual_high_pct": 0.9,
+          "actual_close_pct": -4.15,
+          "hit": false
+        },
+        {
+          "ticker": "088350",
+          "name": "한화생명",
+          "predicted_prob": 46.5,
+          "grade": "B",
+          "actual_high_pct": 12.38,
+          "actual_close_pct": 12.38,
+          "hit": true
+        },
+        {
+          "ticker": "012450",
+          "name": "한화에어로스페이스",
+          "predicted_prob": 46.4,
+          "grade": "B",
+          "actual_high_pct": 1.29,
+          "actual_close_pct": -0.26,
+          "hit": false
+        },
+        {
+          "ticker": "079550",
+          "name": "LIG디펜스앤에어로스페이스",
+          "predicted_prob": 45.7,
+          "grade": "B",
+          "actual_high_pct": 1.22,
+          "actual_close_pct": -0.37,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-08-12",
       "next_trading_date": "2026-08-13",
       "total": 10,
@@ -5069,10 +5168,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 510,
-    "total_hits": 276,
-    "hit_rate": 54.1,
-    "days_tracked": 53,
-    "updated_at": "2026-08-14 08:36"
+    "total_predictions": 520,
+    "total_hits": 281,
+    "hit_rate": 54.0,
+    "days_tracked": 54,
+    "updated_at": "2026-08-17 07:58"
   }
 }
