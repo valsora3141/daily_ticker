@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-08-14",
+      "next_trading_date": "2026-08-18",
+      "total": 10,
+      "hits": 5,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "088350",
+          "name": "한화생명",
+          "predicted_prob": 65.5,
+          "grade": "A",
+          "actual_high_pct": 2.69,
+          "actual_close_pct": -1.08,
+          "hit": true
+        },
+        {
+          "ticker": "000370",
+          "name": "한화손해보험",
+          "predicted_prob": 49.8,
+          "grade": "B",
+          "actual_high_pct": 2.85,
+          "actual_close_pct": 0.14,
+          "hit": true
+        },
+        {
+          "ticker": "066570",
+          "name": "LG전자",
+          "predicted_prob": 49.3,
+          "grade": "B",
+          "actual_high_pct": 2.66,
+          "actual_close_pct": -7.76,
+          "hit": true
+        },
+        {
+          "ticker": "372910",
+          "name": "한컴라이프케어",
+          "predicted_prob": 45.8,
+          "grade": "B",
+          "actual_high_pct": 1.96,
+          "actual_close_pct": -0.58,
+          "hit": false
+        },
+        {
+          "ticker": "006400",
+          "name": "삼성SDI",
+          "predicted_prob": 45.2,
+          "grade": "B",
+          "actual_high_pct": 1.78,
+          "actual_close_pct": -3.75,
+          "hit": false
+        },
+        {
+          "ticker": "073240",
+          "name": "금호타이어",
+          "predicted_prob": 41.7,
+          "grade": "B",
+          "actual_high_pct": 5.3,
+          "actual_close_pct": -4.06,
+          "hit": true
+        },
+        {
+          "ticker": "003550",
+          "name": "LG",
+          "predicted_prob": 40.7,
+          "grade": "B",
+          "actual_high_pct": 1.5,
+          "actual_close_pct": -6.08,
+          "hit": false
+        },
+        {
+          "ticker": "011300",
+          "name": "우성머티리얼스",
+          "predicted_prob": 37.5,
+          "grade": "C",
+          "actual_high_pct": 7.77,
+          "actual_close_pct": -2.64,
+          "hit": true
+        },
+        {
+          "ticker": "004150",
+          "name": "한솔홀딩스",
+          "predicted_prob": 35.8,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -3.3,
+          "hit": false
+        },
+        {
+          "ticker": "092440",
+          "name": "기신정기",
+          "predicted_prob": 34.3,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -0.73,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-08-13",
       "next_trading_date": "2026-08-14",
       "total": 10,
@@ -5168,10 +5267,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 520,
-    "total_hits": 281,
+    "total_predictions": 530,
+    "total_hits": 286,
     "hit_rate": 54.0,
-    "days_tracked": 54,
-    "updated_at": "2026-08-18 07:51"
+    "days_tracked": 55,
+    "updated_at": "2026-08-19 07:52"
   }
 }
