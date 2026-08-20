@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-08-18",
+      "next_trading_date": "2026-08-19",
+      "total": 10,
+      "hits": 6,
+      "hit_rate": 60.0,
+      "results": [
+        {
+          "ticker": "077500",
+          "name": "유니퀘스트",
+          "predicted_prob": 71.5,
+          "grade": "A",
+          "actual_high_pct": 4.03,
+          "actual_close_pct": -2.42,
+          "hit": true
+        },
+        {
+          "ticker": "007340",
+          "name": "DN오토모티브",
+          "predicted_prob": 69.9,
+          "grade": "A",
+          "actual_high_pct": 2.29,
+          "actual_close_pct": -11.46,
+          "hit": true
+        },
+        {
+          "ticker": "001450",
+          "name": "현대해상",
+          "predicted_prob": 51.9,
+          "grade": "A",
+          "actual_high_pct": 4.1,
+          "actual_close_pct": 2.46,
+          "hit": true
+        },
+        {
+          "ticker": "013580",
+          "name": "계룡건설",
+          "predicted_prob": 45.7,
+          "grade": "B",
+          "actual_high_pct": 5.11,
+          "actual_close_pct": 2.67,
+          "hit": true
+        },
+        {
+          "ticker": "000370",
+          "name": "한화손해보험",
+          "predicted_prob": 37.2,
+          "grade": "C",
+          "actual_high_pct": 9.12,
+          "actual_close_pct": 5.64,
+          "hit": true
+        },
+        {
+          "ticker": "028670",
+          "name": "팬오션",
+          "predicted_prob": 36.1,
+          "grade": "C",
+          "actual_high_pct": 4.75,
+          "actual_close_pct": 1.86,
+          "hit": true
+        },
+        {
+          "ticker": "033530",
+          "name": "SJG세종",
+          "predicted_prob": 35.9,
+          "grade": "C",
+          "actual_high_pct": 1.43,
+          "actual_close_pct": -4.01,
+          "hit": false
+        },
+        {
+          "ticker": "011200",
+          "name": "HMM",
+          "predicted_prob": 35.6,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.59,
+          "hit": false
+        },
+        {
+          "ticker": "006570",
+          "name": "대림통상",
+          "predicted_prob": 34.8,
+          "grade": "C",
+          "actual_high_pct": 0.24,
+          "actual_close_pct": -4.41,
+          "hit": false
+        },
+        {
+          "ticker": "294870",
+          "name": "IPARK현대산업개발",
+          "predicted_prob": 28.3,
+          "grade": "D",
+          "actual_high_pct": 0.9,
+          "actual_close_pct": -0.9,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-08-14",
       "next_trading_date": "2026-08-18",
       "total": 10,
@@ -5267,10 +5366,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 530,
-    "total_hits": 286,
-    "hit_rate": 54.0,
-    "days_tracked": 55,
-    "updated_at": "2026-08-19 07:52"
+    "total_predictions": 540,
+    "total_hits": 292,
+    "hit_rate": 54.1,
+    "days_tracked": 56,
+    "updated_at": "2026-08-20 07:54"
   }
 }
