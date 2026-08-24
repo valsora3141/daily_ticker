@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-08-20",
+      "next_trading_date": "2026-08-21",
+      "total": 10,
+      "hits": 6,
+      "hit_rate": 60.0,
+      "results": [
+        {
+          "ticker": "002990",
+          "name": "금호건설",
+          "predicted_prob": 89.9,
+          "grade": "A",
+          "actual_high_pct": 16.29,
+          "actual_close_pct": -5.75,
+          "hit": true
+        },
+        {
+          "ticker": "011090",
+          "name": "에넥스",
+          "predicted_prob": 72.3,
+          "grade": "A",
+          "actual_high_pct": 10.85,
+          "actual_close_pct": 1.15,
+          "hit": true
+        },
+        {
+          "ticker": "005090",
+          "name": "SGC에너지",
+          "predicted_prob": 51.6,
+          "grade": "A",
+          "actual_high_pct": 5.09,
+          "actual_close_pct": -0.16,
+          "hit": true
+        },
+        {
+          "ticker": "008260",
+          "name": "NI스틸",
+          "predicted_prob": 49.1,
+          "grade": "B",
+          "actual_high_pct": 9.43,
+          "actual_close_pct": 4.35,
+          "hit": true
+        },
+        {
+          "ticker": "005180",
+          "name": "빙그레",
+          "predicted_prob": 46.9,
+          "grade": "B",
+          "actual_high_pct": 3.14,
+          "actual_close_pct": -1.51,
+          "hit": true
+        },
+        {
+          "ticker": "003230",
+          "name": "삼양식품",
+          "predicted_prob": 46.5,
+          "grade": "B",
+          "actual_high_pct": 1.08,
+          "actual_close_pct": -1.94,
+          "hit": false
+        },
+        {
+          "ticker": "000370",
+          "name": "한화손해보험",
+          "predicted_prob": 43.2,
+          "grade": "B",
+          "actual_high_pct": 0.95,
+          "actual_close_pct": 0.0,
+          "hit": false
+        },
+        {
+          "ticker": "020120",
+          "name": "키다리스튜디오",
+          "predicted_prob": 39.1,
+          "grade": "C",
+          "actual_high_pct": 2.14,
+          "actual_close_pct": 1.01,
+          "hit": true
+        },
+        {
+          "ticker": "112610",
+          "name": "씨에스윈드",
+          "predicted_prob": 39.0,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -3.32,
+          "hit": false
+        },
+        {
+          "ticker": "302440",
+          "name": "SK바이오사이언스",
+          "predicted_prob": 35.9,
+          "grade": "C",
+          "actual_high_pct": 0.54,
+          "actual_close_pct": -0.82,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-08-19",
       "next_trading_date": "2026-08-20",
       "total": 4,
@@ -5411,10 +5510,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 544,
-    "total_hits": 296,
-    "hit_rate": 54.4,
-    "days_tracked": 57,
-    "updated_at": "2026-08-21 07:54"
+    "total_predictions": 554,
+    "total_hits": 302,
+    "hit_rate": 54.5,
+    "days_tracked": 58,
+    "updated_at": "2026-08-24 08:02"
   }
 }
