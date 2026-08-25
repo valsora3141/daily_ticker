@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-08-21",
+      "next_trading_date": "2026-08-24",
+      "total": 10,
+      "hits": 6,
+      "hit_rate": 60.0,
+      "results": [
+        {
+          "ticker": "014990",
+          "name": "인디에프",
+          "predicted_prob": 97.0,
+          "grade": "A",
+          "actual_high_pct": 26.24,
+          "actual_close_pct": 6.88,
+          "hit": true
+        },
+        {
+          "ticker": "001210",
+          "name": "금호전기",
+          "predicted_prob": 94.2,
+          "grade": "A",
+          "actual_high_pct": 14.32,
+          "actual_close_pct": 2.11,
+          "hit": true
+        },
+        {
+          "ticker": "181710",
+          "name": "NHN",
+          "predicted_prob": 63.3,
+          "grade": "A",
+          "actual_high_pct": 1.52,
+          "actual_close_pct": -3.45,
+          "hit": false
+        },
+        {
+          "ticker": "084870",
+          "name": "TBH글로벌",
+          "predicted_prob": 50.1,
+          "grade": "A",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -3.07,
+          "hit": false
+        },
+        {
+          "ticker": "214330",
+          "name": "금호에이치티",
+          "predicted_prob": 47.4,
+          "grade": "B",
+          "actual_high_pct": 3.5,
+          "actual_close_pct": 0.0,
+          "hit": true
+        },
+        {
+          "ticker": "008260",
+          "name": "NI스틸",
+          "predicted_prob": 46.2,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -3.22,
+          "hit": false
+        },
+        {
+          "ticker": "005180",
+          "name": "빙그레",
+          "predicted_prob": 35.3,
+          "grade": "C",
+          "actual_high_pct": 5.24,
+          "actual_close_pct": 4.76,
+          "hit": true
+        },
+        {
+          "ticker": "020120",
+          "name": "키다리스튜디오",
+          "predicted_prob": 35.2,
+          "grade": "C",
+          "actual_high_pct": 24.46,
+          "actual_close_pct": 22.3,
+          "hit": true
+        },
+        {
+          "ticker": "012160",
+          "name": "영흥",
+          "predicted_prob": 27.3,
+          "grade": "D",
+          "actual_high_pct": 4.75,
+          "actual_close_pct": 1.39,
+          "hit": true
+        },
+        {
+          "ticker": "023960",
+          "name": "에쓰씨엔지니어링",
+          "predicted_prob": 25.5,
+          "grade": "D",
+          "actual_high_pct": 1.58,
+          "actual_close_pct": -1.08,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-08-20",
       "next_trading_date": "2026-08-21",
       "total": 10,
@@ -5510,10 +5609,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 554,
-    "total_hits": 302,
-    "hit_rate": 54.5,
-    "days_tracked": 58,
-    "updated_at": "2026-08-24 08:02"
+    "total_predictions": 564,
+    "total_hits": 308,
+    "hit_rate": 54.6,
+    "days_tracked": 59,
+    "updated_at": "2026-08-25 07:56"
   }
 }
