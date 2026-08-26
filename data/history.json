@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-08-24",
+      "next_trading_date": "2026-08-25",
+      "total": 10,
+      "hits": 6,
+      "hit_rate": 60.0,
+      "results": [
+        {
+          "ticker": "006110",
+          "name": "삼아알미늄",
+          "predicted_prob": 89.1,
+          "grade": "A",
+          "actual_high_pct": 4.41,
+          "actual_close_pct": 1.53,
+          "hit": true
+        },
+        {
+          "ticker": "015860",
+          "name": "일진홀딩스",
+          "predicted_prob": 52.7,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.74,
+          "hit": false
+        },
+        {
+          "ticker": "003670",
+          "name": "포스코퓨처엠",
+          "predicted_prob": 46.8,
+          "grade": "B",
+          "actual_high_pct": 0.89,
+          "actual_close_pct": -0.36,
+          "hit": false
+        },
+        {
+          "ticker": "009420",
+          "name": "한올바이오파마",
+          "predicted_prob": 46.2,
+          "grade": "B",
+          "actual_high_pct": 3.75,
+          "actual_close_pct": 3.58,
+          "hit": true
+        },
+        {
+          "ticker": "028670",
+          "name": "팬오션",
+          "predicted_prob": 44.6,
+          "grade": "B",
+          "actual_high_pct": 3.82,
+          "actual_close_pct": 1.43,
+          "hit": true
+        },
+        {
+          "ticker": "004410",
+          "name": "서울식품",
+          "predicted_prob": 43.2,
+          "grade": "B",
+          "actual_high_pct": 2.3,
+          "actual_close_pct": -0.87,
+          "hit": true
+        },
+        {
+          "ticker": "005180",
+          "name": "빙그레",
+          "predicted_prob": 41.5,
+          "grade": "B",
+          "actual_high_pct": 5.24,
+          "actual_close_pct": 2.96,
+          "hit": true
+        },
+        {
+          "ticker": "005420",
+          "name": "코스모화학",
+          "predicted_prob": 41.4,
+          "grade": "B",
+          "actual_high_pct": 1.22,
+          "actual_close_pct": 0.94,
+          "hit": false
+        },
+        {
+          "ticker": "272450",
+          "name": "진에어",
+          "predicted_prob": 41.1,
+          "grade": "B",
+          "actual_high_pct": 1.22,
+          "actual_close_pct": -0.52,
+          "hit": false
+        },
+        {
+          "ticker": "377300",
+          "name": "카카오페이",
+          "predicted_prob": 39.0,
+          "grade": "C",
+          "actual_high_pct": 6.21,
+          "actual_close_pct": 4.06,
+          "hit": true
+        }
+      ]
+    },
+    {
       "date": "2026-08-21",
       "next_trading_date": "2026-08-24",
       "total": 10,
@@ -5609,10 +5708,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 564,
-    "total_hits": 308,
-    "hit_rate": 54.6,
-    "days_tracked": 59,
-    "updated_at": "2026-08-25 07:56"
+    "total_predictions": 574,
+    "total_hits": 314,
+    "hit_rate": 54.7,
+    "days_tracked": 60,
+    "updated_at": "2026-08-26 07:56"
   }
 }
