@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-08-26",
+      "next_trading_date": "2026-08-27",
+      "total": 10,
+      "hits": 2,
+      "hit_rate": 20.0,
+      "results": [
+        {
+          "ticker": "005180",
+          "name": "빙그레",
+          "predicted_prob": 47.7,
+          "grade": "B",
+          "actual_high_pct": 0.11,
+          "actual_close_pct": -3.62,
+          "hit": false
+        },
+        {
+          "ticker": "014790",
+          "name": "HL D&I",
+          "predicted_prob": 39.4,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.49,
+          "hit": false
+        },
+        {
+          "ticker": "051600",
+          "name": "한전KPS",
+          "predicted_prob": 37.4,
+          "grade": "C",
+          "actual_high_pct": 1.17,
+          "actual_close_pct": -0.11,
+          "hit": false
+        },
+        {
+          "ticker": "192650",
+          "name": "드림텍",
+          "predicted_prob": 35.7,
+          "grade": "C",
+          "actual_high_pct": 17.57,
+          "actual_close_pct": 6.52,
+          "hit": true
+        },
+        {
+          "ticker": "000370",
+          "name": "한화손해보험",
+          "predicted_prob": 35.6,
+          "grade": "C",
+          "actual_high_pct": 2.31,
+          "actual_close_pct": -0.77,
+          "hit": true
+        },
+        {
+          "ticker": "272450",
+          "name": "진에어",
+          "predicted_prob": 35.5,
+          "grade": "C",
+          "actual_high_pct": 1.87,
+          "actual_close_pct": 0.17,
+          "hit": false
+        },
+        {
+          "ticker": "001680",
+          "name": "대상",
+          "predicted_prob": 32.6,
+          "grade": "C",
+          "actual_high_pct": 0.66,
+          "actual_close_pct": -3.37,
+          "hit": false
+        },
+        {
+          "ticker": "002150",
+          "name": "도화엔지니어링",
+          "predicted_prob": 32.5,
+          "grade": "C",
+          "actual_high_pct": 1.13,
+          "actual_close_pct": -0.38,
+          "hit": false
+        },
+        {
+          "ticker": "008730",
+          "name": "율촌화학",
+          "predicted_prob": 32.3,
+          "grade": "C",
+          "actual_high_pct": 0.19,
+          "actual_close_pct": -0.37,
+          "hit": false
+        },
+        {
+          "ticker": "003090",
+          "name": "대웅",
+          "predicted_prob": 31.8,
+          "grade": "C",
+          "actual_high_pct": 1.25,
+          "actual_close_pct": -1.02,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-08-25",
       "next_trading_date": "2026-08-26",
       "total": 10,
@@ -5807,10 +5906,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 584,
-    "total_hits": 318,
-    "hit_rate": 54.5,
-    "days_tracked": 61,
-    "updated_at": "2026-08-27 18:16"
+    "total_predictions": 594,
+    "total_hits": 320,
+    "hit_rate": 53.9,
+    "days_tracked": 62,
+    "updated_at": "2026-08-28 19:25"
   }
 }
