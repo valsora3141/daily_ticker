@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-08-28",
+      "next_trading_date": "2026-08-31",
+      "total": 10,
+      "hits": 4,
+      "hit_rate": 40.0,
+      "results": [
+        {
+          "ticker": "001770",
+          "name": "SHD",
+          "predicted_prob": 94.3,
+          "grade": "A",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -17.63,
+          "hit": false
+        },
+        {
+          "ticker": "000370",
+          "name": "한화손해보험",
+          "predicted_prob": 50.6,
+          "grade": "A",
+          "actual_high_pct": 1.78,
+          "actual_close_pct": -0.47,
+          "hit": false
+        },
+        {
+          "ticker": "000040",
+          "name": "KR모터스",
+          "predicted_prob": 45.9,
+          "grade": "B",
+          "actual_high_pct": 3.92,
+          "actual_close_pct": -1.69,
+          "hit": true
+        },
+        {
+          "ticker": "010950",
+          "name": "S-Oil",
+          "predicted_prob": 45.8,
+          "grade": "B",
+          "actual_high_pct": 2.47,
+          "actual_close_pct": 0.07,
+          "hit": true
+        },
+        {
+          "ticker": "088350",
+          "name": "한화생명",
+          "predicted_prob": 45.8,
+          "grade": "B",
+          "actual_high_pct": 1.18,
+          "actual_close_pct": -2.86,
+          "hit": false
+        },
+        {
+          "ticker": "004770",
+          "name": "써니전자",
+          "predicted_prob": 39.8,
+          "grade": "C",
+          "actual_high_pct": 28.43,
+          "actual_close_pct": 20.55,
+          "hit": true
+        },
+        {
+          "ticker": "009410",
+          "name": "태영건설",
+          "predicted_prob": 37.9,
+          "grade": "C",
+          "actual_high_pct": 3.07,
+          "actual_close_pct": 0.95,
+          "hit": true
+        },
+        {
+          "ticker": "226320",
+          "name": "잇츠한불",
+          "predicted_prob": 37.9,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -2.02,
+          "hit": false
+        },
+        {
+          "ticker": "008260",
+          "name": "NI스틸",
+          "predicted_prob": 36.8,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -2.54,
+          "hit": false
+        },
+        {
+          "ticker": "000390",
+          "name": "SP삼화",
+          "predicted_prob": 36.6,
+          "grade": "C",
+          "actual_high_pct": 0.15,
+          "actual_close_pct": 0.0,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-08-27",
       "next_trading_date": "2026-08-28",
       "total": 10,
@@ -6005,10 +6104,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 604,
-    "total_hits": 325,
-    "hit_rate": 53.8,
-    "days_tracked": 63,
-    "updated_at": "2026-08-31 15:03"
+    "total_predictions": 614,
+    "total_hits": 329,
+    "hit_rate": 53.6,
+    "days_tracked": 64,
+    "updated_at": "2026-09-01 12:33"
   }
 }
