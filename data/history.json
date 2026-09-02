@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-08-31",
+      "next_trading_date": "2026-09-01",
+      "total": 10,
+      "hits": 4,
+      "hit_rate": 40.0,
+      "results": [
+        {
+          "ticker": "000880",
+          "name": "한화",
+          "predicted_prob": 63.3,
+          "grade": "A",
+          "actual_high_pct": 0.3,
+          "actual_close_pct": -3.61,
+          "hit": false
+        },
+        {
+          "ticker": "077500",
+          "name": "유니퀘스트",
+          "predicted_prob": 54.6,
+          "grade": "A",
+          "actual_high_pct": 0.25,
+          "actual_close_pct": -3.28,
+          "hit": false
+        },
+        {
+          "ticker": "003670",
+          "name": "포스코퓨처엠",
+          "predicted_prob": 50.5,
+          "grade": "A",
+          "actual_high_pct": 0.61,
+          "actual_close_pct": -2.94,
+          "hit": false
+        },
+        {
+          "ticker": "002870",
+          "name": "신풍",
+          "predicted_prob": 48.5,
+          "grade": "B",
+          "actual_high_pct": 0.39,
+          "actual_close_pct": -3.57,
+          "hit": false
+        },
+        {
+          "ticker": "006220",
+          "name": "제주은행",
+          "predicted_prob": 47.2,
+          "grade": "B",
+          "actual_high_pct": 2.35,
+          "actual_close_pct": -0.49,
+          "hit": true
+        },
+        {
+          "ticker": "010640",
+          "name": "진양폴리",
+          "predicted_prob": 47.1,
+          "grade": "B",
+          "actual_high_pct": 2.57,
+          "actual_close_pct": -1.64,
+          "hit": true
+        },
+        {
+          "ticker": "053690",
+          "name": "한미글로벌",
+          "predicted_prob": 44.9,
+          "grade": "B",
+          "actual_high_pct": 1.33,
+          "actual_close_pct": -3.77,
+          "hit": false
+        },
+        {
+          "ticker": "005420",
+          "name": "코스모화학",
+          "predicted_prob": 37.5,
+          "grade": "C",
+          "actual_high_pct": 2.23,
+          "actual_close_pct": -2.23,
+          "hit": true
+        },
+        {
+          "ticker": "066570",
+          "name": "LG전자",
+          "predicted_prob": 37.4,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -2.82,
+          "hit": false
+        },
+        {
+          "ticker": "096770",
+          "name": "SK이노베이션",
+          "predicted_prob": 36.3,
+          "grade": "C",
+          "actual_high_pct": 9.14,
+          "actual_close_pct": 6.62,
+          "hit": true
+        }
+      ]
+    },
+    {
       "date": "2026-08-28",
       "next_trading_date": "2026-08-31",
       "total": 10,
@@ -6104,10 +6203,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 614,
-    "total_hits": 329,
-    "hit_rate": 53.6,
-    "days_tracked": 64,
-    "updated_at": "2026-09-01 12:33"
+    "total_predictions": 624,
+    "total_hits": 333,
+    "hit_rate": 53.4,
+    "days_tracked": 65,
+    "updated_at": "2026-09-02 12:05"
   }
 }
