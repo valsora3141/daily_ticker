@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-09-01",
+      "next_trading_date": "2026-09-02",
+      "total": 10,
+      "hits": 3,
+      "hit_rate": 30.0,
+      "results": [
+        {
+          "ticker": "004310",
+          "name": "현대약품",
+          "predicted_prob": 93.9,
+          "grade": "A",
+          "actual_high_pct": 5.48,
+          "actual_close_pct": -11.77,
+          "hit": true
+        },
+        {
+          "ticker": "010580",
+          "name": "에스엠벡셀",
+          "predicted_prob": 65.6,
+          "grade": "A",
+          "actual_high_pct": 7.45,
+          "actual_close_pct": -0.4,
+          "hit": true
+        },
+        {
+          "ticker": "000370",
+          "name": "한화손해보험",
+          "predicted_prob": 52.8,
+          "grade": "A",
+          "actual_high_pct": 2.96,
+          "actual_close_pct": -2.28,
+          "hit": true
+        },
+        {
+          "ticker": "089860",
+          "name": "롯데렌탈",
+          "predicted_prob": 51.9,
+          "grade": "A",
+          "actual_high_pct": 1.58,
+          "actual_close_pct": -0.39,
+          "hit": false
+        },
+        {
+          "ticker": "096770",
+          "name": "SK이노베이션",
+          "predicted_prob": 43.3,
+          "grade": "B",
+          "actual_high_pct": 1.95,
+          "actual_close_pct": -1.57,
+          "hit": false
+        },
+        {
+          "ticker": "010950",
+          "name": "S-Oil",
+          "predicted_prob": 37.5,
+          "grade": "C",
+          "actual_high_pct": 1.16,
+          "actual_close_pct": -2.71,
+          "hit": false
+        },
+        {
+          "ticker": "000400",
+          "name": "롯데손해보험",
+          "predicted_prob": 35.2,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -4.57,
+          "hit": false
+        },
+        {
+          "ticker": "001360",
+          "name": "삼성제약",
+          "predicted_prob": 34.2,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -3.48,
+          "hit": false
+        },
+        {
+          "ticker": "002720",
+          "name": "국제약품",
+          "predicted_prob": 30.6,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -2.71,
+          "hit": false
+        },
+        {
+          "ticker": "251270",
+          "name": "넷마블",
+          "predicted_prob": 29.3,
+          "grade": "D",
+          "actual_high_pct": 0.13,
+          "actual_close_pct": -3.14,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-08-31",
       "next_trading_date": "2026-09-01",
       "total": 10,
@@ -6203,10 +6302,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 624,
-    "total_hits": 333,
-    "hit_rate": 53.4,
-    "days_tracked": 65,
-    "updated_at": "2026-09-02 12:05"
+    "total_predictions": 634,
+    "total_hits": 336,
+    "hit_rate": 53.0,
+    "days_tracked": 66,
+    "updated_at": "2026-09-03 12:04"
   }
 }
