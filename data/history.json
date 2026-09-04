@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-09-02",
+      "next_trading_date": "2026-09-03",
+      "total": 10,
+      "hits": 8,
+      "hit_rate": 80.0,
+      "results": [
+        {
+          "ticker": "001420",
+          "name": "태원물산",
+          "predicted_prob": 60.2,
+          "grade": "A",
+          "actual_high_pct": 4.82,
+          "actual_close_pct": -0.86,
+          "hit": true
+        },
+        {
+          "ticker": "058730",
+          "name": "다스코",
+          "predicted_prob": 59.2,
+          "grade": "A",
+          "actual_high_pct": 2.3,
+          "actual_close_pct": -5.48,
+          "hit": true
+        },
+        {
+          "ticker": "138040",
+          "name": "메리츠금융지주",
+          "predicted_prob": 35.7,
+          "grade": "C",
+          "actual_high_pct": 7.33,
+          "actual_close_pct": 5.63,
+          "hit": true
+        },
+        {
+          "ticker": "316140",
+          "name": "우리금융지주",
+          "predicted_prob": 30.5,
+          "grade": "C",
+          "actual_high_pct": 3.64,
+          "actual_close_pct": 0.87,
+          "hit": true
+        },
+        {
+          "ticker": "000210",
+          "name": "DL",
+          "predicted_prob": 30.0,
+          "grade": "C",
+          "actual_high_pct": 9.57,
+          "actual_close_pct": 7.42,
+          "hit": true
+        },
+        {
+          "ticker": "003490",
+          "name": "대한항공",
+          "predicted_prob": 24.3,
+          "grade": "D",
+          "actual_high_pct": 2.94,
+          "actual_close_pct": 0.69,
+          "hit": true
+        },
+        {
+          "ticker": "066575",
+          "name": "LG전자우",
+          "predicted_prob": 23.6,
+          "grade": "D",
+          "actual_high_pct": 0.4,
+          "actual_close_pct": -1.6,
+          "hit": false
+        },
+        {
+          "ticker": "415640",
+          "name": "KB발해인프라",
+          "predicted_prob": 23.3,
+          "grade": "D",
+          "actual_high_pct": 5.14,
+          "actual_close_pct": 1.14,
+          "hit": true
+        },
+        {
+          "ticker": "020560",
+          "name": "아시아나항공",
+          "predicted_prob": 21.3,
+          "grade": "D",
+          "actual_high_pct": 2.57,
+          "actual_close_pct": 0.13,
+          "hit": true
+        },
+        {
+          "ticker": "105630",
+          "name": "한세실업",
+          "predicted_prob": 21.0,
+          "grade": "D",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -2.17,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-09-01",
       "next_trading_date": "2026-09-02",
       "total": 10,
@@ -6302,10 +6401,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 634,
-    "total_hits": 336,
-    "hit_rate": 53.0,
-    "days_tracked": 66,
-    "updated_at": "2026-09-03 12:04"
+    "total_predictions": 644,
+    "total_hits": 344,
+    "hit_rate": 53.4,
+    "days_tracked": 67,
+    "updated_at": "2026-09-04 12:06"
   }
 }
