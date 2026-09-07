@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-09-03",
+      "next_trading_date": "2026-09-04",
+      "total": 10,
+      "hits": 4,
+      "hit_rate": 40.0,
+      "results": [
+        {
+          "ticker": "000370",
+          "name": "한화손해보험",
+          "predicted_prob": 54.7,
+          "grade": "A",
+          "actual_high_pct": 0.22,
+          "actual_close_pct": -5.71,
+          "hit": false
+        },
+        {
+          "ticker": "008930",
+          "name": "한미사이언스",
+          "predicted_prob": 52.3,
+          "grade": "A",
+          "actual_high_pct": 4.82,
+          "actual_close_pct": 1.73,
+          "hit": true
+        },
+        {
+          "ticker": "014910",
+          "name": "성문전자",
+          "predicted_prob": 44.8,
+          "grade": "B",
+          "actual_high_pct": 1.72,
+          "actual_close_pct": -8.37,
+          "hit": false
+        },
+        {
+          "ticker": "008420",
+          "name": "문배철강",
+          "predicted_prob": 43.5,
+          "grade": "B",
+          "actual_high_pct": 0.89,
+          "actual_close_pct": -0.22,
+          "hit": false
+        },
+        {
+          "ticker": "028670",
+          "name": "팬오션",
+          "predicted_prob": 38.8,
+          "grade": "C",
+          "actual_high_pct": 4.05,
+          "actual_close_pct": 0.68,
+          "hit": true
+        },
+        {
+          "ticker": "047050",
+          "name": "포스코인터내셔널",
+          "predicted_prob": 37.9,
+          "grade": "C",
+          "actual_high_pct": 1.63,
+          "actual_close_pct": -0.91,
+          "hit": false
+        },
+        {
+          "ticker": "002870",
+          "name": "신풍",
+          "predicted_prob": 37.8,
+          "grade": "C",
+          "actual_high_pct": 1.88,
+          "actual_close_pct": -0.66,
+          "hit": false
+        },
+        {
+          "ticker": "015230",
+          "name": "대창단조",
+          "predicted_prob": 37.6,
+          "grade": "C",
+          "actual_high_pct": 2.62,
+          "actual_close_pct": 0.31,
+          "hit": true
+        },
+        {
+          "ticker": "267270",
+          "name": "HD건설기계",
+          "predicted_prob": 36.4,
+          "grade": "C",
+          "actual_high_pct": 4.55,
+          "actual_close_pct": 2.79,
+          "hit": true
+        },
+        {
+          "ticker": "006220",
+          "name": "제주은행",
+          "predicted_prob": 34.9,
+          "grade": "C",
+          "actual_high_pct": 1.78,
+          "actual_close_pct": -0.59,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-09-02",
       "next_trading_date": "2026-09-03",
       "total": 10,
@@ -6401,10 +6500,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 644,
-    "total_hits": 344,
-    "hit_rate": 53.4,
-    "days_tracked": 67,
-    "updated_at": "2026-09-04 12:06"
+    "total_predictions": 654,
+    "total_hits": 348,
+    "hit_rate": 53.2,
+    "days_tracked": 68,
+    "updated_at": "2026-09-07 13:29"
   }
 }
