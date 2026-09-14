@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-09-10",
+      "next_trading_date": "2026-09-11",
+      "total": 10,
+      "hits": 5,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "003280",
+          "name": "흥아해운",
+          "predicted_prob": 54.5,
+          "grade": "A",
+          "actual_high_pct": 1.46,
+          "actual_close_pct": -8.39,
+          "hit": false
+        },
+        {
+          "ticker": "071090",
+          "name": "하이스틸",
+          "predicted_prob": 46.5,
+          "grade": "B",
+          "actual_high_pct": 2.9,
+          "actual_close_pct": -0.46,
+          "hit": true
+        },
+        {
+          "ticker": "012630",
+          "name": "HDC",
+          "predicted_prob": 45.4,
+          "grade": "B",
+          "actual_high_pct": 8.77,
+          "actual_close_pct": 6.16,
+          "hit": true
+        },
+        {
+          "ticker": "073240",
+          "name": "금호타이어",
+          "predicted_prob": 41.0,
+          "grade": "B",
+          "actual_high_pct": 1.59,
+          "actual_close_pct": -2.25,
+          "hit": false
+        },
+        {
+          "ticker": "096770",
+          "name": "SK이노베이션",
+          "predicted_prob": 40.6,
+          "grade": "B",
+          "actual_high_pct": 0.2,
+          "actual_close_pct": -3.85,
+          "hit": false
+        },
+        {
+          "ticker": "005960",
+          "name": "동부건설",
+          "predicted_prob": 35.6,
+          "grade": "C",
+          "actual_high_pct": 1.21,
+          "actual_close_pct": -0.6,
+          "hit": false
+        },
+        {
+          "ticker": "000520",
+          "name": "삼일제약",
+          "predicted_prob": 33.8,
+          "grade": "C",
+          "actual_high_pct": 6.45,
+          "actual_close_pct": 3.15,
+          "hit": true
+        },
+        {
+          "ticker": "361610",
+          "name": "SK아이이테크놀로지",
+          "predicted_prob": 33.4,
+          "grade": "C",
+          "actual_high_pct": 2.2,
+          "actual_close_pct": -3.3,
+          "hit": true
+        },
+        {
+          "ticker": "058430",
+          "name": "포스코스틸리온",
+          "predicted_prob": 31.0,
+          "grade": "C",
+          "actual_high_pct": 3.38,
+          "actual_close_pct": 2.64,
+          "hit": true
+        },
+        {
+          "ticker": "001360",
+          "name": "삼성제약",
+          "predicted_prob": 30.6,
+          "grade": "C",
+          "actual_high_pct": 0.36,
+          "actual_close_pct": -0.22,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-09-09",
       "next_trading_date": "2026-09-10",
       "total": 10,
@@ -6896,10 +6995,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 694,
-    "total_hits": 366,
+    "total_predictions": 704,
+    "total_hits": 371,
     "hit_rate": 52.7,
-    "days_tracked": 72,
-    "updated_at": "2026-09-11 12:11"
+    "days_tracked": 73,
+    "updated_at": "2026-09-14 13:59"
   }
 }
