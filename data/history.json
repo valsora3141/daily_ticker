@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-09-11",
+      "next_trading_date": "2026-09-14",
+      "total": 10,
+      "hits": 5,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "001820",
+          "name": "삼화콘덴서",
+          "predicted_prob": 76.4,
+          "grade": "A",
+          "actual_high_pct": 8.37,
+          "actual_close_pct": 4.98,
+          "hit": true
+        },
+        {
+          "ticker": "480370",
+          "name": "씨케이솔루션",
+          "predicted_prob": 66.4,
+          "grade": "A",
+          "actual_high_pct": 32.27,
+          "actual_close_pct": 13.6,
+          "hit": true
+        },
+        {
+          "ticker": "452260",
+          "name": "한화갤러리아",
+          "predicted_prob": 51.6,
+          "grade": "A",
+          "actual_high_pct": 3.58,
+          "actual_close_pct": 0.38,
+          "hit": true
+        },
+        {
+          "ticker": "012630",
+          "name": "HDC",
+          "predicted_prob": 42.1,
+          "grade": "B",
+          "actual_high_pct": 0.88,
+          "actual_close_pct": -0.18,
+          "hit": false
+        },
+        {
+          "ticker": "006360",
+          "name": "GS건설",
+          "predicted_prob": 33.3,
+          "grade": "C",
+          "actual_high_pct": 0.92,
+          "actual_close_pct": -3.43,
+          "hit": false
+        },
+        {
+          "ticker": "006220",
+          "name": "제주은행",
+          "predicted_prob": 32.2,
+          "grade": "C",
+          "actual_high_pct": 0.1,
+          "actual_close_pct": -2.19,
+          "hit": false
+        },
+        {
+          "ticker": "051600",
+          "name": "한전KPS",
+          "predicted_prob": 30.6,
+          "grade": "C",
+          "actual_high_pct": 0.31,
+          "actual_close_pct": -2.57,
+          "hit": false
+        },
+        {
+          "ticker": "012800",
+          "name": "대창",
+          "predicted_prob": 30.0,
+          "grade": "C",
+          "actual_high_pct": 2.26,
+          "actual_close_pct": 0.0,
+          "hit": true
+        },
+        {
+          "ticker": "003610",
+          "name": "방림",
+          "predicted_prob": 29.8,
+          "grade": "D",
+          "actual_high_pct": 1.55,
+          "actual_close_pct": 0.86,
+          "hit": false
+        },
+        {
+          "ticker": "003690",
+          "name": "코리안리",
+          "predicted_prob": 29.7,
+          "grade": "D",
+          "actual_high_pct": 2.21,
+          "actual_close_pct": 1.88,
+          "hit": true
+        }
+      ]
+    },
+    {
       "date": "2026-09-10",
       "next_trading_date": "2026-09-11",
       "total": 10,
@@ -6995,10 +7094,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 704,
-    "total_hits": 371,
+    "total_predictions": 714,
+    "total_hits": 376,
     "hit_rate": 52.7,
-    "days_tracked": 73,
-    "updated_at": "2026-09-14 13:59"
+    "days_tracked": 74,
+    "updated_at": "2026-09-15 12:38"
   }
 }
