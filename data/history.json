@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-09-14",
+      "next_trading_date": "2026-09-15",
+      "total": 10,
+      "hits": 3,
+      "hit_rate": 30.0,
+      "results": [
+        {
+          "ticker": "093370",
+          "name": "후성",
+          "predicted_prob": 43.8,
+          "grade": "B",
+          "actual_high_pct": 8.08,
+          "actual_close_pct": 4.75,
+          "hit": true
+        },
+        {
+          "ticker": "090460",
+          "name": "비에이치",
+          "predicted_prob": 39.9,
+          "grade": "C",
+          "actual_high_pct": 2.98,
+          "actual_close_pct": -0.76,
+          "hit": true
+        },
+        {
+          "ticker": "004710",
+          "name": "한솔테크닉스",
+          "predicted_prob": 39.1,
+          "grade": "C",
+          "actual_high_pct": 3.22,
+          "actual_close_pct": -0.33,
+          "hit": true
+        },
+        {
+          "ticker": "012450",
+          "name": "한화에어로스페이스",
+          "predicted_prob": 35.2,
+          "grade": "C",
+          "actual_high_pct": 1.99,
+          "actual_close_pct": -3.89,
+          "hit": false
+        },
+        {
+          "ticker": "316140",
+          "name": "우리금융지주",
+          "predicted_prob": 31.2,
+          "grade": "C",
+          "actual_high_pct": 1.1,
+          "actual_close_pct": 0.0,
+          "hit": false
+        },
+        {
+          "ticker": "010820",
+          "name": "퍼스텍",
+          "predicted_prob": 30.7,
+          "grade": "C",
+          "actual_high_pct": 1.49,
+          "actual_close_pct": -0.66,
+          "hit": false
+        },
+        {
+          "ticker": "010140",
+          "name": "삼성중공업",
+          "predicted_prob": 30.3,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -5.26,
+          "hit": false
+        },
+        {
+          "ticker": "089590",
+          "name": "제주항공",
+          "predicted_prob": 29.3,
+          "grade": "D",
+          "actual_high_pct": 1.47,
+          "actual_close_pct": -1.57,
+          "hit": false
+        },
+        {
+          "ticker": "004150",
+          "name": "한솔홀딩스",
+          "predicted_prob": 25.7,
+          "grade": "D",
+          "actual_high_pct": 0.69,
+          "actual_close_pct": -1.66,
+          "hit": false
+        },
+        {
+          "ticker": "030210",
+          "name": "다올투자증권",
+          "predicted_prob": 25.4,
+          "grade": "D",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -2.21,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-09-11",
       "next_trading_date": "2026-09-14",
       "total": 10,
@@ -7094,10 +7193,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 714,
-    "total_hits": 376,
-    "hit_rate": 52.7,
-    "days_tracked": 74,
-    "updated_at": "2026-09-15 12:38"
+    "total_predictions": 724,
+    "total_hits": 379,
+    "hit_rate": 52.3,
+    "days_tracked": 75,
+    "updated_at": "2026-09-16 12:35"
   }
 }
