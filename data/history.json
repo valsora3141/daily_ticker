@@ -1,6 +1,87 @@
 {
   "days": [
     {
+      "date": "2026-09-17",
+      "next_trading_date": "2026-09-18",
+      "total": 8,
+      "hits": 5,
+      "hit_rate": 62.5,
+      "results": [
+        {
+          "ticker": "480370",
+          "name": "씨케이솔루션",
+          "predicted_prob": 87.7,
+          "grade": "A",
+          "actual_high_pct": 2.1,
+          "actual_close_pct": -6.06,
+          "hit": true
+        },
+        {
+          "ticker": "217590",
+          "name": "티엠씨",
+          "predicted_prob": 59.4,
+          "grade": "A",
+          "actual_high_pct": 7.44,
+          "actual_close_pct": 5.05,
+          "hit": true
+        },
+        {
+          "ticker": "006660",
+          "name": "삼성공조",
+          "predicted_prob": 39.7,
+          "grade": "C",
+          "actual_high_pct": 1.07,
+          "actual_close_pct": 0.38,
+          "hit": false
+        },
+        {
+          "ticker": "010820",
+          "name": "퍼스텍",
+          "predicted_prob": 38.3,
+          "grade": "C",
+          "actual_high_pct": 0.62,
+          "actual_close_pct": -0.16,
+          "hit": false
+        },
+        {
+          "ticker": "432320",
+          "name": "KB스타리츠",
+          "predicted_prob": 32.4,
+          "grade": "C",
+          "actual_high_pct": 4.81,
+          "actual_close_pct": 3.22,
+          "hit": true
+        },
+        {
+          "ticker": "096760",
+          "name": "JW홀딩스",
+          "predicted_prob": 30.9,
+          "grade": "C",
+          "actual_high_pct": 2.99,
+          "actual_close_pct": -0.46,
+          "hit": true
+        },
+        {
+          "ticker": "001060",
+          "name": "JW중외제약",
+          "predicted_prob": 30.1,
+          "grade": "C",
+          "actual_high_pct": 0.53,
+          "actual_close_pct": -1.07,
+          "hit": false
+        },
+        {
+          "ticker": "011930",
+          "name": "신성이엔지",
+          "predicted_prob": 29.7,
+          "grade": "D",
+          "actual_high_pct": 2.85,
+          "actual_close_pct": 0.42,
+          "hit": true
+        }
+      ]
+    },
+    {
       "date": "2026-09-16",
       "next_trading_date": "2026-09-17",
       "total": 9,
@@ -7382,10 +7463,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 743,
-    "total_hits": 389,
-    "hit_rate": 52.4,
-    "days_tracked": 77,
-    "updated_at": "2026-09-18 12:13"
+    "total_predictions": 751,
+    "total_hits": 394,
+    "hit_rate": 52.5,
+    "days_tracked": 78,
+    "updated_at": "2026-09-21 14:04"
   }
 }
