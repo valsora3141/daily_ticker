@@ -1,6 +1,60 @@
 {
   "days": [
     {
+      "date": "2026-09-21",
+      "next_trading_date": "2026-09-22",
+      "total": 5,
+      "hits": 0,
+      "hit_rate": 0.0,
+      "results": [
+        {
+          "ticker": "003160",
+          "name": "디아이",
+          "predicted_prob": 57.7,
+          "grade": "A",
+          "actual_high_pct": 1.71,
+          "actual_close_pct": -0.85,
+          "hit": false
+        },
+        {
+          "ticker": "009900",
+          "name": "명신산업",
+          "predicted_prob": 48.2,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -4.83,
+          "hit": false
+        },
+        {
+          "ticker": "000430",
+          "name": "대원강업",
+          "predicted_prob": 36.0,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.38,
+          "hit": false
+        },
+        {
+          "ticker": "009470",
+          "name": "삼화전기",
+          "predicted_prob": 33.0,
+          "grade": "C",
+          "actual_high_pct": 1.64,
+          "actual_close_pct": -4.55,
+          "hit": false
+        },
+        {
+          "ticker": "002790",
+          "name": "아모레퍼시픽홀딩스",
+          "predicted_prob": 21.7,
+          "grade": "D",
+          "actual_high_pct": 1.14,
+          "actual_close_pct": -0.76,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-09-18",
       "next_trading_date": "2026-09-21",
       "total": 10,
@@ -7562,10 +7616,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 761,
+    "total_predictions": 766,
     "total_hits": 400,
-    "hit_rate": 52.6,
-    "days_tracked": 79,
-    "updated_at": "2026-09-22 12:35"
+    "hit_rate": 52.2,
+    "days_tracked": 80,
+    "updated_at": "2026-09-23 12:44"
   }
 }
