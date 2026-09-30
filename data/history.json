@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-09-28",
+      "next_trading_date": "2026-09-29",
+      "total": 10,
+      "hits": 2,
+      "hit_rate": 20.0,
+      "results": [
+        {
+          "ticker": "007810",
+          "name": "코리아써키트",
+          "predicted_prob": 58.8,
+          "grade": "A",
+          "actual_high_pct": 8.1,
+          "actual_close_pct": 7.24,
+          "hit": true
+        },
+        {
+          "ticker": "044450",
+          "name": "KSS해운",
+          "predicted_prob": 49.5,
+          "grade": "B",
+          "actual_high_pct": 1.29,
+          "actual_close_pct": 0.16,
+          "hit": false
+        },
+        {
+          "ticker": "011930",
+          "name": "신성이엔지",
+          "predicted_prob": 40.7,
+          "grade": "B",
+          "actual_high_pct": 0.11,
+          "actual_close_pct": -0.85,
+          "hit": false
+        },
+        {
+          "ticker": "071950",
+          "name": "코아스",
+          "predicted_prob": 39.7,
+          "grade": "C",
+          "actual_high_pct": 2.06,
+          "actual_close_pct": 1.59,
+          "hit": true
+        },
+        {
+          "ticker": "066570",
+          "name": "LG전자",
+          "predicted_prob": 34.6,
+          "grade": "C",
+          "actual_high_pct": 1.65,
+          "actual_close_pct": 0.71,
+          "hit": false
+        },
+        {
+          "ticker": "017860",
+          "name": "DS단석",
+          "predicted_prob": 30.3,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -0.71,
+          "hit": false
+        },
+        {
+          "ticker": "012610",
+          "name": "경인양행",
+          "predicted_prob": 30.0,
+          "grade": "C",
+          "actual_high_pct": 0.62,
+          "actual_close_pct": 0.16,
+          "hit": false
+        },
+        {
+          "ticker": "011500",
+          "name": "한농화성",
+          "predicted_prob": 29.5,
+          "grade": "D",
+          "actual_high_pct": 0.37,
+          "actual_close_pct": 0.3,
+          "hit": false
+        },
+        {
+          "ticker": "008060",
+          "name": "대덕",
+          "predicted_prob": 26.0,
+          "grade": "D",
+          "actual_high_pct": 0.79,
+          "actual_close_pct": 0.79,
+          "hit": false
+        },
+        {
+          "ticker": "383800",
+          "name": "LX홀딩스",
+          "predicted_prob": 24.8,
+          "grade": "D",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.22,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-09-23",
       "next_trading_date": "2026-09-28",
       "total": 10,
@@ -7814,10 +7913,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 786,
-    "total_hits": 408,
-    "hit_rate": 51.9,
-    "days_tracked": 82,
-    "updated_at": "2026-09-29 14:02"
+    "total_predictions": 796,
+    "total_hits": 410,
+    "hit_rate": 51.5,
+    "days_tracked": 83,
+    "updated_at": "2026-09-30 13:39"
   }
 }
