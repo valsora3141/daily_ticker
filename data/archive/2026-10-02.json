@@ -1,11 +1,11 @@
 {
   "version": 2,
   "date": "2026-10-02",
-  "generated_at": "2026-10-05 15:59",
+  "generated_at": "2026-10-02 13:51",
   "screened_count": 918,
   "candidates_count": 30,
   "sort_by": "+2.0% 확률",
-  "is_stale": true,
+  "is_stale": false,
   "recommendations": [
     {
       "ticker": "248070",

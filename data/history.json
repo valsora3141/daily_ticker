@@ -1,6 +1,96 @@
 {
   "days": [
     {
+      "date": "2026-09-30",
+      "next_trading_date": "2026-10-01",
+      "total": 9,
+      "hits": 5,
+      "hit_rate": 55.6,
+      "results": [
+        {
+          "ticker": "011790",
+          "name": "SKC",
+          "predicted_prob": 44.5,
+          "grade": "B",
+          "actual_high_pct": 9.14,
+          "actual_close_pct": 7.6,
+          "hit": true
+        },
+        {
+          "ticker": "093370",
+          "name": "후성",
+          "predicted_prob": 42.5,
+          "grade": "B",
+          "actual_high_pct": 6.99,
+          "actual_close_pct": 5.58,
+          "hit": true
+        },
+        {
+          "ticker": "088790",
+          "name": "진도",
+          "predicted_prob": 36.1,
+          "grade": "C",
+          "actual_high_pct": 2.16,
+          "actual_close_pct": -1.18,
+          "hit": true
+        },
+        {
+          "ticker": "489790",
+          "name": "한화비전",
+          "predicted_prob": 30.4,
+          "grade": "C",
+          "actual_high_pct": 5.2,
+          "actual_close_pct": 4.6,
+          "hit": true
+        },
+        {
+          "ticker": "404990",
+          "name": "신한서부티엔디리츠",
+          "predicted_prob": 29.1,
+          "grade": "D",
+          "actual_high_pct": 1.92,
+          "actual_close_pct": 0.51,
+          "hit": false
+        },
+        {
+          "ticker": "090080",
+          "name": "평화산업",
+          "predicted_prob": 28.6,
+          "grade": "D",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.53,
+          "hit": false
+        },
+        {
+          "ticker": "034730",
+          "name": "SK",
+          "predicted_prob": 27.8,
+          "grade": "D",
+          "actual_high_pct": 0.17,
+          "actual_close_pct": -0.51,
+          "hit": false
+        },
+        {
+          "ticker": "007980",
+          "name": "TP",
+          "predicted_prob": 27.7,
+          "grade": "D",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.06,
+          "hit": false
+        },
+        {
+          "ticker": "012610",
+          "name": "경인양행",
+          "predicted_prob": 27.7,
+          "grade": "D",
+          "actual_high_pct": 3.08,
+          "actual_close_pct": 3.08,
+          "hit": true
+        }
+      ]
+    },
+    {
       "date": "2026-09-29",
       "next_trading_date": "2026-09-30",
       "total": 10,
@@ -8012,10 +8102,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 806,
-    "total_hits": 414,
+    "total_predictions": 815,
+    "total_hits": 419,
     "hit_rate": 51.4,
-    "days_tracked": 84,
-    "updated_at": "2026-10-02 13:49"
+    "days_tracked": 85,
+    "updated_at": "2026-10-05 15:58"
   }
 }
