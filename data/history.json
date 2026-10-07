@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-10-02",
+      "next_trading_date": "2026-10-06",
+      "total": 10,
+      "hits": 3,
+      "hit_rate": 30.0,
+      "results": [
+        {
+          "ticker": "248070",
+          "name": "솔루엠",
+          "predicted_prob": 60.8,
+          "grade": "A",
+          "actual_high_pct": 1.92,
+          "actual_close_pct": 0.54,
+          "hit": false
+        },
+        {
+          "ticker": "003160",
+          "name": "디아이",
+          "predicted_prob": 48.6,
+          "grade": "B",
+          "actual_high_pct": 1.06,
+          "actual_close_pct": -0.24,
+          "hit": false
+        },
+        {
+          "ticker": "010950",
+          "name": "S-Oil",
+          "predicted_prob": 47.2,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.49,
+          "hit": false
+        },
+        {
+          "ticker": "009830",
+          "name": "한화솔루션",
+          "predicted_prob": 46.9,
+          "grade": "B",
+          "actual_high_pct": 2.88,
+          "actual_close_pct": 1.51,
+          "hit": true
+        },
+        {
+          "ticker": "096770",
+          "name": "SK이노베이션",
+          "predicted_prob": 42.5,
+          "grade": "B",
+          "actual_high_pct": 4.08,
+          "actual_close_pct": 4.08,
+          "hit": true
+        },
+        {
+          "ticker": "093370",
+          "name": "후성",
+          "predicted_prob": 42.1,
+          "grade": "B",
+          "actual_high_pct": 0.67,
+          "actual_close_pct": -0.61,
+          "hit": false
+        },
+        {
+          "ticker": "000520",
+          "name": "삼일제약",
+          "predicted_prob": 41.8,
+          "grade": "B",
+          "actual_high_pct": 1.74,
+          "actual_close_pct": 1.28,
+          "hit": false
+        },
+        {
+          "ticker": "336370",
+          "name": "솔루스첨단소재",
+          "predicted_prob": 40.0,
+          "grade": "B",
+          "actual_high_pct": 8.01,
+          "actual_close_pct": 5.42,
+          "hit": true
+        },
+        {
+          "ticker": "005070",
+          "name": "코스모신소재",
+          "predicted_prob": 39.7,
+          "grade": "C",
+          "actual_high_pct": 0.74,
+          "actual_close_pct": 0.32,
+          "hit": false
+        },
+        {
+          "ticker": "161000",
+          "name": "애경케미칼",
+          "predicted_prob": 39.4,
+          "grade": "C",
+          "actual_high_pct": 0.44,
+          "actual_close_pct": 0.35,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-09-30",
       "next_trading_date": "2026-10-01",
       "total": 9,
@@ -8102,10 +8201,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 815,
-    "total_hits": 419,
-    "hit_rate": 51.4,
-    "days_tracked": 85,
-    "updated_at": "2026-10-06 14:09"
+    "total_predictions": 825,
+    "total_hits": 422,
+    "hit_rate": 51.2,
+    "days_tracked": 86,
+    "updated_at": "2026-10-07 14:28"
   }
 }
