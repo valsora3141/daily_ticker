@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-10-06",
+      "next_trading_date": "2026-10-07",
+      "total": 10,
+      "hits": 1,
+      "hit_rate": 10.0,
+      "results": [
+        {
+          "ticker": "007660",
+          "name": "이수페타시스",
+          "predicted_prob": 50.0,
+          "grade": "A",
+          "actual_high_pct": 0.08,
+          "actual_close_pct": -6.94,
+          "hit": false
+        },
+        {
+          "ticker": "011070",
+          "name": "LG이노텍",
+          "predicted_prob": 49.3,
+          "grade": "B",
+          "actual_high_pct": 1.86,
+          "actual_close_pct": -8.37,
+          "hit": false
+        },
+        {
+          "ticker": "322000",
+          "name": "HD현대에너지솔루션",
+          "predicted_prob": 46.8,
+          "grade": "B",
+          "actual_high_pct": 0.79,
+          "actual_close_pct": -3.83,
+          "hit": false
+        },
+        {
+          "ticker": "336370",
+          "name": "솔루스첨단소재",
+          "predicted_prob": 46.6,
+          "grade": "B",
+          "actual_high_pct": 0.65,
+          "actual_close_pct": -4.1,
+          "hit": false
+        },
+        {
+          "ticker": "005690",
+          "name": "파미셀",
+          "predicted_prob": 46.0,
+          "grade": "B",
+          "actual_high_pct": 0.41,
+          "actual_close_pct": -1.81,
+          "hit": false
+        },
+        {
+          "ticker": "005320",
+          "name": "온타이드",
+          "predicted_prob": 43.2,
+          "grade": "B",
+          "actual_high_pct": 4.15,
+          "actual_close_pct": 4.08,
+          "hit": true
+        },
+        {
+          "ticker": "450080",
+          "name": "에코프로머티",
+          "predicted_prob": 41.6,
+          "grade": "B",
+          "actual_high_pct": 0.13,
+          "actual_close_pct": -3.29,
+          "hit": false
+        },
+        {
+          "ticker": "018880",
+          "name": "한온시스템",
+          "predicted_prob": 40.8,
+          "grade": "B",
+          "actual_high_pct": 1.02,
+          "actual_close_pct": -1.28,
+          "hit": false
+        },
+        {
+          "ticker": "066970",
+          "name": "엘앤에프",
+          "predicted_prob": 40.4,
+          "grade": "B",
+          "actual_high_pct": 1.39,
+          "actual_close_pct": -3.84,
+          "hit": false
+        },
+        {
+          "ticker": "003670",
+          "name": "포스코퓨처엠",
+          "predicted_prob": 40.0,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -5.71,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-10-02",
       "next_trading_date": "2026-10-06",
       "total": 10,
@@ -8201,10 +8300,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 825,
-    "total_hits": 422,
-    "hit_rate": 51.2,
-    "days_tracked": 86,
-    "updated_at": "2026-10-07 14:28"
+    "total_predictions": 835,
+    "total_hits": 423,
+    "hit_rate": 50.7,
+    "days_tracked": 87,
+    "updated_at": "2026-10-08 14:33"
   }
 }
