@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-10-07",
+      "next_trading_date": "2026-10-08",
+      "total": 10,
+      "hits": 2,
+      "hit_rate": 20.0,
+      "results": [
+        {
+          "ticker": "248070",
+          "name": "솔루엠",
+          "predicted_prob": 59.1,
+          "grade": "A",
+          "actual_high_pct": 1.04,
+          "actual_close_pct": -0.64,
+          "hit": false
+        },
+        {
+          "ticker": "085620",
+          "name": "미래에셋생명",
+          "predicted_prob": 54.3,
+          "grade": "A",
+          "actual_high_pct": 2.05,
+          "actual_close_pct": -7.27,
+          "hit": true
+        },
+        {
+          "ticker": "137310",
+          "name": "에스디바이오센서",
+          "predicted_prob": 41.9,
+          "grade": "B",
+          "actual_high_pct": 0.15,
+          "actual_close_pct": -4.9,
+          "hit": false
+        },
+        {
+          "ticker": "000400",
+          "name": "롯데손해보험",
+          "predicted_prob": 41.1,
+          "grade": "B",
+          "actual_high_pct": 6.35,
+          "actual_close_pct": 3.63,
+          "hit": true
+        },
+        {
+          "ticker": "028670",
+          "name": "팬오션",
+          "predicted_prob": 39.1,
+          "grade": "C",
+          "actual_high_pct": 0.32,
+          "actual_close_pct": -2.58,
+          "hit": false
+        },
+        {
+          "ticker": "123690",
+          "name": "한국화장품",
+          "predicted_prob": 38.0,
+          "grade": "C",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -3.19,
+          "hit": false
+        },
+        {
+          "ticker": "302440",
+          "name": "SK바이오사이언스",
+          "predicted_prob": 34.1,
+          "grade": "C",
+          "actual_high_pct": 0.13,
+          "actual_close_pct": -1.87,
+          "hit": false
+        },
+        {
+          "ticker": "008930",
+          "name": "한미사이언스",
+          "predicted_prob": 33.1,
+          "grade": "C",
+          "actual_high_pct": 0.95,
+          "actual_close_pct": -13.13,
+          "hit": false
+        },
+        {
+          "ticker": "005180",
+          "name": "빙그레",
+          "predicted_prob": 28.6,
+          "grade": "D",
+          "actual_high_pct": 0.57,
+          "actual_close_pct": -0.45,
+          "hit": false
+        },
+        {
+          "ticker": "003850",
+          "name": "보령",
+          "predicted_prob": 28.4,
+          "grade": "D",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.03,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-10-06",
       "next_trading_date": "2026-10-07",
       "total": 10,
@@ -8300,10 +8399,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 835,
-    "total_hits": 423,
-    "hit_rate": 50.7,
-    "days_tracked": 87,
-    "updated_at": "2026-10-08 14:33"
+    "total_predictions": 845,
+    "total_hits": 425,
+    "hit_rate": 50.3,
+    "days_tracked": 88,
+    "updated_at": "2026-10-09 14:20"
   }
 }
