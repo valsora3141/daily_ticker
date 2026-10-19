@@ -1,6 +1,87 @@
 {
   "days": [
     {
+      "date": "2026-10-15",
+      "next_trading_date": "2026-10-16",
+      "total": 8,
+      "hits": 7,
+      "hit_rate": 87.5,
+      "results": [
+        {
+          "ticker": "010580",
+          "name": "에스엠벡셀",
+          "predicted_prob": 80.9,
+          "grade": "A",
+          "actual_high_pct": 3.79,
+          "actual_close_pct": -5.76,
+          "hit": true
+        },
+        {
+          "ticker": "089590",
+          "name": "제주항공",
+          "predicted_prob": 51.1,
+          "grade": "A",
+          "actual_high_pct": 2.43,
+          "actual_close_pct": -3.3,
+          "hit": true
+        },
+        {
+          "ticker": "012030",
+          "name": "DB",
+          "predicted_prob": 49.9,
+          "grade": "B",
+          "actual_high_pct": 3.42,
+          "actual_close_pct": -2.56,
+          "hit": true
+        },
+        {
+          "ticker": "011200",
+          "name": "HMM",
+          "predicted_prob": 28.6,
+          "grade": "D",
+          "actual_high_pct": 4.3,
+          "actual_close_pct": 1.08,
+          "hit": true
+        },
+        {
+          "ticker": "026960",
+          "name": "동서",
+          "predicted_prob": 22.6,
+          "grade": "D",
+          "actual_high_pct": 2.39,
+          "actual_close_pct": 1.29,
+          "hit": true
+        },
+        {
+          "ticker": "036460",
+          "name": "한국가스공사",
+          "predicted_prob": 20.0,
+          "grade": "D",
+          "actual_high_pct": 1.78,
+          "actual_close_pct": -0.68,
+          "hit": false
+        },
+        {
+          "ticker": "030000",
+          "name": "제일기획",
+          "predicted_prob": 19.9,
+          "grade": "D",
+          "actual_high_pct": 2.11,
+          "actual_close_pct": 0.52,
+          "hit": true
+        },
+        {
+          "ticker": "000080",
+          "name": "하이트진로",
+          "predicted_prob": 17.3,
+          "grade": "D",
+          "actual_high_pct": 4.24,
+          "actual_close_pct": 2.48,
+          "hit": true
+        }
+      ]
+    },
+    {
       "date": "2026-10-14",
       "next_trading_date": "2026-10-15",
       "total": 10,
@@ -8786,10 +8867,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 884,
-    "total_hits": 450,
-    "hit_rate": 50.9,
-    "days_tracked": 92,
-    "updated_at": "2026-10-16 12:22"
+    "total_predictions": 892,
+    "total_hits": 457,
+    "hit_rate": 51.2,
+    "days_tracked": 93,
+    "updated_at": "2026-10-19 14:38"
   }
 }
