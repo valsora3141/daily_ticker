@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-10-16",
+      "next_trading_date": "2026-10-19",
+      "total": 10,
+      "hits": 7,
+      "hit_rate": 70.0,
+      "results": [
+        {
+          "ticker": "011090",
+          "name": "에넥스",
+          "predicted_prob": 44.3,
+          "grade": "B",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -8.0,
+          "hit": false
+        },
+        {
+          "ticker": "452260",
+          "name": "한화갤러리아",
+          "predicted_prob": 42.7,
+          "grade": "B",
+          "actual_high_pct": 5.12,
+          "actual_close_pct": 3.66,
+          "hit": true
+        },
+        {
+          "ticker": "214330",
+          "name": "금호에이치티",
+          "predicted_prob": 39.8,
+          "grade": "C",
+          "actual_high_pct": 1.25,
+          "actual_close_pct": -0.87,
+          "hit": false
+        },
+        {
+          "ticker": "352820",
+          "name": "하이브",
+          "predicted_prob": 39.4,
+          "grade": "C",
+          "actual_high_pct": 6.79,
+          "actual_close_pct": 6.68,
+          "hit": true
+        },
+        {
+          "ticker": "009900",
+          "name": "명신산업",
+          "predicted_prob": 37.9,
+          "grade": "C",
+          "actual_high_pct": 4.9,
+          "actual_close_pct": 1.25,
+          "hit": true
+        },
+        {
+          "ticker": "088790",
+          "name": "진도",
+          "predicted_prob": 35.2,
+          "grade": "C",
+          "actual_high_pct": 7.1,
+          "actual_close_pct": 6.49,
+          "hit": true
+        },
+        {
+          "ticker": "460860",
+          "name": "동국제강",
+          "predicted_prob": 34.8,
+          "grade": "C",
+          "actual_high_pct": 7.45,
+          "actual_close_pct": 7.45,
+          "hit": true
+        },
+        {
+          "ticker": "030190",
+          "name": "NICE평가정보",
+          "predicted_prob": 32.9,
+          "grade": "C",
+          "actual_high_pct": 0.06,
+          "actual_close_pct": -1.0,
+          "hit": false
+        },
+        {
+          "ticker": "011200",
+          "name": "HMM",
+          "predicted_prob": 32.4,
+          "grade": "C",
+          "actual_high_pct": 2.35,
+          "actual_close_pct": 2.35,
+          "hit": true
+        },
+        {
+          "ticker": "068270",
+          "name": "셀트리온",
+          "predicted_prob": 31.3,
+          "grade": "C",
+          "actual_high_pct": 2.32,
+          "actual_close_pct": 2.22,
+          "hit": true
+        }
+      ]
+    },
+    {
       "date": "2026-10-15",
       "next_trading_date": "2026-10-16",
       "total": 8,
@@ -8867,10 +8966,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 892,
-    "total_hits": 457,
-    "hit_rate": 51.2,
-    "days_tracked": 93,
-    "updated_at": "2026-10-19 14:38"
+    "total_predictions": 902,
+    "total_hits": 464,
+    "hit_rate": 51.4,
+    "days_tracked": 94,
+    "updated_at": "2026-10-20 12:41"
   }
 }
