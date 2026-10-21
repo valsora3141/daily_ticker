@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-10-19",
+      "next_trading_date": "2026-10-20",
+      "total": 10,
+      "hits": 3,
+      "hit_rate": 30.0,
+      "results": [
+        {
+          "ticker": "010580",
+          "name": "에스엠벡셀",
+          "predicted_prob": 97.7,
+          "grade": "A",
+          "actual_high_pct": 1.36,
+          "actual_close_pct": -4.57,
+          "hit": false
+        },
+        {
+          "ticker": "011330",
+          "name": "유니켐",
+          "predicted_prob": 74.9,
+          "grade": "A",
+          "actual_high_pct": 15.08,
+          "actual_close_pct": 5.85,
+          "hit": true
+        },
+        {
+          "ticker": "011690",
+          "name": "와이투솔루션",
+          "predicted_prob": 53.7,
+          "grade": "A",
+          "actual_high_pct": 1.0,
+          "actual_close_pct": -5.75,
+          "hit": false
+        },
+        {
+          "ticker": "450080",
+          "name": "에코프로머티",
+          "predicted_prob": 50.6,
+          "grade": "A",
+          "actual_high_pct": 1.66,
+          "actual_close_pct": -7.72,
+          "hit": false
+        },
+        {
+          "ticker": "011500",
+          "name": "한농화성",
+          "predicted_prob": 48.6,
+          "grade": "B",
+          "actual_high_pct": 1.13,
+          "actual_close_pct": -5.8,
+          "hit": false
+        },
+        {
+          "ticker": "002710",
+          "name": "TCC스틸",
+          "predicted_prob": 47.9,
+          "grade": "B",
+          "actual_high_pct": 1.74,
+          "actual_close_pct": -6.97,
+          "hit": false
+        },
+        {
+          "ticker": "001780",
+          "name": "알루코",
+          "predicted_prob": 46.9,
+          "grade": "B",
+          "actual_high_pct": 0.21,
+          "actual_close_pct": -3.1,
+          "hit": false
+        },
+        {
+          "ticker": "003670",
+          "name": "포스코퓨처엠",
+          "predicted_prob": 42.7,
+          "grade": "B",
+          "actual_high_pct": 2.56,
+          "actual_close_pct": -5.01,
+          "hit": true
+        },
+        {
+          "ticker": "000100",
+          "name": "유한양행",
+          "predicted_prob": 42.2,
+          "grade": "B",
+          "actual_high_pct": 3.82,
+          "actual_close_pct": -0.35,
+          "hit": true
+        },
+        {
+          "ticker": "088790",
+          "name": "진도",
+          "predicted_prob": 34.9,
+          "grade": "C",
+          "actual_high_pct": 0.94,
+          "actual_close_pct": -4.72,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-10-16",
       "next_trading_date": "2026-10-19",
       "total": 10,
@@ -8966,10 +9065,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 902,
-    "total_hits": 464,
-    "hit_rate": 51.4,
-    "days_tracked": 94,
-    "updated_at": "2026-10-20 12:41"
+    "total_predictions": 912,
+    "total_hits": 467,
+    "hit_rate": 51.2,
+    "days_tracked": 95,
+    "updated_at": "2026-10-21 12:54"
   }
 }
