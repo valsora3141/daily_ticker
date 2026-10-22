@@ -1,6 +1,69 @@
 {
   "days": [
     {
+      "date": "2026-10-20",
+      "next_trading_date": "2026-10-21",
+      "total": 6,
+      "hits": 1,
+      "hit_rate": 16.7,
+      "results": [
+        {
+          "ticker": "008350",
+          "name": "남선알미늄",
+          "predicted_prob": 30.4,
+          "grade": "C",
+          "actual_high_pct": 2.26,
+          "actual_close_pct": -0.52,
+          "hit": true
+        },
+        {
+          "ticker": "004410",
+          "name": "서울식품",
+          "predicted_prob": 25.7,
+          "grade": "D",
+          "actual_high_pct": 1.17,
+          "actual_close_pct": 0.55,
+          "hit": false
+        },
+        {
+          "ticker": "404990",
+          "name": "신한서부티엔디리츠",
+          "predicted_prob": 23.8,
+          "grade": "D",
+          "actual_high_pct": 0.89,
+          "actual_close_pct": -0.76,
+          "hit": false
+        },
+        {
+          "ticker": "293940",
+          "name": "신한알파리츠",
+          "predicted_prob": 20.9,
+          "grade": "D",
+          "actual_high_pct": 0.54,
+          "actual_close_pct": 0.36,
+          "hit": false
+        },
+        {
+          "ticker": "000080",
+          "name": "하이트진로",
+          "predicted_prob": 20.2,
+          "grade": "D",
+          "actual_high_pct": 0.82,
+          "actual_close_pct": -1.13,
+          "hit": false
+        },
+        {
+          "ticker": "089860",
+          "name": "롯데렌탈",
+          "predicted_prob": 17.2,
+          "grade": "D",
+          "actual_high_pct": 0.6,
+          "actual_close_pct": -1.39,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-10-19",
       "next_trading_date": "2026-10-20",
       "total": 10,
@@ -9065,10 +9128,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 912,
-    "total_hits": 467,
-    "hit_rate": 51.2,
-    "days_tracked": 95,
-    "updated_at": "2026-10-21 12:54"
+    "total_predictions": 918,
+    "total_hits": 468,
+    "hit_rate": 51.0,
+    "days_tracked": 96,
+    "updated_at": "2026-10-22 12:56"
   }
 }
