@@ -1,6 +1,51 @@
 {
   "days": [
     {
+      "date": "2026-10-21",
+      "next_trading_date": "2026-10-22",
+      "total": 4,
+      "hits": 2,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "013580",
+          "name": "계룡건설",
+          "predicted_prob": 54.3,
+          "grade": "A",
+          "actual_high_pct": 7.31,
+          "actual_close_pct": 4.55,
+          "hit": true
+        },
+        {
+          "ticker": "068270",
+          "name": "셀트리온",
+          "predicted_prob": 39.4,
+          "grade": "C",
+          "actual_high_pct": 1.38,
+          "actual_close_pct": -0.72,
+          "hit": false
+        },
+        {
+          "ticker": "064400",
+          "name": "LG씨엔에스",
+          "predicted_prob": 34.0,
+          "grade": "C",
+          "actual_high_pct": 3.89,
+          "actual_close_pct": 1.25,
+          "hit": true
+        },
+        {
+          "ticker": "004410",
+          "name": "서울식품",
+          "predicted_prob": 28.9,
+          "grade": "D",
+          "actual_high_pct": 0.31,
+          "actual_close_pct": -0.23,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-10-20",
       "next_trading_date": "2026-10-21",
       "total": 6,
@@ -9128,10 +9173,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 918,
-    "total_hits": 468,
+    "total_predictions": 922,
+    "total_hits": 470,
     "hit_rate": 51.0,
-    "days_tracked": 96,
-    "updated_at": "2026-10-22 12:56"
+    "days_tracked": 97,
+    "updated_at": "2026-10-23 12:35"
   }
 }
