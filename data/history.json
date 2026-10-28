@@ -1,6 +1,33 @@
 {
   "days": [
     {
+      "date": "2026-10-26",
+      "next_trading_date": "2026-10-27",
+      "total": 2,
+      "hits": 1,
+      "hit_rate": 50.0,
+      "results": [
+        {
+          "ticker": "028050",
+          "name": "삼성E&A",
+          "predicted_prob": 47.5,
+          "grade": "B",
+          "actual_high_pct": 5.27,
+          "actual_close_pct": 2.47,
+          "hit": true
+        },
+        {
+          "ticker": "293940",
+          "name": "신한알파리츠",
+          "predicted_prob": 21.1,
+          "grade": "D",
+          "actual_high_pct": 0.35,
+          "actual_close_pct": 0.0,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-10-23",
       "next_trading_date": "2026-10-26",
       "total": 6,
@@ -9299,10 +9326,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 934,
-    "total_hits": 475,
+    "total_predictions": 936,
+    "total_hits": 476,
     "hit_rate": 50.9,
-    "days_tracked": 99,
-    "updated_at": "2026-10-27 13:10"
+    "days_tracked": 100,
+    "updated_at": "2026-10-28 13:59"
   }
 }
