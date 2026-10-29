@@ -1,6 +1,51 @@
 {
   "days": [
     {
+      "date": "2026-10-27",
+      "next_trading_date": "2026-10-28",
+      "total": 4,
+      "hits": 3,
+      "hit_rate": 75.0,
+      "results": [
+        {
+          "ticker": "028050",
+          "name": "삼성E&A",
+          "predicted_prob": 53.9,
+          "grade": "A",
+          "actual_high_pct": 3.02,
+          "actual_close_pct": 1.9,
+          "hit": true
+        },
+        {
+          "ticker": "294870",
+          "name": "IPARK현대산업개발",
+          "predicted_prob": 41.2,
+          "grade": "B",
+          "actual_high_pct": 3.79,
+          "actual_close_pct": 3.16,
+          "hit": true
+        },
+        {
+          "ticker": "451800",
+          "name": "한화리츠",
+          "predicted_prob": 26.8,
+          "grade": "D",
+          "actual_high_pct": 4.51,
+          "actual_close_pct": 0.38,
+          "hit": true
+        },
+        {
+          "ticker": "036460",
+          "name": "한국가스공사",
+          "predicted_prob": 25.4,
+          "grade": "D",
+          "actual_high_pct": 1.37,
+          "actual_close_pct": 0.82,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-10-26",
       "next_trading_date": "2026-10-27",
       "total": 2,
@@ -9326,10 +9371,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 936,
-    "total_hits": 476,
-    "hit_rate": 50.9,
-    "days_tracked": 100,
-    "updated_at": "2026-10-28 13:59"
+    "total_predictions": 940,
+    "total_hits": 479,
+    "hit_rate": 51.0,
+    "days_tracked": 101,
+    "updated_at": "2026-10-29 14:13"
   }
 }
