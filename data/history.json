@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-11-02",
+      "next_trading_date": "2026-11-03",
+      "total": 10,
+      "hits": 6,
+      "hit_rate": 60.0,
+      "results": [
+        {
+          "ticker": "051630",
+          "name": "진양화학",
+          "predicted_prob": 84.0,
+          "grade": "A",
+          "actual_high_pct": 17.56,
+          "actual_close_pct": 5.95,
+          "hit": true
+        },
+        {
+          "ticker": "064400",
+          "name": "LG씨엔에스",
+          "predicted_prob": 50.9,
+          "grade": "A",
+          "actual_high_pct": 0.9,
+          "actual_close_pct": -4.39,
+          "hit": false
+        },
+        {
+          "ticker": "489790",
+          "name": "한화비전",
+          "predicted_prob": 46.5,
+          "grade": "B",
+          "actual_high_pct": 0.79,
+          "actual_close_pct": -5.15,
+          "hit": false
+        },
+        {
+          "ticker": "180640",
+          "name": "한진칼",
+          "predicted_prob": 41.1,
+          "grade": "B",
+          "actual_high_pct": 15.49,
+          "actual_close_pct": 15.49,
+          "hit": true
+        },
+        {
+          "ticker": "003490",
+          "name": "대한항공",
+          "predicted_prob": 36.2,
+          "grade": "C",
+          "actual_high_pct": 2.03,
+          "actual_close_pct": -1.19,
+          "hit": true
+        },
+        {
+          "ticker": "139480",
+          "name": "이마트",
+          "predicted_prob": 36.1,
+          "grade": "C",
+          "actual_high_pct": 2.3,
+          "actual_close_pct": 1.9,
+          "hit": true
+        },
+        {
+          "ticker": "005880",
+          "name": "대한해운",
+          "predicted_prob": 34.8,
+          "grade": "C",
+          "actual_high_pct": 0.97,
+          "actual_close_pct": -3.01,
+          "hit": false
+        },
+        {
+          "ticker": "009160",
+          "name": "SIMPAC",
+          "predicted_prob": 34.0,
+          "grade": "C",
+          "actual_high_pct": 1.0,
+          "actual_close_pct": -1.71,
+          "hit": false
+        },
+        {
+          "ticker": "020560",
+          "name": "아시아나항공",
+          "predicted_prob": 33.2,
+          "grade": "C",
+          "actual_high_pct": 3.06,
+          "actual_close_pct": -1.27,
+          "hit": true
+        },
+        {
+          "ticker": "004410",
+          "name": "서울식품",
+          "predicted_prob": 32.9,
+          "grade": "C",
+          "actual_high_pct": 3.05,
+          "actual_close_pct": 1.64,
+          "hit": true
+        }
+      ]
+    },
+    {
       "date": "2026-10-30",
       "next_trading_date": "2026-11-02",
       "total": 6,
@@ -9596,10 +9695,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 962,
-    "total_hits": 490,
-    "hit_rate": 50.9,
-    "days_tracked": 104,
-    "updated_at": "2026-11-03 15:03"
+    "total_predictions": 972,
+    "total_hits": 496,
+    "hit_rate": 51.0,
+    "days_tracked": 105,
+    "updated_at": "2026-11-04 15:22"
   }
 }
