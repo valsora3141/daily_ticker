@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-11-03",
+      "next_trading_date": "2026-11-04",
+      "total": 10,
+      "hits": 3,
+      "hit_rate": 30.0,
+      "results": [
+        {
+          "ticker": "010640",
+          "name": "진양폴리",
+          "predicted_prob": 92.5,
+          "grade": "A",
+          "actual_high_pct": 5.81,
+          "actual_close_pct": 5.52,
+          "hit": true
+        },
+        {
+          "ticker": "104700",
+          "name": "한국철강",
+          "predicted_prob": 55.7,
+          "grade": "A",
+          "actual_high_pct": 0.08,
+          "actual_close_pct": -0.08,
+          "hit": false
+        },
+        {
+          "ticker": "003610",
+          "name": "방림",
+          "predicted_prob": 32.3,
+          "grade": "C",
+          "actual_high_pct": 0.34,
+          "actual_close_pct": -1.36,
+          "hit": false
+        },
+        {
+          "ticker": "020560",
+          "name": "아시아나항공",
+          "predicted_prob": 31.9,
+          "grade": "C",
+          "actual_high_pct": 3.07,
+          "actual_close_pct": 1.28,
+          "hit": true
+        },
+        {
+          "ticker": "002350",
+          "name": "넥센타이어",
+          "predicted_prob": 29.9,
+          "grade": "D",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -5.26,
+          "hit": false
+        },
+        {
+          "ticker": "002790",
+          "name": "아모레퍼시픽홀딩스",
+          "predicted_prob": 29.3,
+          "grade": "D",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -2.41,
+          "hit": false
+        },
+        {
+          "ticker": "079900",
+          "name": "전진건설로봇",
+          "predicted_prob": 29.1,
+          "grade": "D",
+          "actual_high_pct": 1.93,
+          "actual_close_pct": 1.68,
+          "hit": false
+        },
+        {
+          "ticker": "079160",
+          "name": "CJ CGV",
+          "predicted_prob": 23.7,
+          "grade": "D",
+          "actual_high_pct": 0.0,
+          "actual_close_pct": -1.32,
+          "hit": false
+        },
+        {
+          "ticker": "004410",
+          "name": "서울식품",
+          "predicted_prob": 22.6,
+          "grade": "D",
+          "actual_high_pct": 4.39,
+          "actual_close_pct": 4.08,
+          "hit": true
+        },
+        {
+          "ticker": "036460",
+          "name": "한국가스공사",
+          "predicted_prob": 18.3,
+          "grade": "D",
+          "actual_high_pct": 1.61,
+          "actual_close_pct": 1.61,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-11-02",
       "next_trading_date": "2026-11-03",
       "total": 10,
@@ -9695,10 +9794,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 972,
-    "total_hits": 496,
-    "hit_rate": 51.0,
-    "days_tracked": 105,
-    "updated_at": "2026-11-04 15:22"
+    "total_predictions": 982,
+    "total_hits": 499,
+    "hit_rate": 50.8,
+    "days_tracked": 106,
+    "updated_at": "2026-11-05 15:25"
   }
 }
