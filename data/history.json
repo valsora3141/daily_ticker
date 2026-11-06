@@ -1,6 +1,87 @@
 {
   "days": [
     {
+      "date": "2026-11-04",
+      "next_trading_date": "2026-11-05",
+      "total": 8,
+      "hits": 5,
+      "hit_rate": 62.5,
+      "results": [
+        {
+          "ticker": "010640",
+          "name": "진양폴리",
+          "predicted_prob": 73.3,
+          "grade": "A",
+          "actual_high_pct": 8.2,
+          "actual_close_pct": 5.52,
+          "hit": true
+        },
+        {
+          "ticker": "259960",
+          "name": "크래프톤",
+          "predicted_prob": 59.1,
+          "grade": "A",
+          "actual_high_pct": 6.7,
+          "actual_close_pct": 5.74,
+          "hit": true
+        },
+        {
+          "ticker": "022100",
+          "name": "포스코DX",
+          "predicted_prob": 38.4,
+          "grade": "C",
+          "actual_high_pct": 2.62,
+          "actual_close_pct": -3.1,
+          "hit": true
+        },
+        {
+          "ticker": "294870",
+          "name": "IPARK현대산업개발",
+          "predicted_prob": 34.8,
+          "grade": "C",
+          "actual_high_pct": 1.17,
+          "actual_close_pct": -1.75,
+          "hit": false
+        },
+        {
+          "ticker": "003490",
+          "name": "대한항공",
+          "predicted_prob": 33.4,
+          "grade": "C",
+          "actual_high_pct": 2.26,
+          "actual_close_pct": -2.1,
+          "hit": true
+        },
+        {
+          "ticker": "004410",
+          "name": "서울식품",
+          "predicted_prob": 32.3,
+          "grade": "C",
+          "actual_high_pct": 0.52,
+          "actual_close_pct": -1.48,
+          "hit": false
+        },
+        {
+          "ticker": "009160",
+          "name": "SIMPAC",
+          "predicted_prob": 31.7,
+          "grade": "C",
+          "actual_high_pct": 6.55,
+          "actual_close_pct": 4.56,
+          "hit": true
+        },
+        {
+          "ticker": "036460",
+          "name": "한국가스공사",
+          "predicted_prob": 18.1,
+          "grade": "D",
+          "actual_high_pct": 0.66,
+          "actual_close_pct": -0.53,
+          "hit": false
+        }
+      ]
+    },
+    {
       "date": "2026-11-03",
       "next_trading_date": "2026-11-04",
       "total": 10,
@@ -9794,10 +9875,10 @@
     }
   ],
   "aggregate": {
-    "total_predictions": 982,
-    "total_hits": 499,
-    "hit_rate": 50.8,
-    "days_tracked": 106,
-    "updated_at": "2026-11-05 15:25"
+    "total_predictions": 990,
+    "total_hits": 504,
+    "hit_rate": 50.9,
+    "days_tracked": 107,
+    "updated_at": "2026-11-06 14:58"
   }
 }
