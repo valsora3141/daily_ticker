@@ -1,11 +1,11 @@
 {
   "version": 2,
   "date": "2026-11-06",
-  "generated_at": "2026-11-06 15:00",
+  "generated_at": "2026-11-09 17:27",
   "screened_count": 911,
   "candidates_count": 6,
   "sort_by": "+2.0% 확률",
-  "is_stale": false,
+  "is_stale": true,
   "recommendations": [
     {
       "ticker": "009160",
@@ -275,7 +275,7 @@
     },
     {
       "ticker": "000040",
-      "name": "KR모터스",
+      "name": "다이나맥",
       "passed_gate": false,
       "rejection_reasons": [
         "5일 이동평균 아래",
